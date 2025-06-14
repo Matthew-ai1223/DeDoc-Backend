@@ -82,61 +82,96 @@ exports.initializePayment = async (req, res) => {
 exports.verifyPayment = async (req, res) => {
   try {
     const { reference } = req.query;
-
-    const options = {
-      hostname: 'api.paystack.co',
-      port: 443,
-      path: `/transaction/verify/${reference}`,
-      method: 'GET',
-      headers: {
-        Authorization: `Bearer ${process.env.PAYSTACK_SECRET_KEY}`
-      }
-    };
-
-    const verifyReq = https.request(options, verifyRes => {
-      let data = '';
-
-      verifyRes.on('data', (chunk) => {
-        data += chunk;
+    if (!reference) {
+      return res.status(400).json({
+        status: 'error',
+        message: 'Payment reference is required'
       });
+    }
 
-      verifyRes.on('end', async () => {
-        const response = JSON.parse(data);
-        
-        if (response.data.status === 'success') {
-          const { userId, plan } = response.data.metadata;
-          const user = await User.findById(userId);
+    const Paystack = require('@paystack/paystack-sdk');
+    const paystack = new Paystack(process.env.PAYSTACK_SECRET_KEY);
 
-          if (!user) {
-            return res.status(404).json({ message: 'User not found' });
-          }
+    try {
+      const verificationResponse = await paystack.transaction.verify(reference);
+      console.log('Paystack verification response:', verificationResponse);
 
+      if (verificationResponse && verificationResponse.data && verificationResponse.data.status === 'success') {
+        const metadata = verificationResponse.data.metadata;
+
+        // Validate metadata
+        if (!metadata || !metadata.userId || !metadata.plan) {
+          console.error('Invalid metadata in verification response:', metadata);
+          return res.status(400).json({
+            status: 'error',
+            message: 'Invalid payment metadata',
+            reference: reference
+          });
+        }
+
+        const { userId, plan } = metadata;
+        const user = await User.findById(userId);
+
+        if (!user) {
+          return res.status(404).json({
+            status: 'error',
+            message: 'User not found',
+            reference: reference
+          });
+        }
+
+        try {
           const now = new Date();
           user.subscription = {
-            plan,
+            status: 'active',
+            plan: plan,
             startDate: now,
-            endDate: new Date(now.getTime() + SUBSCRIPTION_PLANS[plan].duration)
+            endDate: new Date(now.getTime() + SUBSCRIPTION_PLANS[plan].duration),
+            lastPaymentDate: now,
+            reference: reference
           };
 
           await user.save();
 
-          res.json({
+          return res.json({
+            status: 'success',
             message: 'Subscription activated successfully',
-            subscription: user.subscription
+            data: {
+              subscription: user.subscription,
+              reference: reference
+            }
           });
-        } else {
-          res.status(400).json({ message: 'Payment verification failed' });
+        } catch (dbError) {
+          console.error('Database update error:', dbError);
+          return res.status(500).json({
+            status: 'error',
+            message: 'Payment verified but subscription update failed',
+            reference: reference
+          });
         }
+      } else {
+        console.error('Invalid verification response:', verificationResponse);
+        return res.status(400).json({
+          status: 'error',
+          message: 'Payment verification failed - Invalid response from payment provider',
+          reference: reference
+        });
+      }
+    } catch (paystackError) {
+      console.error('Paystack verification error:', paystackError);
+      return res.status(500).json({
+        status: 'error',
+        message: 'Error verifying payment with provider',
+        reference: reference
       });
-    }).on('error', (error) => {
-      console.error('Payment verification error:', error);
-      res.status(500).json({ message: 'Payment verification failed' });
-    });
-
-    verifyReq.end();
+    }
   } catch (error) {
     console.error('Verification error:', error);
-    res.status(500).json({ message: 'Payment verification failed' });
+    return res.status(500).json({
+      status: 'error',
+      message: 'Payment verification failed',
+      reference: reference
+    });
   }
 };
 
