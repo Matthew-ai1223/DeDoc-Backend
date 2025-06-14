@@ -164,4 +164,39 @@ exports.getSubscriptionStatus = async (req, res) => {
     console.error('Subscription status error:', error);
     res.status(500).json({ message: 'Failed to get subscription status' });
   }
-}; 
+};
+
+// Get subscription
+exports.getSubscription = async function(userId) {
+    try {
+        const user = await User.findById(userId);
+        if (!user) {
+            throw new Error('User not found');
+        }
+        return user.subscription || { status: 'inactive', plan: null };
+    } catch (error) {
+        console.error('Error getting subscription:', error);
+        throw error;
+    }
+}
+
+// Update subscription
+exports.updateSubscription = async function(userId, subscriptionData) {
+    try {
+        const user = await User.findById(userId);
+        if (!user) {
+            throw new Error('User not found');
+        }
+
+        user.subscription = {
+            ...user.subscription,
+            ...subscriptionData
+        };
+
+        await user.save();
+        return user.subscription;
+    } catch (error) {
+        console.error('Error updating subscription:', error);
+        throw error;
+    }
+} 

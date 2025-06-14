@@ -15,6 +15,7 @@ app.use(cors());
 // Routes imports
 app.use('/api/auth', require('./routes/auth.routes'));
 app.use('/api/subscription', require('./routes/subscription.routes'));
+app.use('/api/payments', require('./routes/payment.routes'));
 
 // Connect to MongoDB
 mongoose.connect(process.env.MONGODB_URI)
