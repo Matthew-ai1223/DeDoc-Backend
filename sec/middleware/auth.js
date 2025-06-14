@@ -1,26 +1,38 @@
 const jwt = require('jsonwebtoken');
 
-const auth = async (req, res, next) => {
+const authenticateToken = (req, res, next) => {
     try {
-        // Get token from header
-        const token = req.header('Authorization')?.replace('Bearer ', '');
-        
+        const authHeader = req.headers['authorization'];
+        const token = authHeader && authHeader.split(' ')[1];
+
         if (!token) {
-            return res.status(401).json({ message: 'No authentication token, access denied' });
+            return res.status(401).json({
+                status: 'error',
+                message: 'Authentication token is required'
+            });
         }
 
-        try {
-            // Verify token
-            const decoded = jwt.verify(token, process.env.JWT_SECRET);
-            req.user = decoded;
+        jwt.verify(token, process.env.JWT_SECRET, (err, user) => {
+            if (err) {
+                console.error('JWT Verification Error:', err);
+                return res.status(403).json({
+                    status: 'error',
+                    message: 'Invalid or expired token'
+                });
+            }
+
+            req.user = user;
             next();
-        } catch (e) {
-            res.status(401).json({ message: 'Token is not valid' });
-        }
-    } catch (err) {
-        console.error('Auth middleware error:', err);
-        res.status(500).json({ message: 'Server Error' });
+        });
+    } catch (error) {
+        console.error('Authentication Error:', error);
+        return res.status(500).json({
+            status: 'error',
+            message: 'Authentication failed'
+        });
     }
 };
 
-module.exports = { auth }; 
+module.exports = {
+    authenticateToken
+}; 

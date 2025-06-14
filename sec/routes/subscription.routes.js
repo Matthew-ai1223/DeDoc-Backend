@@ -9,7 +9,6 @@ const {
 
 // Subscription routes
 router.post('/initialize', protect, initializePayment);
-router.get('/verify', verifyPayment);
 router.get('/status', protect, getSubscriptionStatus);
 
 module.exports = router; 

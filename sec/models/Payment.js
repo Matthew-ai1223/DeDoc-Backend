@@ -26,6 +26,12 @@ const paymentSchema = new mongoose.Schema({
         enum: ['pending', 'success', 'failed'],
         default: 'pending'
     },
+    subscriptionStart: {
+        type: Date
+    },
+    subscriptionEnd: {
+        type: Date
+    },
     paymentProvider: {
         type: String,
         default: 'paystack'
@@ -51,5 +57,19 @@ paymentSchema.pre('save', function(next) {
     this.updatedAt = new Date();
     next();
 });
+
+// Calculate subscription end date based on plan
+paymentSchema.methods.calculateSubscriptionEnd = function() {
+    const durations = {
+        'basic': 2 * 60 * 60 * 1000, // 2 hours
+        'standard': 7 * 24 * 60 * 60 * 1000, // 1 week
+        'premium': 14 * 24 * 60 * 60 * 1000, // 2 weeks
+        'pro': 30 * 24 * 60 * 60 * 1000 // 1 month
+    };
+
+    const now = new Date();
+    this.subscriptionStart = now;
+    this.subscriptionEnd = new Date(now.getTime() + durations[this.plan]);
+};
 
 module.exports = mongoose.model('Payment', paymentSchema); 
