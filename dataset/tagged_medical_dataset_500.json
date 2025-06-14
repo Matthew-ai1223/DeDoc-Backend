@@ -1,0 +1,3502 @@
+[
+  {
+    "topic": "Malaria",
+    "question": "What are the symptoms, causes, and treatment of malaria? (version 1)",
+    "symptoms": "Fever, chills, headache, vomiting, muscle pain.",
+    "causes": "Plasmodium parasite transmitted by Anopheles mosquitoes.",
+    "treatment": "Antimalarial medications such as chloroquine, artemisinin-based combination therapies (ACTs)."
+  },
+  {
+    "topic": "Diabetes Type 2",
+    "question": "What are the symptoms, causes, and treatment of type 2 diabetes? (version 1)",
+    "symptoms": "Increased thirst, frequent urination, hunger, fatigue, blurred vision.",
+    "causes": "Insulin resistance and high blood sugar levels, often linked to obesity and genetics.",
+    "treatment": "Diet and exercise, oral medications (e.g., metformin), insulin therapy."
+  },
+  {
+    "topic": "Typhoid Fever",
+    "question": "What are the symptoms, causes, and treatment of typhoid fever? (version 1)",
+    "symptoms": "High fever, weakness, stomach pain, headache, loss of appetite.",
+    "causes": "Salmonella typhi bacteria, spread through contaminated food or water.",
+    "treatment": "Antibiotics such as ciprofloxacin or azithromycin, hydration, proper nutrition."
+  },
+  {
+    "topic": "Hypertension",
+    "question": "What are the symptoms, causes, and treatment of hypertension? (version 1)",
+    "symptoms": "Often asymptomatic, but can include headaches, dizziness, and nosebleeds.",
+    "causes": "Genetics, poor diet, lack of exercise, stress, obesity.",
+    "treatment": "Lifestyle changes, antihypertensive drugs like ACE inhibitors or beta-blockers."
+  },
+  {
+    "topic": "Asthma",
+    "question": "What are the symptoms, causes, and treatment of asthma? (version 1)",
+    "symptoms": "Wheezing, shortness of breath, chest tightness, coughing.",
+    "causes": "Allergens, exercise, cold air, respiratory infections.",
+    "treatment": "Inhalers (bronchodilators and corticosteroids), avoiding triggers."
+  },
+  {
+    "topic": "COVID-19",
+    "question": "What are the symptoms, causes, and treatment of COVID-19? (version 1)",
+    "symptoms": "Fever, cough, fatigue, loss of taste or smell, difficulty breathing.",
+    "causes": "Infection by the SARS-CoV-2 virus, transmitted via respiratory droplets.",
+    "treatment": "Supportive care, antiviral medications, vaccination."
+  },
+  {
+    "topic": "Tuberculosis",
+    "question": "What are the symptoms, causes, and treatment of tuberculosis? (version 1)",
+    "symptoms": "Persistent cough, chest pain, weight loss, night sweats, fever.",
+    "causes": "Mycobacterium tuberculosis bacteria, spread through airborne particles.",
+    "treatment": "Antibiotics such as isoniazid, rifampin over a long period (6-9 months)."
+  },
+  {
+    "topic": "Appendicitis",
+    "question": "What are the symptoms, causes, and treatment of appendicitis? (version 1)",
+    "symptoms": "Lower right abdominal pain, nausea, vomiting, loss of appetite, fever.",
+    "causes": "Blockage in the appendix leading to infection.",
+    "treatment": "Surgical removal of the appendix (appendectomy)."
+  },
+  {
+    "topic": "Hepatitis B",
+    "question": "What are the symptoms, causes, and treatment of hepatitis B? (version 1)",
+    "symptoms": "Fatigue, jaundice, dark urine, abdominal pain, loss of appetite.",
+    "causes": "Hepatitis B virus (HBV), transmitted via blood and bodily fluids.",
+    "treatment": "Antiviral medications, rest, liver monitoring; vaccination prevents infection."
+  },
+  {
+    "topic": "Anemia",
+    "question": "What are the symptoms, causes, and treatment of anemia? (version 1)",
+    "symptoms": "Fatigue, weakness, pale skin, shortness of breath, dizziness.",
+    "causes": "Iron deficiency, blood loss, chronic disease, poor diet.",
+    "treatment": "Iron supplements, dietary changes, treating the underlying cause."
+  },
+  {
+    "topic": "Malaria",
+    "question": "What are the symptoms, causes, and treatment of malaria? (version 2)",
+    "symptoms": "Fever, chills, headache, vomiting, muscle pain.",
+    "causes": "Plasmodium parasite transmitted by Anopheles mosquitoes.",
+    "treatment": "Antimalarial medications such as chloroquine, artemisinin-based combination therapies (ACTs)."
+  },
+  {
+    "topic": "Diabetes Type 2",
+    "question": "What are the symptoms, causes, and treatment of type 2 diabetes? (version 2)",
+    "symptoms": "Increased thirst, frequent urination, hunger, fatigue, blurred vision.",
+    "causes": "Insulin resistance and high blood sugar levels, often linked to obesity and genetics.",
+    "treatment": "Diet and exercise, oral medications (e.g., metformin), insulin therapy."
+  },
+  {
+    "topic": "Typhoid Fever",
+    "question": "What are the symptoms, causes, and treatment of typhoid fever? (version 2)",
+    "symptoms": "High fever, weakness, stomach pain, headache, loss of appetite.",
+    "causes": "Salmonella typhi bacteria, spread through contaminated food or water.",
+    "treatment": "Antibiotics such as ciprofloxacin or azithromycin, hydration, proper nutrition."
+  },
+  {
+    "topic": "Hypertension",
+    "question": "What are the symptoms, causes, and treatment of hypertension? (version 2)",
+    "symptoms": "Often asymptomatic, but can include headaches, dizziness, and nosebleeds.",
+    "causes": "Genetics, poor diet, lack of exercise, stress, obesity.",
+    "treatment": "Lifestyle changes, antihypertensive drugs like ACE inhibitors or beta-blockers."
+  },
+  {
+    "topic": "Asthma",
+    "question": "What are the symptoms, causes, and treatment of asthma? (version 2)",
+    "symptoms": "Wheezing, shortness of breath, chest tightness, coughing.",
+    "causes": "Allergens, exercise, cold air, respiratory infections.",
+    "treatment": "Inhalers (bronchodilators and corticosteroids), avoiding triggers."
+  },
+  {
+    "topic": "COVID-19",
+    "question": "What are the symptoms, causes, and treatment of COVID-19? (version 2)",
+    "symptoms": "Fever, cough, fatigue, loss of taste or smell, difficulty breathing.",
+    "causes": "Infection by the SARS-CoV-2 virus, transmitted via respiratory droplets.",
+    "treatment": "Supportive care, antiviral medications, vaccination."
+  },
+  {
+    "topic": "Tuberculosis",
+    "question": "What are the symptoms, causes, and treatment of tuberculosis? (version 2)",
+    "symptoms": "Persistent cough, chest pain, weight loss, night sweats, fever.",
+    "causes": "Mycobacterium tuberculosis bacteria, spread through airborne particles.",
+    "treatment": "Antibiotics such as isoniazid, rifampin over a long period (6-9 months)."
+  },
+  {
+    "topic": "Appendicitis",
+    "question": "What are the symptoms, causes, and treatment of appendicitis? (version 2)",
+    "symptoms": "Lower right abdominal pain, nausea, vomiting, loss of appetite, fever.",
+    "causes": "Blockage in the appendix leading to infection.",
+    "treatment": "Surgical removal of the appendix (appendectomy)."
+  },
+  {
+    "topic": "Hepatitis B",
+    "question": "What are the symptoms, causes, and treatment of hepatitis B? (version 2)",
+    "symptoms": "Fatigue, jaundice, dark urine, abdominal pain, loss of appetite.",
+    "causes": "Hepatitis B virus (HBV), transmitted via blood and bodily fluids.",
+    "treatment": "Antiviral medications, rest, liver monitoring; vaccination prevents infection."
+  },
+  {
+    "topic": "Anemia",
+    "question": "What are the symptoms, causes, and treatment of anemia? (version 2)",
+    "symptoms": "Fatigue, weakness, pale skin, shortness of breath, dizziness.",
+    "causes": "Iron deficiency, blood loss, chronic disease, poor diet.",
+    "treatment": "Iron supplements, dietary changes, treating the underlying cause."
+  },
+  {
+    "topic": "Malaria",
+    "question": "What are the symptoms, causes, and treatment of malaria? (version 3)",
+    "symptoms": "Fever, chills, headache, vomiting, muscle pain.",
+    "causes": "Plasmodium parasite transmitted by Anopheles mosquitoes.",
+    "treatment": "Antimalarial medications such as chloroquine, artemisinin-based combination therapies (ACTs)."
+  },
+  {
+    "topic": "Diabetes Type 2",
+    "question": "What are the symptoms, causes, and treatment of type 2 diabetes? (version 3)",
+    "symptoms": "Increased thirst, frequent urination, hunger, fatigue, blurred vision.",
+    "causes": "Insulin resistance and high blood sugar levels, often linked to obesity and genetics.",
+    "treatment": "Diet and exercise, oral medications (e.g., metformin), insulin therapy."
+  },
+  {
+    "topic": "Typhoid Fever",
+    "question": "What are the symptoms, causes, and treatment of typhoid fever? (version 3)",
+    "symptoms": "High fever, weakness, stomach pain, headache, loss of appetite.",
+    "causes": "Salmonella typhi bacteria, spread through contaminated food or water.",
+    "treatment": "Antibiotics such as ciprofloxacin or azithromycin, hydration, proper nutrition."
+  },
+  {
+    "topic": "Hypertension",
+    "question": "What are the symptoms, causes, and treatment of hypertension? (version 3)",
+    "symptoms": "Often asymptomatic, but can include headaches, dizziness, and nosebleeds.",
+    "causes": "Genetics, poor diet, lack of exercise, stress, obesity.",
+    "treatment": "Lifestyle changes, antihypertensive drugs like ACE inhibitors or beta-blockers."
+  },
+  {
+    "topic": "Asthma",
+    "question": "What are the symptoms, causes, and treatment of asthma? (version 3)",
+    "symptoms": "Wheezing, shortness of breath, chest tightness, coughing.",
+    "causes": "Allergens, exercise, cold air, respiratory infections.",
+    "treatment": "Inhalers (bronchodilators and corticosteroids), avoiding triggers."
+  },
+  {
+    "topic": "COVID-19",
+    "question": "What are the symptoms, causes, and treatment of COVID-19? (version 3)",
+    "symptoms": "Fever, cough, fatigue, loss of taste or smell, difficulty breathing.",
+    "causes": "Infection by the SARS-CoV-2 virus, transmitted via respiratory droplets.",
+    "treatment": "Supportive care, antiviral medications, vaccination."
+  },
+  {
+    "topic": "Tuberculosis",
+    "question": "What are the symptoms, causes, and treatment of tuberculosis? (version 3)",
+    "symptoms": "Persistent cough, chest pain, weight loss, night sweats, fever.",
+    "causes": "Mycobacterium tuberculosis bacteria, spread through airborne particles.",
+    "treatment": "Antibiotics such as isoniazid, rifampin over a long period (6-9 months)."
+  },
+  {
+    "topic": "Appendicitis",
+    "question": "What are the symptoms, causes, and treatment of appendicitis? (version 3)",
+    "symptoms": "Lower right abdominal pain, nausea, vomiting, loss of appetite, fever.",
+    "causes": "Blockage in the appendix leading to infection.",
+    "treatment": "Surgical removal of the appendix (appendectomy)."
+  },
+  {
+    "topic": "Hepatitis B",
+    "question": "What are the symptoms, causes, and treatment of hepatitis B? (version 3)",
+    "symptoms": "Fatigue, jaundice, dark urine, abdominal pain, loss of appetite.",
+    "causes": "Hepatitis B virus (HBV), transmitted via blood and bodily fluids.",
+    "treatment": "Antiviral medications, rest, liver monitoring; vaccination prevents infection."
+  },
+  {
+    "topic": "Anemia",
+    "question": "What are the symptoms, causes, and treatment of anemia? (version 3)",
+    "symptoms": "Fatigue, weakness, pale skin, shortness of breath, dizziness.",
+    "causes": "Iron deficiency, blood loss, chronic disease, poor diet.",
+    "treatment": "Iron supplements, dietary changes, treating the underlying cause."
+  },
+  {
+    "topic": "Malaria",
+    "question": "What are the symptoms, causes, and treatment of malaria? (version 4)",
+    "symptoms": "Fever, chills, headache, vomiting, muscle pain.",
+    "causes": "Plasmodium parasite transmitted by Anopheles mosquitoes.",
+    "treatment": "Antimalarial medications such as chloroquine, artemisinin-based combination therapies (ACTs)."
+  },
+  {
+    "topic": "Diabetes Type 2",
+    "question": "What are the symptoms, causes, and treatment of type 2 diabetes? (version 4)",
+    "symptoms": "Increased thirst, frequent urination, hunger, fatigue, blurred vision.",
+    "causes": "Insulin resistance and high blood sugar levels, often linked to obesity and genetics.",
+    "treatment": "Diet and exercise, oral medications (e.g., metformin), insulin therapy."
+  },
+  {
+    "topic": "Typhoid Fever",
+    "question": "What are the symptoms, causes, and treatment of typhoid fever? (version 4)",
+    "symptoms": "High fever, weakness, stomach pain, headache, loss of appetite.",
+    "causes": "Salmonella typhi bacteria, spread through contaminated food or water.",
+    "treatment": "Antibiotics such as ciprofloxacin or azithromycin, hydration, proper nutrition."
+  },
+  {
+    "topic": "Hypertension",
+    "question": "What are the symptoms, causes, and treatment of hypertension? (version 4)",
+    "symptoms": "Often asymptomatic, but can include headaches, dizziness, and nosebleeds.",
+    "causes": "Genetics, poor diet, lack of exercise, stress, obesity.",
+    "treatment": "Lifestyle changes, antihypertensive drugs like ACE inhibitors or beta-blockers."
+  },
+  {
+    "topic": "Asthma",
+    "question": "What are the symptoms, causes, and treatment of asthma? (version 4)",
+    "symptoms": "Wheezing, shortness of breath, chest tightness, coughing.",
+    "causes": "Allergens, exercise, cold air, respiratory infections.",
+    "treatment": "Inhalers (bronchodilators and corticosteroids), avoiding triggers."
+  },
+  {
+    "topic": "COVID-19",
+    "question": "What are the symptoms, causes, and treatment of COVID-19? (version 4)",
+    "symptoms": "Fever, cough, fatigue, loss of taste or smell, difficulty breathing.",
+    "causes": "Infection by the SARS-CoV-2 virus, transmitted via respiratory droplets.",
+    "treatment": "Supportive care, antiviral medications, vaccination."
+  },
+  {
+    "topic": "Tuberculosis",
+    "question": "What are the symptoms, causes, and treatment of tuberculosis? (version 4)",
+    "symptoms": "Persistent cough, chest pain, weight loss, night sweats, fever.",
+    "causes": "Mycobacterium tuberculosis bacteria, spread through airborne particles.",
+    "treatment": "Antibiotics such as isoniazid, rifampin over a long period (6-9 months)."
+  },
+  {
+    "topic": "Appendicitis",
+    "question": "What are the symptoms, causes, and treatment of appendicitis? (version 4)",
+    "symptoms": "Lower right abdominal pain, nausea, vomiting, loss of appetite, fever.",
+    "causes": "Blockage in the appendix leading to infection.",
+    "treatment": "Surgical removal of the appendix (appendectomy)."
+  },
+  {
+    "topic": "Hepatitis B",
+    "question": "What are the symptoms, causes, and treatment of hepatitis B? (version 4)",
+    "symptoms": "Fatigue, jaundice, dark urine, abdominal pain, loss of appetite.",
+    "causes": "Hepatitis B virus (HBV), transmitted via blood and bodily fluids.",
+    "treatment": "Antiviral medications, rest, liver monitoring; vaccination prevents infection."
+  },
+  {
+    "topic": "Anemia",
+    "question": "What are the symptoms, causes, and treatment of anemia? (version 4)",
+    "symptoms": "Fatigue, weakness, pale skin, shortness of breath, dizziness.",
+    "causes": "Iron deficiency, blood loss, chronic disease, poor diet.",
+    "treatment": "Iron supplements, dietary changes, treating the underlying cause."
+  },
+  {
+    "topic": "Malaria",
+    "question": "What are the symptoms, causes, and treatment of malaria? (version 5)",
+    "symptoms": "Fever, chills, headache, vomiting, muscle pain.",
+    "causes": "Plasmodium parasite transmitted by Anopheles mosquitoes.",
+    "treatment": "Antimalarial medications such as chloroquine, artemisinin-based combination therapies (ACTs)."
+  },
+  {
+    "topic": "Diabetes Type 2",
+    "question": "What are the symptoms, causes, and treatment of type 2 diabetes? (version 5)",
+    "symptoms": "Increased thirst, frequent urination, hunger, fatigue, blurred vision.",
+    "causes": "Insulin resistance and high blood sugar levels, often linked to obesity and genetics.",
+    "treatment": "Diet and exercise, oral medications (e.g., metformin), insulin therapy."
+  },
+  {
+    "topic": "Typhoid Fever",
+    "question": "What are the symptoms, causes, and treatment of typhoid fever? (version 5)",
+    "symptoms": "High fever, weakness, stomach pain, headache, loss of appetite.",
+    "causes": "Salmonella typhi bacteria, spread through contaminated food or water.",
+    "treatment": "Antibiotics such as ciprofloxacin or azithromycin, hydration, proper nutrition."
+  },
+  {
+    "topic": "Hypertension",
+    "question": "What are the symptoms, causes, and treatment of hypertension? (version 5)",
+    "symptoms": "Often asymptomatic, but can include headaches, dizziness, and nosebleeds.",
+    "causes": "Genetics, poor diet, lack of exercise, stress, obesity.",
+    "treatment": "Lifestyle changes, antihypertensive drugs like ACE inhibitors or beta-blockers."
+  },
+  {
+    "topic": "Asthma",
+    "question": "What are the symptoms, causes, and treatment of asthma? (version 5)",
+    "symptoms": "Wheezing, shortness of breath, chest tightness, coughing.",
+    "causes": "Allergens, exercise, cold air, respiratory infections.",
+    "treatment": "Inhalers (bronchodilators and corticosteroids), avoiding triggers."
+  },
+  {
+    "topic": "COVID-19",
+    "question": "What are the symptoms, causes, and treatment of COVID-19? (version 5)",
+    "symptoms": "Fever, cough, fatigue, loss of taste or smell, difficulty breathing.",
+    "causes": "Infection by the SARS-CoV-2 virus, transmitted via respiratory droplets.",
+    "treatment": "Supportive care, antiviral medications, vaccination."
+  },
+  {
+    "topic": "Tuberculosis",
+    "question": "What are the symptoms, causes, and treatment of tuberculosis? (version 5)",
+    "symptoms": "Persistent cough, chest pain, weight loss, night sweats, fever.",
+    "causes": "Mycobacterium tuberculosis bacteria, spread through airborne particles.",
+    "treatment": "Antibiotics such as isoniazid, rifampin over a long period (6-9 months)."
+  },
+  {
+    "topic": "Appendicitis",
+    "question": "What are the symptoms, causes, and treatment of appendicitis? (version 5)",
+    "symptoms": "Lower right abdominal pain, nausea, vomiting, loss of appetite, fever.",
+    "causes": "Blockage in the appendix leading to infection.",
+    "treatment": "Surgical removal of the appendix (appendectomy)."
+  },
+  {
+    "topic": "Hepatitis B",
+    "question": "What are the symptoms, causes, and treatment of hepatitis B? (version 5)",
+    "symptoms": "Fatigue, jaundice, dark urine, abdominal pain, loss of appetite.",
+    "causes": "Hepatitis B virus (HBV), transmitted via blood and bodily fluids.",
+    "treatment": "Antiviral medications, rest, liver monitoring; vaccination prevents infection."
+  },
+  {
+    "topic": "Anemia",
+    "question": "What are the symptoms, causes, and treatment of anemia? (version 5)",
+    "symptoms": "Fatigue, weakness, pale skin, shortness of breath, dizziness.",
+    "causes": "Iron deficiency, blood loss, chronic disease, poor diet.",
+    "treatment": "Iron supplements, dietary changes, treating the underlying cause."
+  },
+  {
+    "topic": "Malaria",
+    "question": "What are the symptoms, causes, and treatment of malaria? (version 6)",
+    "symptoms": "Fever, chills, headache, vomiting, muscle pain.",
+    "causes": "Plasmodium parasite transmitted by Anopheles mosquitoes.",
+    "treatment": "Antimalarial medications such as chloroquine, artemisinin-based combination therapies (ACTs)."
+  },
+  {
+    "topic": "Diabetes Type 2",
+    "question": "What are the symptoms, causes, and treatment of type 2 diabetes? (version 6)",
+    "symptoms": "Increased thirst, frequent urination, hunger, fatigue, blurred vision.",
+    "causes": "Insulin resistance and high blood sugar levels, often linked to obesity and genetics.",
+    "treatment": "Diet and exercise, oral medications (e.g., metformin), insulin therapy."
+  },
+  {
+    "topic": "Typhoid Fever",
+    "question": "What are the symptoms, causes, and treatment of typhoid fever? (version 6)",
+    "symptoms": "High fever, weakness, stomach pain, headache, loss of appetite.",
+    "causes": "Salmonella typhi bacteria, spread through contaminated food or water.",
+    "treatment": "Antibiotics such as ciprofloxacin or azithromycin, hydration, proper nutrition."
+  },
+  {
+    "topic": "Hypertension",
+    "question": "What are the symptoms, causes, and treatment of hypertension? (version 6)",
+    "symptoms": "Often asymptomatic, but can include headaches, dizziness, and nosebleeds.",
+    "causes": "Genetics, poor diet, lack of exercise, stress, obesity.",
+    "treatment": "Lifestyle changes, antihypertensive drugs like ACE inhibitors or beta-blockers."
+  },
+  {
+    "topic": "Asthma",
+    "question": "What are the symptoms, causes, and treatment of asthma? (version 6)",
+    "symptoms": "Wheezing, shortness of breath, chest tightness, coughing.",
+    "causes": "Allergens, exercise, cold air, respiratory infections.",
+    "treatment": "Inhalers (bronchodilators and corticosteroids), avoiding triggers."
+  },
+  {
+    "topic": "COVID-19",
+    "question": "What are the symptoms, causes, and treatment of COVID-19? (version 6)",
+    "symptoms": "Fever, cough, fatigue, loss of taste or smell, difficulty breathing.",
+    "causes": "Infection by the SARS-CoV-2 virus, transmitted via respiratory droplets.",
+    "treatment": "Supportive care, antiviral medications, vaccination."
+  },
+  {
+    "topic": "Tuberculosis",
+    "question": "What are the symptoms, causes, and treatment of tuberculosis? (version 6)",
+    "symptoms": "Persistent cough, chest pain, weight loss, night sweats, fever.",
+    "causes": "Mycobacterium tuberculosis bacteria, spread through airborne particles.",
+    "treatment": "Antibiotics such as isoniazid, rifampin over a long period (6-9 months)."
+  },
+  {
+    "topic": "Appendicitis",
+    "question": "What are the symptoms, causes, and treatment of appendicitis? (version 6)",
+    "symptoms": "Lower right abdominal pain, nausea, vomiting, loss of appetite, fever.",
+    "causes": "Blockage in the appendix leading to infection.",
+    "treatment": "Surgical removal of the appendix (appendectomy)."
+  },
+  {
+    "topic": "Hepatitis B",
+    "question": "What are the symptoms, causes, and treatment of hepatitis B? (version 6)",
+    "symptoms": "Fatigue, jaundice, dark urine, abdominal pain, loss of appetite.",
+    "causes": "Hepatitis B virus (HBV), transmitted via blood and bodily fluids.",
+    "treatment": "Antiviral medications, rest, liver monitoring; vaccination prevents infection."
+  },
+  {
+    "topic": "Anemia",
+    "question": "What are the symptoms, causes, and treatment of anemia? (version 6)",
+    "symptoms": "Fatigue, weakness, pale skin, shortness of breath, dizziness.",
+    "causes": "Iron deficiency, blood loss, chronic disease, poor diet.",
+    "treatment": "Iron supplements, dietary changes, treating the underlying cause."
+  },
+  {
+    "topic": "Malaria",
+    "question": "What are the symptoms, causes, and treatment of malaria? (version 7)",
+    "symptoms": "Fever, chills, headache, vomiting, muscle pain.",
+    "causes": "Plasmodium parasite transmitted by Anopheles mosquitoes.",
+    "treatment": "Antimalarial medications such as chloroquine, artemisinin-based combination therapies (ACTs)."
+  },
+  {
+    "topic": "Diabetes Type 2",
+    "question": "What are the symptoms, causes, and treatment of type 2 diabetes? (version 7)",
+    "symptoms": "Increased thirst, frequent urination, hunger, fatigue, blurred vision.",
+    "causes": "Insulin resistance and high blood sugar levels, often linked to obesity and genetics.",
+    "treatment": "Diet and exercise, oral medications (e.g., metformin), insulin therapy."
+  },
+  {
+    "topic": "Typhoid Fever",
+    "question": "What are the symptoms, causes, and treatment of typhoid fever? (version 7)",
+    "symptoms": "High fever, weakness, stomach pain, headache, loss of appetite.",
+    "causes": "Salmonella typhi bacteria, spread through contaminated food or water.",
+    "treatment": "Antibiotics such as ciprofloxacin or azithromycin, hydration, proper nutrition."
+  },
+  {
+    "topic": "Hypertension",
+    "question": "What are the symptoms, causes, and treatment of hypertension? (version 7)",
+    "symptoms": "Often asymptomatic, but can include headaches, dizziness, and nosebleeds.",
+    "causes": "Genetics, poor diet, lack of exercise, stress, obesity.",
+    "treatment": "Lifestyle changes, antihypertensive drugs like ACE inhibitors or beta-blockers."
+  },
+  {
+    "topic": "Asthma",
+    "question": "What are the symptoms, causes, and treatment of asthma? (version 7)",
+    "symptoms": "Wheezing, shortness of breath, chest tightness, coughing.",
+    "causes": "Allergens, exercise, cold air, respiratory infections.",
+    "treatment": "Inhalers (bronchodilators and corticosteroids), avoiding triggers."
+  },
+  {
+    "topic": "COVID-19",
+    "question": "What are the symptoms, causes, and treatment of COVID-19? (version 7)",
+    "symptoms": "Fever, cough, fatigue, loss of taste or smell, difficulty breathing.",
+    "causes": "Infection by the SARS-CoV-2 virus, transmitted via respiratory droplets.",
+    "treatment": "Supportive care, antiviral medications, vaccination."
+  },
+  {
+    "topic": "Tuberculosis",
+    "question": "What are the symptoms, causes, and treatment of tuberculosis? (version 7)",
+    "symptoms": "Persistent cough, chest pain, weight loss, night sweats, fever.",
+    "causes": "Mycobacterium tuberculosis bacteria, spread through airborne particles.",
+    "treatment": "Antibiotics such as isoniazid, rifampin over a long period (6-9 months)."
+  },
+  {
+    "topic": "Appendicitis",
+    "question": "What are the symptoms, causes, and treatment of appendicitis? (version 7)",
+    "symptoms": "Lower right abdominal pain, nausea, vomiting, loss of appetite, fever.",
+    "causes": "Blockage in the appendix leading to infection.",
+    "treatment": "Surgical removal of the appendix (appendectomy)."
+  },
+  {
+    "topic": "Hepatitis B",
+    "question": "What are the symptoms, causes, and treatment of hepatitis B? (version 7)",
+    "symptoms": "Fatigue, jaundice, dark urine, abdominal pain, loss of appetite.",
+    "causes": "Hepatitis B virus (HBV), transmitted via blood and bodily fluids.",
+    "treatment": "Antiviral medications, rest, liver monitoring; vaccination prevents infection."
+  },
+  {
+    "topic": "Anemia",
+    "question": "What are the symptoms, causes, and treatment of anemia? (version 7)",
+    "symptoms": "Fatigue, weakness, pale skin, shortness of breath, dizziness.",
+    "causes": "Iron deficiency, blood loss, chronic disease, poor diet.",
+    "treatment": "Iron supplements, dietary changes, treating the underlying cause."
+  },
+  {
+    "topic": "Malaria",
+    "question": "What are the symptoms, causes, and treatment of malaria? (version 8)",
+    "symptoms": "Fever, chills, headache, vomiting, muscle pain.",
+    "causes": "Plasmodium parasite transmitted by Anopheles mosquitoes.",
+    "treatment": "Antimalarial medications such as chloroquine, artemisinin-based combination therapies (ACTs)."
+  },
+  {
+    "topic": "Diabetes Type 2",
+    "question": "What are the symptoms, causes, and treatment of type 2 diabetes? (version 8)",
+    "symptoms": "Increased thirst, frequent urination, hunger, fatigue, blurred vision.",
+    "causes": "Insulin resistance and high blood sugar levels, often linked to obesity and genetics.",
+    "treatment": "Diet and exercise, oral medications (e.g., metformin), insulin therapy."
+  },
+  {
+    "topic": "Typhoid Fever",
+    "question": "What are the symptoms, causes, and treatment of typhoid fever? (version 8)",
+    "symptoms": "High fever, weakness, stomach pain, headache, loss of appetite.",
+    "causes": "Salmonella typhi bacteria, spread through contaminated food or water.",
+    "treatment": "Antibiotics such as ciprofloxacin or azithromycin, hydration, proper nutrition."
+  },
+  {
+    "topic": "Hypertension",
+    "question": "What are the symptoms, causes, and treatment of hypertension? (version 8)",
+    "symptoms": "Often asymptomatic, but can include headaches, dizziness, and nosebleeds.",
+    "causes": "Genetics, poor diet, lack of exercise, stress, obesity.",
+    "treatment": "Lifestyle changes, antihypertensive drugs like ACE inhibitors or beta-blockers."
+  },
+  {
+    "topic": "Asthma",
+    "question": "What are the symptoms, causes, and treatment of asthma? (version 8)",
+    "symptoms": "Wheezing, shortness of breath, chest tightness, coughing.",
+    "causes": "Allergens, exercise, cold air, respiratory infections.",
+    "treatment": "Inhalers (bronchodilators and corticosteroids), avoiding triggers."
+  },
+  {
+    "topic": "COVID-19",
+    "question": "What are the symptoms, causes, and treatment of COVID-19? (version 8)",
+    "symptoms": "Fever, cough, fatigue, loss of taste or smell, difficulty breathing.",
+    "causes": "Infection by the SARS-CoV-2 virus, transmitted via respiratory droplets.",
+    "treatment": "Supportive care, antiviral medications, vaccination."
+  },
+  {
+    "topic": "Tuberculosis",
+    "question": "What are the symptoms, causes, and treatment of tuberculosis? (version 8)",
+    "symptoms": "Persistent cough, chest pain, weight loss, night sweats, fever.",
+    "causes": "Mycobacterium tuberculosis bacteria, spread through airborne particles.",
+    "treatment": "Antibiotics such as isoniazid, rifampin over a long period (6-9 months)."
+  },
+  {
+    "topic": "Appendicitis",
+    "question": "What are the symptoms, causes, and treatment of appendicitis? (version 8)",
+    "symptoms": "Lower right abdominal pain, nausea, vomiting, loss of appetite, fever.",
+    "causes": "Blockage in the appendix leading to infection.",
+    "treatment": "Surgical removal of the appendix (appendectomy)."
+  },
+  {
+    "topic": "Hepatitis B",
+    "question": "What are the symptoms, causes, and treatment of hepatitis B? (version 8)",
+    "symptoms": "Fatigue, jaundice, dark urine, abdominal pain, loss of appetite.",
+    "causes": "Hepatitis B virus (HBV), transmitted via blood and bodily fluids.",
+    "treatment": "Antiviral medications, rest, liver monitoring; vaccination prevents infection."
+  },
+  {
+    "topic": "Anemia",
+    "question": "What are the symptoms, causes, and treatment of anemia? (version 8)",
+    "symptoms": "Fatigue, weakness, pale skin, shortness of breath, dizziness.",
+    "causes": "Iron deficiency, blood loss, chronic disease, poor diet.",
+    "treatment": "Iron supplements, dietary changes, treating the underlying cause."
+  },
+  {
+    "topic": "Malaria",
+    "question": "What are the symptoms, causes, and treatment of malaria? (version 9)",
+    "symptoms": "Fever, chills, headache, vomiting, muscle pain.",
+    "causes": "Plasmodium parasite transmitted by Anopheles mosquitoes.",
+    "treatment": "Antimalarial medications such as chloroquine, artemisinin-based combination therapies (ACTs)."
+  },
+  {
+    "topic": "Diabetes Type 2",
+    "question": "What are the symptoms, causes, and treatment of type 2 diabetes? (version 9)",
+    "symptoms": "Increased thirst, frequent urination, hunger, fatigue, blurred vision.",
+    "causes": "Insulin resistance and high blood sugar levels, often linked to obesity and genetics.",
+    "treatment": "Diet and exercise, oral medications (e.g., metformin), insulin therapy."
+  },
+  {
+    "topic": "Typhoid Fever",
+    "question": "What are the symptoms, causes, and treatment of typhoid fever? (version 9)",
+    "symptoms": "High fever, weakness, stomach pain, headache, loss of appetite.",
+    "causes": "Salmonella typhi bacteria, spread through contaminated food or water.",
+    "treatment": "Antibiotics such as ciprofloxacin or azithromycin, hydration, proper nutrition."
+  },
+  {
+    "topic": "Hypertension",
+    "question": "What are the symptoms, causes, and treatment of hypertension? (version 9)",
+    "symptoms": "Often asymptomatic, but can include headaches, dizziness, and nosebleeds.",
+    "causes": "Genetics, poor diet, lack of exercise, stress, obesity.",
+    "treatment": "Lifestyle changes, antihypertensive drugs like ACE inhibitors or beta-blockers."
+  },
+  {
+    "topic": "Asthma",
+    "question": "What are the symptoms, causes, and treatment of asthma? (version 9)",
+    "symptoms": "Wheezing, shortness of breath, chest tightness, coughing.",
+    "causes": "Allergens, exercise, cold air, respiratory infections.",
+    "treatment": "Inhalers (bronchodilators and corticosteroids), avoiding triggers."
+  },
+  {
+    "topic": "COVID-19",
+    "question": "What are the symptoms, causes, and treatment of COVID-19? (version 9)",
+    "symptoms": "Fever, cough, fatigue, loss of taste or smell, difficulty breathing.",
+    "causes": "Infection by the SARS-CoV-2 virus, transmitted via respiratory droplets.",
+    "treatment": "Supportive care, antiviral medications, vaccination."
+  },
+  {
+    "topic": "Tuberculosis",
+    "question": "What are the symptoms, causes, and treatment of tuberculosis? (version 9)",
+    "symptoms": "Persistent cough, chest pain, weight loss, night sweats, fever.",
+    "causes": "Mycobacterium tuberculosis bacteria, spread through airborne particles.",
+    "treatment": "Antibiotics such as isoniazid, rifampin over a long period (6-9 months)."
+  },
+  {
+    "topic": "Appendicitis",
+    "question": "What are the symptoms, causes, and treatment of appendicitis? (version 9)",
+    "symptoms": "Lower right abdominal pain, nausea, vomiting, loss of appetite, fever.",
+    "causes": "Blockage in the appendix leading to infection.",
+    "treatment": "Surgical removal of the appendix (appendectomy)."
+  },
+  {
+    "topic": "Hepatitis B",
+    "question": "What are the symptoms, causes, and treatment of hepatitis B? (version 9)",
+    "symptoms": "Fatigue, jaundice, dark urine, abdominal pain, loss of appetite.",
+    "causes": "Hepatitis B virus (HBV), transmitted via blood and bodily fluids.",
+    "treatment": "Antiviral medications, rest, liver monitoring; vaccination prevents infection."
+  },
+  {
+    "topic": "Anemia",
+    "question": "What are the symptoms, causes, and treatment of anemia? (version 9)",
+    "symptoms": "Fatigue, weakness, pale skin, shortness of breath, dizziness.",
+    "causes": "Iron deficiency, blood loss, chronic disease, poor diet.",
+    "treatment": "Iron supplements, dietary changes, treating the underlying cause."
+  },
+  {
+    "topic": "Malaria",
+    "question": "What are the symptoms, causes, and treatment of malaria? (version 10)",
+    "symptoms": "Fever, chills, headache, vomiting, muscle pain.",
+    "causes": "Plasmodium parasite transmitted by Anopheles mosquitoes.",
+    "treatment": "Antimalarial medications such as chloroquine, artemisinin-based combination therapies (ACTs)."
+  },
+  {
+    "topic": "Diabetes Type 2",
+    "question": "What are the symptoms, causes, and treatment of type 2 diabetes? (version 10)",
+    "symptoms": "Increased thirst, frequent urination, hunger, fatigue, blurred vision.",
+    "causes": "Insulin resistance and high blood sugar levels, often linked to obesity and genetics.",
+    "treatment": "Diet and exercise, oral medications (e.g., metformin), insulin therapy."
+  },
+  {
+    "topic": "Typhoid Fever",
+    "question": "What are the symptoms, causes, and treatment of typhoid fever? (version 10)",
+    "symptoms": "High fever, weakness, stomach pain, headache, loss of appetite.",
+    "causes": "Salmonella typhi bacteria, spread through contaminated food or water.",
+    "treatment": "Antibiotics such as ciprofloxacin or azithromycin, hydration, proper nutrition."
+  },
+  {
+    "topic": "Hypertension",
+    "question": "What are the symptoms, causes, and treatment of hypertension? (version 10)",
+    "symptoms": "Often asymptomatic, but can include headaches, dizziness, and nosebleeds.",
+    "causes": "Genetics, poor diet, lack of exercise, stress, obesity.",
+    "treatment": "Lifestyle changes, antihypertensive drugs like ACE inhibitors or beta-blockers."
+  },
+  {
+    "topic": "Asthma",
+    "question": "What are the symptoms, causes, and treatment of asthma? (version 10)",
+    "symptoms": "Wheezing, shortness of breath, chest tightness, coughing.",
+    "causes": "Allergens, exercise, cold air, respiratory infections.",
+    "treatment": "Inhalers (bronchodilators and corticosteroids), avoiding triggers."
+  },
+  {
+    "topic": "COVID-19",
+    "question": "What are the symptoms, causes, and treatment of COVID-19? (version 10)",
+    "symptoms": "Fever, cough, fatigue, loss of taste or smell, difficulty breathing.",
+    "causes": "Infection by the SARS-CoV-2 virus, transmitted via respiratory droplets.",
+    "treatment": "Supportive care, antiviral medications, vaccination."
+  },
+  {
+    "topic": "Tuberculosis",
+    "question": "What are the symptoms, causes, and treatment of tuberculosis? (version 10)",
+    "symptoms": "Persistent cough, chest pain, weight loss, night sweats, fever.",
+    "causes": "Mycobacterium tuberculosis bacteria, spread through airborne particles.",
+    "treatment": "Antibiotics such as isoniazid, rifampin over a long period (6-9 months)."
+  },
+  {
+    "topic": "Appendicitis",
+    "question": "What are the symptoms, causes, and treatment of appendicitis? (version 10)",
+    "symptoms": "Lower right abdominal pain, nausea, vomiting, loss of appetite, fever.",
+    "causes": "Blockage in the appendix leading to infection.",
+    "treatment": "Surgical removal of the appendix (appendectomy)."
+  },
+  {
+    "topic": "Hepatitis B",
+    "question": "What are the symptoms, causes, and treatment of hepatitis B? (version 10)",
+    "symptoms": "Fatigue, jaundice, dark urine, abdominal pain, loss of appetite.",
+    "causes": "Hepatitis B virus (HBV), transmitted via blood and bodily fluids.",
+    "treatment": "Antiviral medications, rest, liver monitoring; vaccination prevents infection."
+  },
+  {
+    "topic": "Anemia",
+    "question": "What are the symptoms, causes, and treatment of anemia? (version 10)",
+    "symptoms": "Fatigue, weakness, pale skin, shortness of breath, dizziness.",
+    "causes": "Iron deficiency, blood loss, chronic disease, poor diet.",
+    "treatment": "Iron supplements, dietary changes, treating the underlying cause."
+  },
+  {
+    "topic": "Malaria",
+    "question": "What are the symptoms, causes, and treatment of malaria? (version 11)",
+    "symptoms": "Fever, chills, headache, vomiting, muscle pain.",
+    "causes": "Plasmodium parasite transmitted by Anopheles mosquitoes.",
+    "treatment": "Antimalarial medications such as chloroquine, artemisinin-based combination therapies (ACTs)."
+  },
+  {
+    "topic": "Diabetes Type 2",
+    "question": "What are the symptoms, causes, and treatment of type 2 diabetes? (version 11)",
+    "symptoms": "Increased thirst, frequent urination, hunger, fatigue, blurred vision.",
+    "causes": "Insulin resistance and high blood sugar levels, often linked to obesity and genetics.",
+    "treatment": "Diet and exercise, oral medications (e.g., metformin), insulin therapy."
+  },
+  {
+    "topic": "Typhoid Fever",
+    "question": "What are the symptoms, causes, and treatment of typhoid fever? (version 11)",
+    "symptoms": "High fever, weakness, stomach pain, headache, loss of appetite.",
+    "causes": "Salmonella typhi bacteria, spread through contaminated food or water.",
+    "treatment": "Antibiotics such as ciprofloxacin or azithromycin, hydration, proper nutrition."
+  },
+  {
+    "topic": "Hypertension",
+    "question": "What are the symptoms, causes, and treatment of hypertension? (version 11)",
+    "symptoms": "Often asymptomatic, but can include headaches, dizziness, and nosebleeds.",
+    "causes": "Genetics, poor diet, lack of exercise, stress, obesity.",
+    "treatment": "Lifestyle changes, antihypertensive drugs like ACE inhibitors or beta-blockers."
+  },
+  {
+    "topic": "Asthma",
+    "question": "What are the symptoms, causes, and treatment of asthma? (version 11)",
+    "symptoms": "Wheezing, shortness of breath, chest tightness, coughing.",
+    "causes": "Allergens, exercise, cold air, respiratory infections.",
+    "treatment": "Inhalers (bronchodilators and corticosteroids), avoiding triggers."
+  },
+  {
+    "topic": "COVID-19",
+    "question": "What are the symptoms, causes, and treatment of COVID-19? (version 11)",
+    "symptoms": "Fever, cough, fatigue, loss of taste or smell, difficulty breathing.",
+    "causes": "Infection by the SARS-CoV-2 virus, transmitted via respiratory droplets.",
+    "treatment": "Supportive care, antiviral medications, vaccination."
+  },
+  {
+    "topic": "Tuberculosis",
+    "question": "What are the symptoms, causes, and treatment of tuberculosis? (version 11)",
+    "symptoms": "Persistent cough, chest pain, weight loss, night sweats, fever.",
+    "causes": "Mycobacterium tuberculosis bacteria, spread through airborne particles.",
+    "treatment": "Antibiotics such as isoniazid, rifampin over a long period (6-9 months)."
+  },
+  {
+    "topic": "Appendicitis",
+    "question": "What are the symptoms, causes, and treatment of appendicitis? (version 11)",
+    "symptoms": "Lower right abdominal pain, nausea, vomiting, loss of appetite, fever.",
+    "causes": "Blockage in the appendix leading to infection.",
+    "treatment": "Surgical removal of the appendix (appendectomy)."
+  },
+  {
+    "topic": "Hepatitis B",
+    "question": "What are the symptoms, causes, and treatment of hepatitis B? (version 11)",
+    "symptoms": "Fatigue, jaundice, dark urine, abdominal pain, loss of appetite.",
+    "causes": "Hepatitis B virus (HBV), transmitted via blood and bodily fluids.",
+    "treatment": "Antiviral medications, rest, liver monitoring; vaccination prevents infection."
+  },
+  {
+    "topic": "Anemia",
+    "question": "What are the symptoms, causes, and treatment of anemia? (version 11)",
+    "symptoms": "Fatigue, weakness, pale skin, shortness of breath, dizziness.",
+    "causes": "Iron deficiency, blood loss, chronic disease, poor diet.",
+    "treatment": "Iron supplements, dietary changes, treating the underlying cause."
+  },
+  {
+    "topic": "Malaria",
+    "question": "What are the symptoms, causes, and treatment of malaria? (version 12)",
+    "symptoms": "Fever, chills, headache, vomiting, muscle pain.",
+    "causes": "Plasmodium parasite transmitted by Anopheles mosquitoes.",
+    "treatment": "Antimalarial medications such as chloroquine, artemisinin-based combination therapies (ACTs)."
+  },
+  {
+    "topic": "Diabetes Type 2",
+    "question": "What are the symptoms, causes, and treatment of type 2 diabetes? (version 12)",
+    "symptoms": "Increased thirst, frequent urination, hunger, fatigue, blurred vision.",
+    "causes": "Insulin resistance and high blood sugar levels, often linked to obesity and genetics.",
+    "treatment": "Diet and exercise, oral medications (e.g., metformin), insulin therapy."
+  },
+  {
+    "topic": "Typhoid Fever",
+    "question": "What are the symptoms, causes, and treatment of typhoid fever? (version 12)",
+    "symptoms": "High fever, weakness, stomach pain, headache, loss of appetite.",
+    "causes": "Salmonella typhi bacteria, spread through contaminated food or water.",
+    "treatment": "Antibiotics such as ciprofloxacin or azithromycin, hydration, proper nutrition."
+  },
+  {
+    "topic": "Hypertension",
+    "question": "What are the symptoms, causes, and treatment of hypertension? (version 12)",
+    "symptoms": "Often asymptomatic, but can include headaches, dizziness, and nosebleeds.",
+    "causes": "Genetics, poor diet, lack of exercise, stress, obesity.",
+    "treatment": "Lifestyle changes, antihypertensive drugs like ACE inhibitors or beta-blockers."
+  },
+  {
+    "topic": "Asthma",
+    "question": "What are the symptoms, causes, and treatment of asthma? (version 12)",
+    "symptoms": "Wheezing, shortness of breath, chest tightness, coughing.",
+    "causes": "Allergens, exercise, cold air, respiratory infections.",
+    "treatment": "Inhalers (bronchodilators and corticosteroids), avoiding triggers."
+  },
+  {
+    "topic": "COVID-19",
+    "question": "What are the symptoms, causes, and treatment of COVID-19? (version 12)",
+    "symptoms": "Fever, cough, fatigue, loss of taste or smell, difficulty breathing.",
+    "causes": "Infection by the SARS-CoV-2 virus, transmitted via respiratory droplets.",
+    "treatment": "Supportive care, antiviral medications, vaccination."
+  },
+  {
+    "topic": "Tuberculosis",
+    "question": "What are the symptoms, causes, and treatment of tuberculosis? (version 12)",
+    "symptoms": "Persistent cough, chest pain, weight loss, night sweats, fever.",
+    "causes": "Mycobacterium tuberculosis bacteria, spread through airborne particles.",
+    "treatment": "Antibiotics such as isoniazid, rifampin over a long period (6-9 months)."
+  },
+  {
+    "topic": "Appendicitis",
+    "question": "What are the symptoms, causes, and treatment of appendicitis? (version 12)",
+    "symptoms": "Lower right abdominal pain, nausea, vomiting, loss of appetite, fever.",
+    "causes": "Blockage in the appendix leading to infection.",
+    "treatment": "Surgical removal of the appendix (appendectomy)."
+  },
+  {
+    "topic": "Hepatitis B",
+    "question": "What are the symptoms, causes, and treatment of hepatitis B? (version 12)",
+    "symptoms": "Fatigue, jaundice, dark urine, abdominal pain, loss of appetite.",
+    "causes": "Hepatitis B virus (HBV), transmitted via blood and bodily fluids.",
+    "treatment": "Antiviral medications, rest, liver monitoring; vaccination prevents infection."
+  },
+  {
+    "topic": "Anemia",
+    "question": "What are the symptoms, causes, and treatment of anemia? (version 12)",
+    "symptoms": "Fatigue, weakness, pale skin, shortness of breath, dizziness.",
+    "causes": "Iron deficiency, blood loss, chronic disease, poor diet.",
+    "treatment": "Iron supplements, dietary changes, treating the underlying cause."
+  },
+  {
+    "topic": "Malaria",
+    "question": "What are the symptoms, causes, and treatment of malaria? (version 13)",
+    "symptoms": "Fever, chills, headache, vomiting, muscle pain.",
+    "causes": "Plasmodium parasite transmitted by Anopheles mosquitoes.",
+    "treatment": "Antimalarial medications such as chloroquine, artemisinin-based combination therapies (ACTs)."
+  },
+  {
+    "topic": "Diabetes Type 2",
+    "question": "What are the symptoms, causes, and treatment of type 2 diabetes? (version 13)",
+    "symptoms": "Increased thirst, frequent urination, hunger, fatigue, blurred vision.",
+    "causes": "Insulin resistance and high blood sugar levels, often linked to obesity and genetics.",
+    "treatment": "Diet and exercise, oral medications (e.g., metformin), insulin therapy."
+  },
+  {
+    "topic": "Typhoid Fever",
+    "question": "What are the symptoms, causes, and treatment of typhoid fever? (version 13)",
+    "symptoms": "High fever, weakness, stomach pain, headache, loss of appetite.",
+    "causes": "Salmonella typhi bacteria, spread through contaminated food or water.",
+    "treatment": "Antibiotics such as ciprofloxacin or azithromycin, hydration, proper nutrition."
+  },
+  {
+    "topic": "Hypertension",
+    "question": "What are the symptoms, causes, and treatment of hypertension? (version 13)",
+    "symptoms": "Often asymptomatic, but can include headaches, dizziness, and nosebleeds.",
+    "causes": "Genetics, poor diet, lack of exercise, stress, obesity.",
+    "treatment": "Lifestyle changes, antihypertensive drugs like ACE inhibitors or beta-blockers."
+  },
+  {
+    "topic": "Asthma",
+    "question": "What are the symptoms, causes, and treatment of asthma? (version 13)",
+    "symptoms": "Wheezing, shortness of breath, chest tightness, coughing.",
+    "causes": "Allergens, exercise, cold air, respiratory infections.",
+    "treatment": "Inhalers (bronchodilators and corticosteroids), avoiding triggers."
+  },
+  {
+    "topic": "COVID-19",
+    "question": "What are the symptoms, causes, and treatment of COVID-19? (version 13)",
+    "symptoms": "Fever, cough, fatigue, loss of taste or smell, difficulty breathing.",
+    "causes": "Infection by the SARS-CoV-2 virus, transmitted via respiratory droplets.",
+    "treatment": "Supportive care, antiviral medications, vaccination."
+  },
+  {
+    "topic": "Tuberculosis",
+    "question": "What are the symptoms, causes, and treatment of tuberculosis? (version 13)",
+    "symptoms": "Persistent cough, chest pain, weight loss, night sweats, fever.",
+    "causes": "Mycobacterium tuberculosis bacteria, spread through airborne particles.",
+    "treatment": "Antibiotics such as isoniazid, rifampin over a long period (6-9 months)."
+  },
+  {
+    "topic": "Appendicitis",
+    "question": "What are the symptoms, causes, and treatment of appendicitis? (version 13)",
+    "symptoms": "Lower right abdominal pain, nausea, vomiting, loss of appetite, fever.",
+    "causes": "Blockage in the appendix leading to infection.",
+    "treatment": "Surgical removal of the appendix (appendectomy)."
+  },
+  {
+    "topic": "Hepatitis B",
+    "question": "What are the symptoms, causes, and treatment of hepatitis B? (version 13)",
+    "symptoms": "Fatigue, jaundice, dark urine, abdominal pain, loss of appetite.",
+    "causes": "Hepatitis B virus (HBV), transmitted via blood and bodily fluids.",
+    "treatment": "Antiviral medications, rest, liver monitoring; vaccination prevents infection."
+  },
+  {
+    "topic": "Anemia",
+    "question": "What are the symptoms, causes, and treatment of anemia? (version 13)",
+    "symptoms": "Fatigue, weakness, pale skin, shortness of breath, dizziness.",
+    "causes": "Iron deficiency, blood loss, chronic disease, poor diet.",
+    "treatment": "Iron supplements, dietary changes, treating the underlying cause."
+  },
+  {
+    "topic": "Malaria",
+    "question": "What are the symptoms, causes, and treatment of malaria? (version 14)",
+    "symptoms": "Fever, chills, headache, vomiting, muscle pain.",
+    "causes": "Plasmodium parasite transmitted by Anopheles mosquitoes.",
+    "treatment": "Antimalarial medications such as chloroquine, artemisinin-based combination therapies (ACTs)."
+  },
+  {
+    "topic": "Diabetes Type 2",
+    "question": "What are the symptoms, causes, and treatment of type 2 diabetes? (version 14)",
+    "symptoms": "Increased thirst, frequent urination, hunger, fatigue, blurred vision.",
+    "causes": "Insulin resistance and high blood sugar levels, often linked to obesity and genetics.",
+    "treatment": "Diet and exercise, oral medications (e.g., metformin), insulin therapy."
+  },
+  {
+    "topic": "Typhoid Fever",
+    "question": "What are the symptoms, causes, and treatment of typhoid fever? (version 14)",
+    "symptoms": "High fever, weakness, stomach pain, headache, loss of appetite.",
+    "causes": "Salmonella typhi bacteria, spread through contaminated food or water.",
+    "treatment": "Antibiotics such as ciprofloxacin or azithromycin, hydration, proper nutrition."
+  },
+  {
+    "topic": "Hypertension",
+    "question": "What are the symptoms, causes, and treatment of hypertension? (version 14)",
+    "symptoms": "Often asymptomatic, but can include headaches, dizziness, and nosebleeds.",
+    "causes": "Genetics, poor diet, lack of exercise, stress, obesity.",
+    "treatment": "Lifestyle changes, antihypertensive drugs like ACE inhibitors or beta-blockers."
+  },
+  {
+    "topic": "Asthma",
+    "question": "What are the symptoms, causes, and treatment of asthma? (version 14)",
+    "symptoms": "Wheezing, shortness of breath, chest tightness, coughing.",
+    "causes": "Allergens, exercise, cold air, respiratory infections.",
+    "treatment": "Inhalers (bronchodilators and corticosteroids), avoiding triggers."
+  },
+  {
+    "topic": "COVID-19",
+    "question": "What are the symptoms, causes, and treatment of COVID-19? (version 14)",
+    "symptoms": "Fever, cough, fatigue, loss of taste or smell, difficulty breathing.",
+    "causes": "Infection by the SARS-CoV-2 virus, transmitted via respiratory droplets.",
+    "treatment": "Supportive care, antiviral medications, vaccination."
+  },
+  {
+    "topic": "Tuberculosis",
+    "question": "What are the symptoms, causes, and treatment of tuberculosis? (version 14)",
+    "symptoms": "Persistent cough, chest pain, weight loss, night sweats, fever.",
+    "causes": "Mycobacterium tuberculosis bacteria, spread through airborne particles.",
+    "treatment": "Antibiotics such as isoniazid, rifampin over a long period (6-9 months)."
+  },
+  {
+    "topic": "Appendicitis",
+    "question": "What are the symptoms, causes, and treatment of appendicitis? (version 14)",
+    "symptoms": "Lower right abdominal pain, nausea, vomiting, loss of appetite, fever.",
+    "causes": "Blockage in the appendix leading to infection.",
+    "treatment": "Surgical removal of the appendix (appendectomy)."
+  },
+  {
+    "topic": "Hepatitis B",
+    "question": "What are the symptoms, causes, and treatment of hepatitis B? (version 14)",
+    "symptoms": "Fatigue, jaundice, dark urine, abdominal pain, loss of appetite.",
+    "causes": "Hepatitis B virus (HBV), transmitted via blood and bodily fluids.",
+    "treatment": "Antiviral medications, rest, liver monitoring; vaccination prevents infection."
+  },
+  {
+    "topic": "Anemia",
+    "question": "What are the symptoms, causes, and treatment of anemia? (version 14)",
+    "symptoms": "Fatigue, weakness, pale skin, shortness of breath, dizziness.",
+    "causes": "Iron deficiency, blood loss, chronic disease, poor diet.",
+    "treatment": "Iron supplements, dietary changes, treating the underlying cause."
+  },
+  {
+    "topic": "Malaria",
+    "question": "What are the symptoms, causes, and treatment of malaria? (version 15)",
+    "symptoms": "Fever, chills, headache, vomiting, muscle pain.",
+    "causes": "Plasmodium parasite transmitted by Anopheles mosquitoes.",
+    "treatment": "Antimalarial medications such as chloroquine, artemisinin-based combination therapies (ACTs)."
+  },
+  {
+    "topic": "Diabetes Type 2",
+    "question": "What are the symptoms, causes, and treatment of type 2 diabetes? (version 15)",
+    "symptoms": "Increased thirst, frequent urination, hunger, fatigue, blurred vision.",
+    "causes": "Insulin resistance and high blood sugar levels, often linked to obesity and genetics.",
+    "treatment": "Diet and exercise, oral medications (e.g., metformin), insulin therapy."
+  },
+  {
+    "topic": "Typhoid Fever",
+    "question": "What are the symptoms, causes, and treatment of typhoid fever? (version 15)",
+    "symptoms": "High fever, weakness, stomach pain, headache, loss of appetite.",
+    "causes": "Salmonella typhi bacteria, spread through contaminated food or water.",
+    "treatment": "Antibiotics such as ciprofloxacin or azithromycin, hydration, proper nutrition."
+  },
+  {
+    "topic": "Hypertension",
+    "question": "What are the symptoms, causes, and treatment of hypertension? (version 15)",
+    "symptoms": "Often asymptomatic, but can include headaches, dizziness, and nosebleeds.",
+    "causes": "Genetics, poor diet, lack of exercise, stress, obesity.",
+    "treatment": "Lifestyle changes, antihypertensive drugs like ACE inhibitors or beta-blockers."
+  },
+  {
+    "topic": "Asthma",
+    "question": "What are the symptoms, causes, and treatment of asthma? (version 15)",
+    "symptoms": "Wheezing, shortness of breath, chest tightness, coughing.",
+    "causes": "Allergens, exercise, cold air, respiratory infections.",
+    "treatment": "Inhalers (bronchodilators and corticosteroids), avoiding triggers."
+  },
+  {
+    "topic": "COVID-19",
+    "question": "What are the symptoms, causes, and treatment of COVID-19? (version 15)",
+    "symptoms": "Fever, cough, fatigue, loss of taste or smell, difficulty breathing.",
+    "causes": "Infection by the SARS-CoV-2 virus, transmitted via respiratory droplets.",
+    "treatment": "Supportive care, antiviral medications, vaccination."
+  },
+  {
+    "topic": "Tuberculosis",
+    "question": "What are the symptoms, causes, and treatment of tuberculosis? (version 15)",
+    "symptoms": "Persistent cough, chest pain, weight loss, night sweats, fever.",
+    "causes": "Mycobacterium tuberculosis bacteria, spread through airborne particles.",
+    "treatment": "Antibiotics such as isoniazid, rifampin over a long period (6-9 months)."
+  },
+  {
+    "topic": "Appendicitis",
+    "question": "What are the symptoms, causes, and treatment of appendicitis? (version 15)",
+    "symptoms": "Lower right abdominal pain, nausea, vomiting, loss of appetite, fever.",
+    "causes": "Blockage in the appendix leading to infection.",
+    "treatment": "Surgical removal of the appendix (appendectomy)."
+  },
+  {
+    "topic": "Hepatitis B",
+    "question": "What are the symptoms, causes, and treatment of hepatitis B? (version 15)",
+    "symptoms": "Fatigue, jaundice, dark urine, abdominal pain, loss of appetite.",
+    "causes": "Hepatitis B virus (HBV), transmitted via blood and bodily fluids.",
+    "treatment": "Antiviral medications, rest, liver monitoring; vaccination prevents infection."
+  },
+  {
+    "topic": "Anemia",
+    "question": "What are the symptoms, causes, and treatment of anemia? (version 15)",
+    "symptoms": "Fatigue, weakness, pale skin, shortness of breath, dizziness.",
+    "causes": "Iron deficiency, blood loss, chronic disease, poor diet.",
+    "treatment": "Iron supplements, dietary changes, treating the underlying cause."
+  },
+  {
+    "topic": "Malaria",
+    "question": "What are the symptoms, causes, and treatment of malaria? (version 16)",
+    "symptoms": "Fever, chills, headache, vomiting, muscle pain.",
+    "causes": "Plasmodium parasite transmitted by Anopheles mosquitoes.",
+    "treatment": "Antimalarial medications such as chloroquine, artemisinin-based combination therapies (ACTs)."
+  },
+  {
+    "topic": "Diabetes Type 2",
+    "question": "What are the symptoms, causes, and treatment of type 2 diabetes? (version 16)",
+    "symptoms": "Increased thirst, frequent urination, hunger, fatigue, blurred vision.",
+    "causes": "Insulin resistance and high blood sugar levels, often linked to obesity and genetics.",
+    "treatment": "Diet and exercise, oral medications (e.g., metformin), insulin therapy."
+  },
+  {
+    "topic": "Typhoid Fever",
+    "question": "What are the symptoms, causes, and treatment of typhoid fever? (version 16)",
+    "symptoms": "High fever, weakness, stomach pain, headache, loss of appetite.",
+    "causes": "Salmonella typhi bacteria, spread through contaminated food or water.",
+    "treatment": "Antibiotics such as ciprofloxacin or azithromycin, hydration, proper nutrition."
+  },
+  {
+    "topic": "Hypertension",
+    "question": "What are the symptoms, causes, and treatment of hypertension? (version 16)",
+    "symptoms": "Often asymptomatic, but can include headaches, dizziness, and nosebleeds.",
+    "causes": "Genetics, poor diet, lack of exercise, stress, obesity.",
+    "treatment": "Lifestyle changes, antihypertensive drugs like ACE inhibitors or beta-blockers."
+  },
+  {
+    "topic": "Asthma",
+    "question": "What are the symptoms, causes, and treatment of asthma? (version 16)",
+    "symptoms": "Wheezing, shortness of breath, chest tightness, coughing.",
+    "causes": "Allergens, exercise, cold air, respiratory infections.",
+    "treatment": "Inhalers (bronchodilators and corticosteroids), avoiding triggers."
+  },
+  {
+    "topic": "COVID-19",
+    "question": "What are the symptoms, causes, and treatment of COVID-19? (version 16)",
+    "symptoms": "Fever, cough, fatigue, loss of taste or smell, difficulty breathing.",
+    "causes": "Infection by the SARS-CoV-2 virus, transmitted via respiratory droplets.",
+    "treatment": "Supportive care, antiviral medications, vaccination."
+  },
+  {
+    "topic": "Tuberculosis",
+    "question": "What are the symptoms, causes, and treatment of tuberculosis? (version 16)",
+    "symptoms": "Persistent cough, chest pain, weight loss, night sweats, fever.",
+    "causes": "Mycobacterium tuberculosis bacteria, spread through airborne particles.",
+    "treatment": "Antibiotics such as isoniazid, rifampin over a long period (6-9 months)."
+  },
+  {
+    "topic": "Appendicitis",
+    "question": "What are the symptoms, causes, and treatment of appendicitis? (version 16)",
+    "symptoms": "Lower right abdominal pain, nausea, vomiting, loss of appetite, fever.",
+    "causes": "Blockage in the appendix leading to infection.",
+    "treatment": "Surgical removal of the appendix (appendectomy)."
+  },
+  {
+    "topic": "Hepatitis B",
+    "question": "What are the symptoms, causes, and treatment of hepatitis B? (version 16)",
+    "symptoms": "Fatigue, jaundice, dark urine, abdominal pain, loss of appetite.",
+    "causes": "Hepatitis B virus (HBV), transmitted via blood and bodily fluids.",
+    "treatment": "Antiviral medications, rest, liver monitoring; vaccination prevents infection."
+  },
+  {
+    "topic": "Anemia",
+    "question": "What are the symptoms, causes, and treatment of anemia? (version 16)",
+    "symptoms": "Fatigue, weakness, pale skin, shortness of breath, dizziness.",
+    "causes": "Iron deficiency, blood loss, chronic disease, poor diet.",
+    "treatment": "Iron supplements, dietary changes, treating the underlying cause."
+  },
+  {
+    "topic": "Malaria",
+    "question": "What are the symptoms, causes, and treatment of malaria? (version 17)",
+    "symptoms": "Fever, chills, headache, vomiting, muscle pain.",
+    "causes": "Plasmodium parasite transmitted by Anopheles mosquitoes.",
+    "treatment": "Antimalarial medications such as chloroquine, artemisinin-based combination therapies (ACTs)."
+  },
+  {
+    "topic": "Diabetes Type 2",
+    "question": "What are the symptoms, causes, and treatment of type 2 diabetes? (version 17)",
+    "symptoms": "Increased thirst, frequent urination, hunger, fatigue, blurred vision.",
+    "causes": "Insulin resistance and high blood sugar levels, often linked to obesity and genetics.",
+    "treatment": "Diet and exercise, oral medications (e.g., metformin), insulin therapy."
+  },
+  {
+    "topic": "Typhoid Fever",
+    "question": "What are the symptoms, causes, and treatment of typhoid fever? (version 17)",
+    "symptoms": "High fever, weakness, stomach pain, headache, loss of appetite.",
+    "causes": "Salmonella typhi bacteria, spread through contaminated food or water.",
+    "treatment": "Antibiotics such as ciprofloxacin or azithromycin, hydration, proper nutrition."
+  },
+  {
+    "topic": "Hypertension",
+    "question": "What are the symptoms, causes, and treatment of hypertension? (version 17)",
+    "symptoms": "Often asymptomatic, but can include headaches, dizziness, and nosebleeds.",
+    "causes": "Genetics, poor diet, lack of exercise, stress, obesity.",
+    "treatment": "Lifestyle changes, antihypertensive drugs like ACE inhibitors or beta-blockers."
+  },
+  {
+    "topic": "Asthma",
+    "question": "What are the symptoms, causes, and treatment of asthma? (version 17)",
+    "symptoms": "Wheezing, shortness of breath, chest tightness, coughing.",
+    "causes": "Allergens, exercise, cold air, respiratory infections.",
+    "treatment": "Inhalers (bronchodilators and corticosteroids), avoiding triggers."
+  },
+  {
+    "topic": "COVID-19",
+    "question": "What are the symptoms, causes, and treatment of COVID-19? (version 17)",
+    "symptoms": "Fever, cough, fatigue, loss of taste or smell, difficulty breathing.",
+    "causes": "Infection by the SARS-CoV-2 virus, transmitted via respiratory droplets.",
+    "treatment": "Supportive care, antiviral medications, vaccination."
+  },
+  {
+    "topic": "Tuberculosis",
+    "question": "What are the symptoms, causes, and treatment of tuberculosis? (version 17)",
+    "symptoms": "Persistent cough, chest pain, weight loss, night sweats, fever.",
+    "causes": "Mycobacterium tuberculosis bacteria, spread through airborne particles.",
+    "treatment": "Antibiotics such as isoniazid, rifampin over a long period (6-9 months)."
+  },
+  {
+    "topic": "Appendicitis",
+    "question": "What are the symptoms, causes, and treatment of appendicitis? (version 17)",
+    "symptoms": "Lower right abdominal pain, nausea, vomiting, loss of appetite, fever.",
+    "causes": "Blockage in the appendix leading to infection.",
+    "treatment": "Surgical removal of the appendix (appendectomy)."
+  },
+  {
+    "topic": "Hepatitis B",
+    "question": "What are the symptoms, causes, and treatment of hepatitis B? (version 17)",
+    "symptoms": "Fatigue, jaundice, dark urine, abdominal pain, loss of appetite.",
+    "causes": "Hepatitis B virus (HBV), transmitted via blood and bodily fluids.",
+    "treatment": "Antiviral medications, rest, liver monitoring; vaccination prevents infection."
+  },
+  {
+    "topic": "Anemia",
+    "question": "What are the symptoms, causes, and treatment of anemia? (version 17)",
+    "symptoms": "Fatigue, weakness, pale skin, shortness of breath, dizziness.",
+    "causes": "Iron deficiency, blood loss, chronic disease, poor diet.",
+    "treatment": "Iron supplements, dietary changes, treating the underlying cause."
+  },
+  {
+    "topic": "Malaria",
+    "question": "What are the symptoms, causes, and treatment of malaria? (version 18)",
+    "symptoms": "Fever, chills, headache, vomiting, muscle pain.",
+    "causes": "Plasmodium parasite transmitted by Anopheles mosquitoes.",
+    "treatment": "Antimalarial medications such as chloroquine, artemisinin-based combination therapies (ACTs)."
+  },
+  {
+    "topic": "Diabetes Type 2",
+    "question": "What are the symptoms, causes, and treatment of type 2 diabetes? (version 18)",
+    "symptoms": "Increased thirst, frequent urination, hunger, fatigue, blurred vision.",
+    "causes": "Insulin resistance and high blood sugar levels, often linked to obesity and genetics.",
+    "treatment": "Diet and exercise, oral medications (e.g., metformin), insulin therapy."
+  },
+  {
+    "topic": "Typhoid Fever",
+    "question": "What are the symptoms, causes, and treatment of typhoid fever? (version 18)",
+    "symptoms": "High fever, weakness, stomach pain, headache, loss of appetite.",
+    "causes": "Salmonella typhi bacteria, spread through contaminated food or water.",
+    "treatment": "Antibiotics such as ciprofloxacin or azithromycin, hydration, proper nutrition."
+  },
+  {
+    "topic": "Hypertension",
+    "question": "What are the symptoms, causes, and treatment of hypertension? (version 18)",
+    "symptoms": "Often asymptomatic, but can include headaches, dizziness, and nosebleeds.",
+    "causes": "Genetics, poor diet, lack of exercise, stress, obesity.",
+    "treatment": "Lifestyle changes, antihypertensive drugs like ACE inhibitors or beta-blockers."
+  },
+  {
+    "topic": "Asthma",
+    "question": "What are the symptoms, causes, and treatment of asthma? (version 18)",
+    "symptoms": "Wheezing, shortness of breath, chest tightness, coughing.",
+    "causes": "Allergens, exercise, cold air, respiratory infections.",
+    "treatment": "Inhalers (bronchodilators and corticosteroids), avoiding triggers."
+  },
+  {
+    "topic": "COVID-19",
+    "question": "What are the symptoms, causes, and treatment of COVID-19? (version 18)",
+    "symptoms": "Fever, cough, fatigue, loss of taste or smell, difficulty breathing.",
+    "causes": "Infection by the SARS-CoV-2 virus, transmitted via respiratory droplets.",
+    "treatment": "Supportive care, antiviral medications, vaccination."
+  },
+  {
+    "topic": "Tuberculosis",
+    "question": "What are the symptoms, causes, and treatment of tuberculosis? (version 18)",
+    "symptoms": "Persistent cough, chest pain, weight loss, night sweats, fever.",
+    "causes": "Mycobacterium tuberculosis bacteria, spread through airborne particles.",
+    "treatment": "Antibiotics such as isoniazid, rifampin over a long period (6-9 months)."
+  },
+  {
+    "topic": "Appendicitis",
+    "question": "What are the symptoms, causes, and treatment of appendicitis? (version 18)",
+    "symptoms": "Lower right abdominal pain, nausea, vomiting, loss of appetite, fever.",
+    "causes": "Blockage in the appendix leading to infection.",
+    "treatment": "Surgical removal of the appendix (appendectomy)."
+  },
+  {
+    "topic": "Hepatitis B",
+    "question": "What are the symptoms, causes, and treatment of hepatitis B? (version 18)",
+    "symptoms": "Fatigue, jaundice, dark urine, abdominal pain, loss of appetite.",
+    "causes": "Hepatitis B virus (HBV), transmitted via blood and bodily fluids.",
+    "treatment": "Antiviral medications, rest, liver monitoring; vaccination prevents infection."
+  },
+  {
+    "topic": "Anemia",
+    "question": "What are the symptoms, causes, and treatment of anemia? (version 18)",
+    "symptoms": "Fatigue, weakness, pale skin, shortness of breath, dizziness.",
+    "causes": "Iron deficiency, blood loss, chronic disease, poor diet.",
+    "treatment": "Iron supplements, dietary changes, treating the underlying cause."
+  },
+  {
+    "topic": "Malaria",
+    "question": "What are the symptoms, causes, and treatment of malaria? (version 19)",
+    "symptoms": "Fever, chills, headache, vomiting, muscle pain.",
+    "causes": "Plasmodium parasite transmitted by Anopheles mosquitoes.",
+    "treatment": "Antimalarial medications such as chloroquine, artemisinin-based combination therapies (ACTs)."
+  },
+  {
+    "topic": "Diabetes Type 2",
+    "question": "What are the symptoms, causes, and treatment of type 2 diabetes? (version 19)",
+    "symptoms": "Increased thirst, frequent urination, hunger, fatigue, blurred vision.",
+    "causes": "Insulin resistance and high blood sugar levels, often linked to obesity and genetics.",
+    "treatment": "Diet and exercise, oral medications (e.g., metformin), insulin therapy."
+  },
+  {
+    "topic": "Typhoid Fever",
+    "question": "What are the symptoms, causes, and treatment of typhoid fever? (version 19)",
+    "symptoms": "High fever, weakness, stomach pain, headache, loss of appetite.",
+    "causes": "Salmonella typhi bacteria, spread through contaminated food or water.",
+    "treatment": "Antibiotics such as ciprofloxacin or azithromycin, hydration, proper nutrition."
+  },
+  {
+    "topic": "Hypertension",
+    "question": "What are the symptoms, causes, and treatment of hypertension? (version 19)",
+    "symptoms": "Often asymptomatic, but can include headaches, dizziness, and nosebleeds.",
+    "causes": "Genetics, poor diet, lack of exercise, stress, obesity.",
+    "treatment": "Lifestyle changes, antihypertensive drugs like ACE inhibitors or beta-blockers."
+  },
+  {
+    "topic": "Asthma",
+    "question": "What are the symptoms, causes, and treatment of asthma? (version 19)",
+    "symptoms": "Wheezing, shortness of breath, chest tightness, coughing.",
+    "causes": "Allergens, exercise, cold air, respiratory infections.",
+    "treatment": "Inhalers (bronchodilators and corticosteroids), avoiding triggers."
+  },
+  {
+    "topic": "COVID-19",
+    "question": "What are the symptoms, causes, and treatment of COVID-19? (version 19)",
+    "symptoms": "Fever, cough, fatigue, loss of taste or smell, difficulty breathing.",
+    "causes": "Infection by the SARS-CoV-2 virus, transmitted via respiratory droplets.",
+    "treatment": "Supportive care, antiviral medications, vaccination."
+  },
+  {
+    "topic": "Tuberculosis",
+    "question": "What are the symptoms, causes, and treatment of tuberculosis? (version 19)",
+    "symptoms": "Persistent cough, chest pain, weight loss, night sweats, fever.",
+    "causes": "Mycobacterium tuberculosis bacteria, spread through airborne particles.",
+    "treatment": "Antibiotics such as isoniazid, rifampin over a long period (6-9 months)."
+  },
+  {
+    "topic": "Appendicitis",
+    "question": "What are the symptoms, causes, and treatment of appendicitis? (version 19)",
+    "symptoms": "Lower right abdominal pain, nausea, vomiting, loss of appetite, fever.",
+    "causes": "Blockage in the appendix leading to infection.",
+    "treatment": "Surgical removal of the appendix (appendectomy)."
+  },
+  {
+    "topic": "Hepatitis B",
+    "question": "What are the symptoms, causes, and treatment of hepatitis B? (version 19)",
+    "symptoms": "Fatigue, jaundice, dark urine, abdominal pain, loss of appetite.",
+    "causes": "Hepatitis B virus (HBV), transmitted via blood and bodily fluids.",
+    "treatment": "Antiviral medications, rest, liver monitoring; vaccination prevents infection."
+  },
+  {
+    "topic": "Anemia",
+    "question": "What are the symptoms, causes, and treatment of anemia? (version 19)",
+    "symptoms": "Fatigue, weakness, pale skin, shortness of breath, dizziness.",
+    "causes": "Iron deficiency, blood loss, chronic disease, poor diet.",
+    "treatment": "Iron supplements, dietary changes, treating the underlying cause."
+  },
+  {
+    "topic": "Malaria",
+    "question": "What are the symptoms, causes, and treatment of malaria? (version 20)",
+    "symptoms": "Fever, chills, headache, vomiting, muscle pain.",
+    "causes": "Plasmodium parasite transmitted by Anopheles mosquitoes.",
+    "treatment": "Antimalarial medications such as chloroquine, artemisinin-based combination therapies (ACTs)."
+  },
+  {
+    "topic": "Diabetes Type 2",
+    "question": "What are the symptoms, causes, and treatment of type 2 diabetes? (version 20)",
+    "symptoms": "Increased thirst, frequent urination, hunger, fatigue, blurred vision.",
+    "causes": "Insulin resistance and high blood sugar levels, often linked to obesity and genetics.",
+    "treatment": "Diet and exercise, oral medications (e.g., metformin), insulin therapy."
+  },
+  {
+    "topic": "Typhoid Fever",
+    "question": "What are the symptoms, causes, and treatment of typhoid fever? (version 20)",
+    "symptoms": "High fever, weakness, stomach pain, headache, loss of appetite.",
+    "causes": "Salmonella typhi bacteria, spread through contaminated food or water.",
+    "treatment": "Antibiotics such as ciprofloxacin or azithromycin, hydration, proper nutrition."
+  },
+  {
+    "topic": "Hypertension",
+    "question": "What are the symptoms, causes, and treatment of hypertension? (version 20)",
+    "symptoms": "Often asymptomatic, but can include headaches, dizziness, and nosebleeds.",
+    "causes": "Genetics, poor diet, lack of exercise, stress, obesity.",
+    "treatment": "Lifestyle changes, antihypertensive drugs like ACE inhibitors or beta-blockers."
+  },
+  {
+    "topic": "Asthma",
+    "question": "What are the symptoms, causes, and treatment of asthma? (version 20)",
+    "symptoms": "Wheezing, shortness of breath, chest tightness, coughing.",
+    "causes": "Allergens, exercise, cold air, respiratory infections.",
+    "treatment": "Inhalers (bronchodilators and corticosteroids), avoiding triggers."
+  },
+  {
+    "topic": "COVID-19",
+    "question": "What are the symptoms, causes, and treatment of COVID-19? (version 20)",
+    "symptoms": "Fever, cough, fatigue, loss of taste or smell, difficulty breathing.",
+    "causes": "Infection by the SARS-CoV-2 virus, transmitted via respiratory droplets.",
+    "treatment": "Supportive care, antiviral medications, vaccination."
+  },
+  {
+    "topic": "Tuberculosis",
+    "question": "What are the symptoms, causes, and treatment of tuberculosis? (version 20)",
+    "symptoms": "Persistent cough, chest pain, weight loss, night sweats, fever.",
+    "causes": "Mycobacterium tuberculosis bacteria, spread through airborne particles.",
+    "treatment": "Antibiotics such as isoniazid, rifampin over a long period (6-9 months)."
+  },
+  {
+    "topic": "Appendicitis",
+    "question": "What are the symptoms, causes, and treatment of appendicitis? (version 20)",
+    "symptoms": "Lower right abdominal pain, nausea, vomiting, loss of appetite, fever.",
+    "causes": "Blockage in the appendix leading to infection.",
+    "treatment": "Surgical removal of the appendix (appendectomy)."
+  },
+  {
+    "topic": "Hepatitis B",
+    "question": "What are the symptoms, causes, and treatment of hepatitis B? (version 20)",
+    "symptoms": "Fatigue, jaundice, dark urine, abdominal pain, loss of appetite.",
+    "causes": "Hepatitis B virus (HBV), transmitted via blood and bodily fluids.",
+    "treatment": "Antiviral medications, rest, liver monitoring; vaccination prevents infection."
+  },
+  {
+    "topic": "Anemia",
+    "question": "What are the symptoms, causes, and treatment of anemia? (version 20)",
+    "symptoms": "Fatigue, weakness, pale skin, shortness of breath, dizziness.",
+    "causes": "Iron deficiency, blood loss, chronic disease, poor diet.",
+    "treatment": "Iron supplements, dietary changes, treating the underlying cause."
+  },
+  {
+    "topic": "Malaria",
+    "question": "What are the symptoms, causes, and treatment of malaria? (version 21)",
+    "symptoms": "Fever, chills, headache, vomiting, muscle pain.",
+    "causes": "Plasmodium parasite transmitted by Anopheles mosquitoes.",
+    "treatment": "Antimalarial medications such as chloroquine, artemisinin-based combination therapies (ACTs)."
+  },
+  {
+    "topic": "Diabetes Type 2",
+    "question": "What are the symptoms, causes, and treatment of type 2 diabetes? (version 21)",
+    "symptoms": "Increased thirst, frequent urination, hunger, fatigue, blurred vision.",
+    "causes": "Insulin resistance and high blood sugar levels, often linked to obesity and genetics.",
+    "treatment": "Diet and exercise, oral medications (e.g., metformin), insulin therapy."
+  },
+  {
+    "topic": "Typhoid Fever",
+    "question": "What are the symptoms, causes, and treatment of typhoid fever? (version 21)",
+    "symptoms": "High fever, weakness, stomach pain, headache, loss of appetite.",
+    "causes": "Salmonella typhi bacteria, spread through contaminated food or water.",
+    "treatment": "Antibiotics such as ciprofloxacin or azithromycin, hydration, proper nutrition."
+  },
+  {
+    "topic": "Hypertension",
+    "question": "What are the symptoms, causes, and treatment of hypertension? (version 21)",
+    "symptoms": "Often asymptomatic, but can include headaches, dizziness, and nosebleeds.",
+    "causes": "Genetics, poor diet, lack of exercise, stress, obesity.",
+    "treatment": "Lifestyle changes, antihypertensive drugs like ACE inhibitors or beta-blockers."
+  },
+  {
+    "topic": "Asthma",
+    "question": "What are the symptoms, causes, and treatment of asthma? (version 21)",
+    "symptoms": "Wheezing, shortness of breath, chest tightness, coughing.",
+    "causes": "Allergens, exercise, cold air, respiratory infections.",
+    "treatment": "Inhalers (bronchodilators and corticosteroids), avoiding triggers."
+  },
+  {
+    "topic": "COVID-19",
+    "question": "What are the symptoms, causes, and treatment of COVID-19? (version 21)",
+    "symptoms": "Fever, cough, fatigue, loss of taste or smell, difficulty breathing.",
+    "causes": "Infection by the SARS-CoV-2 virus, transmitted via respiratory droplets.",
+    "treatment": "Supportive care, antiviral medications, vaccination."
+  },
+  {
+    "topic": "Tuberculosis",
+    "question": "What are the symptoms, causes, and treatment of tuberculosis? (version 21)",
+    "symptoms": "Persistent cough, chest pain, weight loss, night sweats, fever.",
+    "causes": "Mycobacterium tuberculosis bacteria, spread through airborne particles.",
+    "treatment": "Antibiotics such as isoniazid, rifampin over a long period (6-9 months)."
+  },
+  {
+    "topic": "Appendicitis",
+    "question": "What are the symptoms, causes, and treatment of appendicitis? (version 21)",
+    "symptoms": "Lower right abdominal pain, nausea, vomiting, loss of appetite, fever.",
+    "causes": "Blockage in the appendix leading to infection.",
+    "treatment": "Surgical removal of the appendix (appendectomy)."
+  },
+  {
+    "topic": "Hepatitis B",
+    "question": "What are the symptoms, causes, and treatment of hepatitis B? (version 21)",
+    "symptoms": "Fatigue, jaundice, dark urine, abdominal pain, loss of appetite.",
+    "causes": "Hepatitis B virus (HBV), transmitted via blood and bodily fluids.",
+    "treatment": "Antiviral medications, rest, liver monitoring; vaccination prevents infection."
+  },
+  {
+    "topic": "Anemia",
+    "question": "What are the symptoms, causes, and treatment of anemia? (version 21)",
+    "symptoms": "Fatigue, weakness, pale skin, shortness of breath, dizziness.",
+    "causes": "Iron deficiency, blood loss, chronic disease, poor diet.",
+    "treatment": "Iron supplements, dietary changes, treating the underlying cause."
+  },
+  {
+    "topic": "Malaria",
+    "question": "What are the symptoms, causes, and treatment of malaria? (version 22)",
+    "symptoms": "Fever, chills, headache, vomiting, muscle pain.",
+    "causes": "Plasmodium parasite transmitted by Anopheles mosquitoes.",
+    "treatment": "Antimalarial medications such as chloroquine, artemisinin-based combination therapies (ACTs)."
+  },
+  {
+    "topic": "Diabetes Type 2",
+    "question": "What are the symptoms, causes, and treatment of type 2 diabetes? (version 22)",
+    "symptoms": "Increased thirst, frequent urination, hunger, fatigue, blurred vision.",
+    "causes": "Insulin resistance and high blood sugar levels, often linked to obesity and genetics.",
+    "treatment": "Diet and exercise, oral medications (e.g., metformin), insulin therapy."
+  },
+  {
+    "topic": "Typhoid Fever",
+    "question": "What are the symptoms, causes, and treatment of typhoid fever? (version 22)",
+    "symptoms": "High fever, weakness, stomach pain, headache, loss of appetite.",
+    "causes": "Salmonella typhi bacteria, spread through contaminated food or water.",
+    "treatment": "Antibiotics such as ciprofloxacin or azithromycin, hydration, proper nutrition."
+  },
+  {
+    "topic": "Hypertension",
+    "question": "What are the symptoms, causes, and treatment of hypertension? (version 22)",
+    "symptoms": "Often asymptomatic, but can include headaches, dizziness, and nosebleeds.",
+    "causes": "Genetics, poor diet, lack of exercise, stress, obesity.",
+    "treatment": "Lifestyle changes, antihypertensive drugs like ACE inhibitors or beta-blockers."
+  },
+  {
+    "topic": "Asthma",
+    "question": "What are the symptoms, causes, and treatment of asthma? (version 22)",
+    "symptoms": "Wheezing, shortness of breath, chest tightness, coughing.",
+    "causes": "Allergens, exercise, cold air, respiratory infections.",
+    "treatment": "Inhalers (bronchodilators and corticosteroids), avoiding triggers."
+  },
+  {
+    "topic": "COVID-19",
+    "question": "What are the symptoms, causes, and treatment of COVID-19? (version 22)",
+    "symptoms": "Fever, cough, fatigue, loss of taste or smell, difficulty breathing.",
+    "causes": "Infection by the SARS-CoV-2 virus, transmitted via respiratory droplets.",
+    "treatment": "Supportive care, antiviral medications, vaccination."
+  },
+  {
+    "topic": "Tuberculosis",
+    "question": "What are the symptoms, causes, and treatment of tuberculosis? (version 22)",
+    "symptoms": "Persistent cough, chest pain, weight loss, night sweats, fever.",
+    "causes": "Mycobacterium tuberculosis bacteria, spread through airborne particles.",
+    "treatment": "Antibiotics such as isoniazid, rifampin over a long period (6-9 months)."
+  },
+  {
+    "topic": "Appendicitis",
+    "question": "What are the symptoms, causes, and treatment of appendicitis? (version 22)",
+    "symptoms": "Lower right abdominal pain, nausea, vomiting, loss of appetite, fever.",
+    "causes": "Blockage in the appendix leading to infection.",
+    "treatment": "Surgical removal of the appendix (appendectomy)."
+  },
+  {
+    "topic": "Hepatitis B",
+    "question": "What are the symptoms, causes, and treatment of hepatitis B? (version 22)",
+    "symptoms": "Fatigue, jaundice, dark urine, abdominal pain, loss of appetite.",
+    "causes": "Hepatitis B virus (HBV), transmitted via blood and bodily fluids.",
+    "treatment": "Antiviral medications, rest, liver monitoring; vaccination prevents infection."
+  },
+  {
+    "topic": "Anemia",
+    "question": "What are the symptoms, causes, and treatment of anemia? (version 22)",
+    "symptoms": "Fatigue, weakness, pale skin, shortness of breath, dizziness.",
+    "causes": "Iron deficiency, blood loss, chronic disease, poor diet.",
+    "treatment": "Iron supplements, dietary changes, treating the underlying cause."
+  },
+  {
+    "topic": "Malaria",
+    "question": "What are the symptoms, causes, and treatment of malaria? (version 23)",
+    "symptoms": "Fever, chills, headache, vomiting, muscle pain.",
+    "causes": "Plasmodium parasite transmitted by Anopheles mosquitoes.",
+    "treatment": "Antimalarial medications such as chloroquine, artemisinin-based combination therapies (ACTs)."
+  },
+  {
+    "topic": "Diabetes Type 2",
+    "question": "What are the symptoms, causes, and treatment of type 2 diabetes? (version 23)",
+    "symptoms": "Increased thirst, frequent urination, hunger, fatigue, blurred vision.",
+    "causes": "Insulin resistance and high blood sugar levels, often linked to obesity and genetics.",
+    "treatment": "Diet and exercise, oral medications (e.g., metformin), insulin therapy."
+  },
+  {
+    "topic": "Typhoid Fever",
+    "question": "What are the symptoms, causes, and treatment of typhoid fever? (version 23)",
+    "symptoms": "High fever, weakness, stomach pain, headache, loss of appetite.",
+    "causes": "Salmonella typhi bacteria, spread through contaminated food or water.",
+    "treatment": "Antibiotics such as ciprofloxacin or azithromycin, hydration, proper nutrition."
+  },
+  {
+    "topic": "Hypertension",
+    "question": "What are the symptoms, causes, and treatment of hypertension? (version 23)",
+    "symptoms": "Often asymptomatic, but can include headaches, dizziness, and nosebleeds.",
+    "causes": "Genetics, poor diet, lack of exercise, stress, obesity.",
+    "treatment": "Lifestyle changes, antihypertensive drugs like ACE inhibitors or beta-blockers."
+  },
+  {
+    "topic": "Asthma",
+    "question": "What are the symptoms, causes, and treatment of asthma? (version 23)",
+    "symptoms": "Wheezing, shortness of breath, chest tightness, coughing.",
+    "causes": "Allergens, exercise, cold air, respiratory infections.",
+    "treatment": "Inhalers (bronchodilators and corticosteroids), avoiding triggers."
+  },
+  {
+    "topic": "COVID-19",
+    "question": "What are the symptoms, causes, and treatment of COVID-19? (version 23)",
+    "symptoms": "Fever, cough, fatigue, loss of taste or smell, difficulty breathing.",
+    "causes": "Infection by the SARS-CoV-2 virus, transmitted via respiratory droplets.",
+    "treatment": "Supportive care, antiviral medications, vaccination."
+  },
+  {
+    "topic": "Tuberculosis",
+    "question": "What are the symptoms, causes, and treatment of tuberculosis? (version 23)",
+    "symptoms": "Persistent cough, chest pain, weight loss, night sweats, fever.",
+    "causes": "Mycobacterium tuberculosis bacteria, spread through airborne particles.",
+    "treatment": "Antibiotics such as isoniazid, rifampin over a long period (6-9 months)."
+  },
+  {
+    "topic": "Appendicitis",
+    "question": "What are the symptoms, causes, and treatment of appendicitis? (version 23)",
+    "symptoms": "Lower right abdominal pain, nausea, vomiting, loss of appetite, fever.",
+    "causes": "Blockage in the appendix leading to infection.",
+    "treatment": "Surgical removal of the appendix (appendectomy)."
+  },
+  {
+    "topic": "Hepatitis B",
+    "question": "What are the symptoms, causes, and treatment of hepatitis B? (version 23)",
+    "symptoms": "Fatigue, jaundice, dark urine, abdominal pain, loss of appetite.",
+    "causes": "Hepatitis B virus (HBV), transmitted via blood and bodily fluids.",
+    "treatment": "Antiviral medications, rest, liver monitoring; vaccination prevents infection."
+  },
+  {
+    "topic": "Anemia",
+    "question": "What are the symptoms, causes, and treatment of anemia? (version 23)",
+    "symptoms": "Fatigue, weakness, pale skin, shortness of breath, dizziness.",
+    "causes": "Iron deficiency, blood loss, chronic disease, poor diet.",
+    "treatment": "Iron supplements, dietary changes, treating the underlying cause."
+  },
+  {
+    "topic": "Malaria",
+    "question": "What are the symptoms, causes, and treatment of malaria? (version 24)",
+    "symptoms": "Fever, chills, headache, vomiting, muscle pain.",
+    "causes": "Plasmodium parasite transmitted by Anopheles mosquitoes.",
+    "treatment": "Antimalarial medications such as chloroquine, artemisinin-based combination therapies (ACTs)."
+  },
+  {
+    "topic": "Diabetes Type 2",
+    "question": "What are the symptoms, causes, and treatment of type 2 diabetes? (version 24)",
+    "symptoms": "Increased thirst, frequent urination, hunger, fatigue, blurred vision.",
+    "causes": "Insulin resistance and high blood sugar levels, often linked to obesity and genetics.",
+    "treatment": "Diet and exercise, oral medications (e.g., metformin), insulin therapy."
+  },
+  {
+    "topic": "Typhoid Fever",
+    "question": "What are the symptoms, causes, and treatment of typhoid fever? (version 24)",
+    "symptoms": "High fever, weakness, stomach pain, headache, loss of appetite.",
+    "causes": "Salmonella typhi bacteria, spread through contaminated food or water.",
+    "treatment": "Antibiotics such as ciprofloxacin or azithromycin, hydration, proper nutrition."
+  },
+  {
+    "topic": "Hypertension",
+    "question": "What are the symptoms, causes, and treatment of hypertension? (version 24)",
+    "symptoms": "Often asymptomatic, but can include headaches, dizziness, and nosebleeds.",
+    "causes": "Genetics, poor diet, lack of exercise, stress, obesity.",
+    "treatment": "Lifestyle changes, antihypertensive drugs like ACE inhibitors or beta-blockers."
+  },
+  {
+    "topic": "Asthma",
+    "question": "What are the symptoms, causes, and treatment of asthma? (version 24)",
+    "symptoms": "Wheezing, shortness of breath, chest tightness, coughing.",
+    "causes": "Allergens, exercise, cold air, respiratory infections.",
+    "treatment": "Inhalers (bronchodilators and corticosteroids), avoiding triggers."
+  },
+  {
+    "topic": "COVID-19",
+    "question": "What are the symptoms, causes, and treatment of COVID-19? (version 24)",
+    "symptoms": "Fever, cough, fatigue, loss of taste or smell, difficulty breathing.",
+    "causes": "Infection by the SARS-CoV-2 virus, transmitted via respiratory droplets.",
+    "treatment": "Supportive care, antiviral medications, vaccination."
+  },
+  {
+    "topic": "Tuberculosis",
+    "question": "What are the symptoms, causes, and treatment of tuberculosis? (version 24)",
+    "symptoms": "Persistent cough, chest pain, weight loss, night sweats, fever.",
+    "causes": "Mycobacterium tuberculosis bacteria, spread through airborne particles.",
+    "treatment": "Antibiotics such as isoniazid, rifampin over a long period (6-9 months)."
+  },
+  {
+    "topic": "Appendicitis",
+    "question": "What are the symptoms, causes, and treatment of appendicitis? (version 24)",
+    "symptoms": "Lower right abdominal pain, nausea, vomiting, loss of appetite, fever.",
+    "causes": "Blockage in the appendix leading to infection.",
+    "treatment": "Surgical removal of the appendix (appendectomy)."
+  },
+  {
+    "topic": "Hepatitis B",
+    "question": "What are the symptoms, causes, and treatment of hepatitis B? (version 24)",
+    "symptoms": "Fatigue, jaundice, dark urine, abdominal pain, loss of appetite.",
+    "causes": "Hepatitis B virus (HBV), transmitted via blood and bodily fluids.",
+    "treatment": "Antiviral medications, rest, liver monitoring; vaccination prevents infection."
+  },
+  {
+    "topic": "Anemia",
+    "question": "What are the symptoms, causes, and treatment of anemia? (version 24)",
+    "symptoms": "Fatigue, weakness, pale skin, shortness of breath, dizziness.",
+    "causes": "Iron deficiency, blood loss, chronic disease, poor diet.",
+    "treatment": "Iron supplements, dietary changes, treating the underlying cause."
+  },
+  {
+    "topic": "Malaria",
+    "question": "What are the symptoms, causes, and treatment of malaria? (version 25)",
+    "symptoms": "Fever, chills, headache, vomiting, muscle pain.",
+    "causes": "Plasmodium parasite transmitted by Anopheles mosquitoes.",
+    "treatment": "Antimalarial medications such as chloroquine, artemisinin-based combination therapies (ACTs)."
+  },
+  {
+    "topic": "Diabetes Type 2",
+    "question": "What are the symptoms, causes, and treatment of type 2 diabetes? (version 25)",
+    "symptoms": "Increased thirst, frequent urination, hunger, fatigue, blurred vision.",
+    "causes": "Insulin resistance and high blood sugar levels, often linked to obesity and genetics.",
+    "treatment": "Diet and exercise, oral medications (e.g., metformin), insulin therapy."
+  },
+  {
+    "topic": "Typhoid Fever",
+    "question": "What are the symptoms, causes, and treatment of typhoid fever? (version 25)",
+    "symptoms": "High fever, weakness, stomach pain, headache, loss of appetite.",
+    "causes": "Salmonella typhi bacteria, spread through contaminated food or water.",
+    "treatment": "Antibiotics such as ciprofloxacin or azithromycin, hydration, proper nutrition."
+  },
+  {
+    "topic": "Hypertension",
+    "question": "What are the symptoms, causes, and treatment of hypertension? (version 25)",
+    "symptoms": "Often asymptomatic, but can include headaches, dizziness, and nosebleeds.",
+    "causes": "Genetics, poor diet, lack of exercise, stress, obesity.",
+    "treatment": "Lifestyle changes, antihypertensive drugs like ACE inhibitors or beta-blockers."
+  },
+  {
+    "topic": "Asthma",
+    "question": "What are the symptoms, causes, and treatment of asthma? (version 25)",
+    "symptoms": "Wheezing, shortness of breath, chest tightness, coughing.",
+    "causes": "Allergens, exercise, cold air, respiratory infections.",
+    "treatment": "Inhalers (bronchodilators and corticosteroids), avoiding triggers."
+  },
+  {
+    "topic": "COVID-19",
+    "question": "What are the symptoms, causes, and treatment of COVID-19? (version 25)",
+    "symptoms": "Fever, cough, fatigue, loss of taste or smell, difficulty breathing.",
+    "causes": "Infection by the SARS-CoV-2 virus, transmitted via respiratory droplets.",
+    "treatment": "Supportive care, antiviral medications, vaccination."
+  },
+  {
+    "topic": "Tuberculosis",
+    "question": "What are the symptoms, causes, and treatment of tuberculosis? (version 25)",
+    "symptoms": "Persistent cough, chest pain, weight loss, night sweats, fever.",
+    "causes": "Mycobacterium tuberculosis bacteria, spread through airborne particles.",
+    "treatment": "Antibiotics such as isoniazid, rifampin over a long period (6-9 months)."
+  },
+  {
+    "topic": "Appendicitis",
+    "question": "What are the symptoms, causes, and treatment of appendicitis? (version 25)",
+    "symptoms": "Lower right abdominal pain, nausea, vomiting, loss of appetite, fever.",
+    "causes": "Blockage in the appendix leading to infection.",
+    "treatment": "Surgical removal of the appendix (appendectomy)."
+  },
+  {
+    "topic": "Hepatitis B",
+    "question": "What are the symptoms, causes, and treatment of hepatitis B? (version 25)",
+    "symptoms": "Fatigue, jaundice, dark urine, abdominal pain, loss of appetite.",
+    "causes": "Hepatitis B virus (HBV), transmitted via blood and bodily fluids.",
+    "treatment": "Antiviral medications, rest, liver monitoring; vaccination prevents infection."
+  },
+  {
+    "topic": "Anemia",
+    "question": "What are the symptoms, causes, and treatment of anemia? (version 25)",
+    "symptoms": "Fatigue, weakness, pale skin, shortness of breath, dizziness.",
+    "causes": "Iron deficiency, blood loss, chronic disease, poor diet.",
+    "treatment": "Iron supplements, dietary changes, treating the underlying cause."
+  },
+  {
+    "topic": "Malaria",
+    "question": "What are the symptoms, causes, and treatment of malaria? (version 26)",
+    "symptoms": "Fever, chills, headache, vomiting, muscle pain.",
+    "causes": "Plasmodium parasite transmitted by Anopheles mosquitoes.",
+    "treatment": "Antimalarial medications such as chloroquine, artemisinin-based combination therapies (ACTs)."
+  },
+  {
+    "topic": "Diabetes Type 2",
+    "question": "What are the symptoms, causes, and treatment of type 2 diabetes? (version 26)",
+    "symptoms": "Increased thirst, frequent urination, hunger, fatigue, blurred vision.",
+    "causes": "Insulin resistance and high blood sugar levels, often linked to obesity and genetics.",
+    "treatment": "Diet and exercise, oral medications (e.g., metformin), insulin therapy."
+  },
+  {
+    "topic": "Typhoid Fever",
+    "question": "What are the symptoms, causes, and treatment of typhoid fever? (version 26)",
+    "symptoms": "High fever, weakness, stomach pain, headache, loss of appetite.",
+    "causes": "Salmonella typhi bacteria, spread through contaminated food or water.",
+    "treatment": "Antibiotics such as ciprofloxacin or azithromycin, hydration, proper nutrition."
+  },
+  {
+    "topic": "Hypertension",
+    "question": "What are the symptoms, causes, and treatment of hypertension? (version 26)",
+    "symptoms": "Often asymptomatic, but can include headaches, dizziness, and nosebleeds.",
+    "causes": "Genetics, poor diet, lack of exercise, stress, obesity.",
+    "treatment": "Lifestyle changes, antihypertensive drugs like ACE inhibitors or beta-blockers."
+  },
+  {
+    "topic": "Asthma",
+    "question": "What are the symptoms, causes, and treatment of asthma? (version 26)",
+    "symptoms": "Wheezing, shortness of breath, chest tightness, coughing.",
+    "causes": "Allergens, exercise, cold air, respiratory infections.",
+    "treatment": "Inhalers (bronchodilators and corticosteroids), avoiding triggers."
+  },
+  {
+    "topic": "COVID-19",
+    "question": "What are the symptoms, causes, and treatment of COVID-19? (version 26)",
+    "symptoms": "Fever, cough, fatigue, loss of taste or smell, difficulty breathing.",
+    "causes": "Infection by the SARS-CoV-2 virus, transmitted via respiratory droplets.",
+    "treatment": "Supportive care, antiviral medications, vaccination."
+  },
+  {
+    "topic": "Tuberculosis",
+    "question": "What are the symptoms, causes, and treatment of tuberculosis? (version 26)",
+    "symptoms": "Persistent cough, chest pain, weight loss, night sweats, fever.",
+    "causes": "Mycobacterium tuberculosis bacteria, spread through airborne particles.",
+    "treatment": "Antibiotics such as isoniazid, rifampin over a long period (6-9 months)."
+  },
+  {
+    "topic": "Appendicitis",
+    "question": "What are the symptoms, causes, and treatment of appendicitis? (version 26)",
+    "symptoms": "Lower right abdominal pain, nausea, vomiting, loss of appetite, fever.",
+    "causes": "Blockage in the appendix leading to infection.",
+    "treatment": "Surgical removal of the appendix (appendectomy)."
+  },
+  {
+    "topic": "Hepatitis B",
+    "question": "What are the symptoms, causes, and treatment of hepatitis B? (version 26)",
+    "symptoms": "Fatigue, jaundice, dark urine, abdominal pain, loss of appetite.",
+    "causes": "Hepatitis B virus (HBV), transmitted via blood and bodily fluids.",
+    "treatment": "Antiviral medications, rest, liver monitoring; vaccination prevents infection."
+  },
+  {
+    "topic": "Anemia",
+    "question": "What are the symptoms, causes, and treatment of anemia? (version 26)",
+    "symptoms": "Fatigue, weakness, pale skin, shortness of breath, dizziness.",
+    "causes": "Iron deficiency, blood loss, chronic disease, poor diet.",
+    "treatment": "Iron supplements, dietary changes, treating the underlying cause."
+  },
+  {
+    "topic": "Malaria",
+    "question": "What are the symptoms, causes, and treatment of malaria? (version 27)",
+    "symptoms": "Fever, chills, headache, vomiting, muscle pain.",
+    "causes": "Plasmodium parasite transmitted by Anopheles mosquitoes.",
+    "treatment": "Antimalarial medications such as chloroquine, artemisinin-based combination therapies (ACTs)."
+  },
+  {
+    "topic": "Diabetes Type 2",
+    "question": "What are the symptoms, causes, and treatment of type 2 diabetes? (version 27)",
+    "symptoms": "Increased thirst, frequent urination, hunger, fatigue, blurred vision.",
+    "causes": "Insulin resistance and high blood sugar levels, often linked to obesity and genetics.",
+    "treatment": "Diet and exercise, oral medications (e.g., metformin), insulin therapy."
+  },
+  {
+    "topic": "Typhoid Fever",
+    "question": "What are the symptoms, causes, and treatment of typhoid fever? (version 27)",
+    "symptoms": "High fever, weakness, stomach pain, headache, loss of appetite.",
+    "causes": "Salmonella typhi bacteria, spread through contaminated food or water.",
+    "treatment": "Antibiotics such as ciprofloxacin or azithromycin, hydration, proper nutrition."
+  },
+  {
+    "topic": "Hypertension",
+    "question": "What are the symptoms, causes, and treatment of hypertension? (version 27)",
+    "symptoms": "Often asymptomatic, but can include headaches, dizziness, and nosebleeds.",
+    "causes": "Genetics, poor diet, lack of exercise, stress, obesity.",
+    "treatment": "Lifestyle changes, antihypertensive drugs like ACE inhibitors or beta-blockers."
+  },
+  {
+    "topic": "Asthma",
+    "question": "What are the symptoms, causes, and treatment of asthma? (version 27)",
+    "symptoms": "Wheezing, shortness of breath, chest tightness, coughing.",
+    "causes": "Allergens, exercise, cold air, respiratory infections.",
+    "treatment": "Inhalers (bronchodilators and corticosteroids), avoiding triggers."
+  },
+  {
+    "topic": "COVID-19",
+    "question": "What are the symptoms, causes, and treatment of COVID-19? (version 27)",
+    "symptoms": "Fever, cough, fatigue, loss of taste or smell, difficulty breathing.",
+    "causes": "Infection by the SARS-CoV-2 virus, transmitted via respiratory droplets.",
+    "treatment": "Supportive care, antiviral medications, vaccination."
+  },
+  {
+    "topic": "Tuberculosis",
+    "question": "What are the symptoms, causes, and treatment of tuberculosis? (version 27)",
+    "symptoms": "Persistent cough, chest pain, weight loss, night sweats, fever.",
+    "causes": "Mycobacterium tuberculosis bacteria, spread through airborne particles.",
+    "treatment": "Antibiotics such as isoniazid, rifampin over a long period (6-9 months)."
+  },
+  {
+    "topic": "Appendicitis",
+    "question": "What are the symptoms, causes, and treatment of appendicitis? (version 27)",
+    "symptoms": "Lower right abdominal pain, nausea, vomiting, loss of appetite, fever.",
+    "causes": "Blockage in the appendix leading to infection.",
+    "treatment": "Surgical removal of the appendix (appendectomy)."
+  },
+  {
+    "topic": "Hepatitis B",
+    "question": "What are the symptoms, causes, and treatment of hepatitis B? (version 27)",
+    "symptoms": "Fatigue, jaundice, dark urine, abdominal pain, loss of appetite.",
+    "causes": "Hepatitis B virus (HBV), transmitted via blood and bodily fluids.",
+    "treatment": "Antiviral medications, rest, liver monitoring; vaccination prevents infection."
+  },
+  {
+    "topic": "Anemia",
+    "question": "What are the symptoms, causes, and treatment of anemia? (version 27)",
+    "symptoms": "Fatigue, weakness, pale skin, shortness of breath, dizziness.",
+    "causes": "Iron deficiency, blood loss, chronic disease, poor diet.",
+    "treatment": "Iron supplements, dietary changes, treating the underlying cause."
+  },
+  {
+    "topic": "Malaria",
+    "question": "What are the symptoms, causes, and treatment of malaria? (version 28)",
+    "symptoms": "Fever, chills, headache, vomiting, muscle pain.",
+    "causes": "Plasmodium parasite transmitted by Anopheles mosquitoes.",
+    "treatment": "Antimalarial medications such as chloroquine, artemisinin-based combination therapies (ACTs)."
+  },
+  {
+    "topic": "Diabetes Type 2",
+    "question": "What are the symptoms, causes, and treatment of type 2 diabetes? (version 28)",
+    "symptoms": "Increased thirst, frequent urination, hunger, fatigue, blurred vision.",
+    "causes": "Insulin resistance and high blood sugar levels, often linked to obesity and genetics.",
+    "treatment": "Diet and exercise, oral medications (e.g., metformin), insulin therapy."
+  },
+  {
+    "topic": "Typhoid Fever",
+    "question": "What are the symptoms, causes, and treatment of typhoid fever? (version 28)",
+    "symptoms": "High fever, weakness, stomach pain, headache, loss of appetite.",
+    "causes": "Salmonella typhi bacteria, spread through contaminated food or water.",
+    "treatment": "Antibiotics such as ciprofloxacin or azithromycin, hydration, proper nutrition."
+  },
+  {
+    "topic": "Hypertension",
+    "question": "What are the symptoms, causes, and treatment of hypertension? (version 28)",
+    "symptoms": "Often asymptomatic, but can include headaches, dizziness, and nosebleeds.",
+    "causes": "Genetics, poor diet, lack of exercise, stress, obesity.",
+    "treatment": "Lifestyle changes, antihypertensive drugs like ACE inhibitors or beta-blockers."
+  },
+  {
+    "topic": "Asthma",
+    "question": "What are the symptoms, causes, and treatment of asthma? (version 28)",
+    "symptoms": "Wheezing, shortness of breath, chest tightness, coughing.",
+    "causes": "Allergens, exercise, cold air, respiratory infections.",
+    "treatment": "Inhalers (bronchodilators and corticosteroids), avoiding triggers."
+  },
+  {
+    "topic": "COVID-19",
+    "question": "What are the symptoms, causes, and treatment of COVID-19? (version 28)",
+    "symptoms": "Fever, cough, fatigue, loss of taste or smell, difficulty breathing.",
+    "causes": "Infection by the SARS-CoV-2 virus, transmitted via respiratory droplets.",
+    "treatment": "Supportive care, antiviral medications, vaccination."
+  },
+  {
+    "topic": "Tuberculosis",
+    "question": "What are the symptoms, causes, and treatment of tuberculosis? (version 28)",
+    "symptoms": "Persistent cough, chest pain, weight loss, night sweats, fever.",
+    "causes": "Mycobacterium tuberculosis bacteria, spread through airborne particles.",
+    "treatment": "Antibiotics such as isoniazid, rifampin over a long period (6-9 months)."
+  },
+  {
+    "topic": "Appendicitis",
+    "question": "What are the symptoms, causes, and treatment of appendicitis? (version 28)",
+    "symptoms": "Lower right abdominal pain, nausea, vomiting, loss of appetite, fever.",
+    "causes": "Blockage in the appendix leading to infection.",
+    "treatment": "Surgical removal of the appendix (appendectomy)."
+  },
+  {
+    "topic": "Hepatitis B",
+    "question": "What are the symptoms, causes, and treatment of hepatitis B? (version 28)",
+    "symptoms": "Fatigue, jaundice, dark urine, abdominal pain, loss of appetite.",
+    "causes": "Hepatitis B virus (HBV), transmitted via blood and bodily fluids.",
+    "treatment": "Antiviral medications, rest, liver monitoring; vaccination prevents infection."
+  },
+  {
+    "topic": "Anemia",
+    "question": "What are the symptoms, causes, and treatment of anemia? (version 28)",
+    "symptoms": "Fatigue, weakness, pale skin, shortness of breath, dizziness.",
+    "causes": "Iron deficiency, blood loss, chronic disease, poor diet.",
+    "treatment": "Iron supplements, dietary changes, treating the underlying cause."
+  },
+  {
+    "topic": "Malaria",
+    "question": "What are the symptoms, causes, and treatment of malaria? (version 29)",
+    "symptoms": "Fever, chills, headache, vomiting, muscle pain.",
+    "causes": "Plasmodium parasite transmitted by Anopheles mosquitoes.",
+    "treatment": "Antimalarial medications such as chloroquine, artemisinin-based combination therapies (ACTs)."
+  },
+  {
+    "topic": "Diabetes Type 2",
+    "question": "What are the symptoms, causes, and treatment of type 2 diabetes? (version 29)",
+    "symptoms": "Increased thirst, frequent urination, hunger, fatigue, blurred vision.",
+    "causes": "Insulin resistance and high blood sugar levels, often linked to obesity and genetics.",
+    "treatment": "Diet and exercise, oral medications (e.g., metformin), insulin therapy."
+  },
+  {
+    "topic": "Typhoid Fever",
+    "question": "What are the symptoms, causes, and treatment of typhoid fever? (version 29)",
+    "symptoms": "High fever, weakness, stomach pain, headache, loss of appetite.",
+    "causes": "Salmonella typhi bacteria, spread through contaminated food or water.",
+    "treatment": "Antibiotics such as ciprofloxacin or azithromycin, hydration, proper nutrition."
+  },
+  {
+    "topic": "Hypertension",
+    "question": "What are the symptoms, causes, and treatment of hypertension? (version 29)",
+    "symptoms": "Often asymptomatic, but can include headaches, dizziness, and nosebleeds.",
+    "causes": "Genetics, poor diet, lack of exercise, stress, obesity.",
+    "treatment": "Lifestyle changes, antihypertensive drugs like ACE inhibitors or beta-blockers."
+  },
+  {
+    "topic": "Asthma",
+    "question": "What are the symptoms, causes, and treatment of asthma? (version 29)",
+    "symptoms": "Wheezing, shortness of breath, chest tightness, coughing.",
+    "causes": "Allergens, exercise, cold air, respiratory infections.",
+    "treatment": "Inhalers (bronchodilators and corticosteroids), avoiding triggers."
+  },
+  {
+    "topic": "COVID-19",
+    "question": "What are the symptoms, causes, and treatment of COVID-19? (version 29)",
+    "symptoms": "Fever, cough, fatigue, loss of taste or smell, difficulty breathing.",
+    "causes": "Infection by the SARS-CoV-2 virus, transmitted via respiratory droplets.",
+    "treatment": "Supportive care, antiviral medications, vaccination."
+  },
+  {
+    "topic": "Tuberculosis",
+    "question": "What are the symptoms, causes, and treatment of tuberculosis? (version 29)",
+    "symptoms": "Persistent cough, chest pain, weight loss, night sweats, fever.",
+    "causes": "Mycobacterium tuberculosis bacteria, spread through airborne particles.",
+    "treatment": "Antibiotics such as isoniazid, rifampin over a long period (6-9 months)."
+  },
+  {
+    "topic": "Appendicitis",
+    "question": "What are the symptoms, causes, and treatment of appendicitis? (version 29)",
+    "symptoms": "Lower right abdominal pain, nausea, vomiting, loss of appetite, fever.",
+    "causes": "Blockage in the appendix leading to infection.",
+    "treatment": "Surgical removal of the appendix (appendectomy)."
+  },
+  {
+    "topic": "Hepatitis B",
+    "question": "What are the symptoms, causes, and treatment of hepatitis B? (version 29)",
+    "symptoms": "Fatigue, jaundice, dark urine, abdominal pain, loss of appetite.",
+    "causes": "Hepatitis B virus (HBV), transmitted via blood and bodily fluids.",
+    "treatment": "Antiviral medications, rest, liver monitoring; vaccination prevents infection."
+  },
+  {
+    "topic": "Anemia",
+    "question": "What are the symptoms, causes, and treatment of anemia? (version 29)",
+    "symptoms": "Fatigue, weakness, pale skin, shortness of breath, dizziness.",
+    "causes": "Iron deficiency, blood loss, chronic disease, poor diet.",
+    "treatment": "Iron supplements, dietary changes, treating the underlying cause."
+  },
+  {
+    "topic": "Malaria",
+    "question": "What are the symptoms, causes, and treatment of malaria? (version 30)",
+    "symptoms": "Fever, chills, headache, vomiting, muscle pain.",
+    "causes": "Plasmodium parasite transmitted by Anopheles mosquitoes.",
+    "treatment": "Antimalarial medications such as chloroquine, artemisinin-based combination therapies (ACTs)."
+  },
+  {
+    "topic": "Diabetes Type 2",
+    "question": "What are the symptoms, causes, and treatment of type 2 diabetes? (version 30)",
+    "symptoms": "Increased thirst, frequent urination, hunger, fatigue, blurred vision.",
+    "causes": "Insulin resistance and high blood sugar levels, often linked to obesity and genetics.",
+    "treatment": "Diet and exercise, oral medications (e.g., metformin), insulin therapy."
+  },
+  {
+    "topic": "Typhoid Fever",
+    "question": "What are the symptoms, causes, and treatment of typhoid fever? (version 30)",
+    "symptoms": "High fever, weakness, stomach pain, headache, loss of appetite.",
+    "causes": "Salmonella typhi bacteria, spread through contaminated food or water.",
+    "treatment": "Antibiotics such as ciprofloxacin or azithromycin, hydration, proper nutrition."
+  },
+  {
+    "topic": "Hypertension",
+    "question": "What are the symptoms, causes, and treatment of hypertension? (version 30)",
+    "symptoms": "Often asymptomatic, but can include headaches, dizziness, and nosebleeds.",
+    "causes": "Genetics, poor diet, lack of exercise, stress, obesity.",
+    "treatment": "Lifestyle changes, antihypertensive drugs like ACE inhibitors or beta-blockers."
+  },
+  {
+    "topic": "Asthma",
+    "question": "What are the symptoms, causes, and treatment of asthma? (version 30)",
+    "symptoms": "Wheezing, shortness of breath, chest tightness, coughing.",
+    "causes": "Allergens, exercise, cold air, respiratory infections.",
+    "treatment": "Inhalers (bronchodilators and corticosteroids), avoiding triggers."
+  },
+  {
+    "topic": "COVID-19",
+    "question": "What are the symptoms, causes, and treatment of COVID-19? (version 30)",
+    "symptoms": "Fever, cough, fatigue, loss of taste or smell, difficulty breathing.",
+    "causes": "Infection by the SARS-CoV-2 virus, transmitted via respiratory droplets.",
+    "treatment": "Supportive care, antiviral medications, vaccination."
+  },
+  {
+    "topic": "Tuberculosis",
+    "question": "What are the symptoms, causes, and treatment of tuberculosis? (version 30)",
+    "symptoms": "Persistent cough, chest pain, weight loss, night sweats, fever.",
+    "causes": "Mycobacterium tuberculosis bacteria, spread through airborne particles.",
+    "treatment": "Antibiotics such as isoniazid, rifampin over a long period (6-9 months)."
+  },
+  {
+    "topic": "Appendicitis",
+    "question": "What are the symptoms, causes, and treatment of appendicitis? (version 30)",
+    "symptoms": "Lower right abdominal pain, nausea, vomiting, loss of appetite, fever.",
+    "causes": "Blockage in the appendix leading to infection.",
+    "treatment": "Surgical removal of the appendix (appendectomy)."
+  },
+  {
+    "topic": "Hepatitis B",
+    "question": "What are the symptoms, causes, and treatment of hepatitis B? (version 30)",
+    "symptoms": "Fatigue, jaundice, dark urine, abdominal pain, loss of appetite.",
+    "causes": "Hepatitis B virus (HBV), transmitted via blood and bodily fluids.",
+    "treatment": "Antiviral medications, rest, liver monitoring; vaccination prevents infection."
+  },
+  {
+    "topic": "Anemia",
+    "question": "What are the symptoms, causes, and treatment of anemia? (version 30)",
+    "symptoms": "Fatigue, weakness, pale skin, shortness of breath, dizziness.",
+    "causes": "Iron deficiency, blood loss, chronic disease, poor diet.",
+    "treatment": "Iron supplements, dietary changes, treating the underlying cause."
+  },
+  {
+    "topic": "Malaria",
+    "question": "What are the symptoms, causes, and treatment of malaria? (version 31)",
+    "symptoms": "Fever, chills, headache, vomiting, muscle pain.",
+    "causes": "Plasmodium parasite transmitted by Anopheles mosquitoes.",
+    "treatment": "Antimalarial medications such as chloroquine, artemisinin-based combination therapies (ACTs)."
+  },
+  {
+    "topic": "Diabetes Type 2",
+    "question": "What are the symptoms, causes, and treatment of type 2 diabetes? (version 31)",
+    "symptoms": "Increased thirst, frequent urination, hunger, fatigue, blurred vision.",
+    "causes": "Insulin resistance and high blood sugar levels, often linked to obesity and genetics.",
+    "treatment": "Diet and exercise, oral medications (e.g., metformin), insulin therapy."
+  },
+  {
+    "topic": "Typhoid Fever",
+    "question": "What are the symptoms, causes, and treatment of typhoid fever? (version 31)",
+    "symptoms": "High fever, weakness, stomach pain, headache, loss of appetite.",
+    "causes": "Salmonella typhi bacteria, spread through contaminated food or water.",
+    "treatment": "Antibiotics such as ciprofloxacin or azithromycin, hydration, proper nutrition."
+  },
+  {
+    "topic": "Hypertension",
+    "question": "What are the symptoms, causes, and treatment of hypertension? (version 31)",
+    "symptoms": "Often asymptomatic, but can include headaches, dizziness, and nosebleeds.",
+    "causes": "Genetics, poor diet, lack of exercise, stress, obesity.",
+    "treatment": "Lifestyle changes, antihypertensive drugs like ACE inhibitors or beta-blockers."
+  },
+  {
+    "topic": "Asthma",
+    "question": "What are the symptoms, causes, and treatment of asthma? (version 31)",
+    "symptoms": "Wheezing, shortness of breath, chest tightness, coughing.",
+    "causes": "Allergens, exercise, cold air, respiratory infections.",
+    "treatment": "Inhalers (bronchodilators and corticosteroids), avoiding triggers."
+  },
+  {
+    "topic": "COVID-19",
+    "question": "What are the symptoms, causes, and treatment of COVID-19? (version 31)",
+    "symptoms": "Fever, cough, fatigue, loss of taste or smell, difficulty breathing.",
+    "causes": "Infection by the SARS-CoV-2 virus, transmitted via respiratory droplets.",
+    "treatment": "Supportive care, antiviral medications, vaccination."
+  },
+  {
+    "topic": "Tuberculosis",
+    "question": "What are the symptoms, causes, and treatment of tuberculosis? (version 31)",
+    "symptoms": "Persistent cough, chest pain, weight loss, night sweats, fever.",
+    "causes": "Mycobacterium tuberculosis bacteria, spread through airborne particles.",
+    "treatment": "Antibiotics such as isoniazid, rifampin over a long period (6-9 months)."
+  },
+  {
+    "topic": "Appendicitis",
+    "question": "What are the symptoms, causes, and treatment of appendicitis? (version 31)",
+    "symptoms": "Lower right abdominal pain, nausea, vomiting, loss of appetite, fever.",
+    "causes": "Blockage in the appendix leading to infection.",
+    "treatment": "Surgical removal of the appendix (appendectomy)."
+  },
+  {
+    "topic": "Hepatitis B",
+    "question": "What are the symptoms, causes, and treatment of hepatitis B? (version 31)",
+    "symptoms": "Fatigue, jaundice, dark urine, abdominal pain, loss of appetite.",
+    "causes": "Hepatitis B virus (HBV), transmitted via blood and bodily fluids.",
+    "treatment": "Antiviral medications, rest, liver monitoring; vaccination prevents infection."
+  },
+  {
+    "topic": "Anemia",
+    "question": "What are the symptoms, causes, and treatment of anemia? (version 31)",
+    "symptoms": "Fatigue, weakness, pale skin, shortness of breath, dizziness.",
+    "causes": "Iron deficiency, blood loss, chronic disease, poor diet.",
+    "treatment": "Iron supplements, dietary changes, treating the underlying cause."
+  },
+  {
+    "topic": "Malaria",
+    "question": "What are the symptoms, causes, and treatment of malaria? (version 32)",
+    "symptoms": "Fever, chills, headache, vomiting, muscle pain.",
+    "causes": "Plasmodium parasite transmitted by Anopheles mosquitoes.",
+    "treatment": "Antimalarial medications such as chloroquine, artemisinin-based combination therapies (ACTs)."
+  },
+  {
+    "topic": "Diabetes Type 2",
+    "question": "What are the symptoms, causes, and treatment of type 2 diabetes? (version 32)",
+    "symptoms": "Increased thirst, frequent urination, hunger, fatigue, blurred vision.",
+    "causes": "Insulin resistance and high blood sugar levels, often linked to obesity and genetics.",
+    "treatment": "Diet and exercise, oral medications (e.g., metformin), insulin therapy."
+  },
+  {
+    "topic": "Typhoid Fever",
+    "question": "What are the symptoms, causes, and treatment of typhoid fever? (version 32)",
+    "symptoms": "High fever, weakness, stomach pain, headache, loss of appetite.",
+    "causes": "Salmonella typhi bacteria, spread through contaminated food or water.",
+    "treatment": "Antibiotics such as ciprofloxacin or azithromycin, hydration, proper nutrition."
+  },
+  {
+    "topic": "Hypertension",
+    "question": "What are the symptoms, causes, and treatment of hypertension? (version 32)",
+    "symptoms": "Often asymptomatic, but can include headaches, dizziness, and nosebleeds.",
+    "causes": "Genetics, poor diet, lack of exercise, stress, obesity.",
+    "treatment": "Lifestyle changes, antihypertensive drugs like ACE inhibitors or beta-blockers."
+  },
+  {
+    "topic": "Asthma",
+    "question": "What are the symptoms, causes, and treatment of asthma? (version 32)",
+    "symptoms": "Wheezing, shortness of breath, chest tightness, coughing.",
+    "causes": "Allergens, exercise, cold air, respiratory infections.",
+    "treatment": "Inhalers (bronchodilators and corticosteroids), avoiding triggers."
+  },
+  {
+    "topic": "COVID-19",
+    "question": "What are the symptoms, causes, and treatment of COVID-19? (version 32)",
+    "symptoms": "Fever, cough, fatigue, loss of taste or smell, difficulty breathing.",
+    "causes": "Infection by the SARS-CoV-2 virus, transmitted via respiratory droplets.",
+    "treatment": "Supportive care, antiviral medications, vaccination."
+  },
+  {
+    "topic": "Tuberculosis",
+    "question": "What are the symptoms, causes, and treatment of tuberculosis? (version 32)",
+    "symptoms": "Persistent cough, chest pain, weight loss, night sweats, fever.",
+    "causes": "Mycobacterium tuberculosis bacteria, spread through airborne particles.",
+    "treatment": "Antibiotics such as isoniazid, rifampin over a long period (6-9 months)."
+  },
+  {
+    "topic": "Appendicitis",
+    "question": "What are the symptoms, causes, and treatment of appendicitis? (version 32)",
+    "symptoms": "Lower right abdominal pain, nausea, vomiting, loss of appetite, fever.",
+    "causes": "Blockage in the appendix leading to infection.",
+    "treatment": "Surgical removal of the appendix (appendectomy)."
+  },
+  {
+    "topic": "Hepatitis B",
+    "question": "What are the symptoms, causes, and treatment of hepatitis B? (version 32)",
+    "symptoms": "Fatigue, jaundice, dark urine, abdominal pain, loss of appetite.",
+    "causes": "Hepatitis B virus (HBV), transmitted via blood and bodily fluids.",
+    "treatment": "Antiviral medications, rest, liver monitoring; vaccination prevents infection."
+  },
+  {
+    "topic": "Anemia",
+    "question": "What are the symptoms, causes, and treatment of anemia? (version 32)",
+    "symptoms": "Fatigue, weakness, pale skin, shortness of breath, dizziness.",
+    "causes": "Iron deficiency, blood loss, chronic disease, poor diet.",
+    "treatment": "Iron supplements, dietary changes, treating the underlying cause."
+  },
+  {
+    "topic": "Malaria",
+    "question": "What are the symptoms, causes, and treatment of malaria? (version 33)",
+    "symptoms": "Fever, chills, headache, vomiting, muscle pain.",
+    "causes": "Plasmodium parasite transmitted by Anopheles mosquitoes.",
+    "treatment": "Antimalarial medications such as chloroquine, artemisinin-based combination therapies (ACTs)."
+  },
+  {
+    "topic": "Diabetes Type 2",
+    "question": "What are the symptoms, causes, and treatment of type 2 diabetes? (version 33)",
+    "symptoms": "Increased thirst, frequent urination, hunger, fatigue, blurred vision.",
+    "causes": "Insulin resistance and high blood sugar levels, often linked to obesity and genetics.",
+    "treatment": "Diet and exercise, oral medications (e.g., metformin), insulin therapy."
+  },
+  {
+    "topic": "Typhoid Fever",
+    "question": "What are the symptoms, causes, and treatment of typhoid fever? (version 33)",
+    "symptoms": "High fever, weakness, stomach pain, headache, loss of appetite.",
+    "causes": "Salmonella typhi bacteria, spread through contaminated food or water.",
+    "treatment": "Antibiotics such as ciprofloxacin or azithromycin, hydration, proper nutrition."
+  },
+  {
+    "topic": "Hypertension",
+    "question": "What are the symptoms, causes, and treatment of hypertension? (version 33)",
+    "symptoms": "Often asymptomatic, but can include headaches, dizziness, and nosebleeds.",
+    "causes": "Genetics, poor diet, lack of exercise, stress, obesity.",
+    "treatment": "Lifestyle changes, antihypertensive drugs like ACE inhibitors or beta-blockers."
+  },
+  {
+    "topic": "Asthma",
+    "question": "What are the symptoms, causes, and treatment of asthma? (version 33)",
+    "symptoms": "Wheezing, shortness of breath, chest tightness, coughing.",
+    "causes": "Allergens, exercise, cold air, respiratory infections.",
+    "treatment": "Inhalers (bronchodilators and corticosteroids), avoiding triggers."
+  },
+  {
+    "topic": "COVID-19",
+    "question": "What are the symptoms, causes, and treatment of COVID-19? (version 33)",
+    "symptoms": "Fever, cough, fatigue, loss of taste or smell, difficulty breathing.",
+    "causes": "Infection by the SARS-CoV-2 virus, transmitted via respiratory droplets.",
+    "treatment": "Supportive care, antiviral medications, vaccination."
+  },
+  {
+    "topic": "Tuberculosis",
+    "question": "What are the symptoms, causes, and treatment of tuberculosis? (version 33)",
+    "symptoms": "Persistent cough, chest pain, weight loss, night sweats, fever.",
+    "causes": "Mycobacterium tuberculosis bacteria, spread through airborne particles.",
+    "treatment": "Antibiotics such as isoniazid, rifampin over a long period (6-9 months)."
+  },
+  {
+    "topic": "Appendicitis",
+    "question": "What are the symptoms, causes, and treatment of appendicitis? (version 33)",
+    "symptoms": "Lower right abdominal pain, nausea, vomiting, loss of appetite, fever.",
+    "causes": "Blockage in the appendix leading to infection.",
+    "treatment": "Surgical removal of the appendix (appendectomy)."
+  },
+  {
+    "topic": "Hepatitis B",
+    "question": "What are the symptoms, causes, and treatment of hepatitis B? (version 33)",
+    "symptoms": "Fatigue, jaundice, dark urine, abdominal pain, loss of appetite.",
+    "causes": "Hepatitis B virus (HBV), transmitted via blood and bodily fluids.",
+    "treatment": "Antiviral medications, rest, liver monitoring; vaccination prevents infection."
+  },
+  {
+    "topic": "Anemia",
+    "question": "What are the symptoms, causes, and treatment of anemia? (version 33)",
+    "symptoms": "Fatigue, weakness, pale skin, shortness of breath, dizziness.",
+    "causes": "Iron deficiency, blood loss, chronic disease, poor diet.",
+    "treatment": "Iron supplements, dietary changes, treating the underlying cause."
+  },
+  {
+    "topic": "Malaria",
+    "question": "What are the symptoms, causes, and treatment of malaria? (version 34)",
+    "symptoms": "Fever, chills, headache, vomiting, muscle pain.",
+    "causes": "Plasmodium parasite transmitted by Anopheles mosquitoes.",
+    "treatment": "Antimalarial medications such as chloroquine, artemisinin-based combination therapies (ACTs)."
+  },
+  {
+    "topic": "Diabetes Type 2",
+    "question": "What are the symptoms, causes, and treatment of type 2 diabetes? (version 34)",
+    "symptoms": "Increased thirst, frequent urination, hunger, fatigue, blurred vision.",
+    "causes": "Insulin resistance and high blood sugar levels, often linked to obesity and genetics.",
+    "treatment": "Diet and exercise, oral medications (e.g., metformin), insulin therapy."
+  },
+  {
+    "topic": "Typhoid Fever",
+    "question": "What are the symptoms, causes, and treatment of typhoid fever? (version 34)",
+    "symptoms": "High fever, weakness, stomach pain, headache, loss of appetite.",
+    "causes": "Salmonella typhi bacteria, spread through contaminated food or water.",
+    "treatment": "Antibiotics such as ciprofloxacin or azithromycin, hydration, proper nutrition."
+  },
+  {
+    "topic": "Hypertension",
+    "question": "What are the symptoms, causes, and treatment of hypertension? (version 34)",
+    "symptoms": "Often asymptomatic, but can include headaches, dizziness, and nosebleeds.",
+    "causes": "Genetics, poor diet, lack of exercise, stress, obesity.",
+    "treatment": "Lifestyle changes, antihypertensive drugs like ACE inhibitors or beta-blockers."
+  },
+  {
+    "topic": "Asthma",
+    "question": "What are the symptoms, causes, and treatment of asthma? (version 34)",
+    "symptoms": "Wheezing, shortness of breath, chest tightness, coughing.",
+    "causes": "Allergens, exercise, cold air, respiratory infections.",
+    "treatment": "Inhalers (bronchodilators and corticosteroids), avoiding triggers."
+  },
+  {
+    "topic": "COVID-19",
+    "question": "What are the symptoms, causes, and treatment of COVID-19? (version 34)",
+    "symptoms": "Fever, cough, fatigue, loss of taste or smell, difficulty breathing.",
+    "causes": "Infection by the SARS-CoV-2 virus, transmitted via respiratory droplets.",
+    "treatment": "Supportive care, antiviral medications, vaccination."
+  },
+  {
+    "topic": "Tuberculosis",
+    "question": "What are the symptoms, causes, and treatment of tuberculosis? (version 34)",
+    "symptoms": "Persistent cough, chest pain, weight loss, night sweats, fever.",
+    "causes": "Mycobacterium tuberculosis bacteria, spread through airborne particles.",
+    "treatment": "Antibiotics such as isoniazid, rifampin over a long period (6-9 months)."
+  },
+  {
+    "topic": "Appendicitis",
+    "question": "What are the symptoms, causes, and treatment of appendicitis? (version 34)",
+    "symptoms": "Lower right abdominal pain, nausea, vomiting, loss of appetite, fever.",
+    "causes": "Blockage in the appendix leading to infection.",
+    "treatment": "Surgical removal of the appendix (appendectomy)."
+  },
+  {
+    "topic": "Hepatitis B",
+    "question": "What are the symptoms, causes, and treatment of hepatitis B? (version 34)",
+    "symptoms": "Fatigue, jaundice, dark urine, abdominal pain, loss of appetite.",
+    "causes": "Hepatitis B virus (HBV), transmitted via blood and bodily fluids.",
+    "treatment": "Antiviral medications, rest, liver monitoring; vaccination prevents infection."
+  },
+  {
+    "topic": "Anemia",
+    "question": "What are the symptoms, causes, and treatment of anemia? (version 34)",
+    "symptoms": "Fatigue, weakness, pale skin, shortness of breath, dizziness.",
+    "causes": "Iron deficiency, blood loss, chronic disease, poor diet.",
+    "treatment": "Iron supplements, dietary changes, treating the underlying cause."
+  },
+  {
+    "topic": "Malaria",
+    "question": "What are the symptoms, causes, and treatment of malaria? (version 35)",
+    "symptoms": "Fever, chills, headache, vomiting, muscle pain.",
+    "causes": "Plasmodium parasite transmitted by Anopheles mosquitoes.",
+    "treatment": "Antimalarial medications such as chloroquine, artemisinin-based combination therapies (ACTs)."
+  },
+  {
+    "topic": "Diabetes Type 2",
+    "question": "What are the symptoms, causes, and treatment of type 2 diabetes? (version 35)",
+    "symptoms": "Increased thirst, frequent urination, hunger, fatigue, blurred vision.",
+    "causes": "Insulin resistance and high blood sugar levels, often linked to obesity and genetics.",
+    "treatment": "Diet and exercise, oral medications (e.g., metformin), insulin therapy."
+  },
+  {
+    "topic": "Typhoid Fever",
+    "question": "What are the symptoms, causes, and treatment of typhoid fever? (version 35)",
+    "symptoms": "High fever, weakness, stomach pain, headache, loss of appetite.",
+    "causes": "Salmonella typhi bacteria, spread through contaminated food or water.",
+    "treatment": "Antibiotics such as ciprofloxacin or azithromycin, hydration, proper nutrition."
+  },
+  {
+    "topic": "Hypertension",
+    "question": "What are the symptoms, causes, and treatment of hypertension? (version 35)",
+    "symptoms": "Often asymptomatic, but can include headaches, dizziness, and nosebleeds.",
+    "causes": "Genetics, poor diet, lack of exercise, stress, obesity.",
+    "treatment": "Lifestyle changes, antihypertensive drugs like ACE inhibitors or beta-blockers."
+  },
+  {
+    "topic": "Asthma",
+    "question": "What are the symptoms, causes, and treatment of asthma? (version 35)",
+    "symptoms": "Wheezing, shortness of breath, chest tightness, coughing.",
+    "causes": "Allergens, exercise, cold air, respiratory infections.",
+    "treatment": "Inhalers (bronchodilators and corticosteroids), avoiding triggers."
+  },
+  {
+    "topic": "COVID-19",
+    "question": "What are the symptoms, causes, and treatment of COVID-19? (version 35)",
+    "symptoms": "Fever, cough, fatigue, loss of taste or smell, difficulty breathing.",
+    "causes": "Infection by the SARS-CoV-2 virus, transmitted via respiratory droplets.",
+    "treatment": "Supportive care, antiviral medications, vaccination."
+  },
+  {
+    "topic": "Tuberculosis",
+    "question": "What are the symptoms, causes, and treatment of tuberculosis? (version 35)",
+    "symptoms": "Persistent cough, chest pain, weight loss, night sweats, fever.",
+    "causes": "Mycobacterium tuberculosis bacteria, spread through airborne particles.",
+    "treatment": "Antibiotics such as isoniazid, rifampin over a long period (6-9 months)."
+  },
+  {
+    "topic": "Appendicitis",
+    "question": "What are the symptoms, causes, and treatment of appendicitis? (version 35)",
+    "symptoms": "Lower right abdominal pain, nausea, vomiting, loss of appetite, fever.",
+    "causes": "Blockage in the appendix leading to infection.",
+    "treatment": "Surgical removal of the appendix (appendectomy)."
+  },
+  {
+    "topic": "Hepatitis B",
+    "question": "What are the symptoms, causes, and treatment of hepatitis B? (version 35)",
+    "symptoms": "Fatigue, jaundice, dark urine, abdominal pain, loss of appetite.",
+    "causes": "Hepatitis B virus (HBV), transmitted via blood and bodily fluids.",
+    "treatment": "Antiviral medications, rest, liver monitoring; vaccination prevents infection."
+  },
+  {
+    "topic": "Anemia",
+    "question": "What are the symptoms, causes, and treatment of anemia? (version 35)",
+    "symptoms": "Fatigue, weakness, pale skin, shortness of breath, dizziness.",
+    "causes": "Iron deficiency, blood loss, chronic disease, poor diet.",
+    "treatment": "Iron supplements, dietary changes, treating the underlying cause."
+  },
+  {
+    "topic": "Malaria",
+    "question": "What are the symptoms, causes, and treatment of malaria? (version 36)",
+    "symptoms": "Fever, chills, headache, vomiting, muscle pain.",
+    "causes": "Plasmodium parasite transmitted by Anopheles mosquitoes.",
+    "treatment": "Antimalarial medications such as chloroquine, artemisinin-based combination therapies (ACTs)."
+  },
+  {
+    "topic": "Diabetes Type 2",
+    "question": "What are the symptoms, causes, and treatment of type 2 diabetes? (version 36)",
+    "symptoms": "Increased thirst, frequent urination, hunger, fatigue, blurred vision.",
+    "causes": "Insulin resistance and high blood sugar levels, often linked to obesity and genetics.",
+    "treatment": "Diet and exercise, oral medications (e.g., metformin), insulin therapy."
+  },
+  {
+    "topic": "Typhoid Fever",
+    "question": "What are the symptoms, causes, and treatment of typhoid fever? (version 36)",
+    "symptoms": "High fever, weakness, stomach pain, headache, loss of appetite.",
+    "causes": "Salmonella typhi bacteria, spread through contaminated food or water.",
+    "treatment": "Antibiotics such as ciprofloxacin or azithromycin, hydration, proper nutrition."
+  },
+  {
+    "topic": "Hypertension",
+    "question": "What are the symptoms, causes, and treatment of hypertension? (version 36)",
+    "symptoms": "Often asymptomatic, but can include headaches, dizziness, and nosebleeds.",
+    "causes": "Genetics, poor diet, lack of exercise, stress, obesity.",
+    "treatment": "Lifestyle changes, antihypertensive drugs like ACE inhibitors or beta-blockers."
+  },
+  {
+    "topic": "Asthma",
+    "question": "What are the symptoms, causes, and treatment of asthma? (version 36)",
+    "symptoms": "Wheezing, shortness of breath, chest tightness, coughing.",
+    "causes": "Allergens, exercise, cold air, respiratory infections.",
+    "treatment": "Inhalers (bronchodilators and corticosteroids), avoiding triggers."
+  },
+  {
+    "topic": "COVID-19",
+    "question": "What are the symptoms, causes, and treatment of COVID-19? (version 36)",
+    "symptoms": "Fever, cough, fatigue, loss of taste or smell, difficulty breathing.",
+    "causes": "Infection by the SARS-CoV-2 virus, transmitted via respiratory droplets.",
+    "treatment": "Supportive care, antiviral medications, vaccination."
+  },
+  {
+    "topic": "Tuberculosis",
+    "question": "What are the symptoms, causes, and treatment of tuberculosis? (version 36)",
+    "symptoms": "Persistent cough, chest pain, weight loss, night sweats, fever.",
+    "causes": "Mycobacterium tuberculosis bacteria, spread through airborne particles.",
+    "treatment": "Antibiotics such as isoniazid, rifampin over a long period (6-9 months)."
+  },
+  {
+    "topic": "Appendicitis",
+    "question": "What are the symptoms, causes, and treatment of appendicitis? (version 36)",
+    "symptoms": "Lower right abdominal pain, nausea, vomiting, loss of appetite, fever.",
+    "causes": "Blockage in the appendix leading to infection.",
+    "treatment": "Surgical removal of the appendix (appendectomy)."
+  },
+  {
+    "topic": "Hepatitis B",
+    "question": "What are the symptoms, causes, and treatment of hepatitis B? (version 36)",
+    "symptoms": "Fatigue, jaundice, dark urine, abdominal pain, loss of appetite.",
+    "causes": "Hepatitis B virus (HBV), transmitted via blood and bodily fluids.",
+    "treatment": "Antiviral medications, rest, liver monitoring; vaccination prevents infection."
+  },
+  {
+    "topic": "Anemia",
+    "question": "What are the symptoms, causes, and treatment of anemia? (version 36)",
+    "symptoms": "Fatigue, weakness, pale skin, shortness of breath, dizziness.",
+    "causes": "Iron deficiency, blood loss, chronic disease, poor diet.",
+    "treatment": "Iron supplements, dietary changes, treating the underlying cause."
+  },
+  {
+    "topic": "Malaria",
+    "question": "What are the symptoms, causes, and treatment of malaria? (version 37)",
+    "symptoms": "Fever, chills, headache, vomiting, muscle pain.",
+    "causes": "Plasmodium parasite transmitted by Anopheles mosquitoes.",
+    "treatment": "Antimalarial medications such as chloroquine, artemisinin-based combination therapies (ACTs)."
+  },
+  {
+    "topic": "Diabetes Type 2",
+    "question": "What are the symptoms, causes, and treatment of type 2 diabetes? (version 37)",
+    "symptoms": "Increased thirst, frequent urination, hunger, fatigue, blurred vision.",
+    "causes": "Insulin resistance and high blood sugar levels, often linked to obesity and genetics.",
+    "treatment": "Diet and exercise, oral medications (e.g., metformin), insulin therapy."
+  },
+  {
+    "topic": "Typhoid Fever",
+    "question": "What are the symptoms, causes, and treatment of typhoid fever? (version 37)",
+    "symptoms": "High fever, weakness, stomach pain, headache, loss of appetite.",
+    "causes": "Salmonella typhi bacteria, spread through contaminated food or water.",
+    "treatment": "Antibiotics such as ciprofloxacin or azithromycin, hydration, proper nutrition."
+  },
+  {
+    "topic": "Hypertension",
+    "question": "What are the symptoms, causes, and treatment of hypertension? (version 37)",
+    "symptoms": "Often asymptomatic, but can include headaches, dizziness, and nosebleeds.",
+    "causes": "Genetics, poor diet, lack of exercise, stress, obesity.",
+    "treatment": "Lifestyle changes, antihypertensive drugs like ACE inhibitors or beta-blockers."
+  },
+  {
+    "topic": "Asthma",
+    "question": "What are the symptoms, causes, and treatment of asthma? (version 37)",
+    "symptoms": "Wheezing, shortness of breath, chest tightness, coughing.",
+    "causes": "Allergens, exercise, cold air, respiratory infections.",
+    "treatment": "Inhalers (bronchodilators and corticosteroids), avoiding triggers."
+  },
+  {
+    "topic": "COVID-19",
+    "question": "What are the symptoms, causes, and treatment of COVID-19? (version 37)",
+    "symptoms": "Fever, cough, fatigue, loss of taste or smell, difficulty breathing.",
+    "causes": "Infection by the SARS-CoV-2 virus, transmitted via respiratory droplets.",
+    "treatment": "Supportive care, antiviral medications, vaccination."
+  },
+  {
+    "topic": "Tuberculosis",
+    "question": "What are the symptoms, causes, and treatment of tuberculosis? (version 37)",
+    "symptoms": "Persistent cough, chest pain, weight loss, night sweats, fever.",
+    "causes": "Mycobacterium tuberculosis bacteria, spread through airborne particles.",
+    "treatment": "Antibiotics such as isoniazid, rifampin over a long period (6-9 months)."
+  },
+  {
+    "topic": "Appendicitis",
+    "question": "What are the symptoms, causes, and treatment of appendicitis? (version 37)",
+    "symptoms": "Lower right abdominal pain, nausea, vomiting, loss of appetite, fever.",
+    "causes": "Blockage in the appendix leading to infection.",
+    "treatment": "Surgical removal of the appendix (appendectomy)."
+  },
+  {
+    "topic": "Hepatitis B",
+    "question": "What are the symptoms, causes, and treatment of hepatitis B? (version 37)",
+    "symptoms": "Fatigue, jaundice, dark urine, abdominal pain, loss of appetite.",
+    "causes": "Hepatitis B virus (HBV), transmitted via blood and bodily fluids.",
+    "treatment": "Antiviral medications, rest, liver monitoring; vaccination prevents infection."
+  },
+  {
+    "topic": "Anemia",
+    "question": "What are the symptoms, causes, and treatment of anemia? (version 37)",
+    "symptoms": "Fatigue, weakness, pale skin, shortness of breath, dizziness.",
+    "causes": "Iron deficiency, blood loss, chronic disease, poor diet.",
+    "treatment": "Iron supplements, dietary changes, treating the underlying cause."
+  },
+  {
+    "topic": "Malaria",
+    "question": "What are the symptoms, causes, and treatment of malaria? (version 38)",
+    "symptoms": "Fever, chills, headache, vomiting, muscle pain.",
+    "causes": "Plasmodium parasite transmitted by Anopheles mosquitoes.",
+    "treatment": "Antimalarial medications such as chloroquine, artemisinin-based combination therapies (ACTs)."
+  },
+  {
+    "topic": "Diabetes Type 2",
+    "question": "What are the symptoms, causes, and treatment of type 2 diabetes? (version 38)",
+    "symptoms": "Increased thirst, frequent urination, hunger, fatigue, blurred vision.",
+    "causes": "Insulin resistance and high blood sugar levels, often linked to obesity and genetics.",
+    "treatment": "Diet and exercise, oral medications (e.g., metformin), insulin therapy."
+  },
+  {
+    "topic": "Typhoid Fever",
+    "question": "What are the symptoms, causes, and treatment of typhoid fever? (version 38)",
+    "symptoms": "High fever, weakness, stomach pain, headache, loss of appetite.",
+    "causes": "Salmonella typhi bacteria, spread through contaminated food or water.",
+    "treatment": "Antibiotics such as ciprofloxacin or azithromycin, hydration, proper nutrition."
+  },
+  {
+    "topic": "Hypertension",
+    "question": "What are the symptoms, causes, and treatment of hypertension? (version 38)",
+    "symptoms": "Often asymptomatic, but can include headaches, dizziness, and nosebleeds.",
+    "causes": "Genetics, poor diet, lack of exercise, stress, obesity.",
+    "treatment": "Lifestyle changes, antihypertensive drugs like ACE inhibitors or beta-blockers."
+  },
+  {
+    "topic": "Asthma",
+    "question": "What are the symptoms, causes, and treatment of asthma? (version 38)",
+    "symptoms": "Wheezing, shortness of breath, chest tightness, coughing.",
+    "causes": "Allergens, exercise, cold air, respiratory infections.",
+    "treatment": "Inhalers (bronchodilators and corticosteroids), avoiding triggers."
+  },
+  {
+    "topic": "COVID-19",
+    "question": "What are the symptoms, causes, and treatment of COVID-19? (version 38)",
+    "symptoms": "Fever, cough, fatigue, loss of taste or smell, difficulty breathing.",
+    "causes": "Infection by the SARS-CoV-2 virus, transmitted via respiratory droplets.",
+    "treatment": "Supportive care, antiviral medications, vaccination."
+  },
+  {
+    "topic": "Tuberculosis",
+    "question": "What are the symptoms, causes, and treatment of tuberculosis? (version 38)",
+    "symptoms": "Persistent cough, chest pain, weight loss, night sweats, fever.",
+    "causes": "Mycobacterium tuberculosis bacteria, spread through airborne particles.",
+    "treatment": "Antibiotics such as isoniazid, rifampin over a long period (6-9 months)."
+  },
+  {
+    "topic": "Appendicitis",
+    "question": "What are the symptoms, causes, and treatment of appendicitis? (version 38)",
+    "symptoms": "Lower right abdominal pain, nausea, vomiting, loss of appetite, fever.",
+    "causes": "Blockage in the appendix leading to infection.",
+    "treatment": "Surgical removal of the appendix (appendectomy)."
+  },
+  {
+    "topic": "Hepatitis B",
+    "question": "What are the symptoms, causes, and treatment of hepatitis B? (version 38)",
+    "symptoms": "Fatigue, jaundice, dark urine, abdominal pain, loss of appetite.",
+    "causes": "Hepatitis B virus (HBV), transmitted via blood and bodily fluids.",
+    "treatment": "Antiviral medications, rest, liver monitoring; vaccination prevents infection."
+  },
+  {
+    "topic": "Anemia",
+    "question": "What are the symptoms, causes, and treatment of anemia? (version 38)",
+    "symptoms": "Fatigue, weakness, pale skin, shortness of breath, dizziness.",
+    "causes": "Iron deficiency, blood loss, chronic disease, poor diet.",
+    "treatment": "Iron supplements, dietary changes, treating the underlying cause."
+  },
+  {
+    "topic": "Malaria",
+    "question": "What are the symptoms, causes, and treatment of malaria? (version 39)",
+    "symptoms": "Fever, chills, headache, vomiting, muscle pain.",
+    "causes": "Plasmodium parasite transmitted by Anopheles mosquitoes.",
+    "treatment": "Antimalarial medications such as chloroquine, artemisinin-based combination therapies (ACTs)."
+  },
+  {
+    "topic": "Diabetes Type 2",
+    "question": "What are the symptoms, causes, and treatment of type 2 diabetes? (version 39)",
+    "symptoms": "Increased thirst, frequent urination, hunger, fatigue, blurred vision.",
+    "causes": "Insulin resistance and high blood sugar levels, often linked to obesity and genetics.",
+    "treatment": "Diet and exercise, oral medications (e.g., metformin), insulin therapy."
+  },
+  {
+    "topic": "Typhoid Fever",
+    "question": "What are the symptoms, causes, and treatment of typhoid fever? (version 39)",
+    "symptoms": "High fever, weakness, stomach pain, headache, loss of appetite.",
+    "causes": "Salmonella typhi bacteria, spread through contaminated food or water.",
+    "treatment": "Antibiotics such as ciprofloxacin or azithromycin, hydration, proper nutrition."
+  },
+  {
+    "topic": "Hypertension",
+    "question": "What are the symptoms, causes, and treatment of hypertension? (version 39)",
+    "symptoms": "Often asymptomatic, but can include headaches, dizziness, and nosebleeds.",
+    "causes": "Genetics, poor diet, lack of exercise, stress, obesity.",
+    "treatment": "Lifestyle changes, antihypertensive drugs like ACE inhibitors or beta-blockers."
+  },
+  {
+    "topic": "Asthma",
+    "question": "What are the symptoms, causes, and treatment of asthma? (version 39)",
+    "symptoms": "Wheezing, shortness of breath, chest tightness, coughing.",
+    "causes": "Allergens, exercise, cold air, respiratory infections.",
+    "treatment": "Inhalers (bronchodilators and corticosteroids), avoiding triggers."
+  },
+  {
+    "topic": "COVID-19",
+    "question": "What are the symptoms, causes, and treatment of COVID-19? (version 39)",
+    "symptoms": "Fever, cough, fatigue, loss of taste or smell, difficulty breathing.",
+    "causes": "Infection by the SARS-CoV-2 virus, transmitted via respiratory droplets.",
+    "treatment": "Supportive care, antiviral medications, vaccination."
+  },
+  {
+    "topic": "Tuberculosis",
+    "question": "What are the symptoms, causes, and treatment of tuberculosis? (version 39)",
+    "symptoms": "Persistent cough, chest pain, weight loss, night sweats, fever.",
+    "causes": "Mycobacterium tuberculosis bacteria, spread through airborne particles.",
+    "treatment": "Antibiotics such as isoniazid, rifampin over a long period (6-9 months)."
+  },
+  {
+    "topic": "Appendicitis",
+    "question": "What are the symptoms, causes, and treatment of appendicitis? (version 39)",
+    "symptoms": "Lower right abdominal pain, nausea, vomiting, loss of appetite, fever.",
+    "causes": "Blockage in the appendix leading to infection.",
+    "treatment": "Surgical removal of the appendix (appendectomy)."
+  },
+  {
+    "topic": "Hepatitis B",
+    "question": "What are the symptoms, causes, and treatment of hepatitis B? (version 39)",
+    "symptoms": "Fatigue, jaundice, dark urine, abdominal pain, loss of appetite.",
+    "causes": "Hepatitis B virus (HBV), transmitted via blood and bodily fluids.",
+    "treatment": "Antiviral medications, rest, liver monitoring; vaccination prevents infection."
+  },
+  {
+    "topic": "Anemia",
+    "question": "What are the symptoms, causes, and treatment of anemia? (version 39)",
+    "symptoms": "Fatigue, weakness, pale skin, shortness of breath, dizziness.",
+    "causes": "Iron deficiency, blood loss, chronic disease, poor diet.",
+    "treatment": "Iron supplements, dietary changes, treating the underlying cause."
+  },
+  {
+    "topic": "Malaria",
+    "question": "What are the symptoms, causes, and treatment of malaria? (version 40)",
+    "symptoms": "Fever, chills, headache, vomiting, muscle pain.",
+    "causes": "Plasmodium parasite transmitted by Anopheles mosquitoes.",
+    "treatment": "Antimalarial medications such as chloroquine, artemisinin-based combination therapies (ACTs)."
+  },
+  {
+    "topic": "Diabetes Type 2",
+    "question": "What are the symptoms, causes, and treatment of type 2 diabetes? (version 40)",
+    "symptoms": "Increased thirst, frequent urination, hunger, fatigue, blurred vision.",
+    "causes": "Insulin resistance and high blood sugar levels, often linked to obesity and genetics.",
+    "treatment": "Diet and exercise, oral medications (e.g., metformin), insulin therapy."
+  },
+  {
+    "topic": "Typhoid Fever",
+    "question": "What are the symptoms, causes, and treatment of typhoid fever? (version 40)",
+    "symptoms": "High fever, weakness, stomach pain, headache, loss of appetite.",
+    "causes": "Salmonella typhi bacteria, spread through contaminated food or water.",
+    "treatment": "Antibiotics such as ciprofloxacin or azithromycin, hydration, proper nutrition."
+  },
+  {
+    "topic": "Hypertension",
+    "question": "What are the symptoms, causes, and treatment of hypertension? (version 40)",
+    "symptoms": "Often asymptomatic, but can include headaches, dizziness, and nosebleeds.",
+    "causes": "Genetics, poor diet, lack of exercise, stress, obesity.",
+    "treatment": "Lifestyle changes, antihypertensive drugs like ACE inhibitors or beta-blockers."
+  },
+  {
+    "topic": "Asthma",
+    "question": "What are the symptoms, causes, and treatment of asthma? (version 40)",
+    "symptoms": "Wheezing, shortness of breath, chest tightness, coughing.",
+    "causes": "Allergens, exercise, cold air, respiratory infections.",
+    "treatment": "Inhalers (bronchodilators and corticosteroids), avoiding triggers."
+  },
+  {
+    "topic": "COVID-19",
+    "question": "What are the symptoms, causes, and treatment of COVID-19? (version 40)",
+    "symptoms": "Fever, cough, fatigue, loss of taste or smell, difficulty breathing.",
+    "causes": "Infection by the SARS-CoV-2 virus, transmitted via respiratory droplets.",
+    "treatment": "Supportive care, antiviral medications, vaccination."
+  },
+  {
+    "topic": "Tuberculosis",
+    "question": "What are the symptoms, causes, and treatment of tuberculosis? (version 40)",
+    "symptoms": "Persistent cough, chest pain, weight loss, night sweats, fever.",
+    "causes": "Mycobacterium tuberculosis bacteria, spread through airborne particles.",
+    "treatment": "Antibiotics such as isoniazid, rifampin over a long period (6-9 months)."
+  },
+  {
+    "topic": "Appendicitis",
+    "question": "What are the symptoms, causes, and treatment of appendicitis? (version 40)",
+    "symptoms": "Lower right abdominal pain, nausea, vomiting, loss of appetite, fever.",
+    "causes": "Blockage in the appendix leading to infection.",
+    "treatment": "Surgical removal of the appendix (appendectomy)."
+  },
+  {
+    "topic": "Hepatitis B",
+    "question": "What are the symptoms, causes, and treatment of hepatitis B? (version 40)",
+    "symptoms": "Fatigue, jaundice, dark urine, abdominal pain, loss of appetite.",
+    "causes": "Hepatitis B virus (HBV), transmitted via blood and bodily fluids.",
+    "treatment": "Antiviral medications, rest, liver monitoring; vaccination prevents infection."
+  },
+  {
+    "topic": "Anemia",
+    "question": "What are the symptoms, causes, and treatment of anemia? (version 40)",
+    "symptoms": "Fatigue, weakness, pale skin, shortness of breath, dizziness.",
+    "causes": "Iron deficiency, blood loss, chronic disease, poor diet.",
+    "treatment": "Iron supplements, dietary changes, treating the underlying cause."
+  },
+  {
+    "topic": "Malaria",
+    "question": "What are the symptoms, causes, and treatment of malaria? (version 41)",
+    "symptoms": "Fever, chills, headache, vomiting, muscle pain.",
+    "causes": "Plasmodium parasite transmitted by Anopheles mosquitoes.",
+    "treatment": "Antimalarial medications such as chloroquine, artemisinin-based combination therapies (ACTs)."
+  },
+  {
+    "topic": "Diabetes Type 2",
+    "question": "What are the symptoms, causes, and treatment of type 2 diabetes? (version 41)",
+    "symptoms": "Increased thirst, frequent urination, hunger, fatigue, blurred vision.",
+    "causes": "Insulin resistance and high blood sugar levels, often linked to obesity and genetics.",
+    "treatment": "Diet and exercise, oral medications (e.g., metformin), insulin therapy."
+  },
+  {
+    "topic": "Typhoid Fever",
+    "question": "What are the symptoms, causes, and treatment of typhoid fever? (version 41)",
+    "symptoms": "High fever, weakness, stomach pain, headache, loss of appetite.",
+    "causes": "Salmonella typhi bacteria, spread through contaminated food or water.",
+    "treatment": "Antibiotics such as ciprofloxacin or azithromycin, hydration, proper nutrition."
+  },
+  {
+    "topic": "Hypertension",
+    "question": "What are the symptoms, causes, and treatment of hypertension? (version 41)",
+    "symptoms": "Often asymptomatic, but can include headaches, dizziness, and nosebleeds.",
+    "causes": "Genetics, poor diet, lack of exercise, stress, obesity.",
+    "treatment": "Lifestyle changes, antihypertensive drugs like ACE inhibitors or beta-blockers."
+  },
+  {
+    "topic": "Asthma",
+    "question": "What are the symptoms, causes, and treatment of asthma? (version 41)",
+    "symptoms": "Wheezing, shortness of breath, chest tightness, coughing.",
+    "causes": "Allergens, exercise, cold air, respiratory infections.",
+    "treatment": "Inhalers (bronchodilators and corticosteroids), avoiding triggers."
+  },
+  {
+    "topic": "COVID-19",
+    "question": "What are the symptoms, causes, and treatment of COVID-19? (version 41)",
+    "symptoms": "Fever, cough, fatigue, loss of taste or smell, difficulty breathing.",
+    "causes": "Infection by the SARS-CoV-2 virus, transmitted via respiratory droplets.",
+    "treatment": "Supportive care, antiviral medications, vaccination."
+  },
+  {
+    "topic": "Tuberculosis",
+    "question": "What are the symptoms, causes, and treatment of tuberculosis? (version 41)",
+    "symptoms": "Persistent cough, chest pain, weight loss, night sweats, fever.",
+    "causes": "Mycobacterium tuberculosis bacteria, spread through airborne particles.",
+    "treatment": "Antibiotics such as isoniazid, rifampin over a long period (6-9 months)."
+  },
+  {
+    "topic": "Appendicitis",
+    "question": "What are the symptoms, causes, and treatment of appendicitis? (version 41)",
+    "symptoms": "Lower right abdominal pain, nausea, vomiting, loss of appetite, fever.",
+    "causes": "Blockage in the appendix leading to infection.",
+    "treatment": "Surgical removal of the appendix (appendectomy)."
+  },
+  {
+    "topic": "Hepatitis B",
+    "question": "What are the symptoms, causes, and treatment of hepatitis B? (version 41)",
+    "symptoms": "Fatigue, jaundice, dark urine, abdominal pain, loss of appetite.",
+    "causes": "Hepatitis B virus (HBV), transmitted via blood and bodily fluids.",
+    "treatment": "Antiviral medications, rest, liver monitoring; vaccination prevents infection."
+  },
+  {
+    "topic": "Anemia",
+    "question": "What are the symptoms, causes, and treatment of anemia? (version 41)",
+    "symptoms": "Fatigue, weakness, pale skin, shortness of breath, dizziness.",
+    "causes": "Iron deficiency, blood loss, chronic disease, poor diet.",
+    "treatment": "Iron supplements, dietary changes, treating the underlying cause."
+  },
+  {
+    "topic": "Malaria",
+    "question": "What are the symptoms, causes, and treatment of malaria? (version 42)",
+    "symptoms": "Fever, chills, headache, vomiting, muscle pain.",
+    "causes": "Plasmodium parasite transmitted by Anopheles mosquitoes.",
+    "treatment": "Antimalarial medications such as chloroquine, artemisinin-based combination therapies (ACTs)."
+  },
+  {
+    "topic": "Diabetes Type 2",
+    "question": "What are the symptoms, causes, and treatment of type 2 diabetes? (version 42)",
+    "symptoms": "Increased thirst, frequent urination, hunger, fatigue, blurred vision.",
+    "causes": "Insulin resistance and high blood sugar levels, often linked to obesity and genetics.",
+    "treatment": "Diet and exercise, oral medications (e.g., metformin), insulin therapy."
+  },
+  {
+    "topic": "Typhoid Fever",
+    "question": "What are the symptoms, causes, and treatment of typhoid fever? (version 42)",
+    "symptoms": "High fever, weakness, stomach pain, headache, loss of appetite.",
+    "causes": "Salmonella typhi bacteria, spread through contaminated food or water.",
+    "treatment": "Antibiotics such as ciprofloxacin or azithromycin, hydration, proper nutrition."
+  },
+  {
+    "topic": "Hypertension",
+    "question": "What are the symptoms, causes, and treatment of hypertension? (version 42)",
+    "symptoms": "Often asymptomatic, but can include headaches, dizziness, and nosebleeds.",
+    "causes": "Genetics, poor diet, lack of exercise, stress, obesity.",
+    "treatment": "Lifestyle changes, antihypertensive drugs like ACE inhibitors or beta-blockers."
+  },
+  {
+    "topic": "Asthma",
+    "question": "What are the symptoms, causes, and treatment of asthma? (version 42)",
+    "symptoms": "Wheezing, shortness of breath, chest tightness, coughing.",
+    "causes": "Allergens, exercise, cold air, respiratory infections.",
+    "treatment": "Inhalers (bronchodilators and corticosteroids), avoiding triggers."
+  },
+  {
+    "topic": "COVID-19",
+    "question": "What are the symptoms, causes, and treatment of COVID-19? (version 42)",
+    "symptoms": "Fever, cough, fatigue, loss of taste or smell, difficulty breathing.",
+    "causes": "Infection by the SARS-CoV-2 virus, transmitted via respiratory droplets.",
+    "treatment": "Supportive care, antiviral medications, vaccination."
+  },
+  {
+    "topic": "Tuberculosis",
+    "question": "What are the symptoms, causes, and treatment of tuberculosis? (version 42)",
+    "symptoms": "Persistent cough, chest pain, weight loss, night sweats, fever.",
+    "causes": "Mycobacterium tuberculosis bacteria, spread through airborne particles.",
+    "treatment": "Antibiotics such as isoniazid, rifampin over a long period (6-9 months)."
+  },
+  {
+    "topic": "Appendicitis",
+    "question": "What are the symptoms, causes, and treatment of appendicitis? (version 42)",
+    "symptoms": "Lower right abdominal pain, nausea, vomiting, loss of appetite, fever.",
+    "causes": "Blockage in the appendix leading to infection.",
+    "treatment": "Surgical removal of the appendix (appendectomy)."
+  },
+  {
+    "topic": "Hepatitis B",
+    "question": "What are the symptoms, causes, and treatment of hepatitis B? (version 42)",
+    "symptoms": "Fatigue, jaundice, dark urine, abdominal pain, loss of appetite.",
+    "causes": "Hepatitis B virus (HBV), transmitted via blood and bodily fluids.",
+    "treatment": "Antiviral medications, rest, liver monitoring; vaccination prevents infection."
+  },
+  {
+    "topic": "Anemia",
+    "question": "What are the symptoms, causes, and treatment of anemia? (version 42)",
+    "symptoms": "Fatigue, weakness, pale skin, shortness of breath, dizziness.",
+    "causes": "Iron deficiency, blood loss, chronic disease, poor diet.",
+    "treatment": "Iron supplements, dietary changes, treating the underlying cause."
+  },
+  {
+    "topic": "Malaria",
+    "question": "What are the symptoms, causes, and treatment of malaria? (version 43)",
+    "symptoms": "Fever, chills, headache, vomiting, muscle pain.",
+    "causes": "Plasmodium parasite transmitted by Anopheles mosquitoes.",
+    "treatment": "Antimalarial medications such as chloroquine, artemisinin-based combination therapies (ACTs)."
+  },
+  {
+    "topic": "Diabetes Type 2",
+    "question": "What are the symptoms, causes, and treatment of type 2 diabetes? (version 43)",
+    "symptoms": "Increased thirst, frequent urination, hunger, fatigue, blurred vision.",
+    "causes": "Insulin resistance and high blood sugar levels, often linked to obesity and genetics.",
+    "treatment": "Diet and exercise, oral medications (e.g., metformin), insulin therapy."
+  },
+  {
+    "topic": "Typhoid Fever",
+    "question": "What are the symptoms, causes, and treatment of typhoid fever? (version 43)",
+    "symptoms": "High fever, weakness, stomach pain, headache, loss of appetite.",
+    "causes": "Salmonella typhi bacteria, spread through contaminated food or water.",
+    "treatment": "Antibiotics such as ciprofloxacin or azithromycin, hydration, proper nutrition."
+  },
+  {
+    "topic": "Hypertension",
+    "question": "What are the symptoms, causes, and treatment of hypertension? (version 43)",
+    "symptoms": "Often asymptomatic, but can include headaches, dizziness, and nosebleeds.",
+    "causes": "Genetics, poor diet, lack of exercise, stress, obesity.",
+    "treatment": "Lifestyle changes, antihypertensive drugs like ACE inhibitors or beta-blockers."
+  },
+  {
+    "topic": "Asthma",
+    "question": "What are the symptoms, causes, and treatment of asthma? (version 43)",
+    "symptoms": "Wheezing, shortness of breath, chest tightness, coughing.",
+    "causes": "Allergens, exercise, cold air, respiratory infections.",
+    "treatment": "Inhalers (bronchodilators and corticosteroids), avoiding triggers."
+  },
+  {
+    "topic": "COVID-19",
+    "question": "What are the symptoms, causes, and treatment of COVID-19? (version 43)",
+    "symptoms": "Fever, cough, fatigue, loss of taste or smell, difficulty breathing.",
+    "causes": "Infection by the SARS-CoV-2 virus, transmitted via respiratory droplets.",
+    "treatment": "Supportive care, antiviral medications, vaccination."
+  },
+  {
+    "topic": "Tuberculosis",
+    "question": "What are the symptoms, causes, and treatment of tuberculosis? (version 43)",
+    "symptoms": "Persistent cough, chest pain, weight loss, night sweats, fever.",
+    "causes": "Mycobacterium tuberculosis bacteria, spread through airborne particles.",
+    "treatment": "Antibiotics such as isoniazid, rifampin over a long period (6-9 months)."
+  },
+  {
+    "topic": "Appendicitis",
+    "question": "What are the symptoms, causes, and treatment of appendicitis? (version 43)",
+    "symptoms": "Lower right abdominal pain, nausea, vomiting, loss of appetite, fever.",
+    "causes": "Blockage in the appendix leading to infection.",
+    "treatment": "Surgical removal of the appendix (appendectomy)."
+  },
+  {
+    "topic": "Hepatitis B",
+    "question": "What are the symptoms, causes, and treatment of hepatitis B? (version 43)",
+    "symptoms": "Fatigue, jaundice, dark urine, abdominal pain, loss of appetite.",
+    "causes": "Hepatitis B virus (HBV), transmitted via blood and bodily fluids.",
+    "treatment": "Antiviral medications, rest, liver monitoring; vaccination prevents infection."
+  },
+  {
+    "topic": "Anemia",
+    "question": "What are the symptoms, causes, and treatment of anemia? (version 43)",
+    "symptoms": "Fatigue, weakness, pale skin, shortness of breath, dizziness.",
+    "causes": "Iron deficiency, blood loss, chronic disease, poor diet.",
+    "treatment": "Iron supplements, dietary changes, treating the underlying cause."
+  },
+  {
+    "topic": "Malaria",
+    "question": "What are the symptoms, causes, and treatment of malaria? (version 44)",
+    "symptoms": "Fever, chills, headache, vomiting, muscle pain.",
+    "causes": "Plasmodium parasite transmitted by Anopheles mosquitoes.",
+    "treatment": "Antimalarial medications such as chloroquine, artemisinin-based combination therapies (ACTs)."
+  },
+  {
+    "topic": "Diabetes Type 2",
+    "question": "What are the symptoms, causes, and treatment of type 2 diabetes? (version 44)",
+    "symptoms": "Increased thirst, frequent urination, hunger, fatigue, blurred vision.",
+    "causes": "Insulin resistance and high blood sugar levels, often linked to obesity and genetics.",
+    "treatment": "Diet and exercise, oral medications (e.g., metformin), insulin therapy."
+  },
+  {
+    "topic": "Typhoid Fever",
+    "question": "What are the symptoms, causes, and treatment of typhoid fever? (version 44)",
+    "symptoms": "High fever, weakness, stomach pain, headache, loss of appetite.",
+    "causes": "Salmonella typhi bacteria, spread through contaminated food or water.",
+    "treatment": "Antibiotics such as ciprofloxacin or azithromycin, hydration, proper nutrition."
+  },
+  {
+    "topic": "Hypertension",
+    "question": "What are the symptoms, causes, and treatment of hypertension? (version 44)",
+    "symptoms": "Often asymptomatic, but can include headaches, dizziness, and nosebleeds.",
+    "causes": "Genetics, poor diet, lack of exercise, stress, obesity.",
+    "treatment": "Lifestyle changes, antihypertensive drugs like ACE inhibitors or beta-blockers."
+  },
+  {
+    "topic": "Asthma",
+    "question": "What are the symptoms, causes, and treatment of asthma? (version 44)",
+    "symptoms": "Wheezing, shortness of breath, chest tightness, coughing.",
+    "causes": "Allergens, exercise, cold air, respiratory infections.",
+    "treatment": "Inhalers (bronchodilators and corticosteroids), avoiding triggers."
+  },
+  {
+    "topic": "COVID-19",
+    "question": "What are the symptoms, causes, and treatment of COVID-19? (version 44)",
+    "symptoms": "Fever, cough, fatigue, loss of taste or smell, difficulty breathing.",
+    "causes": "Infection by the SARS-CoV-2 virus, transmitted via respiratory droplets.",
+    "treatment": "Supportive care, antiviral medications, vaccination."
+  },
+  {
+    "topic": "Tuberculosis",
+    "question": "What are the symptoms, causes, and treatment of tuberculosis? (version 44)",
+    "symptoms": "Persistent cough, chest pain, weight loss, night sweats, fever.",
+    "causes": "Mycobacterium tuberculosis bacteria, spread through airborne particles.",
+    "treatment": "Antibiotics such as isoniazid, rifampin over a long period (6-9 months)."
+  },
+  {
+    "topic": "Appendicitis",
+    "question": "What are the symptoms, causes, and treatment of appendicitis? (version 44)",
+    "symptoms": "Lower right abdominal pain, nausea, vomiting, loss of appetite, fever.",
+    "causes": "Blockage in the appendix leading to infection.",
+    "treatment": "Surgical removal of the appendix (appendectomy)."
+  },
+  {
+    "topic": "Hepatitis B",
+    "question": "What are the symptoms, causes, and treatment of hepatitis B? (version 44)",
+    "symptoms": "Fatigue, jaundice, dark urine, abdominal pain, loss of appetite.",
+    "causes": "Hepatitis B virus (HBV), transmitted via blood and bodily fluids.",
+    "treatment": "Antiviral medications, rest, liver monitoring; vaccination prevents infection."
+  },
+  {
+    "topic": "Anemia",
+    "question": "What are the symptoms, causes, and treatment of anemia? (version 44)",
+    "symptoms": "Fatigue, weakness, pale skin, shortness of breath, dizziness.",
+    "causes": "Iron deficiency, blood loss, chronic disease, poor diet.",
+    "treatment": "Iron supplements, dietary changes, treating the underlying cause."
+  },
+  {
+    "topic": "Malaria",
+    "question": "What are the symptoms, causes, and treatment of malaria? (version 45)",
+    "symptoms": "Fever, chills, headache, vomiting, muscle pain.",
+    "causes": "Plasmodium parasite transmitted by Anopheles mosquitoes.",
+    "treatment": "Antimalarial medications such as chloroquine, artemisinin-based combination therapies (ACTs)."
+  },
+  {
+    "topic": "Diabetes Type 2",
+    "question": "What are the symptoms, causes, and treatment of type 2 diabetes? (version 45)",
+    "symptoms": "Increased thirst, frequent urination, hunger, fatigue, blurred vision.",
+    "causes": "Insulin resistance and high blood sugar levels, often linked to obesity and genetics.",
+    "treatment": "Diet and exercise, oral medications (e.g., metformin), insulin therapy."
+  },
+  {
+    "topic": "Typhoid Fever",
+    "question": "What are the symptoms, causes, and treatment of typhoid fever? (version 45)",
+    "symptoms": "High fever, weakness, stomach pain, headache, loss of appetite.",
+    "causes": "Salmonella typhi bacteria, spread through contaminated food or water.",
+    "treatment": "Antibiotics such as ciprofloxacin or azithromycin, hydration, proper nutrition."
+  },
+  {
+    "topic": "Hypertension",
+    "question": "What are the symptoms, causes, and treatment of hypertension? (version 45)",
+    "symptoms": "Often asymptomatic, but can include headaches, dizziness, and nosebleeds.",
+    "causes": "Genetics, poor diet, lack of exercise, stress, obesity.",
+    "treatment": "Lifestyle changes, antihypertensive drugs like ACE inhibitors or beta-blockers."
+  },
+  {
+    "topic": "Asthma",
+    "question": "What are the symptoms, causes, and treatment of asthma? (version 45)",
+    "symptoms": "Wheezing, shortness of breath, chest tightness, coughing.",
+    "causes": "Allergens, exercise, cold air, respiratory infections.",
+    "treatment": "Inhalers (bronchodilators and corticosteroids), avoiding triggers."
+  },
+  {
+    "topic": "COVID-19",
+    "question": "What are the symptoms, causes, and treatment of COVID-19? (version 45)",
+    "symptoms": "Fever, cough, fatigue, loss of taste or smell, difficulty breathing.",
+    "causes": "Infection by the SARS-CoV-2 virus, transmitted via respiratory droplets.",
+    "treatment": "Supportive care, antiviral medications, vaccination."
+  },
+  {
+    "topic": "Tuberculosis",
+    "question": "What are the symptoms, causes, and treatment of tuberculosis? (version 45)",
+    "symptoms": "Persistent cough, chest pain, weight loss, night sweats, fever.",
+    "causes": "Mycobacterium tuberculosis bacteria, spread through airborne particles.",
+    "treatment": "Antibiotics such as isoniazid, rifampin over a long period (6-9 months)."
+  },
+  {
+    "topic": "Appendicitis",
+    "question": "What are the symptoms, causes, and treatment of appendicitis? (version 45)",
+    "symptoms": "Lower right abdominal pain, nausea, vomiting, loss of appetite, fever.",
+    "causes": "Blockage in the appendix leading to infection.",
+    "treatment": "Surgical removal of the appendix (appendectomy)."
+  },
+  {
+    "topic": "Hepatitis B",
+    "question": "What are the symptoms, causes, and treatment of hepatitis B? (version 45)",
+    "symptoms": "Fatigue, jaundice, dark urine, abdominal pain, loss of appetite.",
+    "causes": "Hepatitis B virus (HBV), transmitted via blood and bodily fluids.",
+    "treatment": "Antiviral medications, rest, liver monitoring; vaccination prevents infection."
+  },
+  {
+    "topic": "Anemia",
+    "question": "What are the symptoms, causes, and treatment of anemia? (version 45)",
+    "symptoms": "Fatigue, weakness, pale skin, shortness of breath, dizziness.",
+    "causes": "Iron deficiency, blood loss, chronic disease, poor diet.",
+    "treatment": "Iron supplements, dietary changes, treating the underlying cause."
+  },
+  {
+    "topic": "Malaria",
+    "question": "What are the symptoms, causes, and treatment of malaria? (version 46)",
+    "symptoms": "Fever, chills, headache, vomiting, muscle pain.",
+    "causes": "Plasmodium parasite transmitted by Anopheles mosquitoes.",
+    "treatment": "Antimalarial medications such as chloroquine, artemisinin-based combination therapies (ACTs)."
+  },
+  {
+    "topic": "Diabetes Type 2",
+    "question": "What are the symptoms, causes, and treatment of type 2 diabetes? (version 46)",
+    "symptoms": "Increased thirst, frequent urination, hunger, fatigue, blurred vision.",
+    "causes": "Insulin resistance and high blood sugar levels, often linked to obesity and genetics.",
+    "treatment": "Diet and exercise, oral medications (e.g., metformin), insulin therapy."
+  },
+  {
+    "topic": "Typhoid Fever",
+    "question": "What are the symptoms, causes, and treatment of typhoid fever? (version 46)",
+    "symptoms": "High fever, weakness, stomach pain, headache, loss of appetite.",
+    "causes": "Salmonella typhi bacteria, spread through contaminated food or water.",
+    "treatment": "Antibiotics such as ciprofloxacin or azithromycin, hydration, proper nutrition."
+  },
+  {
+    "topic": "Hypertension",
+    "question": "What are the symptoms, causes, and treatment of hypertension? (version 46)",
+    "symptoms": "Often asymptomatic, but can include headaches, dizziness, and nosebleeds.",
+    "causes": "Genetics, poor diet, lack of exercise, stress, obesity.",
+    "treatment": "Lifestyle changes, antihypertensive drugs like ACE inhibitors or beta-blockers."
+  },
+  {
+    "topic": "Asthma",
+    "question": "What are the symptoms, causes, and treatment of asthma? (version 46)",
+    "symptoms": "Wheezing, shortness of breath, chest tightness, coughing.",
+    "causes": "Allergens, exercise, cold air, respiratory infections.",
+    "treatment": "Inhalers (bronchodilators and corticosteroids), avoiding triggers."
+  },
+  {
+    "topic": "COVID-19",
+    "question": "What are the symptoms, causes, and treatment of COVID-19? (version 46)",
+    "symptoms": "Fever, cough, fatigue, loss of taste or smell, difficulty breathing.",
+    "causes": "Infection by the SARS-CoV-2 virus, transmitted via respiratory droplets.",
+    "treatment": "Supportive care, antiviral medications, vaccination."
+  },
+  {
+    "topic": "Tuberculosis",
+    "question": "What are the symptoms, causes, and treatment of tuberculosis? (version 46)",
+    "symptoms": "Persistent cough, chest pain, weight loss, night sweats, fever.",
+    "causes": "Mycobacterium tuberculosis bacteria, spread through airborne particles.",
+    "treatment": "Antibiotics such as isoniazid, rifampin over a long period (6-9 months)."
+  },
+  {
+    "topic": "Appendicitis",
+    "question": "What are the symptoms, causes, and treatment of appendicitis? (version 46)",
+    "symptoms": "Lower right abdominal pain, nausea, vomiting, loss of appetite, fever.",
+    "causes": "Blockage in the appendix leading to infection.",
+    "treatment": "Surgical removal of the appendix (appendectomy)."
+  },
+  {
+    "topic": "Hepatitis B",
+    "question": "What are the symptoms, causes, and treatment of hepatitis B? (version 46)",
+    "symptoms": "Fatigue, jaundice, dark urine, abdominal pain, loss of appetite.",
+    "causes": "Hepatitis B virus (HBV), transmitted via blood and bodily fluids.",
+    "treatment": "Antiviral medications, rest, liver monitoring; vaccination prevents infection."
+  },
+  {
+    "topic": "Anemia",
+    "question": "What are the symptoms, causes, and treatment of anemia? (version 46)",
+    "symptoms": "Fatigue, weakness, pale skin, shortness of breath, dizziness.",
+    "causes": "Iron deficiency, blood loss, chronic disease, poor diet.",
+    "treatment": "Iron supplements, dietary changes, treating the underlying cause."
+  },
+  {
+    "topic": "Malaria",
+    "question": "What are the symptoms, causes, and treatment of malaria? (version 47)",
+    "symptoms": "Fever, chills, headache, vomiting, muscle pain.",
+    "causes": "Plasmodium parasite transmitted by Anopheles mosquitoes.",
+    "treatment": "Antimalarial medications such as chloroquine, artemisinin-based combination therapies (ACTs)."
+  },
+  {
+    "topic": "Diabetes Type 2",
+    "question": "What are the symptoms, causes, and treatment of type 2 diabetes? (version 47)",
+    "symptoms": "Increased thirst, frequent urination, hunger, fatigue, blurred vision.",
+    "causes": "Insulin resistance and high blood sugar levels, often linked to obesity and genetics.",
+    "treatment": "Diet and exercise, oral medications (e.g., metformin), insulin therapy."
+  },
+  {
+    "topic": "Typhoid Fever",
+    "question": "What are the symptoms, causes, and treatment of typhoid fever? (version 47)",
+    "symptoms": "High fever, weakness, stomach pain, headache, loss of appetite.",
+    "causes": "Salmonella typhi bacteria, spread through contaminated food or water.",
+    "treatment": "Antibiotics such as ciprofloxacin or azithromycin, hydration, proper nutrition."
+  },
+  {
+    "topic": "Hypertension",
+    "question": "What are the symptoms, causes, and treatment of hypertension? (version 47)",
+    "symptoms": "Often asymptomatic, but can include headaches, dizziness, and nosebleeds.",
+    "causes": "Genetics, poor diet, lack of exercise, stress, obesity.",
+    "treatment": "Lifestyle changes, antihypertensive drugs like ACE inhibitors or beta-blockers."
+  },
+  {
+    "topic": "Asthma",
+    "question": "What are the symptoms, causes, and treatment of asthma? (version 47)",
+    "symptoms": "Wheezing, shortness of breath, chest tightness, coughing.",
+    "causes": "Allergens, exercise, cold air, respiratory infections.",
+    "treatment": "Inhalers (bronchodilators and corticosteroids), avoiding triggers."
+  },
+  {
+    "topic": "COVID-19",
+    "question": "What are the symptoms, causes, and treatment of COVID-19? (version 47)",
+    "symptoms": "Fever, cough, fatigue, loss of taste or smell, difficulty breathing.",
+    "causes": "Infection by the SARS-CoV-2 virus, transmitted via respiratory droplets.",
+    "treatment": "Supportive care, antiviral medications, vaccination."
+  },
+  {
+    "topic": "Tuberculosis",
+    "question": "What are the symptoms, causes, and treatment of tuberculosis? (version 47)",
+    "symptoms": "Persistent cough, chest pain, weight loss, night sweats, fever.",
+    "causes": "Mycobacterium tuberculosis bacteria, spread through airborne particles.",
+    "treatment": "Antibiotics such as isoniazid, rifampin over a long period (6-9 months)."
+  },
+  {
+    "topic": "Appendicitis",
+    "question": "What are the symptoms, causes, and treatment of appendicitis? (version 47)",
+    "symptoms": "Lower right abdominal pain, nausea, vomiting, loss of appetite, fever.",
+    "causes": "Blockage in the appendix leading to infection.",
+    "treatment": "Surgical removal of the appendix (appendectomy)."
+  },
+  {
+    "topic": "Hepatitis B",
+    "question": "What are the symptoms, causes, and treatment of hepatitis B? (version 47)",
+    "symptoms": "Fatigue, jaundice, dark urine, abdominal pain, loss of appetite.",
+    "causes": "Hepatitis B virus (HBV), transmitted via blood and bodily fluids.",
+    "treatment": "Antiviral medications, rest, liver monitoring; vaccination prevents infection."
+  },
+  {
+    "topic": "Anemia",
+    "question": "What are the symptoms, causes, and treatment of anemia? (version 47)",
+    "symptoms": "Fatigue, weakness, pale skin, shortness of breath, dizziness.",
+    "causes": "Iron deficiency, blood loss, chronic disease, poor diet.",
+    "treatment": "Iron supplements, dietary changes, treating the underlying cause."
+  },
+  {
+    "topic": "Malaria",
+    "question": "What are the symptoms, causes, and treatment of malaria? (version 48)",
+    "symptoms": "Fever, chills, headache, vomiting, muscle pain.",
+    "causes": "Plasmodium parasite transmitted by Anopheles mosquitoes.",
+    "treatment": "Antimalarial medications such as chloroquine, artemisinin-based combination therapies (ACTs)."
+  },
+  {
+    "topic": "Diabetes Type 2",
+    "question": "What are the symptoms, causes, and treatment of type 2 diabetes? (version 48)",
+    "symptoms": "Increased thirst, frequent urination, hunger, fatigue, blurred vision.",
+    "causes": "Insulin resistance and high blood sugar levels, often linked to obesity and genetics.",
+    "treatment": "Diet and exercise, oral medications (e.g., metformin), insulin therapy."
+  },
+  {
+    "topic": "Typhoid Fever",
+    "question": "What are the symptoms, causes, and treatment of typhoid fever? (version 48)",
+    "symptoms": "High fever, weakness, stomach pain, headache, loss of appetite.",
+    "causes": "Salmonella typhi bacteria, spread through contaminated food or water.",
+    "treatment": "Antibiotics such as ciprofloxacin or azithromycin, hydration, proper nutrition."
+  },
+  {
+    "topic": "Hypertension",
+    "question": "What are the symptoms, causes, and treatment of hypertension? (version 48)",
+    "symptoms": "Often asymptomatic, but can include headaches, dizziness, and nosebleeds.",
+    "causes": "Genetics, poor diet, lack of exercise, stress, obesity.",
+    "treatment": "Lifestyle changes, antihypertensive drugs like ACE inhibitors or beta-blockers."
+  },
+  {
+    "topic": "Asthma",
+    "question": "What are the symptoms, causes, and treatment of asthma? (version 48)",
+    "symptoms": "Wheezing, shortness of breath, chest tightness, coughing.",
+    "causes": "Allergens, exercise, cold air, respiratory infections.",
+    "treatment": "Inhalers (bronchodilators and corticosteroids), avoiding triggers."
+  },
+  {
+    "topic": "COVID-19",
+    "question": "What are the symptoms, causes, and treatment of COVID-19? (version 48)",
+    "symptoms": "Fever, cough, fatigue, loss of taste or smell, difficulty breathing.",
+    "causes": "Infection by the SARS-CoV-2 virus, transmitted via respiratory droplets.",
+    "treatment": "Supportive care, antiviral medications, vaccination."
+  },
+  {
+    "topic": "Tuberculosis",
+    "question": "What are the symptoms, causes, and treatment of tuberculosis? (version 48)",
+    "symptoms": "Persistent cough, chest pain, weight loss, night sweats, fever.",
+    "causes": "Mycobacterium tuberculosis bacteria, spread through airborne particles.",
+    "treatment": "Antibiotics such as isoniazid, rifampin over a long period (6-9 months)."
+  },
+  {
+    "topic": "Appendicitis",
+    "question": "What are the symptoms, causes, and treatment of appendicitis? (version 48)",
+    "symptoms": "Lower right abdominal pain, nausea, vomiting, loss of appetite, fever.",
+    "causes": "Blockage in the appendix leading to infection.",
+    "treatment": "Surgical removal of the appendix (appendectomy)."
+  },
+  {
+    "topic": "Hepatitis B",
+    "question": "What are the symptoms, causes, and treatment of hepatitis B? (version 48)",
+    "symptoms": "Fatigue, jaundice, dark urine, abdominal pain, loss of appetite.",
+    "causes": "Hepatitis B virus (HBV), transmitted via blood and bodily fluids.",
+    "treatment": "Antiviral medications, rest, liver monitoring; vaccination prevents infection."
+  },
+  {
+    "topic": "Anemia",
+    "question": "What are the symptoms, causes, and treatment of anemia? (version 48)",
+    "symptoms": "Fatigue, weakness, pale skin, shortness of breath, dizziness.",
+    "causes": "Iron deficiency, blood loss, chronic disease, poor diet.",
+    "treatment": "Iron supplements, dietary changes, treating the underlying cause."
+  },
+  {
+    "topic": "Malaria",
+    "question": "What are the symptoms, causes, and treatment of malaria? (version 49)",
+    "symptoms": "Fever, chills, headache, vomiting, muscle pain.",
+    "causes": "Plasmodium parasite transmitted by Anopheles mosquitoes.",
+    "treatment": "Antimalarial medications such as chloroquine, artemisinin-based combination therapies (ACTs)."
+  },
+  {
+    "topic": "Diabetes Type 2",
+    "question": "What are the symptoms, causes, and treatment of type 2 diabetes? (version 49)",
+    "symptoms": "Increased thirst, frequent urination, hunger, fatigue, blurred vision.",
+    "causes": "Insulin resistance and high blood sugar levels, often linked to obesity and genetics.",
+    "treatment": "Diet and exercise, oral medications (e.g., metformin), insulin therapy."
+  },
+  {
+    "topic": "Typhoid Fever",
+    "question": "What are the symptoms, causes, and treatment of typhoid fever? (version 49)",
+    "symptoms": "High fever, weakness, stomach pain, headache, loss of appetite.",
+    "causes": "Salmonella typhi bacteria, spread through contaminated food or water.",
+    "treatment": "Antibiotics such as ciprofloxacin or azithromycin, hydration, proper nutrition."
+  },
+  {
+    "topic": "Hypertension",
+    "question": "What are the symptoms, causes, and treatment of hypertension? (version 49)",
+    "symptoms": "Often asymptomatic, but can include headaches, dizziness, and nosebleeds.",
+    "causes": "Genetics, poor diet, lack of exercise, stress, obesity.",
+    "treatment": "Lifestyle changes, antihypertensive drugs like ACE inhibitors or beta-blockers."
+  },
+  {
+    "topic": "Asthma",
+    "question": "What are the symptoms, causes, and treatment of asthma? (version 49)",
+    "symptoms": "Wheezing, shortness of breath, chest tightness, coughing.",
+    "causes": "Allergens, exercise, cold air, respiratory infections.",
+    "treatment": "Inhalers (bronchodilators and corticosteroids), avoiding triggers."
+  },
+  {
+    "topic": "COVID-19",
+    "question": "What are the symptoms, causes, and treatment of COVID-19? (version 49)",
+    "symptoms": "Fever, cough, fatigue, loss of taste or smell, difficulty breathing.",
+    "causes": "Infection by the SARS-CoV-2 virus, transmitted via respiratory droplets.",
+    "treatment": "Supportive care, antiviral medications, vaccination."
+  },
+  {
+    "topic": "Tuberculosis",
+    "question": "What are the symptoms, causes, and treatment of tuberculosis? (version 49)",
+    "symptoms": "Persistent cough, chest pain, weight loss, night sweats, fever.",
+    "causes": "Mycobacterium tuberculosis bacteria, spread through airborne particles.",
+    "treatment": "Antibiotics such as isoniazid, rifampin over a long period (6-9 months)."
+  },
+  {
+    "topic": "Appendicitis",
+    "question": "What are the symptoms, causes, and treatment of appendicitis? (version 49)",
+    "symptoms": "Lower right abdominal pain, nausea, vomiting, loss of appetite, fever.",
+    "causes": "Blockage in the appendix leading to infection.",
+    "treatment": "Surgical removal of the appendix (appendectomy)."
+  },
+  {
+    "topic": "Hepatitis B",
+    "question": "What are the symptoms, causes, and treatment of hepatitis B? (version 49)",
+    "symptoms": "Fatigue, jaundice, dark urine, abdominal pain, loss of appetite.",
+    "causes": "Hepatitis B virus (HBV), transmitted via blood and bodily fluids.",
+    "treatment": "Antiviral medications, rest, liver monitoring; vaccination prevents infection."
+  },
+  {
+    "topic": "Anemia",
+    "question": "What are the symptoms, causes, and treatment of anemia? (version 49)",
+    "symptoms": "Fatigue, weakness, pale skin, shortness of breath, dizziness.",
+    "causes": "Iron deficiency, blood loss, chronic disease, poor diet.",
+    "treatment": "Iron supplements, dietary changes, treating the underlying cause."
+  },
+  {
+    "topic": "Malaria",
+    "question": "What are the symptoms, causes, and treatment of malaria? (version 50)",
+    "symptoms": "Fever, chills, headache, vomiting, muscle pain.",
+    "causes": "Plasmodium parasite transmitted by Anopheles mosquitoes.",
+    "treatment": "Antimalarial medications such as chloroquine, artemisinin-based combination therapies (ACTs)."
+  },
+  {
+    "topic": "Diabetes Type 2",
+    "question": "What are the symptoms, causes, and treatment of type 2 diabetes? (version 50)",
+    "symptoms": "Increased thirst, frequent urination, hunger, fatigue, blurred vision.",
+    "causes": "Insulin resistance and high blood sugar levels, often linked to obesity and genetics.",
+    "treatment": "Diet and exercise, oral medications (e.g., metformin), insulin therapy."
+  },
+  {
+    "topic": "Typhoid Fever",
+    "question": "What are the symptoms, causes, and treatment of typhoid fever? (version 50)",
+    "symptoms": "High fever, weakness, stomach pain, headache, loss of appetite.",
+    "causes": "Salmonella typhi bacteria, spread through contaminated food or water.",
+    "treatment": "Antibiotics such as ciprofloxacin or azithromycin, hydration, proper nutrition."
+  },
+  {
+    "topic": "Hypertension",
+    "question": "What are the symptoms, causes, and treatment of hypertension? (version 50)",
+    "symptoms": "Often asymptomatic, but can include headaches, dizziness, and nosebleeds.",
+    "causes": "Genetics, poor diet, lack of exercise, stress, obesity.",
+    "treatment": "Lifestyle changes, antihypertensive drugs like ACE inhibitors or beta-blockers."
+  },
+  {
+    "topic": "Asthma",
+    "question": "What are the symptoms, causes, and treatment of asthma? (version 50)",
+    "symptoms": "Wheezing, shortness of breath, chest tightness, coughing.",
+    "causes": "Allergens, exercise, cold air, respiratory infections.",
+    "treatment": "Inhalers (bronchodilators and corticosteroids), avoiding triggers."
+  },
+  {
+    "topic": "COVID-19",
+    "question": "What are the symptoms, causes, and treatment of COVID-19? (version 50)",
+    "symptoms": "Fever, cough, fatigue, loss of taste or smell, difficulty breathing.",
+    "causes": "Infection by the SARS-CoV-2 virus, transmitted via respiratory droplets.",
+    "treatment": "Supportive care, antiviral medications, vaccination."
+  },
+  {
+    "topic": "Tuberculosis",
+    "question": "What are the symptoms, causes, and treatment of tuberculosis? (version 50)",
+    "symptoms": "Persistent cough, chest pain, weight loss, night sweats, fever.",
+    "causes": "Mycobacterium tuberculosis bacteria, spread through airborne particles.",
+    "treatment": "Antibiotics such as isoniazid, rifampin over a long period (6-9 months)."
+  },
+  {
+    "topic": "Appendicitis",
+    "question": "What are the symptoms, causes, and treatment of appendicitis? (version 50)",
+    "symptoms": "Lower right abdominal pain, nausea, vomiting, loss of appetite, fever.",
+    "causes": "Blockage in the appendix leading to infection.",
+    "treatment": "Surgical removal of the appendix (appendectomy)."
+  },
+  {
+    "topic": "Hepatitis B",
+    "question": "What are the symptoms, causes, and treatment of hepatitis B? (version 50)",
+    "symptoms": "Fatigue, jaundice, dark urine, abdominal pain, loss of appetite.",
+    "causes": "Hepatitis B virus (HBV), transmitted via blood and bodily fluids.",
+    "treatment": "Antiviral medications, rest, liver monitoring; vaccination prevents infection."
+  },
+  {
+    "topic": "Anemia",
+    "question": "What are the symptoms, causes, and treatment of anemia? (version 50)",
+    "symptoms": "Fatigue, weakness, pale skin, shortness of breath, dizziness.",
+    "causes": "Iron deficiency, blood loss, chronic disease, poor diet.",
+    "treatment": "Iron supplements, dietary changes, treating the underlying cause."
+  }
+]

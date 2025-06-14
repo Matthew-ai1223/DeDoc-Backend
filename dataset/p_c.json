@@ -1,0 +1,249 @@
+[
+    {
+      "topic": "Prenatal Care",
+      "question": "What is prenatal care and why is it important? (version 1)",
+      "symptoms": "N/A",
+      "causes": "Lack of prenatal care can lead to undiagnosed complications such as gestational diabetes, preeclampsia, or fetal growth restrictions.",
+      "treatment": "Regular visits to a healthcare provider, routine ultrasounds, blood tests, and nutritional counseling.",
+      "layman_explanation": "Prenatal care means visiting your doctor regularly while pregnant to make sure you and your baby stay healthy."
+    },
+    {
+      "topic": "Gestational Diabetes",
+      "question": "What are the symptoms, causes, and treatment of Gestational Diabetes? (version 1)",
+      "symptoms": "Often asymptomatic; may include excessive thirst, frequent urination, fatigue, and blurred vision.",
+      "causes": "Hormonal changes during pregnancy that interfere with insulin function.",
+      "treatment": "Blood sugar monitoring, dietary adjustments, physical activity, and possibly insulin therapy.",
+      "layman_explanation": "Some pregnant women develop high blood sugar, which can be managed with diet, exercise, or insulin."
+    },
+    {
+      "topic": "Preeclampsia",
+      "question": "What are the symptoms, causes, and treatment of Preeclampsia? (version 1)",
+      "symptoms": "High blood pressure, swelling (especially in hands and face), headaches, vision changes, and protein in urine.",
+      "causes": "Exact cause unknown; involves abnormal development of blood vessels in the placenta.",
+      "treatment": "Monitoring, blood pressure medications, early delivery if severe.",
+      "layman_explanation": "Preeclampsia is a dangerous condition in pregnancy where your blood pressure gets too high and needs medical attention."
+    },
+    {
+      "topic": "Preterm Labor",
+      "question": "What are the symptoms, causes, and treatment of Preterm Labor? (version 1)",
+      "symptoms": "Regular contractions before 37 weeks, backache, pelvic pressure, vaginal discharge changes.",
+      "causes": "Infections, multiple pregnancies, uterine abnormalities, unknown factors.",
+      "treatment": "Tocolytics to slow labor, corticosteroids to mature baby’s lungs, hospitalization if needed.",
+      "layman_explanation": "Preterm labor means going into labor too early. Doctors try to delay delivery and help the baby's lungs develop."
+    },
+    {
+      "topic": "Ectopic Pregnancy",
+      "question": "What are the symptoms, causes, and treatment of Ectopic Pregnancy? (version 1)",
+      "symptoms": "Sharp abdominal pain, vaginal bleeding, shoulder pain, dizziness or fainting.",
+      "causes": "Fertilized egg implants outside the uterus, often in a fallopian tube.",
+      "treatment": "Medication (methotrexate) or surgical removal.",
+      "layman_explanation": "An ectopic pregnancy happens when the baby starts growing outside the womb. It’s dangerous and needs quick treatment."
+    },
+    {
+      "topic": "Anemia in Pregnancy",
+      "question": "What are the symptoms, causes, and treatment of Anemia during Pregnancy? (version 1)",
+      "symptoms": "Fatigue, weakness, pale skin, shortness of breath, dizziness.",
+      "causes": "Increased blood volume during pregnancy requires more iron and folic acid.",
+      "treatment": "Iron and folic acid supplements, dietary changes.",
+      "layman_explanation": "Anemia is when you don’t have enough healthy red blood cells. It’s common in pregnancy and treated with iron and vitamins."
+    },
+    {
+      "topic": "Group B Streptococcus (GBS)",
+      "question": "What are the symptoms, causes, and treatment of Group B Streptococcus in Pregnancy? (version 1)",
+      "symptoms": "Usually no symptoms in the mother; baby may develop infection after birth.",
+      "causes": "GBS bacteria naturally found in the genital tract; can be passed to baby during delivery.",
+      "treatment": "Antibiotics during labor to prevent transmission.",
+      "layman_explanation": "Group B Strep is a common bacteria that can harm the baby during birth. Moms are tested and given antibiotics if needed."
+    },
+    {
+      "topic": "Hyperemesis Gravidarum",
+      "question": "What are the symptoms, causes, and treatment of Hyperemesis Gravidarum? (version 1)",
+      "symptoms": "Severe nausea and vomiting, dehydration, weight loss, electrolyte imbalance.",
+      "causes": "Unknown; linked to high hormone levels (hCG, estrogen).",
+      "treatment": "IV fluids, anti-nausea medications, nutritional support.",
+      "layman_explanation": "This is very bad morning sickness that can make you really sick. Doctors treat it with fluids and medicine."
+    },
+    {
+      "topic": "Rh Incompatibility",
+      "question": "What are the symptoms, causes, and treatment of Rh Incompatibility? (version 1)",
+      "symptoms": "No symptoms in mother; baby may develop anemia, jaundice, or more serious problems.",
+      "causes": "Mother is Rh-negative and baby is Rh-positive, leading to immune response.",
+      "treatment": "Rho(D) immune globulin injections during and after pregnancy.",
+      "layman_explanation": "If mom and baby have different blood types, the mom’s body might attack the baby’s blood. A shot can prevent this."
+    },
+    {
+      "topic": "Miscarriage",
+      "question": "What are the symptoms, causes, and treatment of Miscarriage? (version 1)",
+      "symptoms": "Vaginal bleeding, cramping, passage of tissue, loss of pregnancy symptoms.",
+      "causes": "Chromosomal abnormalities, infections, hormonal problems, unknown causes.",
+      "treatment": "Observation, medication, or surgical intervention depending on stage and symptoms.",
+      "layman_explanation": "Miscarriage is when a pregnancy ends early. It’s common and often not caused by anything the mother did."
+    },
+    {
+        "topic": "Prenatal Vitamins",
+        "question": "Why are prenatal vitamins important during pregnancy? (version 1)",
+        "symptoms": "N/A (Preventive care)",
+        "causes": "Increased nutritional demands during pregnancy (folic acid, iron, calcium, DHA).",
+        "treatment": "Daily prenatal vitamins containing 400-800 mcg folic acid, 27 mg iron, 200-300 mg DHA, and vitamin D.",
+        "layman_explanation": "Prenatal vitamins help fill nutritional gaps to support the baby’s brain, bones, and prevent birth defects like spina bifida."
+      },
+      {
+        "topic": "Morning Sickness",
+        "question": "What causes morning sickness, and how can it be managed? (version 1)",
+        "symptoms": "Nausea, vomiting (often in 1st trimester but can persist), food aversions.",
+        "causes": "Hormonal changes (hCG, estrogen), low blood sugar, heightened smell sensitivity.",
+        "treatment": "Small frequent meals, ginger, vitamin B6 + doxylamine (Unisom), hydration, acupressure bands.",
+        "layman_explanation": "Morning sickness is normal early in pregnancy due to hormones. Eating bland snacks and staying hydrated can help."
+      },
+      {
+        "topic": "Gestational Diabetes",
+        "question": "What is gestational diabetes, and how is it managed? (version 1)",
+        "symptoms": "Often none; possible excessive thirst, frequent urination, fatigue.",
+        "causes": "Pregnancy hormones blocking insulin, obesity, family history of diabetes.",
+        "treatment": "Blood sugar monitoring, diet (low-glycemic carbs + protein), exercise, insulin if needed.",
+        "layman_explanation": "Gestational diabetes is high blood sugar during pregnancy. It’s managed with diet and sometimes insulin to protect the baby."
+      },
+      {
+        "topic": "Preeclampsia",
+        "question": "What are the signs and risks of preeclampsia? (version 1)",
+        "symptoms": "High blood pressure, protein in urine, severe headaches, swelling (face/hands), vision changes.",
+        "causes": "Placental blood vessel issues, immune system factors, first pregnancies, chronic hypertension.",
+        "treatment": "Delivery (only cure), blood pressure meds (labetalol), magnesium sulfate to prevent seizures.",
+        "layman_explanation": "Preeclampsia is a dangerous pregnancy condition causing high BP and organ damage. Delivery is the cure, but meds can help until then."
+      },
+      {
+        "topic": "Braxton Hicks Contractions",
+        "question": "How do Braxton Hicks differ from real labor contractions? (version 1)",
+        "symptoms": "Irregular, painless tightening of the uterus (often in 3rd trimester).",
+        "causes": "Uterus practicing for labor, dehydration, physical activity.",
+        "treatment": "Rest, hydration, changing positions (they usually stop with activity shifts).",
+        "layman_explanation": "Braxton Hicks are ‘practice’ contractions—they come and go unpredictably, unlike real labor contractions that get stronger and regular."
+      },
+      {
+        "topic": "Group B Strep (GBS)",
+        "question": "What is Group B Strep, and why is testing done? (version 1)",
+        "symptoms": "Usually none in mother; can cause severe infection (pneumonia/sepsis) in newborns.",
+        "causes": "Bacteria (Streptococcus agalactiae) naturally in the vagina/rectum.",
+        "treatment": "IV antibiotics (penicillin) during labor to prevent newborn transmission.",
+        "layman_explanation": "GBS is a harmless bacteria for moms but dangerous for babies. Testing near delivery ensures antibiotics protect the baby."
+      },
+      {
+        "topic": "Placenta Previa",
+        "question": "What is placenta previa, and how is it managed? (version 1)",
+        "symptoms": "Painless bright red bleeding in 2nd/3rd trimester.",
+        "causes": "Placenta covers part/all of the cervix (risk factors: prior C-sections, multiples, smoking).",
+        "treatment": "Pelvic rest (no sex/exams), possible bed rest, C-section delivery if unresolved.",
+        "layman_explanation": "Placenta previa means the placenta blocks the birth canal, causing bleeding. A C-section is often needed for safety."
+      },
+      {
+        "topic": "Postpartum Depression (PPD)",
+        "question": "What are the signs of postpartum depression? (version 1)",
+        "symptoms": "Persistent sadness, fatigue, guilt, lack of bond with baby, appetite changes, suicidal thoughts.",
+        "causes": "Hormonal drops, sleep deprivation, prior depression, lack of support.",
+        "treatment": "Therapy (CBT), antidepressants (SSRIs like sertraline), support groups.",
+        "layman_explanation": "PPD is more than ‘baby blues’—it’s severe, lasting sadness after birth. Treatment with therapy or meds can help moms recover."
+      },
+      {
+        "topic": "Folic Acid Importance",
+        "question": "Why is folic acid critical before and during pregnancy? (version 1)",
+        "symptoms": "N/A (Preventive)",
+        "causes": "Deficiency increases neural tube defect risk (spina bifida, anencephaly).",
+        "treatment": "400-800 mcg daily (start 3 months pre-pregnancy, continue through 1st trimester).",
+        "layman_explanation": "Folic acid is a B vitamin that prevents serious birth defects in the baby’s brain and spine. Start taking it before pregnancy."
+      },
+      {
+        "topic": "Ectopic Pregnancy",
+        "question": "What is an ectopic pregnancy, and why is it dangerous? (version 1)",
+        "symptoms": "Sharp pelvic pain, vaginal bleeding, dizziness/shoulder pain (if ruptured).",
+        "causes": "Fertilized egg implants outside uterus (usually fallopian tube; risk factors: prior ectopic, PID, smoking).",
+        "treatment": "Methotrexate (early), surgery (laparoscopy) if ruptured.",
+        "layman_explanation": "An ectopic pregnancy grows outside the womb and can’t survive. It’s life-threatening if untreated and requires immediate care."
+      },
+      {
+        "topic": "Caffeine in Pregnancy",
+        "question": "Is caffeine safe during pregnancy? (version 1)",
+        "symptoms": "N/A (Risk assessment)",
+        "causes": "High caffeine intake (>200-300mg/day) linked to miscarriage/low birth weight.",
+        "treatment": "Limit to 1 cup coffee (or 2 teas) daily; avoid energy drinks.",
+        "layman_explanation": "A little coffee is okay, but too much caffeine might increase miscarriage risk. Stick to ~1 cup per day."
+      },
+      {
+        "topic": "Fish Consumption",
+        "question": "Which fish are safe/unsafe in pregnancy? (version 1)",
+        "symptoms": "N/A (Mercury exposure risk)",
+        "causes": "High-mercury fish (shark, swordfish) harm fetal brain development.",
+        "treatment": "Eat 2-3 servings/week of low-mercury fish (salmon, sardines); avoid raw sushi.",
+        "layman_explanation": "Fish like salmon are great for baby’s brain, but avoid high-mercury types. Cook all seafood thoroughly."
+      },
+    
+      {
+        "topic": "Hyperemesis Gravidarum",
+        "question": "What is severe morning sickness (HG)? (version 1)",
+        "symptoms": "Extreme nausea/vomiting, weight loss (>5% body weight), dehydration.",
+        "causes": "Very high hCG levels (e.g., twins), genetic predisposition.",
+        "treatment": "IV fluids, anti-nausea meds (Zofran), hospital admission if severe.",
+        "layman_explanation": "HG is relentless vomiting in pregnancy needing IV fluids and meds to protect mom and baby."
+      },
+      {
+        "topic": "Oligohydramnios",
+        "question": "What causes low amniotic fluid? (version 1)",
+        "symptoms": "Small belly size, reduced fetal movements.",
+        "causes": "Leaking membranes, placental issues, fetal kidney problems.",
+        "treatment": "Increased hydration, amnioinfusion, early delivery if severe.",
+        "layman_explanation": "Low amniotic fluid can stress the baby. Doctors may induce labor or give fluids via IV."
+      },
+    
+      {
+        "topic": "Epidural Anesthesia",
+        "question": "How does an epidural work, and what are the risks? (version 1)",
+        "symptoms": "N/A (Pain management option)",
+        "causes": "Blocks pain signals from spine to brain.",
+        "treatment": "Administered by anesthesiologist; may lower blood pressure temporarily.",
+        "layman_explanation": "An epidural numbs the lower body for pain relief during labor. Side effects are rare but can include headaches."
+      },
+      {
+        "topic": "Breech Position",
+        "question": "What if my baby is breech near delivery? (version 1)",
+        "symptoms": "Baby’s butt/feet down (not head) after 36 weeks.",
+        "causes": "Uterine shape, low amniotic fluid, multiples.",
+        "treatment": "ECV (manual turning), planned C-section, vaginal breech delivery (rare).",
+        "layman_explanation": "A breech baby isn’t head-down. Doctors may try to turn it or recommend a C-section for safety."
+      },
+    
+      {
+        "topic": "Lochia",
+        "question": "What is postpartum bleeding (lochia)? (version 1)",
+        "symptoms": "Heavy bleeding (red) for 3-10 days, then lighter (pink/brown) for 4-6 weeks.",
+        "causes": "Uterus shedding pregnancy lining.",
+        "treatment": "Pads (no tampons), watch for fever/clots (signs of infection).",
+        "layman_explanation": "Lochia is normal bleeding after birth. Call the doctor if you soak a pad hourly or pass large clots."
+      },
+      {
+        "topic": "Newborn Jaundice",
+        "question": "Why do newborns get jaundice? (version 1)",
+        "symptoms": "Yellow skin/eyes, sleepiness, poor feeding.",
+        "causes": "Immature liver can’t process bilirubin quickly.",
+        "treatment": "Phototherapy (blue light), frequent breastfeeding, IV Ig for severe cases.",
+        "layman_explanation": "Jaundice is common in newborns. Light therapy helps break down the yellow pigment (bilirubin)."
+      },
+    
+      
+      {
+        "topic": "Baby Blues",
+        "question": "How are ‘baby blues’ different from PPD? (version 1)",
+        "symptoms": "Mood swings, crying spells, anxiety (lasts <2 weeks).",
+        "causes": "Hormone drops, sleep deprivation, adjustment stress.",
+        "treatment": "Rest, support network, self-care; resolves on its own.",
+        "layman_explanation": "Baby blues are normal, short-lived mood swings after birth. PPD lasts longer and needs treatment."
+      },
+    
+      {
+        "topic": "Placental Abruption",
+        "question": "What is a placental abruption? (version 1)",
+        "symptoms": "Sudden severe abdominal pain, dark bleeding, contractions.",
+        "causes": "Trauma, hypertension, smoking, cocaine use.",
+        "treatment": "Emergency C-section if mom/baby at risk; blood transfusions if needed.",
+        "layman_explanation": "Abruption means the placenta detaches early—a medical emergency requiring immediate delivery."
+      }
+  ]
+  

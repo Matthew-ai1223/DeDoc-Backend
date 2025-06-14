@@ -1,0 +1,1170 @@
+[
+  {
+    "topic": "Obsessive-Compulsive Disorder (OCD)",
+    "question": "What are the symptoms, causes, and treatment of OCD? (version 6)",
+    "symptoms": "Obsessions (repeated unwanted thoughts), compulsions (repetitive behaviors), anxiety if rituals not performed.",
+    "causes": "Genetic predisposition, serotonin dysregulation, behavioral reinforcement of compulsions.",
+    "treatment": "Cognitive-behavioral therapy (CBT), exposure and response prevention, SSRIs like fluoxetine.",
+    "layman_explanation": "OCD is when someone gets stuck in a cycle of unwanted thoughts (obsessions) and feels the need to repeat certain actions (compulsions) to ease their anxiety. For example, constantly washing hands due to fear of germs."
+  },
+  {
+    "topic": "Post-Traumatic Stress Disorder (PTSD)",
+    "question": "What are the symptoms, causes, and treatment of PTSD? (version 7)",
+    "symptoms": "Flashbacks, nightmares, hypervigilance, avoidance of trauma reminders, emotional numbness.",
+    "causes": "Exposure to traumatic event (violence, disaster, abuse), inadequate support systems.",
+    "treatment": "Trauma-focused CBT, EMDR, SSRIs, group therapy, psychoeducation.",
+    "layman_explanation": "PTSD happens after someone goes through a very scary or life-threatening event. They may relive the trauma through nightmares or flashbacks and feel constantly on edge."
+  },
+  {
+    "topic": "Bipolar Disorder",
+    "question": "What are the symptoms, causes, and treatment of bipolar disorder? (version 8)",
+    "symptoms": "Mood swings between manic episodes (euphoria, impulsivity) and depressive episodes (sadness, fatigue).",
+    "causes": "Genetic predisposition, neurochemical imbalances (dopamine, serotonin), stressors.",
+    "treatment": "Mood stabilizers like lithium, antipsychotics, psychotherapy, psychoeducation.",
+    "layman_explanation": "Bipolar disorder causes extreme mood swings—from very high energy and happiness (mania) to deep sadness or hopelessness (depression). These shifts can affect daily life."
+  },
+  {
+    "topic": "Panic Disorder",
+    "question": "What are the symptoms, causes, and treatment of panic disorder? (version 9)",
+    "symptoms": "Sudden panic attacks, chest pain, shortness of breath, fear of dying, dizziness.",
+    "causes": "Genetic predisposition, heightened stress response, trauma, neurochemical factors.",
+    "treatment": "SSRIs, benzodiazepines for acute attacks, CBT, breathing retraining.",
+    "layman_explanation": "Panic disorder involves sudden, intense fear (panic attacks) that feel like a heart attack. People may avoid places where attacks have happened before."
+  },
+  {
+    "topic": "Anorexia Nervosa",
+    "question": "What are the symptoms, causes, and treatment of anorexia nervosa? (version 10)",
+    "symptoms": "Extreme weight loss, distorted body image, fear of weight gain, amenorrhea, denial of hunger.",
+    "causes": "Sociocultural pressures, perfectionism, family dynamics, neurobiological abnormalities.",
+    "treatment": "Nutritional rehabilitation, psychotherapy (CBT or family therapy), SSRIs if comorbid depression.",
+    "layman_explanation": "Anorexia is an eating disorder where people see themselves as overweight even when they’re dangerously thin. They restrict food to the point of starvation."
+  },
+  {
+    "topic": "Generalized Anxiety Disorder",
+    "question": "What are the symptoms, causes, and treatment of Generalized Anxiety Disorder? (version 11)",
+    "symptoms": "Persistent thoughts or behaviors",
+    "causes": "Neurochemical imbalance",
+    "treatment": "Mood stabilizers",
+    "layman_explanation": "Generalized anxiety disorder is when someone worries excessively about everyday things, even when there’s no real reason to. It’s like having a constant feeling of dread."
+  },
+  {
+    "topic": "Social Anxiety Disorder",
+    "question": "What are the symptoms, causes, and treatment of Social Anxiety Disorder? (version 12)",
+    "symptoms": "Disruptive social behavior",
+    "causes": "Genetic predisposition",
+    "treatment": "Family therapy",
+    "layman_explanation": "Social anxiety is more than just shyness. It’s a fear of being judged or embarrassed in social situations, making it hard to interact with others."
+  },
+  {
+    "topic": "Specific Phobias",
+    "question": "What are the symptoms, causes, and treatment of Specific Phobias? (version 13)",
+    "symptoms": "Unusual motor or vocal tics",
+    "causes": "Environmental stressors",
+    "treatment": "Family therapy",
+    "layman_explanation": "A specific phobia is an intense, irrational fear of something like spiders, heights, or flying. The fear is much stronger than the actual danger."
+  },
+  {
+    "topic": "Dissociative Identity Disorder",
+    "question": "What are the symptoms, causes, and treatment of Dissociative Identity Disorder? (version 14)",
+    "symptoms": "Fluctuating mood and energy",
+    "causes": "Psychosocial conflict",
+    "treatment": "Antidepressants",
+    "layman_explanation": "Dissociative identity disorder (formerly called multiple personality disorder) is when a person has two or more distinct identities. It often stems from severe childhood trauma."
+  },
+  {
+    "topic": "Adjustment Disorder",
+    "question": "What are the symptoms, causes, and treatment of Adjustment Disorder? (version 15)",
+    "symptoms": "Chronic worry",
+    "causes": "Developmental delays",
+    "treatment": "Mood stabilizers",
+    "layman_explanation": "Adjustment disorder happens when someone struggles to cope with a major life change, like a divorce or job loss, leading to stress or sadness that’s harder than usual."
+  },
+  {
+    "topic": "Insomnia",
+    "question": "What are the symptoms, causes, and treatment of Insomnia? (version 16)",
+    "symptoms": "Inappropriate emotional expression",
+    "causes": "Substance abuse",
+    "treatment": "Antidepressants",
+    "layman_explanation": "Insomnia is when someone has trouble falling asleep, staying asleep, or wakes up too early. It can leave them feeling tired and irritable during the day."
+  },
+  {
+    "topic": "Somatization Disorder",
+    "question": "What are the symptoms, causes, and treatment of Somatization Disorder? (version 17)",
+    "symptoms": "Inappropriate emotional expression",
+    "causes": "Infections or injury",
+    "treatment": "Supportive counseling",
+    "layman_explanation": "Somatization disorder is when emotional distress shows up as physical symptoms (like pain or fatigue) without a clear medical cause."
+  },
+  {
+    "topic": "Delirium",
+    "question": "What are the symptoms, causes, and treatment of Delirium? (version 18)",
+    "symptoms": "Sleep disturbances",
+    "causes": "Genetic predisposition",
+    "treatment": "Cognitive behavioral therapy",
+    "layman_explanation": "Delirium is sudden confusion, often due to illness or medication. People may seem disoriented, forgetful, or act unlike themselves."
+  },
+  {
+    "topic": "Dementia",
+    "question": "What are the symptoms, causes, and treatment of Dementia? (version 19)",
+    "symptoms": "Sleep disturbances",
+    "causes": "Environmental stressors",
+    "treatment": "Antipsychotics",
+    "layman_explanation": "Dementia is a decline in memory and thinking skills severe enough to interfere with daily life. Alzheimer’s is the most common type."
+  },
+  {
+    "topic": "Cyclothymic Disorder",
+    "question": "What are the symptoms, causes, and treatment of Cyclothymic Disorder? (version 20)",
+    "symptoms": "Unusual motor or vocal tics",
+    "causes": "Neurological degeneration",
+    "treatment": "Family therapy",
+    "layman_explanation": "Cyclothymic disorder is a milder form of bipolar disorder with less severe mood swings between highs and lows."
+  },
+  {
+    "topic": "Premenstrual Dysphoric Disorder",
+    "question": "What are the symptoms, causes, and treatment of Premenstrual Dysphoric Disorder? (version 21)",
+    "symptoms": "Hallucinations or delusions",
+    "causes": "Psychosocial conflict",
+    "treatment": "Cognitive behavioral therapy",
+    "layman_explanation": "PMDD is a severe form of PMS causing extreme mood swings, irritability, or depression before menstruation."
+  },
+  {
+    "topic": "Narcolepsy",
+    "question": "What are the symptoms, causes, and treatment of Narcolepsy? (version 22)",
+    "symptoms": "Fluctuating mood and energy",
+    "causes": "Psychosocial conflict",
+    "treatment": "Antipsychotics",
+    "layman_explanation": "Narcolepsy is a sleep disorder where people suddenly fall asleep during the day, often without warning."
+  },
+  {
+    "topic": "Kleptomania",
+    "question": "What are the symptoms, causes, and treatment of Kleptomania? (version 23)",
+    "symptoms": "Fluctuating mood and energy",
+    "causes": "Environmental stressors",
+    "treatment": "Cognitive behavioral therapy",
+    "layman_explanation": "Kleptomania is when someone can’t resist the urge to steal things they don’t need, often feeling guilty afterward."
+  },
+  {
+    "topic": "Pyromania",
+    "question": "What are the symptoms, causes, and treatment of Pyromania? (version 24)",
+    "symptoms": "Sleep disturbances",
+    "causes": "Substance abuse",
+    "treatment": "Supportive counseling",
+    "layman_explanation": "Pyromania is an impulse-control disorder where someone feels compelled to set fires for emotional relief, not for profit or revenge."
+  },
+  {
+    "topic": "Intermittent Explosive Disorder",
+    "question": "What are the symptoms, causes, and treatment of Intermittent Explosive Disorder? (version 25)",
+    "symptoms": "Impaired cognition or perception",
+    "causes": "Neurological degeneration",
+    "treatment": "Antidepressants",
+    "layman_explanation": "This disorder involves sudden, violent outbursts of anger that are out of proportion to the situation, like road rage or screaming over small things."
+  },
+  {
+    "topic": "Nightmare Disorder",
+    "question": "What are the symptoms, causes, and treatment of Nightmare Disorder? (version 26)",
+    "symptoms": "Inappropriate emotional expression",
+    "causes": "Neurochemical imbalance",
+    "treatment": "Family therapy",
+    "layman_explanation": "Nightmare disorder is when frequent, vivid nightmares disrupt sleep and cause distress, making it hard to function during the day."
+  },
+  {
+    "topic": "Sleepwalking Disorder",
+    "question": "What are the symptoms, causes, and treatment of Sleepwalking Disorder? (version 27)",
+    "symptoms": "Fluctuating mood and energy",
+    "causes": "Neurological degeneration",
+    "treatment": "Pharmacological management",
+    "layman_explanation": "Sleepwalking is when someone gets up and walks around while still asleep, often with no memory of it the next day."
+  },
+  {
+    "topic": "Hypersomnolence Disorder",
+    "question": "What are the symptoms, causes, and treatment of Hypersomnolence Disorder? (version 28)",
+    "symptoms": "Unusual motor or vocal tics",
+    "causes": "Neurological degeneration",
+    "treatment": "Behavioral modification",
+    "layman_explanation": "Hypersomnolence is excessive daytime sleepiness, even after a full night’s sleep, making it hard to stay awake during normal activities."
+  },
+  {
+    "topic": "Gender Dysphoria",
+    "question": "What are the symptoms, causes, and treatment of Gender Dysphoria? (version 29)",
+    "symptoms": "Disruptive social behavior",
+    "causes": "Childhood trauma",
+    "treatment": "Antipsychotics",
+    "layman_explanation": "Gender dysphoria is the distress someone feels when their gender identity doesn’t match the sex they were assigned at birth."
+  },
+  {
+    "topic": "Oppositional Defiant Disorder",
+    "question": "What are the symptoms, causes, and treatment of Oppositional Defiant Disorder? (version 30)",
+    "symptoms": "Disruptive social behavior",
+    "causes": "Psychosocial conflict",
+    "treatment": "Pharmacological management",
+    "layman_explanation": "ODD is when a child is persistently angry, defiant, and uncooperative, especially toward authority figures like parents or teachers."
+  },
+  {
+    "topic": "Conduct Disorder",
+    "question": "What are the symptoms, causes, and treatment of Conduct Disorder? (version 31)",
+    "symptoms": "Disruptive social behavior",
+    "causes": "Psychosocial conflict",
+    "treatment": "Antidepressants",
+    "layman_explanation": "Conduct disorder involves aggressive behavior, lying, or stealing in children, often escalating to serious rule-breaking."
+  },
+  {
+    "topic": "Separation Anxiety Disorder",
+    "question": "What are the symptoms, causes, and treatment of Separation Anxiety Disorder? (version 32)",
+    "symptoms": "Sleep disturbances",
+    "causes": "Neurological degeneration",
+    "treatment": "Antipsychotics",
+    "layman_explanation": "Separation anxiety is when a child (or adult) becomes extremely upset at the thought of being away from a loved one or home."
+  },
+  {
+    "topic": "Tourette's Disorder",
+    "question": "What are the symptoms, causes, and treatment of Tourette's Disorder? (version 33)",
+    "symptoms": "Hallucinations or delusions",
+    "causes": "Psychosocial conflict",
+    "treatment": "Pharmacological management",
+    "layman_explanation": "Tourette’s causes involuntary movements or sounds (tics), like blinking or shouting words, that are hard to control."
+  },
+  {
+    "topic": "Factitious Disorder",
+    "question": "What are the symptoms, causes, and treatment of Factitious Disorder? (version 34)",
+    "symptoms": "Strong physiological fear response",
+    "causes": "Environmental stressors",
+    "treatment": "Antidepressants",
+    "layman_explanation": "Factitious disorder is when someone fakes or exaggerates illness to get attention or care, even without obvious gain."
+  },
+  {
+    "topic": "Illness Anxiety Disorder",
+    "question": "What are the symptoms, causes, and treatment of Illness Anxiety Disorder? (version 35)",
+    "symptoms": "Persistent thoughts or behaviors",
+    "causes": "Environmental stressors",
+    "treatment": "Supportive counseling",
+    "layman_explanation": "Illness anxiety (hypochondria) is when someone is overly worried about having a serious illness, despite tests showing they’re healthy."
+  },
+  {
+    "topic": "Body Dysmorphic Disorder",
+    "question": "What are the symptoms, causes, and treatment of Body Dysmorphic Disorder? (version 36)",
+    "symptoms": "Impaired cognition or perception",
+    "causes": "Childhood trauma",
+    "treatment": "Skill training",
+    "layman_explanation": "Body dysmorphic disorder is when someone obsesses over perceived flaws in their appearance, often spending hours checking mirrors or seeking fixes."
+  },
+  {
+    "topic": "Hoarding Disorder",
+    "question": "What are the symptoms, causes, and treatment of Hoarding Disorder? (version 37)",
+    "symptoms": "Fluctuating mood and energy",
+    "causes": "Neurological degeneration",
+    "treatment": "Mood stabilizers",
+    "layman_explanation": "Hoarding disorder is when someone can’t throw things away, leading to clutter that disrupts their living space and daily life."
+  },
+  {
+    "topic": "Trichotillomania",
+    "question": "What are the symptoms, causes, and treatment of Trichotillomania? (version 38)",
+    "symptoms": "Fluctuating mood and energy",
+    "causes": "Childhood trauma",
+    "treatment": "Supportive counseling",
+    "layman_explanation": "Trichotillomania is when someone can’t stop pulling out their hair, often leaving bald patches, usually due to stress or anxiety."
+  },
+  {
+    "topic": "Excoriation Disorder",
+    "question": "What are the symptoms, causes, and treatment of Excoriation Disorder? (version 39)",
+    "symptoms": "Fluctuating mood and energy",
+    "causes": "Environmental stressors",
+    "treatment": "Behavioral modification",
+    "layman_explanation": "Excoriation disorder is compulsive skin-picking, often causing sores or scars, usually as a way to cope with stress."
+  },
+  {
+    "topic": "Substance-Induced Psychotic Disorder",
+    "question": "What are the symptoms, causes, and treatment of Substance-Induced Psychotic Disorder? (version 40)",
+    "symptoms": "Persistent thoughts or behaviors",
+    "causes": "Substance abuse",
+    "treatment": "Antidepressants",
+    "layman_explanation": "This is when drug or alcohol use triggers hallucinations, paranoia, or delusions, even after the substance leaves the body."
+  },
+  {
+    "topic": "Antisocial Personality Disorder",
+    "question": "What are the symptoms, causes, and treatment of Antisocial Personality Disorder? (version 41)",
+    "symptoms": "Impaired cognition or perception",
+    "causes": "Substance abuse",
+    "treatment": "Group therapy",
+    "layman_explanation": "Antisocial personality disorder involves a long-term pattern of manipulating, exploiting, or violating others’ rights without guilt or remorse."
+  },
+  {
+    "topic": "Avoidant Personality Disorder",
+    "question": "What are the symptoms, causes, and treatment of Avoidant Personality Disorder? (version 42)",
+    "symptoms": "Persistent thoughts or behaviors",
+    "causes": "Substance abuse",
+    "treatment": "Antipsychotics",
+    "layman_explanation": "Avoidant personality disorder is extreme shyness and fear of rejection, making it hard to form close relationships or try new things."
+  },
+  {
+    "topic": "Dependent Personality Disorder",
+    "question": "What are the symptoms, causes, and treatment of Dependent Personality Disorder? (version 43)",
+    "symptoms": "Inappropriate emotional expression",
+    "causes": "Psychosocial conflict",
+    "treatment": "Pharmacological management",
+    "layman_explanation": "Dependent personality disorder is when someone relies excessively on others for decision-making and emotional support, fearing being alone."
+  },
+  {
+    "topic": "Paranoid Personality Disorder",
+    "question": "What are the symptoms, causes, and treatment of Paranoid Personality Disorder? (version 44)",
+    "symptoms": "Unusual motor or vocal tics",
+    "causes": "Neurological degeneration",
+    "treatment": "Group therapy",
+    "layman_explanation": "Paranoid personality disorder involves deep distrust of others, assuming people are out to harm or deceive them without evidence."
+  },
+  {
+    "topic": "Schizoid Personality Disorder",
+    "question": "What are the symptoms, causes, and treatment of Schizoid Personality Disorder? (version 45)",
+    "symptoms": "Unusual motor or vocal tics",
+    "causes": "Infections or injury",
+    "treatment": "Family therapy",
+    "layman_explanation": "Schizoid personality disorder is when someone prefers being alone, avoids social interactions, and seems emotionally detached."
+  },
+  {
+    "topic": "Schizotypal Personality Disorder",
+    "question": "What are the symptoms, causes, and treatment of Schizotypal Personality Disorder? (version 46)",
+    "symptoms": "Disruptive social behavior",
+    "causes": "Neurological degeneration",
+    "treatment": "Supportive counseling",
+    "layman_explanation": "Schizotypal personality disorder involves odd beliefs, magical thinking, and social anxiety, but not as severe as schizophrenia."
+  },
+  {
+    "topic": "Histrionic Personality Disorder",
+    "question": "What are the symptoms, causes, and treatment of Histrionic Personality Disorder? (version 47)",
+    "symptoms": "Fluctuating mood and energy",
+    "causes": "Genetic predisposition",
+    "treatment": "Antidepressants",
+    "layman_explanation": "Histrionic personality disorder is when someone constantly seeks attention, is overly dramatic, and is easily influenced by others."
+  },
+  {
+    "topic": "Narcissistic Personality Disorder",
+    "question": "What are the symptoms, causes, and treatment of Narcissistic Personality Disorder? (version 48)",
+    "symptoms": "Unusual motor or vocal tics",
+    "causes": "Hormonal imbalances",
+    "treatment": "Antipsychotics",
+    "layman_explanation": "Narcissistic personality disorder involves a grandiose sense of self-importance, lack of empathy, and a need for constant admiration."
+  },
+  {
+    "topic": "Obsessive-Compulsive Personality Disorder",
+    "question": "What are the symptoms, causes, and treatment of Obsessive-Compulsive Personality Disorder? (version 49)",
+    "symptoms": "Unusual motor or vocal tics",
+    "causes": "Environmental stressors",
+    "treatment": "Supportive counseling",
+    "layman_explanation": "OCPD is a focus on perfectionism, control, and orderliness to the point where it interferes with flexibility and relationships."
+  },
+  {
+    "topic": "Sleep Terror Disorder",
+    "question": "What are the symptoms, causes, and treatment of Sleep Terror Disorder? (version 50)",
+    "symptoms": "Unusual motor or vocal tics",
+    "causes": "Genetic predisposition",
+    "treatment": "Family therapy",
+    "layman_explanation": "Sleep terrors are episodes of screaming, thrashing, or fear during sleep, often with no memory of the event the next day."
+  },
+  {
+    "topic": "Reactive Attachment Disorder",
+    "question": "What are the symptoms, causes, and treatment of Reactive Attachment Disorder? (version 51)",
+    "symptoms": "Sleep disturbances",
+    "causes": "Environmental stressors",
+    "treatment": "Antipsychotics",
+    "layman_explanation": "Reactive attachment disorder occurs in children who fail to form healthy emotional bonds with caregivers, often due to neglect or abuse."
+  },
+  {
+    "topic": "Disinhibited Social Engagement Disorder",
+    "question": "What are the symptoms, causes, and treatment of Disinhibited Social Engagement Disorder? (version 52)",
+    "symptoms": "Inappropriate emotional expression",
+    "causes": "Psychosocial conflict",
+    "treatment": "Antidepressants",
+    "layman_explanation": "This disorder is when a child shows overly friendly or trusting behavior with strangers, often due to early neglect or instability."
+  },
+  {
+    "topic": "Persistent Depressive Disorder",
+    "question": "What are the symptoms, causes, and treatment of Persistent Depressive Disorder? (version 53)",
+    "symptoms": "Hallucinations or delusions",
+    "causes": "Neurochemical imbalance",
+    "treatment": "Antipsychotics",
+    "layman_explanation": "Persistent depressive disorder is a long-term (chronic) form of depression where sadness or hopelessness lasts for years."
+  },
+  {
+    "topic": "Brief Psychotic Disorder",
+    "question": "What are the symptoms, causes, and treatment of Brief Psychotic Disorder? (version 54)",
+    "symptoms": "Persistent thoughts or behaviors",
+    "causes": "Developmental delays",
+    "treatment": "Mood stabilizers",
+    "layman_explanation": "Brief psychotic disorder is a short-term episode of delusions, hallucinations, or disorganized speech, often triggered by extreme stress."
+  },
+  {
+    "topic": "Schizophreniform Disorder",
+    "question": "What are the symptoms, causes, and treatment of Schizophreniform Disorder? (version 55)",
+    "symptoms": "Impaired cognition or perception",
+    "causes": "Hormonal imbalances",
+    "treatment": "Group therapy",
+    "layman_explanation": "Schizophreniform disorder is like schizophrenia but lasts less than 6 months. It involves hallucinations, delusions, or disorganized thinking."
+  },
+  {
+    "topic": "Catatonia",
+    "question": "What are the symptoms, causes, and treatment of Catatonia? (version 56)",
+    "symptoms": "Chronic worry",
+    "causes": "Childhood trauma",
+    "treatment": "Skill training",
+    "layman_explanation": "Catatonia is a rare condition where someone may stop moving or speaking for long periods, or have unusual, repetitive movements."
+  },
+  {
+    "topic": "Agoraphobia",
+    "question": "What are the symptoms, causes, and treatment of Agoraphobia? (version 57)",
+    "symptoms": "Strong physiological fear response",
+    "causes": "Neurochemical imbalance",
+    "treatment": "Cognitive behavioral therapy",
+    "layman_explanation": "Agoraphobia is a fear of being in places where escape might be hard, like crowds or open spaces, often leading to avoiding leaving home."
+  },
+  {
+    "topic": "Fear of Flying",
+    "question": "What are the symptoms, causes, and treatment of Fear of Flying? (version 58)",
+    "symptoms": "Hallucinations or delusions",
+    "causes": "Genetic predisposition",
+    "treatment": "Group therapy",
+    "layman_explanation": "Fear of flying is an intense, irrational fear of air travel, often causing panic attacks or avoidance of flights."
+  },
+  {
+    "topic": "Claustrophobia",
+    "question": "What are the symptoms, causes, and treatment of Claustrophobia? (version 59)",
+    "symptoms": "Disruptive social behavior",
+    "causes": "Childhood trauma",
+    "treatment": "Family therapy",
+    "layman_explanation": "Claustrophobia is a fear of enclosed spaces, like elevators or small rooms, leading to panic or avoidance."
+  },
+  {
+    "topic": "Pain Disorder",
+    "question": "What are the symptoms, causes, and treatment of Pain Disorder? (version 60)",
+    "symptoms": "Inappropriate emotional expression",
+    "causes": "Genetic predisposition",
+    "treatment": "Skill training",
+    "layman_explanation": "Pain disorder is when someone experiences chronic pain that’s worsened or prolonged by psychological factors like stress or anxiety."
+  },
+  {
+    "topic": "Substance Use Disorder - Alcohol",
+    "question": "What are the symptoms, causes, and treatment of Substance Use Disorder - Alcohol? (version 61)",
+    "symptoms": "Hallucinations or delusions",
+    "causes": "Developmental delays",
+    "treatment": "Skill training",
+    "layman_explanation": "Alcohol use disorder is when someone can’t control their drinking, leading to health, work, or relationship problems."
+  },
+  {
+    "topic": "Substance Use Disorder - Cannabis",
+    "question": "What are the symptoms, causes, and treatment of Substance Use Disorder - Cannabis? (version 62)",
+    "symptoms": "Fluctuating mood and energy",
+    "causes": "Neurochemical imbalance",
+    "treatment": "Antipsychotics",
+    "layman_explanation": "Cannabis use disorder is when marijuana use becomes compulsive, causing issues in daily life despite negative consequences."
+  },
+  {
+    "topic": "Substance Use Disorder - Cocaine",
+    "question": "What are the symptoms, causes, and treatment of Substance Use Disorder - Cocaine? (version 63)",
+    "symptoms": "Unusual motor or vocal tics",
+    "causes": "Developmental delays",
+    "treatment": "Pharmacological management",
+    "layman_explanation": "Cocaine use disorder involves addiction to cocaine, leading to cravings, withdrawal, and harmful effects on health and life."
+  },
+  {
+    "topic": "Substance Use Disorder - Opioids",
+    "question": "What are the symptoms, causes, and treatment of Substance Use Disorder - Opioids? (version 64)",
+    "symptoms": "Inappropriate emotional expression",
+    "causes": "Neurological degeneration",
+    "treatment": "Group therapy",
+    "layman_explanation": "Opioid use disorder is addiction to painkillers or heroin, causing withdrawal symptoms and life disruptions when trying to quit."
+  },
+  {
+    "topic": "Substance Use Disorder - Hallucinogens",
+    "question": "What are the symptoms, causes, and treatment of Substance Use Disorder - Hallucinogens? (version 65)",
+    "symptoms": "Chronic worry",
+    "causes": "Environmental stressors",
+    "treatment": "Antidepressants",
+    "layman_explanation": "Hallucinogen use disorder involves compulsive use of drugs like LSD, leading to flashbacks or impaired functioning."
+  },
+  {
+    "topic": "ADHD - Inattentive",
+    "question": "What are the symptoms, causes, and treatment of ADHD - Inattentive? (version 66)",
+    "symptoms": "Sleep disturbances",
+    "causes": "Substance abuse",
+    "treatment": "Pharmacological management",
+    "layman_explanation": "ADHD-inattentive type is when someone struggles with focus, organization, and follow-through, but isn’t hyperactive."
+  },
+  {
+    "topic": "ADHD - Hyperactive",
+    "question": "What are the symptoms, causes, and treatment of ADHD - Hyperactive? (version 67)",
+    "symptoms": "Unusual motor or vocal tics",
+    "causes": "Genetic predisposition",
+    "treatment": "Antipsychotics",
+    "layman_explanation": "ADHD-hyperactive type involves constant movement, impulsivity, and difficulty sitting still, often seen in children."
+  },
+  {
+    "topic": "Autism Spectrum Disorder",
+    "question": "What are the symptoms, causes, and treatment of Autism Spectrum Disorder? (version 68)",
+    "symptoms": "Hallucinations or delusions",
+    "causes": "Genetic predisposition",
+    "treatment": "Family therapy",
+    "layman_explanation": "Autism spectrum disorder affects communication and behavior, with symptoms ranging from mild (high-functioning) to severe."
+  },
+  {
+    "topic": "Intellectual Disability",
+    "question": "What are the symptoms, causes, and treatment of Intellectual Disability? (version 69)",
+    "symptoms": "Strong physiological fear response",
+    "causes": "Genetic predisposition",
+    "treatment": "Cognitive behavioral therapy",
+    "layman_explanation": "Intellectual disability is when someone has below-average intellectual ability and struggles with daily living skills, starting in childhood."
+  },
+  {
+    "topic": "Learning Disorder",
+    "question": "What are the symptoms, causes, and treatment of Learning Disorder? (version 70)",
+    "symptoms": "Persistent thoughts or behaviors",
+    "causes": "Developmental delays",
+    "treatment": "Skill training",
+    "layman_explanation": "Learning disorders are difficulties in reading, writing, or math that are unrelated to intelligence but make school challenging."
+  },
+  {
+    "topic": "Communication Disorder",
+    "question": "What are the symptoms, causes, and treatment of Communication Disorder? (version 71)",
+    "symptoms": "Impaired cognition or perception",
+    "causes": "Hormonal imbalances",
+    "treatment": "Skill training",
+    "layman_explanation": "Communication disorders involve trouble with speech, language, or social communication, like stuttering or understanding others."
+  },
+  {
+    "topic": "Speech Sound Disorder",
+    "question": "What are the symptoms, causes, and treatment of Speech Sound Disorder? (version 72)",
+    "symptoms": "Sleep disturbances",
+    "causes": "Substance abuse",
+    "treatment": "Antidepressants",
+    "layman_explanation": "Speech sound disorder is when a child has trouble pronouncing words clearly past the expected age, like saying 'wabbit' for 'rabbit.'"
+  },
+  {
+    "topic": "Childhood-Onset Fluency Disorder",
+    "question": "What are the symptoms, causes, and treatment of Childhood-Onset Fluency Disorder? (version 73)",
+    "symptoms": "Persistent thoughts or behaviors",
+    "causes": "Neurochemical imbalance",
+    "treatment": "Group therapy",
+    "layman_explanation": "Childhood-onset fluency disorder is stuttering that disrupts normal speech flow, causing repetitions or blocks in words."
+  },
+  {
+    "topic": "Language Disorder",
+    "question": "What are the symptoms, causes, and treatment of Language Disorder? (version 74)",
+    "symptoms": "Inappropriate emotional expression",
+    "causes": "Genetic predisposition",
+    "treatment": "Antipsychotics",
+    "layman_explanation": "Language disorder is when a child struggles to understand or use spoken language, making it hard to communicate ideas."
+  },
+  {
+    "topic": "Selective Mutism",
+    "question": "What are the symptoms, causes, and treatment of Selective Mutism? (version 75)",
+    "symptoms": "Sleep disturbances",
+    "causes": "Environmental stressors",
+    "treatment": "Behavioral modification",
+    "layman_explanation": "Selective mutism is when a child can speak normally at home but stays silent in school or other social settings due to anxiety."
+  },
+  {
+    "topic": "Rumination Disorder",
+    "question": "What are the symptoms, causes, and treatment of Rumination Disorder? (version 76)",
+    "symptoms": "Persistent thoughts or behaviors",
+    "causes": "Childhood trauma",
+    "treatment": "Group therapy",
+    "layman_explanation": "Rumination disorder is when someone repeatedly regurgitates and re-chews food, often due to stress or developmental issues."
+  },
+  {
+    "topic": "Pica",
+    "question": "What are the symptoms, causes, and treatment of Pica? (version 77)",
+    "symptoms": "Inappropriate emotional expression",
+    "causes": "Infections or injury",
+    "treatment": "Cognitive behavioral therapy",
+    "layman_explanation": "Pica is when someone craves and eats non-food items like dirt, chalk, or paper, often due to nutritional deficiencies or developmental disorders."
+  },
+  {
+    "topic": "Enuresis",
+    "question": "What are the symptoms, causes, and treatment of Enuresis? (version 78)",
+    "symptoms": "Sleep disturbances",
+    "causes": "Infections or injury",
+    "treatment": "Pharmacological management",
+    "layman_explanation": "Enuresis is bedwetting in children past the age when bladder control is expected, often due to slow development or stress."
+  },
+  {
+    "topic": "Encopresis",
+    "question": "What are the symptoms, causes, and treatment of Encopresis? (version 79)",
+    "symptoms": "Strong physiological fear response",
+    "causes": "Developmental delays",
+    "treatment": "Family therapy",
+    "layman_explanation": "Encopresis is when a child soils their underwear due to chronic constipation or emotional stress, beyond the typical age for toilet training."
+  },
+  {
+    "topic": "Postpartum Depression",
+    "question": "What are the symptoms, causes, and treatment of Postpartum Depression? (version 80)",
+    "symptoms": "Disruptive social behavior",
+    "causes": "Environmental stressors",
+    "treatment": "Cognitive behavioral therapy",
+    "layman_explanation": "Postpartum depression is severe sadness, fatigue, or hopelessness after childbirth, making it hard to care for the baby or oneself."
+  },
+  {
+    "topic": "Postpartum Psychosis",
+    "question": "What are the symptoms, causes, and treatment of Postpartum Psychosis? (version 81)",
+    "symptoms": "Unusual motor or vocal tics",
+    "causes": "Genetic predisposition",
+    "treatment": "Cognitive behavioral therapy",
+    "layman_explanation": "Postpartum psychosis is a rare but serious condition after childbirth involving delusions, hallucinations, or thoughts of harming the baby."
+  },
+  {
+    "topic": "Delusional Disorder",
+    "question": "What are the symptoms, causes, and treatment of Delusional Disorder? (version 82)",
+    "symptoms": "Inappropriate emotional expression",
+    "causes": "Developmental delays",
+    "treatment": "Cognitive behavioral therapy",
+    "layman_explanation": "Delusional disorder is when someone holds strong false beliefs (like being persecuted or having special powers) without other psychotic symptoms."
+  },
+  {
+    "topic": "Hallucinogen Persisting Perception Disorder",
+    "question": "What are the symptoms, causes, and treatment of Hallucinogen Persisting Perception Disorder? (version 83)",
+    "symptoms": "Impaired cognition or perception",
+    "causes": "Neurochemical imbalance",
+    "treatment": "Skill training",
+    "layman_explanation": "HPPD is when someone keeps experiencing flashbacks of hallucinations (like seeing trails or colors) long after using drugs like LSD."
+  },
+  {
+    "topic": "Parkinson's Disease Dementia",
+    "question": "What are the symptoms, causes, and treatment of Parkinson's Disease Dementia? (version 84)",
+    "symptoms": "Sleep disturbances",
+    "causes": "Genetic predisposition",
+    "treatment": "Family therapy",
+    "layman_explanation": "Parkinson’s dementia is memory loss and thinking problems that develop in later stages of Parkinson’s disease, affecting movement and cognition."
+  },
+  {
+    "topic": "Huntington's Disease",
+    "question": "What are the symptoms, causes, and treatment of Huntington's Disease? (version 85)",
+    "symptoms": "Strong physiological fear response",
+    "causes": "Developmental delays",
+    "treatment": "Pharmacological management",
+    "layman_explanation": "Huntington’s disease is a genetic disorder causing uncontrolled movements, emotional changes, and cognitive decline over time."
+  },
+  {
+    "topic": "Alzheimer’s Disease",
+    "question": "What are the symptoms, causes, and treatment of Alzheimer’s Disease? (version 86)",
+    "symptoms": "Strong physiological fear response",
+    "causes": "Psychosocial conflict",
+    "treatment": "Antipsychotics",
+    "layman_explanation": "Alzheimer’s is the most common form of dementia, where memory, thinking, and behavior worsen over time due to brain cell damage."
+  },
+  {
+    "topic": "Frontotemporal Dementia",
+    "question": "What are the symptoms, causes, and treatment of Frontotemporal Dementia? (version 87)",
+    "symptoms": "Inappropriate emotional expression",
+    "causes": "Neurochemical imbalance",
+    "treatment": "Supportive counseling",
+    "layman_explanation": "Frontotemporal dementia affects personality, behavior, and language first, unlike Alzheimer’s, which starts with memory loss."
+  },
+  {
+    "topic": "Wernicke-Korsakoff Syndrome",
+    "question": "What are the symptoms, causes, and treatment of Wernicke-Korsakoff Syndrome? (version 88)",
+    "symptoms": "Inappropriate emotional expression",
+    "causes": "Environmental stressors",
+    "treatment": "Pharmacological management",
+    "layman_explanation": "Wernicke-Korsakoff syndrome is a memory disorder caused by severe thiamine deficiency, often due to alcoholism."
+  },
+  {
+    "topic": "Mild Neurocognitive Disorder",
+    "question": "What are the symptoms, causes, and treatment of Mild Neurocognitive Disorder? (version 89)",
+    "symptoms": "Chronic worry",
+    "causes": "Childhood trauma",
+    "treatment": "Antidepressants",
+    "layman_explanation": "Mild neurocognitive disorder is early-stage memory or thinking problems that are noticeable but don’t yet interfere much with daily life."
+  },
+  {
+    "topic": "Severe Neurocognitive Disorder",
+    "question": "What are the symptoms, causes, and treatment of Severe Neurocognitive Disorder? (version 90)",
+    "symptoms": "Unusual motor or vocal tics",
+    "causes": "Psychosocial conflict",
+    "treatment": "Mood stabilizers",
+    "layman_explanation": "Severe neurocognitive disorder (dementia) is when memory loss and confusion are so bad that someone needs help with basic tasks like eating or dressing."
+  },
+  {
+    "topic": "Sleep Apnea Related Depression",
+    "question": "What are the symptoms, causes, and treatment of Sleep Apnea Related Depression? (version 91)",
+    "symptoms": "Chronic worry",
+    "causes": "Environmental stressors",
+    "treatment": "Antipsychotics",
+    "layman_explanation": "Sleep apnea-related depression is when interrupted breathing during sleep leads to poor rest, fatigue, and low mood during the day."
+  },
+  {
+    "topic": "Seasonal Affective Disorder",
+    "question": "What are the symptoms, causes, and treatment of Seasonal Affective Disorder? (version 92)",
+    "symptoms": "Inappropriate emotional expression",
+    "causes": "Neurochemical imbalance",
+    "treatment": "Supportive counseling",
+    "layman_explanation": "Seasonal affective disorder (SAD) is depression that happens during certain seasons, usually winter, due to less sunlight."
+  },
+  {
+    "topic": "Stress-Induced Hypertension",
+    "question": "What are the symptoms, causes, and treatment of Stress-Induced Hypertension? (version 93)",
+    "symptoms": "Hallucinations or delusions",
+    "causes": "Genetic predisposition",
+    "treatment": "Antipsychotics",
+    "layman_explanation": "Stress-induced hypertension is high blood pressure caused by chronic stress, which can strain the heart and blood vessels over time."
+  },
+  {
+    "topic": "Grief Reaction",
+    "question": "What are the symptoms, causes, and treatment of Grief Reaction? (version 94)",
+    "symptoms": "Persistent thoughts or behaviors",
+    "causes": "Childhood trauma",
+    "treatment": "Family therapy",
+    "layman_explanation": "Grief reaction is the normal emotional response to losing a loved one, involving sadness, longing, and adjustment to life without them."
+  },
+  {
+    "topic": "Complicated Bereavement",
+    "question": "What are the symptoms, causes, and treatment of Complicated Bereavement? (version 95)",
+    "symptoms": "Impaired cognition or perception",
+    "causes": "Hormonal imbalances",
+    "treatment": "Antipsychotics",
+    "layman_explanation": "Complicated bereavement is when grief becomes so intense or prolonged that it disrupts daily life and doesn’t improve with time."
+  },
+  {
+    "topic": "Adjustment Disorder with Anxiety",
+    "question": "What are the symptoms, causes, and treatment of Adjustment Disorder with Anxiety? (version 96)",
+    "symptoms": "Impaired cognition or perception",
+    "causes": "Hormonal imbalances",
+    "treatment": "Behavioral modification",
+    "layman_explanation": "Adjustment disorder with anxiety is when stress from a life change (like a move or job loss) causes excessive worry, jitteriness, or panic."
+  },
+  {
+    "topic": "Depersonalization Disorder",
+    "question": "What are the symptoms, causes, and treatment of Depersonalization Disorder? (version 97)",
+    "symptoms": "Hallucinations or delusions",
+    "causes": "Childhood trauma",
+    "treatment": "Group therapy",
+    "layman_explanation": "Depersonalization disorder is when someone feels detached from their body or thoughts, like watching themselves from outside, often due to trauma."
+  },
+  {
+    "topic": "Somatic Symptom Disorder",
+    "question": "What are the symptoms, causes, and treatment of Somatic Symptom Disorder? (version 98)",
+    "symptoms": "Sleep disturbances",
+    "causes": "Neurochemical imbalance",
+    "treatment": "Skill training",
+    "layman_explanation": "Somatic symptom disorder is when someone is overly focused on physical symptoms (like pain or fatigue), fearing they have a serious illness."
+  },
+  {
+    "topic": "Night Eating Syndrome",
+    "question": "What are the symptoms, causes, and treatment of Night Eating Syndrome? (version 99)",
+    "symptoms": "Hallucinations or delusions",
+    "causes": "Developmental delays",
+    "treatment": "Cognitive behavioral therapy",
+    "layman_explanation": "Night eating syndrome is when someone wakes up at night to eat, often due to stress or disrupted hunger hormones, leading to weight gain."
+  },
+  {
+    "topic": "Hypochondriasis",
+    "question": "What are the symptoms, causes, and treatment of Hypochondriasis? (version 100)",
+    "symptoms": "Inappropriate emotional expression",
+    "causes": "Substance abuse",
+    "treatment": "Cognitive behavioral therapy",
+    "layman_explanation": "Hypochondriasis (illness anxiety) is when someone is overly worried about having a serious illness, despite tests showing they’re healthy."
+  },
+  {
+    "topic": "Menopause-Related Depression",
+    "question": "What are the symptoms, causes, and treatment of Menopause-Related Depression? (version 101)",
+    "symptoms": "Fluctuating mood and energy",
+    "causes": "Psychosocial conflict",
+    "treatment": "Supportive counseling",
+    "layman_explanation": "Menopause-related depression is mood swings or sadness triggered by hormonal changes during menopause, often worsened by life stressors."
+  },
+  {
+    "topic": "Preclinical Dementia",
+    "question": "What are the symptoms, causes, and treatment of Preclinical Dementia? (version 102)",
+    "symptoms": "Unusual motor or vocal tics",
+    "causes": "Environmental stressors",
+    "treatment": "Antipsychotics",
+    "layman_explanation": "Preclinical dementia is the very early stage of memory or thinking changes that aren’t yet noticeable but may progress to dementia."
+  },
+  {
+    "topic": "Benzodiazepine Withdrawal",
+    "question": "What are the symptoms, causes, and treatment of Benzodiazepine Withdrawal? (version 103)",
+    "symptoms": "Persistent thoughts or behaviors",
+    "causes": "Hormonal imbalances",
+    "treatment": "Pharmacological management",
+    "layman_explanation": "Benzodiazepine withdrawal happens when someone stops using anti-anxiety meds (like Xanax) too quickly, causing rebound anxiety, insomnia, or seizures."
+  },
+  {
+    "topic": "Caffeine-Induced Anxiety",
+    "question": "What are the symptoms, causes, and treatment of Caffeine-Induced Anxiety? (version 104)",
+    "symptoms": "Disruptive social behavior",
+    "causes": "Genetic predisposition",
+    "treatment": "Behavioral modification",
+    "layman_explanation": "Caffeine-induced anxiety is when too much coffee or energy drinks causes jitteriness, rapid heartbeat, or panic attacks in sensitive people."
+  },
+  {
+    "topic": "Nicotine Dependence",
+    "question": "What are the symptoms, causes, and treatment of Nicotine Dependence? (version 105)",
+    "symptoms": "Disruptive social behavior",
+    "causes": "Substance abuse",
+    "treatment": "Skill training",
+    "layman_explanation": "Nicotine dependence is addiction to tobacco, leading to cravings, withdrawal symptoms (like irritability), and difficulty quitting despite health risks."
+  },
+  {
+    "topic": "Inhalant Use Disorder",
+    "question": "What are the symptoms, causes, and treatment of Inhalant Use Disorder? (version 106)",
+    "symptoms": "Impaired cognition or perception",
+    "causes": "Substance abuse",
+    "treatment": "Group therapy",
+    "layman_explanation": "Inhalant use disorder is when someone sniffs household chemicals (like glue or paint) to get high, risking brain damage or sudden death."
+  },
+  {
+    "topic": "Ecstasy-Induced Mood Disorder",
+    "question": "What are the symptoms, causes, and treatment of Ecstasy-Induced Mood Disorder? (version 107)",
+    "symptoms": "Hallucinations or delusions",
+    "causes": "Infections or injury",
+    "treatment": "Skill training",
+    "layman_explanation": "Ecstasy-induced mood disorder is when MDMA use leads to lasting depression, anxiety, or memory problems after the drug wears off."
+  },
+  {
+    "topic": "Pathological Gambling",
+    "question": "What are the symptoms, causes, and treatment of Pathological Gambling? (version 108)",
+    "symptoms": "Sleep disturbances",
+    "causes": "Neurological degeneration",
+    "treatment": "Mood stabilizers",
+    "layman_explanation": "Pathological gambling is when someone can’t resist the urge to gamble, even when it causes financial ruin or family problems."
+  },
+  {
+    "topic": "Internet Addiction",
+    "question": "What are the symptoms, causes, and treatment of Internet Addiction? (version 109)",
+    "symptoms": "Sleep disturbances",
+    "causes": "Neurochemical imbalance",
+    "treatment": "Antidepressants",
+    "layman_explanation": "Internet addiction is compulsive overuse of the internet (gaming, social media) that interferes with work, relationships, or health."
+  },
+  {
+    "topic": "Sexual Aversion Disorder",
+    "question": "What are the symptoms, causes, and treatment of Sexual Aversion Disorder? (version 110)",
+    "symptoms": "Strong physiological fear response",
+    "causes": "Psychosocial conflict",
+    "treatment": "Pharmacological management",
+    "layman_explanation": "Sexual aversion disorder is when someone has a strong fear or disgust toward sexual activity, often due to past trauma or anxiety."
+  },
+  {
+    "topic": "Paraphilic Disorders",
+    "question": "What are the symptoms, causes, and treatment of Paraphilic Disorders? (version 111)",
+    "symptoms": "Persistent thoughts or behaviors",
+    "causes": "Psychosocial conflict",
+    "treatment": "Antipsychotics",
+    "layman_explanation": "Paraphilic disorders involve intense sexual fantasies or urges about atypical objects or situations, causing distress or harm to others."
+  },
+  {
+    "topic": "Schizophrenia",
+    "question": "What are the symptoms, causes, and treatment of Schizophrenia? (MHG version 1)",
+    "symptoms": "Delusions, hallucinations, social withdrawal, disorganized thinking, diminished motivation.",
+    "causes": "Genetic predisposition, psychosocial stressors, biological factors.",
+    "treatment": "Antipsychotic medication, structured routine, family education, counseling.",
+    "layman_explanation": "Schizophrenia is a serious mental illness where people may hear voices, believe things that aren’t true, or struggle to think clearly. It often requires lifelong treatment."
+  },
+  {
+    "topic": "Major Depression",
+    "question": "What are the symptoms, causes, and treatment of Major Depression? (MHG version 2)",
+    "symptoms": "Persistent sadness, loss of pleasure, fatigue, suicidal thoughts, sleep disturbances.",
+    "causes": "Biological factors, genetic vulnerability, psychosocial stressors.",
+    "treatment": "Counseling, antidepressant medications, supportive therapy.",
+    "layman_explanation": "Major depression is more than just feeling sad—it’s a deep, long-lasting hopelessness that makes everyday activities feel impossible."
+  },
+  {
+    "topic": "Bipolar Disorder",
+    "question": "What are the symptoms, causes, and treatment of Bipolar Disorder? (MHG version 3)",
+    "symptoms": "Mood swings, manic episodes with elevated energy, depressive episodes, impulsivity.",
+    "causes": "Genetic, biological, and environmental factors.",
+    "treatment": "Mood stabilizers, routine schedules, psychoeducation, family involvement.",
+    "layman_explanation": "Bipolar disorder causes extreme highs (mania) with reckless behavior and extreme lows (depression), often with periods of stability in between."
+  },
+  {
+    "topic": "Generalized Anxiety Disorder",
+    "question": "What are the symptoms, causes, and treatment of Generalized Anxiety Disorder? (MHG version 4)",
+    "symptoms": "Constant worry, restlessness, muscle tension, poor sleep.",
+    "causes": "Genetic, biological, and psychological stress factors.",
+    "treatment": "Breathing exercises, muscle relaxation, counseling, SSRIs.",
+    "layman_explanation": "Generalized anxiety disorder is when someone worries excessively about everyday things, even when there’s no real danger, making it hard to relax."
+  },
+  {
+    "topic": "Obsessive-Compulsive Disorder",
+    "question": "What are the symptoms, causes, and treatment of Obsessive-Compulsive Disorder? (MHG version 5)",
+    "symptoms": "Obsessions, compulsive rituals, distress when rituals are resisted.",
+    "causes": "Neurological factors, serotonin imbalance, behavioral conditioning.",
+    "treatment": "CBT, SSRIs, structured exposure therapy.",
+    "layman_explanation": "OCD is when unwanted thoughts (obsessions) drive repetitive actions (compulsions), like washing hands repeatedly to avoid germs."
+  },
+  {
+    "topic": "PTSD",
+    "question": "What are the symptoms, causes, and treatment of PTSD? (MHG version 6)",
+    "symptoms": "Flashbacks, nightmares, hypervigilance, avoidance of reminders, emotional numbness.",
+    "causes": "Trauma exposure (violence, disasters), lack of support systems.",
+    "treatment": "Trauma counseling, breathing exercises, relaxation techniques.",
+    "layman_explanation": "PTSD happens after a traumatic event, causing flashbacks, nightmares, and a constant feeling of being on edge."
+  },
+  {
+    "topic": "Delirium",
+    "question": "What are the symptoms, causes, and treatment of Delirium? (MHG version 7)",
+    "symptoms": "Sudden confusion, fluctuating attention, disorganized thinking, altered consciousness.",
+    "causes": "Medical illness, substance intoxication, metabolic imbalance.",
+    "treatment": "Identify and treat underlying cause, supportive care.",
+    "layman_explanation": "Delirium is sudden, severe confusion often caused by illness or medication, making someone seem disoriented or agitated."
+  },
+  {
+    "topic": "Dementia",
+    "question": "What are the symptoms, causes, and treatment of Dementia? (MHG version 8)",
+    "symptoms": "Memory loss, impaired judgment, personality changes, language difficulty.",
+    "causes": "Neurodegeneration (e.g., Alzheimer’s), stroke, chronic illness.",
+    "treatment": "Supportive care, memory aids, family support, cholinesterase inhibitors.",
+    "layman_explanation": "Dementia is a decline in memory and thinking severe enough to interfere with daily life, often worsening over time."
+  },
+  {
+    "topic": "Substance Use Disorder",
+    "question": "What are the symptoms, causes, and treatment of Substance Use Disorder? (MHG version 9)",
+    "symptoms": "Craving, withdrawal, continued use despite harm, social issues.",
+    "causes": "Genetics, psychological trauma, peer influence.",
+    "treatment": "Detoxification, rehabilitation, counseling, support groups.",
+    "layman_explanation": "Substance use disorder is addiction to drugs or alcohol, where someone can’t stop using despite negative consequences."
+  },
+  {
+    "topic": "Maternal Mental Health Disorders",
+    "question": "What are the symptoms, causes, and treatment of Maternal Mental Health Disorders? (MHG version 10)",
+    "symptoms": "Depressed mood, anxiety, mood swings, guilt, difficulty bonding.",
+    "causes": "Hormonal changes, stress, lack of support, prior history of mental illness.",
+    "treatment": "Supportive therapy, safe antidepressants, education, family involvement.",
+    "layman_explanation": "Maternal mental health disorders include postpartum depression or anxiety, making it hard for new moms to care for themselves or their baby."
+  },
+  {
+    "topic": "Panic Disorder",
+    "question": "What are the symptoms, causes, and treatment of Panic Disorder? (MHG version 11)",
+    "symptoms": "Sudden onset of intense fear, palpitations, shortness of breath, dizziness.",
+    "causes": "Stress, genetics, neurotransmitter imbalance.",
+    "treatment": "Breathing exercises, SSRIs, CBT.",
+    "layman_explanation": "Panic disorder involves sudden, overwhelming fear (panic attacks) that feel like a heart attack, often with no clear trigger."
+  },
+  {
+    "topic": "Agoraphobia",
+    "question": "What are the symptoms, causes, and treatment of Agoraphobia? (MHG version 12)",
+    "symptoms": "Fear of being in situations where escape is difficult, avoids crowds or public places.",
+    "causes": "Past panic attacks, traumatic experiences.",
+    "treatment": "Exposure therapy, CBT, anti-anxiety medications.",
+    "layman_explanation": "Agoraphobia is a fear of places or situations where escape might be hard, like open spaces or public transport, often leading to staying home."
+  },
+  {
+    "topic": "Social Anxiety Disorder",
+    "question": "What are the symptoms, causes, and treatment of Social Anxiety Disorder? (MHG version 13)",
+    "symptoms": "Intense fear of social interactions, fear of embarrassment, avoidance behavior.",
+    "causes": "Genetic factors, low self-esteem, past social trauma.",
+    "treatment": "CBT, social skills training, SSRIs.",
+    "layman_explanation": "Social anxiety is more than shyness—it’s a crippling fear of being judged or humiliated in social situations."
+  },
+  {
+    "topic": "Specific Phobia",
+    "question": "What are the symptoms, causes, and treatment of Specific Phobia? (MHG version 14)",
+    "symptoms": "Intense irrational fear of a specific object or situation, avoidance.",
+    "causes": "Learned behavior, past traumatic events.",
+    "treatment": "Exposure therapy, systematic desensitization, relaxation techniques.",
+    "layman_explanation": "A specific phobia is an extreme, irrational fear of something like spiders, heights, or flying, causing avoidance or panic."
+  },
+  {
+    "topic": "Acute Stress Disorder",
+    "question": "What are the symptoms, causes, and treatment of Acute Stress Disorder? (MHG version 15)",
+    "symptoms": "Flashbacks, anxiety, emotional numbness after a traumatic event (less than 1 month).",
+    "causes": "Exposure to traumatic event, lack of support systems.",
+    "treatment": "Trauma-informed counseling, relaxation therapy.",
+    "layman_explanation": "Acute stress disorder is like PTSD but shorter-term, happening right after a trauma and causing flashbacks or avoidance."
+  },
+  {
+    "topic": "Somatic Symptom Disorder",
+    "question": "What are the symptoms, causes, and treatment of Somatic Symptom Disorder? (MHG version 16)",
+    "symptoms": "Physical symptoms without medical explanation, excessive worry about health.",
+    "causes": "Psychological distress, past trauma, family history of illness.",
+    "treatment": "Psychoeducation, CBT, regular follow-ups.",
+    "layman_explanation": "Somatic symptom disorder is when stress or anxiety shows up as physical symptoms (pain, fatigue) with no clear medical cause."
+  },
+  {
+    "topic": "Epilepsy",
+    "question": "What are the symptoms, causes, and treatment of Epilepsy? (MHG version 17)",
+    "symptoms": "Seizures, memory loss, confusion post-seizure.",
+    "causes": "Brain injury, genetic conditions, infections.",
+    "treatment": "Anti-epileptic medication, lifestyle modification.",
+    "layman_explanation": "Epilepsy is a brain condition causing seizures—sudden bursts of electrical activity that lead to convulsions or staring spells."
+  },
+  {
+    "topic": "Sleep Disorders",
+    "question": "What are the symptoms, causes, and treatment of Sleep Disorders? (MHG version 18)",
+    "symptoms": "Insomnia, nightmares, hypersomnia, disrupted sleep patterns.",
+    "causes": "Stress, psychiatric conditions, substance use.",
+    "treatment": "Sleep hygiene education, relaxation techniques, medication.",
+    "layman_explanation": "Sleep disorders include trouble falling asleep (insomnia), excessive sleep (hypersomnia), or nightmares disrupting rest."
+  },
+  {
+    "topic": "Bereavement",
+    "question": "What are the symptoms, causes, and treatment of Bereavement? (MHG version 19)",
+    "symptoms": "Sadness, grief, insomnia, appetite loss following a death.",
+    "causes": "Loss of loved one, unresolved trauma.",
+    "treatment": "Support groups, grief counseling, time.",
+    "layman_explanation": "Bereavement is the natural grieving process after losing someone, involving sadness, longing, and adjustment over time."
+  },
+  {
+    "topic": "ADHD",
+    "question": "What are the symptoms, causes, and treatment of ADHD? (MHG version 20)",
+    "symptoms": "Inattention, hyperactivity, impulsiveness interfering with daily life.",
+    "causes": "Genetics, brain development issues.",
+    "treatment": "Behavioral therapy, stimulant medications, classroom strategies.",
+    "layman_explanation": "ADHD makes it hard to focus, sit still, or control impulses, often causing problems at school or work."
+  },
+  {
+    "topic": "Conduct Disorder",
+    "question": "What are the symptoms, causes, and treatment of Conduct Disorder? (MHG version 21)",
+    "symptoms": "Aggression, rule-breaking, lying, stealing, lack of remorse.",
+    "causes": "Genetic predisposition, family environment, exposure to violence.",
+    "treatment": "Behavioral therapy, family counseling, social skills training.",
+    "layman_explanation": "Conduct disorder is when a child acts aggressively, breaks rules, or harms others without feeling guilty, often escalating to serious problems."
+  },
+  {
+    "topic": "Oppositional Defiant Disorder",
+    "question": "What are the symptoms, causes, and treatment of Oppositional Defiant Disorder? (MHG version 22)",
+    "symptoms": "Angry mood, defiant behavior, vindictiveness toward authority figures.",
+    "causes": "Parenting issues, family conflict, neurological differences.",
+    "treatment": "Parent training, individual therapy, structured routines.",
+    "layman_explanation": "ODD is when a child is constantly angry, argues with adults, and refuses to follow rules, but isn’t as severe as conduct disorder."
+  },
+  {
+    "topic": "Tourette’s Disorder",
+    "question": "What are the symptoms, causes, and treatment of Tourette’s Disorder? (MHG version 23)",
+    "symptoms": "Multiple motor and vocal tics, onset in childhood.",
+    "causes": "Genetic factors, abnormalities in neurotransmitters.",
+    "treatment": "Behavioral therapy, medication like antipsychotics.",
+    "layman_explanation": "Tourette’s causes involuntary movements or sounds (tics), like blinking or shouting words, that come and go over time."
+  },
+  {
+    "topic": "Autism Spectrum Disorder",
+    "question": "What are the symptoms, causes, and treatment of Autism Spectrum Disorder? (MHG version 24)",
+    "symptoms": "Impaired social interaction, restricted interests, repetitive behavior.",
+    "causes": "Genetic and neurodevelopmental abnormalities.",
+    "treatment": "Behavioral interventions, speech therapy, structured educational plans.",
+    "layman_explanation": "Autism affects how someone communicates and interacts with others, often including repetitive behaviors or intense focus on specific interests."
+  },
+  {
+    "topic": "Intellectual Disability",
+    "question": "What are the symptoms, causes, and treatment of Intellectual Disability? (MHG version 25)",
+    "symptoms": "Below-average intellectual functioning and adaptive behavior deficits.",
+    "causes": "Genetic syndromes, prenatal exposure to toxins, birth complications.",
+    "treatment": "Special education, vocational training, supportive care.",
+    "layman_explanation": "Intellectual disability is when someone learns and problem-solves more slowly than others, needing extra help with daily tasks."
+  },
+  {
+    "topic": "Postpartum Depression",
+    "question": "What are the symptoms, causes, and treatment of Postpartum Depression? (MHG version 26)",
+    "symptoms": "Depressed mood, fatigue, guilt, difficulty bonding with baby.",
+    "causes": "Hormonal changes, sleep deprivation, history of depression.",
+    "treatment": "Psychotherapy, antidepressants, family support.",
+    "layman_explanation": "Postpartum depression is severe sadness or anxiety after childbirth, making it hard to care for the baby or enjoy being a mom."
+  },
+  {
+    "topic": "Substance-Induced Psychosis",
+    "question": "What are the symptoms, causes, and treatment of Substance-Induced Psychosis? (MHG version 27)",
+    "symptoms": "Hallucinations, delusions, confusion after substance use.",
+    "causes": "Use of psychoactive drugs, underlying mental health conditions.",
+    "treatment": "Cessation of substance, antipsychotics, detox programs.",
+    "layman_explanation": "Substance-induced psychosis is when drugs or alcohol cause hallucinations or paranoia, which may go away after stopping use."
+  },
+  {
+    "topic": "Sleep Terror Disorder",
+    "question": "What are the symptoms, causes, and treatment of Sleep Terror Disorder? (MHG version 28)",
+    "symptoms": "Sudden arousals from sleep with screaming, intense fear, confusion.",
+    "causes": "Sleep deprivation, stress, genetics.",
+    "treatment": "Ensure safety, reduce stress, possible medication.",
+    "layman_explanation": "Sleep terrors are episodes of screaming or thrashing during sleep, where the person is hard to wake and doesn’t remember it later."
+  },
+  {
+    "topic": "Delusional Disorder",
+    "question": "What are the symptoms, causes, and treatment of Delusional Disorder? (MHG version 29)",
+    "symptoms": "Persistent non-bizarre delusions, functioning otherwise not impaired.",
+    "causes": "Unknown, possibly dopamine dysregulation.",
+    "treatment": "Antipsychotics, psychotherapy.",
+    "layman_explanation": "Delusional disorder is when someone firmly believes something untrue (like being followed or having a special power) but otherwise acts normally."
+  },
+  {
+    "topic": "Grief Reaction",
+    "question": "What are the symptoms, causes, and treatment of Grief Reaction? (MHG version 30)",
+    "symptoms": "Sadness, longing, crying, intrusive thoughts about the deceased.",
+    "causes": "Loss of a loved one, unresolved trauma.",
+    "treatment": "Grief counseling, support groups, normalization of grief process.",
+    "layman_explanation": "Grief reaction is the natural emotional response to losing someone, involving sadness, tears, and adjusting to life without them."
+  },
+  {
+    "topic": "Adjustment Disorder",
+    "question": "What are the symptoms, causes, and treatment of Adjustment Disorder? (MHG version 31)",
+    "symptoms": "Emotional or behavioral symptoms in response to a stressor, sadness, anxiety.",
+    "causes": "Life changes (loss, divorce, relocation), lack of coping resources.",
+    "treatment": "Short-term counseling, support, stress management.",
+    "layman_explanation": "Adjustment disorder is when stress from a life change causes sadness, worry, or trouble coping, but improves with time and support."
+  },
+  {
+    "topic": "Hoarding Disorder",
+    "question": "What are the symptoms, causes, and treatment of Hoarding Disorder? (MHG version 32)",
+    "symptoms": "Persistent difficulty discarding items, cluttered living spaces.",
+    "causes": "Trauma, indecisiveness, familial patterns.",
+    "treatment": "CBT, motivational interviewing, exposure therapy.",
+    "layman_explanation": "Hoarding disorder is when someone can’t throw things away, leading to piles of clutter that make their home unsafe or unusable."
+  },
+  {
+    "topic": "Trichotillomania",
+    "question": "What are the symptoms, causes, and treatment of Trichotillomania? (MHG version 33)",
+    "symptoms": "Recurrent hair pulling leading to hair loss, tension before act, relief after.",
+    "causes": "Stress, anxiety, obsessive-compulsive traits.",
+    "treatment": "CBT, habit reversal training.",
+    "layman_explanation": "Trichotillomania is when someone can’t stop pulling out their hair, often leaving bald spots, usually due to stress or anxiety."
+  },
+  {
+    "topic": "Excoriation Disorder",
+    "question": "What are the symptoms, causes, and treatment of Excoriation Disorder? (MHG version 34)",
+    "symptoms": "Repetitive skin picking, resulting in lesions, tension before act.",
+    "causes": "Stress, underlying anxiety or OCD.",
+    "treatment": "Behavioral therapy, SSRIs.",
+    "layman_explanation": "Excoriation disorder is compulsive skin-picking, often causing scabs or scars, usually as a way to cope with stress."
+  },
+  {
+    "topic": "Body Dysmorphic Disorder",
+    "question": "What are the symptoms, causes, and treatment of Body Dysmorphic Disorder? (MHG version 35)",
+    "symptoms": "Preoccupation with perceived flaws in appearance, mirror checking.",
+    "causes": "Low self-esteem, OCD traits, trauma.",
+    "treatment": "CBT, SSRIs, support groups.",
+    "layman_explanation": "Body dysmorphic disorder is when someone obsesses over a perceived flaw in their looks, often spending hours checking mirrors or seeking fixes."
+  },
+  {
+    "topic": "Factitious Disorder",
+    "question": "What are the symptoms, causes, and treatment of Factitious Disorder? (MHG version 36)",
+    "symptoms": "Intentional production of symptoms for attention or care.",
+    "causes": "History of neglect, personality disorders.",
+    "treatment": "Psychotherapy, limit unnecessary medical intervention.",
+    "layman_explanation": "Factitious disorder is when someone fakes illness or injures themselves to get medical attention, often due to unmet emotional needs."
+  },
+  {
+    "topic": "Illness Anxiety Disorder",
+    "question": "What are the symptoms, causes, and treatment of Illness Anxiety Disorder? (MHG version 37)",
+    "symptoms": "Preoccupation with having a serious illness, frequent doctor visits.",
+    "causes": "Health-related trauma, anxiety, familial illness experiences.",
+    "treatment": "CBT, stress reduction, supportive care.",
+    "layman_explanation": "Illness anxiety disorder is when someone is overly worried about being sick, despite tests showing they’re healthy."
+  },
+  {
+    "topic": "Gender Dysphoria",
+    "question": "What are the symptoms, causes, and treatment of Gender Dysphoria? (MHG version 38)",
+    "symptoms": "Distress due to mismatch between gender identity and assigned sex.",
+    "causes": "Complex interplay of biological, psychological, and social factors.",
+    "treatment": "Gender-affirming therapy, counseling, hormone therapy.",
+    "layman_explanation": "Gender dysphoria is the distress someone feels when their gender identity doesn’t match the sex they were assigned at birth."
+  },
+  {
+    "topic": "Sleepwalking Disorder",
+    "question": "What are the symptoms, causes, and treatment of Sleepwalking Disorder? (MHG version 39)",
+    "symptoms": "Repeated episodes of rising from bed and walking during sleep.",
+    "causes": "Sleep deprivation, genetics, stress.",
+    "treatment": "Safety precautions, stress management, rare medication.",
+    "layman_explanation": "Sleepwalking is when someone gets up and moves around while still asleep, often with no memory of it later."
+  },
+  {
+    "topic": "Reactive Attachment Disorder",
+    "question": "What are the symptoms, causes, and treatment of Reactive Attachment Disorder? (MHG version 40)",
+    "symptoms": "Emotionally withdrawn behavior in children, lack of attachment to caregivers.",
+    "causes": "Early neglect, frequent caregiver changes, institutional care.",
+    "treatment": "Stable caregiving, child-parent psychotherapy, emotional support.",
+    "layman_explanation": "Reactive attachment disorder happens when young children don’t form healthy bonds with caregivers, often due to neglect or abuse."
+  }
+]

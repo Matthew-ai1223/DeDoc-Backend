@@ -1,0 +1,104 @@
+[
+    {
+      "topic": "Chlamydia",
+      "question": "What are the symptoms, causes, and treatment of Chlamydia? (version 1)",
+      "symptoms": "Often asymptomatic; possible symptoms include painful urination, abnormal genital discharge, pelvic pain (in women), testicular pain (in men).",
+      "causes": "Bacterial infection (Chlamydia trachomatis), transmitted through unprotected vaginal, anal, or oral sex.",
+      "treatment": "Antibiotics (azithromycin or doxycycline), partner treatment, follow-up testing.",
+      "layman_explanation": "Chlamydia is a common STD that often shows no symptoms but can cause pain and discharge. It’s easily cured with antibiotics."
+    },
+    {
+      "topic": "Gonorrhea",
+      "question": "What are the symptoms, causes, and treatment of Gonorrhea? (version 1)",
+      "symptoms": "Painful urination, thick yellow/green discharge, pelvic pain (women), swollen testicles (men), sometimes asymptomatic.",
+      "causes": "Bacterial infection (Neisseria gonorrhoeae), spread through unprotected sex (vaginal, anal, oral).",
+      "treatment": "Antibiotics (ceftriaxone + azithromycin), drug-resistant strains possible.",
+      "layman_explanation": "Gonorrhea is a bacterial STD that can cause painful peeing and discharge. It’s treated with antibiotics, but some strains are becoming resistant."
+    },
+    {
+      "topic": "Syphilis",
+      "question": "What are the symptoms, causes, and treatment of Syphilis? (version 1)",
+      "symptoms": "Stages: 1) Painless sores (chancre), 2) Rash, fever, swollen glands; 3) Severe organ damage (if untreated).",
+      "causes": "Bacterial infection (Treponema pallidum), spread via direct contact with sores during sex or from mother to baby.",
+      "treatment": "Penicillin (effective in all stages), alternative antibiotics for allergies.",
+      "layman_explanation": "Syphilis starts with painless sores but can lead to serious health problems if untreated. It’s curable with penicillin shots."
+    },
+    {
+      "topic": "Human Papillomavirus (HPV)",
+      "question": "What are the symptoms, causes, and treatment of HPV? (version 1)",
+      "symptoms": "Often none; some strains cause genital warts (bumps), others lead to cancers (cervical, throat).",
+      "causes": "Viral infection (HPV types 6/11 cause warts; 16/18 cause cancer), spread via skin-to-skin sexual contact.",
+      "treatment": "No cure; vaccines (Gardasil) prevent high-risk strains; warts treated with creams/surgery.",
+      "layman_explanation": "HPV is a very common virus. Some types cause warts, others can lead to cancer. Vaccines can prevent the most dangerous kinds."
+    },
+    {
+      "topic": "Herpes (HSV)",
+      "question": "What are the symptoms, causes, and treatment of Herpes? (version 1)",
+      "symptoms": "Painful blisters/sores on genitals/mouth, itching, flu-like symptoms during outbreaks; can be asymptomatic.",
+      "causes": "HSV-1 (oral/genital) or HSV-2 (mostly genital), spread via skin-to-skin contact, even without sores.",
+      "treatment": "Antivirals (acyclovir) reduce outbreaks/transmission; no cure.",
+      "layman_explanation": "Herpes causes recurring sores, but many people have no symptoms. Medicine can help manage outbreaks."
+    },
+    {
+      "topic": "HIV/AIDS",
+      "question": "What are the symptoms, causes, and treatment of HIV/AIDS? (version 1)",
+      "symptoms": "Early: Flu-like illness; Late (AIDS): Weight loss, infections, cancers due to weakened immune system.",
+      "causes": "Virus (HIV) transmitted via blood, semen, vaginal fluids, breast milk (unprotected sex, needles, childbirth).",
+      "treatment": "Antiretroviral therapy (ART) to control virus; no cure but manageable with medication.",
+      "layman_explanation": "HIV attacks the immune system. Without treatment, it can lead to AIDS, but daily meds help people live long, healthy lives."
+    },
+    {
+      "topic": "Trichomoniasis",
+      "question": "What are the symptoms, causes, and treatment of Trichomoniasis? (version 1)",
+      "symptoms": "Itching, burning, frothy discharge (often green/yellow), discomfort during sex/urination; sometimes asymptomatic.",
+      "causes": "Parasite (Trichomonas vaginalis), spread via unprotected sex.",
+      "treatment": "Antibiotics (metronidazole or tinidazole), partner treatment required.",
+      "layman_explanation": "Trichomoniasis is an STD caused by a parasite, leading to itching and discharge. It’s easily treated with antibiotics."
+    },
+    {
+      "topic": "Hepatitis B",
+      "question": "What are the symptoms, causes, and treatment of Hepatitis B? (version 1)",
+      "symptoms": "Fatigue, jaundice (yellow skin/eyes), dark urine, abdominal pain; can be chronic (liver damage/cancer).",
+      "causes": "Virus (HBV) spread via blood, semen (sex, needles, childbirth).",
+      "treatment": "Vaccine prevents it; chronic cases managed with antivirals (tenofovir).",
+      "layman_explanation": "Hepatitis B affects the liver and can become chronic. A vaccine prevents it, and meds help manage chronic infections."
+    },
+    {
+        "topic": "Health Benefits of Sexual Activity",
+        "question": "What are the physiological and psychological benefits? (version 1)",
+        "advantages": "Stress relief (endorphins), improved sleep, stronger pelvic muscles, boosted immunity, lower blood pressure.",
+        "disadvantages": "Risk of STDs/unplanned pregnancy if unprotected; emotional consequences (e.g., regret, attachment issues).",
+        "layman_explanation": "Sex can improve mood and health, but safety and consent are key."
+      },
+      {
+        "topic": "Risks of Unprotected Sex",
+        "question": "What are the dangers of skipping protection? (version 1)",
+        "risks": "STD transmission (HIV, Syphilis, etc.), unplanned pregnancy, emotional distress.",
+        "prevention": "Condoms, regular STD testing, mutual monogamy, PrEP (for HIV).",
+        "layman_explanation": "Unprotected sex can lead to lifelong infections or unexpected parenthood. Always use protection."
+      },
+      {
+        "topic": "Condoms (Male & Female)",
+        "question": "How effective are condoms in preventing STDs and pregnancy? (version 1)",
+        "protection": "~98% effective against STDs/HIV when used correctly; also prevents pregnancy (~85–98%).",
+        "advantages": "Cheap, widely available, no hormonal side effects, protects against most STDs.",
+        "disadvantages": "Can break/slip; latex allergies; reduced sensation for some users.",
+        "layman_explanation": "Condoms are the best dual-protection method against both STDs and pregnancy."
+      },
+      {
+        "topic": "Pre-Exposure Prophylaxis (PrEP)",
+        "question": "Who should use PrEP for HIV prevention? (version 1)",
+        "protection": "~99% effective against HIV if taken daily; does not protect against other STDs.",
+        "advantages": "Ideal for high-risk groups (e.g., partners of HIV+ individuals, sex workers).",
+        "disadvantages": "Requires prescription; side effects (nausea, kidney monitoring); no STD protection.",
+        "layman_explanation": "PrEP is a daily pill for HIV-negative people to avoid infection. Still need condoms for other STDs."
+      },
+      {
+        "topic": "Vaccinations (HPV & Hepatitis B)",
+        "question": "Which STDs can be prevented by vaccines? (version 1)",
+        "protection": "HPV vaccine (Gardasil 9) prevents 90% of cancer-causing strains; Hepatitis B vaccine is 95% effective.",
+        "advantages": "Long-term protection; reduces cancer risk.",
+        "disadvantages": "Requires multiple doses; not all strains covered (HPV).",
+        "layman_explanation": "Vaccines can stop HPV (linked to cancer) and Hepatitis B (liver damage) before exposure."
+      }
+  ]
