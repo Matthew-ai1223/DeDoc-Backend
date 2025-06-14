@@ -103,7 +103,8 @@ exports.register = async (req, res) => {
         id: user._id,
         fullName: user.fullName,
         username: user.username,
-        email: user.email
+        email: user.email,
+        createdAt: user.createdAt
       }
     });
   } catch (error) {
@@ -140,7 +141,8 @@ exports.login = async (req, res) => {
         fullName: user.fullName,
         username: user.username,
         email: user.email,
-        subscription: user.subscription
+        subscription: user.subscription,
+        createdAt: user.createdAt
       }
     });
   } catch (error) {
