@@ -4,8 +4,8 @@
   "description": "��#\u0000 \u0000D\u0000e\u0000D\u0000o\u0000c\u0000-\u0000B\u0000a\u0000c\u0000k\u0000e\u0000n\u0000d\u0000\r\u0000 \u0000",
   "main": "index.js",
   "scripts": {
-    "start": "node src/index.js",
-    "dev": "nodemon src/index.js"
+    "start": "node sec/index.js",
+    "dev": "nodemon sec/index.js"
   },
   "keywords": [],
   "author": "",
@@ -15,6 +15,7 @@
     "cors": "^2.8.5",
     "dotenv": "^16.5.0",
     "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.15.2",
     "nodemailer": "^7.0.3"
   },
