@@ -12,10 +12,17 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
-// Routes imports
-app.use('/api/auth', require('./routes/auth.routes'));
-app.use('/api/subscription', require('./routes/subscription.routes'));
-app.use('/api/payments', require('./routes/payment.routes'));
+// Import routes
+const authRoutes = require('./routes/auth.routes');
+const subscriptionRoutes = require('./routes/subscription.routes');
+const paymentRoutes = require('./routes/payment.routes');
+const subscriptionVerificationRoutes = require('./routes/subscription.verification.routes');
+
+// Use routes
+app.use('/api/auth', authRoutes);
+app.use('/api/subscription', subscriptionRoutes);
+app.use('/api/payments', paymentRoutes);
+app.use('/api/subscription/verification', subscriptionVerificationRoutes);
 
 // Connect to MongoDB
 mongoose.connect(process.env.MONGODB_URI)

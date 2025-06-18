@@ -52,12 +52,6 @@ const paymentSchema = new mongoose.Schema({
     }
 });
 
-// Update the updatedAt timestamp before saving
-paymentSchema.pre('save', function(next) {
-    this.updatedAt = new Date();
-    next();
-});
-
 // Calculate subscription end date based on plan
 paymentSchema.methods.calculateSubscriptionEnd = function() {
     const durations = {
@@ -71,5 +65,19 @@ paymentSchema.methods.calculateSubscriptionEnd = function() {
     this.subscriptionStart = now;
     this.subscriptionEnd = new Date(now.getTime() + durations[this.plan]);
 };
+
+// Update the updatedAt timestamp and calculate subscription dates before saving
+paymentSchema.pre('save', function(next) {
+    this.updatedAt = new Date();
+    
+    // Calculate subscription dates if:
+    // 1. This is a new payment (no subscriptionStart)
+    // 2. The status is being changed to 'success'
+    if (!this.subscriptionStart || (this.isModified('status') && this.status === 'success')) {
+        this.calculateSubscriptionEnd();
+    }
+    
+    next();
+});
 
 module.exports = mongoose.model('Payment', paymentSchema); 
