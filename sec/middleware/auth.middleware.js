@@ -1,7 +1,7 @@
 const jwt = require('jsonwebtoken');
 const User = require('../models/User');
 
-exports.protect = async (req, res, next) => {
+const protect = async (req, res, next) => {
   try {
     let token;
 
@@ -11,7 +11,7 @@ exports.protect = async (req, res, next) => {
     }
 
     if (!token) {
-      return res.status(401).json({ message: 'Not authorized to access this route' });
+      return res.status(401).json({ message: 'Not authorized, no token' });
     }
 
     try {
@@ -19,19 +19,19 @@ exports.protect = async (req, res, next) => {
       const decoded = jwt.verify(token, process.env.JWT_SECRET);
 
       // Get user from token
-      const user = await User.findById(decoded.id).select('-password');
-      if (!user) {
-        return res.status(401).json({ message: 'User not found' });
+      req.user = await User.findById(decoded.id).select('-password');
+      if (!req.user) {
+        return res.status(401).json({ message: 'Not authorized, user not found' });
       }
 
-      req.user = user;
       next();
     } catch (error) {
-      return res.status(401).json({ message: 'Not authorized to access this route' });
+      console.error('Token verification error:', error);
+      return res.status(401).json({ message: 'Not authorized, token failed' });
     }
   } catch (error) {
     console.error('Auth middleware error:', error);
-    res.status(500).json({ message: 'Authentication failed' });
+    res.status(500).json({ message: 'Server error' });
   }
 };
 
@@ -60,4 +60,6 @@ exports.checkSubscription = async (req, res, next) => {
     console.error('Subscription check error:', error);
     res.status(500).json({ message: 'Subscription check failed' });
   }
-}; 
+};
+
+module.exports = { protect }; 
