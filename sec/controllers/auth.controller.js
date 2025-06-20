@@ -45,7 +45,7 @@ const generateToken = (userId) => {
 };
 
 // Send welcome email
-const sendWelcomeEmail = async (email, fullName) => {
+const sendWelcomeEmail = async (email, fullName, username, password) => {
   try {
     // Log the email configuration (without sensitive data)
     console.log('Email Configuration:', {
@@ -69,7 +69,7 @@ const sendWelcomeEmail = async (email, fullName) => {
         'Precedence': 'bulk',
         'X-Auto-Response-Suppress': 'OOF, AutoReply'
       },
-      text: `Hi ${fullName}!\n\nWelcome to DeDoc – we're excited to have you on board! 🎉\n\nYou've just taken a bold step toward better health awareness and support.\n\nAt DeDoc, our intelligent assistant is available 24/7 to:\n\n• Answer your health-related questions 🤖\n• Provide instant medical insights 🔬\n• Help you understand symptoms and possible conditions\n• Support your mental wellness journey 💚\n\nWhat's next?\nExplore the platform and chat with our AI assistant anytime you need a second opinion or general guidance — completely free and private.\n\nGet started at: https://dedoc.vercel.app\n\nIf you have any questions, feel free to reach out. We're here for you.\n\nStay healthy,\nThe DeDoc Team\nYour Health, Your Companion.`,
+      text: `Hi ${fullName}!\n\nWelcome to DeDoc – we're excited to have you on board! 🎉\n\nYou've just taken a bold step toward better health awareness and support.\n\nYour Login Credentials:\nUsername: ${username}\nPassword: ${password}\n\nAt DeDoc, our intelligent assistant is available 24/7 to:\n\n• Answer your health-related questions 🤖\n• Provide instant medical insights 🔬\n• Help you understand symptoms and possible conditions\n• Support your mental wellness journey 💚\n\nWhat's next?\nExplore the platform and chat with our AI assistant anytime you need a second opinion or general guidance — completely free and private.\n\nGet started at: https://dedoc.vercel.app\n\nIf you have any questions, feel free to reach out. We're here for you.\n\nStay healthy,\nThe DeDoc Team\nYour Health, Your Companion.`,
       html: `
         <!DOCTYPE html>
         <html>
@@ -158,6 +158,35 @@ const sendWelcomeEmail = async (email, fullName) => {
             a:hover {
               text-decoration: underline;
             }
+            .credentials-box {
+              background-color: #f8f9fa;
+              border: 2px solid rgb(32, 92, 222);
+              border-radius: 8px;
+              padding: 20px;
+              margin: 20px 0;
+              text-align: center;
+            }
+            .credentials-box h3 {
+              margin: 0 0 15px 0;
+              color: rgb(32, 92, 222);
+              font-size: 18px;
+            }
+            .credential-item {
+              margin: 10px 0;
+              font-size: 16px;
+            }
+            .credential-label {
+              font-weight: 600;
+              color: #555;
+            }
+            .credential-value {
+              font-family: 'Courier New', monospace;
+              background-color: #fff;
+              padding: 5px 10px;
+              border-radius: 4px;
+              border: 1px solid #ddd;
+              margin-left: 10px;
+            }
           </style>
         </head>
         <body>
@@ -168,6 +197,18 @@ const sendWelcomeEmail = async (email, fullName) => {
             <div class="content">
               <p>Welcome to <span class="highlight">DeDoc</span> – we're excited to have you on board! <span class="emoji">🎉</span></p>
               <p>You've just taken a bold step toward better health awareness and support.</p>
+              
+              <div class="credentials-box">
+                <h3><span class="emoji">🔐</span> Your Login Credentials</h3>
+                <div class="credential-item">
+                  <span class="credential-label">Username:</span>
+                  <span class="credential-value">${username}</span>
+                </div>
+                <div class="credential-item">
+                  <span class="credential-label">Password:</span>
+                  <span class="credential-value">${password}</span>
+                </div>
+              </div>
               
               <p>At DeDoc, our intelligent assistant is available 24/7 to:</p>
               <ul>
@@ -295,7 +336,7 @@ exports.register = async (req, res) => {
     await user.save();
 
     // Send welcome email
-    await sendWelcomeEmail(email, fullName);
+    await sendWelcomeEmail(email, fullName, username, password);
 
     // Generate token
     const token = generateToken(user._id);
