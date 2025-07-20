@@ -1,0 +1,802 @@
+[
+  {
+    "topic": "Hypertension",
+    "question": "What are the symptoms, causes, and treatment of Hypertension? (version 1)",
+    "symptoms": "Often asymptomatic, headaches, shortness of breath, nosebleeds.",
+    "causes": "Obesity, high salt intake, stress, genetics, sedentary lifestyle.",
+    "treatment": "Lifestyle changes, antihypertensive medications, regular monitoring.",
+    "layman_explanation": "High blood pressure often has no symptoms but can damage your heart and kidneys. It's managed with medicine and healthy habits."
+  },
+  {
+    "topic": "Type 2 Diabetes",
+    "question": "What are the symptoms, causes, and treatment of Type 2 Diabetes? (version 1)",
+    "symptoms": "Frequent urination, increased thirst, fatigue, blurry vision.",
+    "causes": "Insulin resistance, obesity, poor diet, genetic predisposition.",
+    "treatment": "Diet and exercise, oral medications, insulin therapy if needed.",
+    "layman_explanation": "Type 2 diabetes happens when your body can\u2019t use sugar properly. It\u2019s controlled with diet, exercise, and medicine."
+  },
+  {
+    "topic": "Chronic Obstructive Pulmonary Disease (COPD)",
+    "question": "What are the symptoms, causes, and treatment of COPD? (version 1)",
+    "symptoms": "Shortness of breath, chronic cough, wheezing, fatigue.",
+    "causes": "Smoking, long-term exposure to air pollutants, genetic factors.",
+    "treatment": "Bronchodilators, steroids, oxygen therapy, lifestyle changes.",
+    "layman_explanation": "COPD makes it hard to breathe because of damaged lungs. It\u2019s caused mainly by smoking and treated with breathing medicines."
+  },
+  {
+    "topic": "Asthma (Case 2)",
+    "question": "What are the symptoms, causes, and treatment of Asthma? (version 2)",
+    "symptoms": "Wheezing, shortness of breath, chest tightness, coughing.",
+    "causes": "Airway inflammation from allergens, exercise, or cold air.",
+    "treatment": "Inhalers, avoiding triggers, steroids.",
+    "layman_explanation": "Asthma makes breathing hard. Inhalers help open the lungs."
+  },
+  {
+    "topic": "Chronic Kidney Disease (Case 3)",
+    "question": "What are the symptoms, causes, and treatment of Chronic Kidney Disease? (version 3)",
+    "symptoms": "Fatigue, swollen ankles, nausea, poor appetite.",
+    "causes": "Diabetes, high blood pressure, infections.",
+    "treatment": "Control underlying cause, dialysis, kidney transplant.",
+    "layman_explanation": "Kidney disease means the kidneys aren\u2019t working well. It can get worse over time."
+  },
+  {
+    "topic": "Arthritis (Case 4)",
+    "question": "What are the symptoms, causes, and treatment of Arthritis? (version 4)",
+    "symptoms": "Joint pain, stiffness, swelling, reduced range of motion.",
+    "causes": "Autoimmune reaction, wear and tear, infections.",
+    "treatment": "Pain relief meds, physical therapy, joint surgery.",
+    "layman_explanation": "Arthritis causes painful, stiff joints. Treatment can ease symptoms."
+  },
+  {
+    "topic": "Asthma (Case 5)",
+    "question": "What are the symptoms, causes, and treatment of Asthma? (version 5)",
+    "symptoms": "Wheezing, shortness of breath, chest tightness, coughing.",
+    "causes": "Airway inflammation from allergens, exercise, or cold air.",
+    "treatment": "Inhalers, avoiding triggers, steroids.",
+    "layman_explanation": "Asthma makes breathing hard. Inhalers help open the lungs."
+  },
+  {
+    "topic": "Chronic Kidney Disease (Case 6)",
+    "question": "What are the symptoms, causes, and treatment of Chronic Kidney Disease? (version 6)",
+    "symptoms": "Fatigue, swollen ankles, nausea, poor appetite.",
+    "causes": "Diabetes, high blood pressure, infections.",
+    "treatment": "Control underlying cause, dialysis, kidney transplant.",
+    "layman_explanation": "Kidney disease means the kidneys aren\u2019t working well. It can get worse over time."
+  },
+  {
+    "topic": "Arthritis (Case 7)",
+    "question": "What are the symptoms, causes, and treatment of Arthritis? (version 7)",
+    "symptoms": "Joint pain, stiffness, swelling, reduced range of motion.",
+    "causes": "Autoimmune reaction, wear and tear, infections.",
+    "treatment": "Pain relief meds, physical therapy, joint surgery.",
+    "layman_explanation": "Arthritis causes painful, stiff joints. Treatment can ease symptoms."
+  },
+  {
+    "topic": "Asthma (Case 8)",
+    "question": "What are the symptoms, causes, and treatment of Asthma? (version 8)",
+    "symptoms": "Wheezing, shortness of breath, chest tightness, coughing.",
+    "causes": "Airway inflammation from allergens, exercise, or cold air.",
+    "treatment": "Inhalers, avoiding triggers, steroids.",
+    "layman_explanation": "Asthma makes breathing hard. Inhalers help open the lungs."
+  },
+  {
+    "topic": "Chronic Kidney Disease (Case 9)",
+    "question": "What are the symptoms, causes, and treatment of Chronic Kidney Disease? (version 9)",
+    "symptoms": "Fatigue, swollen ankles, nausea, poor appetite.",
+    "causes": "Diabetes, high blood pressure, infections.",
+    "treatment": "Control underlying cause, dialysis, kidney transplant.",
+    "layman_explanation": "Kidney disease means the kidneys aren\u2019t working well. It can get worse over time."
+  },
+  {
+    "topic": "Arthritis (Case 10)",
+    "question": "What are the symptoms, causes, and treatment of Arthritis? (version 10)",
+    "symptoms": "Joint pain, stiffness, swelling, reduced range of motion.",
+    "causes": "Autoimmune reaction, wear and tear, infections.",
+    "treatment": "Pain relief meds, physical therapy, joint surgery.",
+    "layman_explanation": "Arthritis causes painful, stiff joints. Treatment can ease symptoms."
+  },
+  {
+    "topic": "Asthma (Case 11)",
+    "question": "What are the symptoms, causes, and treatment of Asthma? (version 11)",
+    "symptoms": "Wheezing, shortness of breath, chest tightness, coughing.",
+    "causes": "Airway inflammation from allergens, exercise, or cold air.",
+    "treatment": "Inhalers, avoiding triggers, steroids.",
+    "layman_explanation": "Asthma makes breathing hard. Inhalers help open the lungs."
+  },
+  {
+    "topic": "Chronic Kidney Disease (Case 12)",
+    "question": "What are the symptoms, causes, and treatment of Chronic Kidney Disease? (version 12)",
+    "symptoms": "Fatigue, swollen ankles, nausea, poor appetite.",
+    "causes": "Diabetes, high blood pressure, infections.",
+    "treatment": "Control underlying cause, dialysis, kidney transplant.",
+    "layman_explanation": "Kidney disease means the kidneys aren\u2019t working well. It can get worse over time."
+  },
+  {
+    "topic": "Arthritis (Case 13)",
+    "question": "What are the symptoms, causes, and treatment of Arthritis? (version 13)",
+    "symptoms": "Joint pain, stiffness, swelling, reduced range of motion.",
+    "causes": "Autoimmune reaction, wear and tear, infections.",
+    "treatment": "Pain relief meds, physical therapy, joint surgery.",
+    "layman_explanation": "Arthritis causes painful, stiff joints. Treatment can ease symptoms."
+  },
+  {
+    "topic": "Asthma (Case 14)",
+    "question": "What are the symptoms, causes, and treatment of Asthma? (version 14)",
+    "symptoms": "Wheezing, shortness of breath, chest tightness, coughing.",
+    "causes": "Airway inflammation from allergens, exercise, or cold air.",
+    "treatment": "Inhalers, avoiding triggers, steroids.",
+    "layman_explanation": "Asthma makes breathing hard. Inhalers help open the lungs."
+  },
+  {
+    "topic": "Chronic Kidney Disease (Case 15)",
+    "question": "What are the symptoms, causes, and treatment of Chronic Kidney Disease? (version 15)",
+    "symptoms": "Fatigue, swollen ankles, nausea, poor appetite.",
+    "causes": "Diabetes, high blood pressure, infections.",
+    "treatment": "Control underlying cause, dialysis, kidney transplant.",
+    "layman_explanation": "Kidney disease means the kidneys aren\u2019t working well. It can get worse over time."
+  },
+  {
+    "topic": "Arthritis (Case 16)",
+    "question": "What are the symptoms, causes, and treatment of Arthritis? (version 16)",
+    "symptoms": "Joint pain, stiffness, swelling, reduced range of motion.",
+    "causes": "Autoimmune reaction, wear and tear, infections.",
+    "treatment": "Pain relief meds, physical therapy, joint surgery.",
+    "layman_explanation": "Arthritis causes painful, stiff joints. Treatment can ease symptoms."
+  },
+  {
+    "topic": "Asthma (Case 17)",
+    "question": "What are the symptoms, causes, and treatment of Asthma? (version 17)",
+    "symptoms": "Wheezing, shortness of breath, chest tightness, coughing.",
+    "causes": "Airway inflammation from allergens, exercise, or cold air.",
+    "treatment": "Inhalers, avoiding triggers, steroids.",
+    "layman_explanation": "Asthma makes breathing hard. Inhalers help open the lungs."
+  },
+  {
+    "topic": "Chronic Kidney Disease (Case 18)",
+    "question": "What are the symptoms, causes, and treatment of Chronic Kidney Disease? (version 18)",
+    "symptoms": "Fatigue, swollen ankles, nausea, poor appetite.",
+    "causes": "Diabetes, high blood pressure, infections.",
+    "treatment": "Control underlying cause, dialysis, kidney transplant.",
+    "layman_explanation": "Kidney disease means the kidneys aren\u2019t working well. It can get worse over time."
+  },
+  {
+    "topic": "Arthritis (Case 19)",
+    "question": "What are the symptoms, causes, and treatment of Arthritis? (version 19)",
+    "symptoms": "Joint pain, stiffness, swelling, reduced range of motion.",
+    "causes": "Autoimmune reaction, wear and tear, infections.",
+    "treatment": "Pain relief meds, physical therapy, joint surgery.",
+    "layman_explanation": "Arthritis causes painful, stiff joints. Treatment can ease symptoms."
+  },
+  {
+    "topic": "Asthma (Case 20)",
+    "question": "What are the symptoms, causes, and treatment of Asthma? (version 20)",
+    "symptoms": "Wheezing, shortness of breath, chest tightness, coughing.",
+    "causes": "Airway inflammation from allergens, exercise, or cold air.",
+    "treatment": "Inhalers, avoiding triggers, steroids.",
+    "layman_explanation": "Asthma makes breathing hard. Inhalers help open the lungs."
+  },
+  {
+    "topic": "Chronic Kidney Disease (Case 21)",
+    "question": "What are the symptoms, causes, and treatment of Chronic Kidney Disease? (version 21)",
+    "symptoms": "Fatigue, swollen ankles, nausea, poor appetite.",
+    "causes": "Diabetes, high blood pressure, infections.",
+    "treatment": "Control underlying cause, dialysis, kidney transplant.",
+    "layman_explanation": "Kidney disease means the kidneys aren\u2019t working well. It can get worse over time."
+  },
+  {
+    "topic": "Arthritis (Case 22)",
+    "question": "What are the symptoms, causes, and treatment of Arthritis? (version 22)",
+    "symptoms": "Joint pain, stiffness, swelling, reduced range of motion.",
+    "causes": "Autoimmune reaction, wear and tear, infections.",
+    "treatment": "Pain relief meds, physical therapy, joint surgery.",
+    "layman_explanation": "Arthritis causes painful, stiff joints. Treatment can ease symptoms."
+  },
+  {
+    "topic": "Asthma (Case 23)",
+    "question": "What are the symptoms, causes, and treatment of Asthma? (version 23)",
+    "symptoms": "Wheezing, shortness of breath, chest tightness, coughing.",
+    "causes": "Airway inflammation from allergens, exercise, or cold air.",
+    "treatment": "Inhalers, avoiding triggers, steroids.",
+    "layman_explanation": "Asthma makes breathing hard. Inhalers help open the lungs."
+  },
+  {
+    "topic": "Chronic Kidney Disease (Case 24)",
+    "question": "What are the symptoms, causes, and treatment of Chronic Kidney Disease? (version 24)",
+    "symptoms": "Fatigue, swollen ankles, nausea, poor appetite.",
+    "causes": "Diabetes, high blood pressure, infections.",
+    "treatment": "Control underlying cause, dialysis, kidney transplant.",
+    "layman_explanation": "Kidney disease means the kidneys aren\u2019t working well. It can get worse over time."
+  },
+  {
+    "topic": "Arthritis (Case 25)",
+    "question": "What are the symptoms, causes, and treatment of Arthritis? (version 25)",
+    "symptoms": "Joint pain, stiffness, swelling, reduced range of motion.",
+    "causes": "Autoimmune reaction, wear and tear, infections.",
+    "treatment": "Pain relief meds, physical therapy, joint surgery.",
+    "layman_explanation": "Arthritis causes painful, stiff joints. Treatment can ease symptoms."
+  },
+  {
+    "topic": "Asthma (Case 26)",
+    "question": "What are the symptoms, causes, and treatment of Asthma? (version 26)",
+    "symptoms": "Wheezing, shortness of breath, chest tightness, coughing.",
+    "causes": "Airway inflammation from allergens, exercise, or cold air.",
+    "treatment": "Inhalers, avoiding triggers, steroids.",
+    "layman_explanation": "Asthma makes breathing hard. Inhalers help open the lungs."
+  },
+  {
+    "topic": "Chronic Kidney Disease (Case 27)",
+    "question": "What are the symptoms, causes, and treatment of Chronic Kidney Disease? (version 27)",
+    "symptoms": "Fatigue, swollen ankles, nausea, poor appetite.",
+    "causes": "Diabetes, high blood pressure, infections.",
+    "treatment": "Control underlying cause, dialysis, kidney transplant.",
+    "layman_explanation": "Kidney disease means the kidneys aren\u2019t working well. It can get worse over time."
+  },
+  {
+    "topic": "Arthritis (Case 28)",
+    "question": "What are the symptoms, causes, and treatment of Arthritis? (version 28)",
+    "symptoms": "Joint pain, stiffness, swelling, reduced range of motion.",
+    "causes": "Autoimmune reaction, wear and tear, infections.",
+    "treatment": "Pain relief meds, physical therapy, joint surgery.",
+    "layman_explanation": "Arthritis causes painful, stiff joints. Treatment can ease symptoms."
+  },
+  {
+    "topic": "Asthma (Case 29)",
+    "question": "What are the symptoms, causes, and treatment of Asthma? (version 29)",
+    "symptoms": "Wheezing, shortness of breath, chest tightness, coughing.",
+    "causes": "Airway inflammation from allergens, exercise, or cold air.",
+    "treatment": "Inhalers, avoiding triggers, steroids.",
+    "layman_explanation": "Asthma makes breathing hard. Inhalers help open the lungs."
+  },
+  {
+    "topic": "Chronic Kidney Disease (Case 30)",
+    "question": "What are the symptoms, causes, and treatment of Chronic Kidney Disease? (version 30)",
+    "symptoms": "Fatigue, swollen ankles, nausea, poor appetite.",
+    "causes": "Diabetes, high blood pressure, infections.",
+    "treatment": "Control underlying cause, dialysis, kidney transplant.",
+    "layman_explanation": "Kidney disease means the kidneys aren\u2019t working well. It can get worse over time."
+  },
+  {
+    "topic": "Arthritis (Case 31)",
+    "question": "What are the symptoms, causes, and treatment of Arthritis? (version 31)",
+    "symptoms": "Joint pain, stiffness, swelling, reduced range of motion.",
+    "causes": "Autoimmune reaction, wear and tear, infections.",
+    "treatment": "Pain relief meds, physical therapy, joint surgery.",
+    "layman_explanation": "Arthritis causes painful, stiff joints. Treatment can ease symptoms."
+  },
+  {
+    "topic": "Asthma (Case 32)",
+    "question": "What are the symptoms, causes, and treatment of Asthma? (version 32)",
+    "symptoms": "Wheezing, shortness of breath, chest tightness, coughing.",
+    "causes": "Airway inflammation from allergens, exercise, or cold air.",
+    "treatment": "Inhalers, avoiding triggers, steroids.",
+    "layman_explanation": "Asthma makes breathing hard. Inhalers help open the lungs."
+  },
+  {
+    "topic": "Chronic Kidney Disease (Case 33)",
+    "question": "What are the symptoms, causes, and treatment of Chronic Kidney Disease? (version 33)",
+    "symptoms": "Fatigue, swollen ankles, nausea, poor appetite.",
+    "causes": "Diabetes, high blood pressure, infections.",
+    "treatment": "Control underlying cause, dialysis, kidney transplant.",
+    "layman_explanation": "Kidney disease means the kidneys aren\u2019t working well. It can get worse over time."
+  },
+  {
+    "topic": "Arthritis (Case 34)",
+    "question": "What are the symptoms, causes, and treatment of Arthritis? (version 34)",
+    "symptoms": "Joint pain, stiffness, swelling, reduced range of motion.",
+    "causes": "Autoimmune reaction, wear and tear, infections.",
+    "treatment": "Pain relief meds, physical therapy, joint surgery.",
+    "layman_explanation": "Arthritis causes painful, stiff joints. Treatment can ease symptoms."
+  },
+  {
+    "topic": "Asthma (Case 35)",
+    "question": "What are the symptoms, causes, and treatment of Asthma? (version 35)",
+    "symptoms": "Wheezing, shortness of breath, chest tightness, coughing.",
+    "causes": "Airway inflammation from allergens, exercise, or cold air.",
+    "treatment": "Inhalers, avoiding triggers, steroids.",
+    "layman_explanation": "Asthma makes breathing hard. Inhalers help open the lungs."
+  },
+  {
+    "topic": "Chronic Kidney Disease (Case 36)",
+    "question": "What are the symptoms, causes, and treatment of Chronic Kidney Disease? (version 36)",
+    "symptoms": "Fatigue, swollen ankles, nausea, poor appetite.",
+    "causes": "Diabetes, high blood pressure, infections.",
+    "treatment": "Control underlying cause, dialysis, kidney transplant.",
+    "layman_explanation": "Kidney disease means the kidneys aren\u2019t working well. It can get worse over time."
+  },
+  {
+    "topic": "Arthritis (Case 37)",
+    "question": "What are the symptoms, causes, and treatment of Arthritis? (version 37)",
+    "symptoms": "Joint pain, stiffness, swelling, reduced range of motion.",
+    "causes": "Autoimmune reaction, wear and tear, infections.",
+    "treatment": "Pain relief meds, physical therapy, joint surgery.",
+    "layman_explanation": "Arthritis causes painful, stiff joints. Treatment can ease symptoms."
+  },
+  {
+    "topic": "Asthma (Case 38)",
+    "question": "What are the symptoms, causes, and treatment of Asthma? (version 38)",
+    "symptoms": "Wheezing, shortness of breath, chest tightness, coughing.",
+    "causes": "Airway inflammation from allergens, exercise, or cold air.",
+    "treatment": "Inhalers, avoiding triggers, steroids.",
+    "layman_explanation": "Asthma makes breathing hard. Inhalers help open the lungs."
+  },
+  {
+    "topic": "Chronic Kidney Disease (Case 39)",
+    "question": "What are the symptoms, causes, and treatment of Chronic Kidney Disease? (version 39)",
+    "symptoms": "Fatigue, swollen ankles, nausea, poor appetite.",
+    "causes": "Diabetes, high blood pressure, infections.",
+    "treatment": "Control underlying cause, dialysis, kidney transplant.",
+    "layman_explanation": "Kidney disease means the kidneys aren\u2019t working well. It can get worse over time."
+  },
+  {
+    "topic": "Arthritis (Case 40)",
+    "question": "What are the symptoms, causes, and treatment of Arthritis? (version 40)",
+    "symptoms": "Joint pain, stiffness, swelling, reduced range of motion.",
+    "causes": "Autoimmune reaction, wear and tear, infections.",
+    "treatment": "Pain relief meds, physical therapy, joint surgery.",
+    "layman_explanation": "Arthritis causes painful, stiff joints. Treatment can ease symptoms."
+  },
+  {
+    "topic": "Asthma (Case 41)",
+    "question": "What are the symptoms, causes, and treatment of Asthma? (version 41)",
+    "symptoms": "Wheezing, shortness of breath, chest tightness, coughing.",
+    "causes": "Airway inflammation from allergens, exercise, or cold air.",
+    "treatment": "Inhalers, avoiding triggers, steroids.",
+    "layman_explanation": "Asthma makes breathing hard. Inhalers help open the lungs."
+  },
+  {
+    "topic": "Chronic Kidney Disease (Case 42)",
+    "question": "What are the symptoms, causes, and treatment of Chronic Kidney Disease? (version 42)",
+    "symptoms": "Fatigue, swollen ankles, nausea, poor appetite.",
+    "causes": "Diabetes, high blood pressure, infections.",
+    "treatment": "Control underlying cause, dialysis, kidney transplant.",
+    "layman_explanation": "Kidney disease means the kidneys aren\u2019t working well. It can get worse over time."
+  },
+  {
+    "topic": "Arthritis (Case 43)",
+    "question": "What are the symptoms, causes, and treatment of Arthritis? (version 43)",
+    "symptoms": "Joint pain, stiffness, swelling, reduced range of motion.",
+    "causes": "Autoimmune reaction, wear and tear, infections.",
+    "treatment": "Pain relief meds, physical therapy, joint surgery.",
+    "layman_explanation": "Arthritis causes painful, stiff joints. Treatment can ease symptoms."
+  },
+  {
+    "topic": "Asthma (Case 44)",
+    "question": "What are the symptoms, causes, and treatment of Asthma? (version 44)",
+    "symptoms": "Wheezing, shortness of breath, chest tightness, coughing.",
+    "causes": "Airway inflammation from allergens, exercise, or cold air.",
+    "treatment": "Inhalers, avoiding triggers, steroids.",
+    "layman_explanation": "Asthma makes breathing hard. Inhalers help open the lungs."
+  },
+  {
+    "topic": "Chronic Kidney Disease (Case 45)",
+    "question": "What are the symptoms, causes, and treatment of Chronic Kidney Disease? (version 45)",
+    "symptoms": "Fatigue, swollen ankles, nausea, poor appetite.",
+    "causes": "Diabetes, high blood pressure, infections.",
+    "treatment": "Control underlying cause, dialysis, kidney transplant.",
+    "layman_explanation": "Kidney disease means the kidneys aren\u2019t working well. It can get worse over time."
+  },
+  {
+    "topic": "Arthritis (Case 46)",
+    "question": "What are the symptoms, causes, and treatment of Arthritis? (version 46)",
+    "symptoms": "Joint pain, stiffness, swelling, reduced range of motion.",
+    "causes": "Autoimmune reaction, wear and tear, infections.",
+    "treatment": "Pain relief meds, physical therapy, joint surgery.",
+    "layman_explanation": "Arthritis causes painful, stiff joints. Treatment can ease symptoms."
+  },
+  {
+    "topic": "Asthma (Case 47)",
+    "question": "What are the symptoms, causes, and treatment of Asthma? (version 47)",
+    "symptoms": "Wheezing, shortness of breath, chest tightness, coughing.",
+    "causes": "Airway inflammation from allergens, exercise, or cold air.",
+    "treatment": "Inhalers, avoiding triggers, steroids.",
+    "layman_explanation": "Asthma makes breathing hard. Inhalers help open the lungs."
+  },
+  {
+    "topic": "Chronic Kidney Disease (Case 48)",
+    "question": "What are the symptoms, causes, and treatment of Chronic Kidney Disease? (version 48)",
+    "symptoms": "Fatigue, swollen ankles, nausea, poor appetite.",
+    "causes": "Diabetes, high blood pressure, infections.",
+    "treatment": "Control underlying cause, dialysis, kidney transplant.",
+    "layman_explanation": "Kidney disease means the kidneys aren\u2019t working well. It can get worse over time."
+  },
+  {
+    "topic": "Arthritis (Case 49)",
+    "question": "What are the symptoms, causes, and treatment of Arthritis? (version 49)",
+    "symptoms": "Joint pain, stiffness, swelling, reduced range of motion.",
+    "causes": "Autoimmune reaction, wear and tear, infections.",
+    "treatment": "Pain relief meds, physical therapy, joint surgery.",
+    "layman_explanation": "Arthritis causes painful, stiff joints. Treatment can ease symptoms."
+  },
+  {
+    "topic": "Asthma (Case 50)",
+    "question": "What are the symptoms, causes, and treatment of Asthma? (version 50)",
+    "symptoms": "Wheezing, shortness of breath, chest tightness, coughing.",
+    "causes": "Airway inflammation from allergens, exercise, or cold air.",
+    "treatment": "Inhalers, avoiding triggers, steroids.",
+    "layman_explanation": "Asthma makes breathing hard. Inhalers help open the lungs."
+  },
+  {
+    "topic": "Chronic Kidney Disease (Case 51)",
+    "question": "What are the symptoms, causes, and treatment of Chronic Kidney Disease? (version 51)",
+    "symptoms": "Fatigue, swollen ankles, nausea, poor appetite.",
+    "causes": "Diabetes, high blood pressure, infections.",
+    "treatment": "Control underlying cause, dialysis, kidney transplant.",
+    "layman_explanation": "Kidney disease means the kidneys aren\u2019t working well. It can get worse over time."
+  },
+  {
+    "topic": "Arthritis (Case 52)",
+    "question": "What are the symptoms, causes, and treatment of Arthritis? (version 52)",
+    "symptoms": "Joint pain, stiffness, swelling, reduced range of motion.",
+    "causes": "Autoimmune reaction, wear and tear, infections.",
+    "treatment": "Pain relief meds, physical therapy, joint surgery.",
+    "layman_explanation": "Arthritis causes painful, stiff joints. Treatment can ease symptoms."
+  },
+  {
+    "topic": "Asthma (Case 53)",
+    "question": "What are the symptoms, causes, and treatment of Asthma? (version 53)",
+    "symptoms": "Wheezing, shortness of breath, chest tightness, coughing.",
+    "causes": "Airway inflammation from allergens, exercise, or cold air.",
+    "treatment": "Inhalers, avoiding triggers, steroids.",
+    "layman_explanation": "Asthma makes breathing hard. Inhalers help open the lungs."
+  },
+  {
+    "topic": "Chronic Kidney Disease (Case 54)",
+    "question": "What are the symptoms, causes, and treatment of Chronic Kidney Disease? (version 54)",
+    "symptoms": "Fatigue, swollen ankles, nausea, poor appetite.",
+    "causes": "Diabetes, high blood pressure, infections.",
+    "treatment": "Control underlying cause, dialysis, kidney transplant.",
+    "layman_explanation": "Kidney disease means the kidneys aren\u2019t working well. It can get worse over time."
+  },
+  {
+    "topic": "Arthritis (Case 55)",
+    "question": "What are the symptoms, causes, and treatment of Arthritis? (version 55)",
+    "symptoms": "Joint pain, stiffness, swelling, reduced range of motion.",
+    "causes": "Autoimmune reaction, wear and tear, infections.",
+    "treatment": "Pain relief meds, physical therapy, joint surgery.",
+    "layman_explanation": "Arthritis causes painful, stiff joints. Treatment can ease symptoms."
+  },
+  {
+    "topic": "Asthma (Case 56)",
+    "question": "What are the symptoms, causes, and treatment of Asthma? (version 56)",
+    "symptoms": "Wheezing, shortness of breath, chest tightness, coughing.",
+    "causes": "Airway inflammation from allergens, exercise, or cold air.",
+    "treatment": "Inhalers, avoiding triggers, steroids.",
+    "layman_explanation": "Asthma makes breathing hard. Inhalers help open the lungs."
+  },
+  {
+    "topic": "Chronic Kidney Disease (Case 57)",
+    "question": "What are the symptoms, causes, and treatment of Chronic Kidney Disease? (version 57)",
+    "symptoms": "Fatigue, swollen ankles, nausea, poor appetite.",
+    "causes": "Diabetes, high blood pressure, infections.",
+    "treatment": "Control underlying cause, dialysis, kidney transplant.",
+    "layman_explanation": "Kidney disease means the kidneys aren\u2019t working well. It can get worse over time."
+  },
+  {
+    "topic": "Arthritis (Case 58)",
+    "question": "What are the symptoms, causes, and treatment of Arthritis? (version 58)",
+    "symptoms": "Joint pain, stiffness, swelling, reduced range of motion.",
+    "causes": "Autoimmune reaction, wear and tear, infections.",
+    "treatment": "Pain relief meds, physical therapy, joint surgery.",
+    "layman_explanation": "Arthritis causes painful, stiff joints. Treatment can ease symptoms."
+  },
+  {
+    "topic": "Asthma (Case 59)",
+    "question": "What are the symptoms, causes, and treatment of Asthma? (version 59)",
+    "symptoms": "Wheezing, shortness of breath, chest tightness, coughing.",
+    "causes": "Airway inflammation from allergens, exercise, or cold air.",
+    "treatment": "Inhalers, avoiding triggers, steroids.",
+    "layman_explanation": "Asthma makes breathing hard. Inhalers help open the lungs."
+  },
+  {
+    "topic": "Chronic Kidney Disease (Case 60)",
+    "question": "What are the symptoms, causes, and treatment of Chronic Kidney Disease? (version 60)",
+    "symptoms": "Fatigue, swollen ankles, nausea, poor appetite.",
+    "causes": "Diabetes, high blood pressure, infections.",
+    "treatment": "Control underlying cause, dialysis, kidney transplant.",
+    "layman_explanation": "Kidney disease means the kidneys aren\u2019t working well. It can get worse over time."
+  },
+  {
+    "topic": "Arthritis (Case 61)",
+    "question": "What are the symptoms, causes, and treatment of Arthritis? (version 61)",
+    "symptoms": "Joint pain, stiffness, swelling, reduced range of motion.",
+    "causes": "Autoimmune reaction, wear and tear, infections.",
+    "treatment": "Pain relief meds, physical therapy, joint surgery.",
+    "layman_explanation": "Arthritis causes painful, stiff joints. Treatment can ease symptoms."
+  },
+  {
+    "topic": "Asthma (Case 62)",
+    "question": "What are the symptoms, causes, and treatment of Asthma? (version 62)",
+    "symptoms": "Wheezing, shortness of breath, chest tightness, coughing.",
+    "causes": "Airway inflammation from allergens, exercise, or cold air.",
+    "treatment": "Inhalers, avoiding triggers, steroids.",
+    "layman_explanation": "Asthma makes breathing hard. Inhalers help open the lungs."
+  },
+  {
+    "topic": "Chronic Kidney Disease (Case 63)",
+    "question": "What are the symptoms, causes, and treatment of Chronic Kidney Disease? (version 63)",
+    "symptoms": "Fatigue, swollen ankles, nausea, poor appetite.",
+    "causes": "Diabetes, high blood pressure, infections.",
+    "treatment": "Control underlying cause, dialysis, kidney transplant.",
+    "layman_explanation": "Kidney disease means the kidneys aren\u2019t working well. It can get worse over time."
+  },
+  {
+    "topic": "Arthritis (Case 64)",
+    "question": "What are the symptoms, causes, and treatment of Arthritis? (version 64)",
+    "symptoms": "Joint pain, stiffness, swelling, reduced range of motion.",
+    "causes": "Autoimmune reaction, wear and tear, infections.",
+    "treatment": "Pain relief meds, physical therapy, joint surgery.",
+    "layman_explanation": "Arthritis causes painful, stiff joints. Treatment can ease symptoms."
+  },
+  {
+    "topic": "Asthma (Case 65)",
+    "question": "What are the symptoms, causes, and treatment of Asthma? (version 65)",
+    "symptoms": "Wheezing, shortness of breath, chest tightness, coughing.",
+    "causes": "Airway inflammation from allergens, exercise, or cold air.",
+    "treatment": "Inhalers, avoiding triggers, steroids.",
+    "layman_explanation": "Asthma makes breathing hard. Inhalers help open the lungs."
+  },
+  {
+    "topic": "Chronic Kidney Disease (Case 66)",
+    "question": "What are the symptoms, causes, and treatment of Chronic Kidney Disease? (version 66)",
+    "symptoms": "Fatigue, swollen ankles, nausea, poor appetite.",
+    "causes": "Diabetes, high blood pressure, infections.",
+    "treatment": "Control underlying cause, dialysis, kidney transplant.",
+    "layman_explanation": "Kidney disease means the kidneys aren\u2019t working well. It can get worse over time."
+  },
+  {
+    "topic": "Arthritis (Case 67)",
+    "question": "What are the symptoms, causes, and treatment of Arthritis? (version 67)",
+    "symptoms": "Joint pain, stiffness, swelling, reduced range of motion.",
+    "causes": "Autoimmune reaction, wear and tear, infections.",
+    "treatment": "Pain relief meds, physical therapy, joint surgery.",
+    "layman_explanation": "Arthritis causes painful, stiff joints. Treatment can ease symptoms."
+  },
+  {
+    "topic": "Asthma (Case 68)",
+    "question": "What are the symptoms, causes, and treatment of Asthma? (version 68)",
+    "symptoms": "Wheezing, shortness of breath, chest tightness, coughing.",
+    "causes": "Airway inflammation from allergens, exercise, or cold air.",
+    "treatment": "Inhalers, avoiding triggers, steroids.",
+    "layman_explanation": "Asthma makes breathing hard. Inhalers help open the lungs."
+  },
+  {
+    "topic": "Chronic Kidney Disease (Case 69)",
+    "question": "What are the symptoms, causes, and treatment of Chronic Kidney Disease? (version 69)",
+    "symptoms": "Fatigue, swollen ankles, nausea, poor appetite.",
+    "causes": "Diabetes, high blood pressure, infections.",
+    "treatment": "Control underlying cause, dialysis, kidney transplant.",
+    "layman_explanation": "Kidney disease means the kidneys aren\u2019t working well. It can get worse over time."
+  },
+  {
+    "topic": "Arthritis (Case 70)",
+    "question": "What are the symptoms, causes, and treatment of Arthritis? (version 70)",
+    "symptoms": "Joint pain, stiffness, swelling, reduced range of motion.",
+    "causes": "Autoimmune reaction, wear and tear, infections.",
+    "treatment": "Pain relief meds, physical therapy, joint surgery.",
+    "layman_explanation": "Arthritis causes painful, stiff joints. Treatment can ease symptoms."
+  },
+  {
+    "topic": "Asthma (Case 71)",
+    "question": "What are the symptoms, causes, and treatment of Asthma? (version 71)",
+    "symptoms": "Wheezing, shortness of breath, chest tightness, coughing.",
+    "causes": "Airway inflammation from allergens, exercise, or cold air.",
+    "treatment": "Inhalers, avoiding triggers, steroids.",
+    "layman_explanation": "Asthma makes breathing hard. Inhalers help open the lungs."
+  },
+  {
+    "topic": "Chronic Kidney Disease (Case 72)",
+    "question": "What are the symptoms, causes, and treatment of Chronic Kidney Disease? (version 72)",
+    "symptoms": "Fatigue, swollen ankles, nausea, poor appetite.",
+    "causes": "Diabetes, high blood pressure, infections.",
+    "treatment": "Control underlying cause, dialysis, kidney transplant.",
+    "layman_explanation": "Kidney disease means the kidneys aren\u2019t working well. It can get worse over time."
+  },
+  {
+    "topic": "Arthritis (Case 73)",
+    "question": "What are the symptoms, causes, and treatment of Arthritis? (version 73)",
+    "symptoms": "Joint pain, stiffness, swelling, reduced range of motion.",
+    "causes": "Autoimmune reaction, wear and tear, infections.",
+    "treatment": "Pain relief meds, physical therapy, joint surgery.",
+    "layman_explanation": "Arthritis causes painful, stiff joints. Treatment can ease symptoms."
+  },
+  {
+    "topic": "Asthma (Case 74)",
+    "question": "What are the symptoms, causes, and treatment of Asthma? (version 74)",
+    "symptoms": "Wheezing, shortness of breath, chest tightness, coughing.",
+    "causes": "Airway inflammation from allergens, exercise, or cold air.",
+    "treatment": "Inhalers, avoiding triggers, steroids.",
+    "layman_explanation": "Asthma makes breathing hard. Inhalers help open the lungs."
+  },
+  {
+    "topic": "Chronic Kidney Disease (Case 75)",
+    "question": "What are the symptoms, causes, and treatment of Chronic Kidney Disease? (version 75)",
+    "symptoms": "Fatigue, swollen ankles, nausea, poor appetite.",
+    "causes": "Diabetes, high blood pressure, infections.",
+    "treatment": "Control underlying cause, dialysis, kidney transplant.",
+    "layman_explanation": "Kidney disease means the kidneys aren\u2019t working well. It can get worse over time."
+  },
+  {
+    "topic": "Arthritis (Case 76)",
+    "question": "What are the symptoms, causes, and treatment of Arthritis? (version 76)",
+    "symptoms": "Joint pain, stiffness, swelling, reduced range of motion.",
+    "causes": "Autoimmune reaction, wear and tear, infections.",
+    "treatment": "Pain relief meds, physical therapy, joint surgery.",
+    "layman_explanation": "Arthritis causes painful, stiff joints. Treatment can ease symptoms."
+  },
+  {
+    "topic": "Asthma (Case 77)",
+    "question": "What are the symptoms, causes, and treatment of Asthma? (version 77)",
+    "symptoms": "Wheezing, shortness of breath, chest tightness, coughing.",
+    "causes": "Airway inflammation from allergens, exercise, or cold air.",
+    "treatment": "Inhalers, avoiding triggers, steroids.",
+    "layman_explanation": "Asthma makes breathing hard. Inhalers help open the lungs."
+  },
+  {
+    "topic": "Chronic Kidney Disease (Case 78)",
+    "question": "What are the symptoms, causes, and treatment of Chronic Kidney Disease? (version 78)",
+    "symptoms": "Fatigue, swollen ankles, nausea, poor appetite.",
+    "causes": "Diabetes, high blood pressure, infections.",
+    "treatment": "Control underlying cause, dialysis, kidney transplant.",
+    "layman_explanation": "Kidney disease means the kidneys aren\u2019t working well. It can get worse over time."
+  },
+  {
+    "topic": "Arthritis (Case 79)",
+    "question": "What are the symptoms, causes, and treatment of Arthritis? (version 79)",
+    "symptoms": "Joint pain, stiffness, swelling, reduced range of motion.",
+    "causes": "Autoimmune reaction, wear and tear, infections.",
+    "treatment": "Pain relief meds, physical therapy, joint surgery.",
+    "layman_explanation": "Arthritis causes painful, stiff joints. Treatment can ease symptoms."
+  },
+  {
+    "topic": "Asthma (Case 80)",
+    "question": "What are the symptoms, causes, and treatment of Asthma? (version 80)",
+    "symptoms": "Wheezing, shortness of breath, chest tightness, coughing.",
+    "causes": "Airway inflammation from allergens, exercise, or cold air.",
+    "treatment": "Inhalers, avoiding triggers, steroids.",
+    "layman_explanation": "Asthma makes breathing hard. Inhalers help open the lungs."
+  },
+  {
+    "topic": "Chronic Kidney Disease (Case 81)",
+    "question": "What are the symptoms, causes, and treatment of Chronic Kidney Disease? (version 81)",
+    "symptoms": "Fatigue, swollen ankles, nausea, poor appetite.",
+    "causes": "Diabetes, high blood pressure, infections.",
+    "treatment": "Control underlying cause, dialysis, kidney transplant.",
+    "layman_explanation": "Kidney disease means the kidneys aren\u2019t working well. It can get worse over time."
+  },
+  {
+    "topic": "Arthritis (Case 82)",
+    "question": "What are the symptoms, causes, and treatment of Arthritis? (version 82)",
+    "symptoms": "Joint pain, stiffness, swelling, reduced range of motion.",
+    "causes": "Autoimmune reaction, wear and tear, infections.",
+    "treatment": "Pain relief meds, physical therapy, joint surgery.",
+    "layman_explanation": "Arthritis causes painful, stiff joints. Treatment can ease symptoms."
+  },
+  {
+    "topic": "Asthma (Case 83)",
+    "question": "What are the symptoms, causes, and treatment of Asthma? (version 83)",
+    "symptoms": "Wheezing, shortness of breath, chest tightness, coughing.",
+    "causes": "Airway inflammation from allergens, exercise, or cold air.",
+    "treatment": "Inhalers, avoiding triggers, steroids.",
+    "layman_explanation": "Asthma makes breathing hard. Inhalers help open the lungs."
+  },
+  {
+    "topic": "Chronic Kidney Disease (Case 84)",
+    "question": "What are the symptoms, causes, and treatment of Chronic Kidney Disease? (version 84)",
+    "symptoms": "Fatigue, swollen ankles, nausea, poor appetite.",
+    "causes": "Diabetes, high blood pressure, infections.",
+    "treatment": "Control underlying cause, dialysis, kidney transplant.",
+    "layman_explanation": "Kidney disease means the kidneys aren\u2019t working well. It can get worse over time."
+  },
+  {
+    "topic": "Arthritis (Case 85)",
+    "question": "What are the symptoms, causes, and treatment of Arthritis? (version 85)",
+    "symptoms": "Joint pain, stiffness, swelling, reduced range of motion.",
+    "causes": "Autoimmune reaction, wear and tear, infections.",
+    "treatment": "Pain relief meds, physical therapy, joint surgery.",
+    "layman_explanation": "Arthritis causes painful, stiff joints. Treatment can ease symptoms."
+  },
+  {
+    "topic": "Asthma (Case 86)",
+    "question": "What are the symptoms, causes, and treatment of Asthma? (version 86)",
+    "symptoms": "Wheezing, shortness of breath, chest tightness, coughing.",
+    "causes": "Airway inflammation from allergens, exercise, or cold air.",
+    "treatment": "Inhalers, avoiding triggers, steroids.",
+    "layman_explanation": "Asthma makes breathing hard. Inhalers help open the lungs."
+  },
+  {
+    "topic": "Chronic Kidney Disease (Case 87)",
+    "question": "What are the symptoms, causes, and treatment of Chronic Kidney Disease? (version 87)",
+    "symptoms": "Fatigue, swollen ankles, nausea, poor appetite.",
+    "causes": "Diabetes, high blood pressure, infections.",
+    "treatment": "Control underlying cause, dialysis, kidney transplant.",
+    "layman_explanation": "Kidney disease means the kidneys aren\u2019t working well. It can get worse over time."
+  },
+  {
+    "topic": "Arthritis (Case 88)",
+    "question": "What are the symptoms, causes, and treatment of Arthritis? (version 88)",
+    "symptoms": "Joint pain, stiffness, swelling, reduced range of motion.",
+    "causes": "Autoimmune reaction, wear and tear, infections.",
+    "treatment": "Pain relief meds, physical therapy, joint surgery.",
+    "layman_explanation": "Arthritis causes painful, stiff joints. Treatment can ease symptoms."
+  },
+  {
+    "topic": "Asthma (Case 89)",
+    "question": "What are the symptoms, causes, and treatment of Asthma? (version 89)",
+    "symptoms": "Wheezing, shortness of breath, chest tightness, coughing.",
+    "causes": "Airway inflammation from allergens, exercise, or cold air.",
+    "treatment": "Inhalers, avoiding triggers, steroids.",
+    "layman_explanation": "Asthma makes breathing hard. Inhalers help open the lungs."
+  },
+  {
+    "topic": "Chronic Kidney Disease (Case 90)",
+    "question": "What are the symptoms, causes, and treatment of Chronic Kidney Disease? (version 90)",
+    "symptoms": "Fatigue, swollen ankles, nausea, poor appetite.",
+    "causes": "Diabetes, high blood pressure, infections.",
+    "treatment": "Control underlying cause, dialysis, kidney transplant.",
+    "layman_explanation": "Kidney disease means the kidneys aren\u2019t working well. It can get worse over time."
+  },
+  {
+    "topic": "Arthritis (Case 91)",
+    "question": "What are the symptoms, causes, and treatment of Arthritis? (version 91)",
+    "symptoms": "Joint pain, stiffness, swelling, reduced range of motion.",
+    "causes": "Autoimmune reaction, wear and tear, infections.",
+    "treatment": "Pain relief meds, physical therapy, joint surgery.",
+    "layman_explanation": "Arthritis causes painful, stiff joints. Treatment can ease symptoms."
+  },
+  {
+    "topic": "Asthma (Case 92)",
+    "question": "What are the symptoms, causes, and treatment of Asthma? (version 92)",
+    "symptoms": "Wheezing, shortness of breath, chest tightness, coughing.",
+    "causes": "Airway inflammation from allergens, exercise, or cold air.",
+    "treatment": "Inhalers, avoiding triggers, steroids.",
+    "layman_explanation": "Asthma makes breathing hard. Inhalers help open the lungs."
+  },
+  {
+    "topic": "Chronic Kidney Disease (Case 93)",
+    "question": "What are the symptoms, causes, and treatment of Chronic Kidney Disease? (version 93)",
+    "symptoms": "Fatigue, swollen ankles, nausea, poor appetite.",
+    "causes": "Diabetes, high blood pressure, infections.",
+    "treatment": "Control underlying cause, dialysis, kidney transplant.",
+    "layman_explanation": "Kidney disease means the kidneys aren\u2019t working well. It can get worse over time."
+  },
+  {
+    "topic": "Arthritis (Case 94)",
+    "question": "What are the symptoms, causes, and treatment of Arthritis? (version 94)",
+    "symptoms": "Joint pain, stiffness, swelling, reduced range of motion.",
+    "causes": "Autoimmune reaction, wear and tear, infections.",
+    "treatment": "Pain relief meds, physical therapy, joint surgery.",
+    "layman_explanation": "Arthritis causes painful, stiff joints. Treatment can ease symptoms."
+  },
+  {
+    "topic": "Asthma (Case 95)",
+    "question": "What are the symptoms, causes, and treatment of Asthma? (version 95)",
+    "symptoms": "Wheezing, shortness of breath, chest tightness, coughing.",
+    "causes": "Airway inflammation from allergens, exercise, or cold air.",
+    "treatment": "Inhalers, avoiding triggers, steroids.",
+    "layman_explanation": "Asthma makes breathing hard. Inhalers help open the lungs."
+  },
+  {
+    "topic": "Chronic Kidney Disease (Case 96)",
+    "question": "What are the symptoms, causes, and treatment of Chronic Kidney Disease? (version 96)",
+    "symptoms": "Fatigue, swollen ankles, nausea, poor appetite.",
+    "causes": "Diabetes, high blood pressure, infections.",
+    "treatment": "Control underlying cause, dialysis, kidney transplant.",
+    "layman_explanation": "Kidney disease means the kidneys aren\u2019t working well. It can get worse over time."
+  },
+  {
+    "topic": "Arthritis (Case 97)",
+    "question": "What are the symptoms, causes, and treatment of Arthritis? (version 97)",
+    "symptoms": "Joint pain, stiffness, swelling, reduced range of motion.",
+    "causes": "Autoimmune reaction, wear and tear, infections.",
+    "treatment": "Pain relief meds, physical therapy, joint surgery.",
+    "layman_explanation": "Arthritis causes painful, stiff joints. Treatment can ease symptoms."
+  },
+  {
+    "topic": "Asthma (Case 98)",
+    "question": "What are the symptoms, causes, and treatment of Asthma? (version 98)",
+    "symptoms": "Wheezing, shortness of breath, chest tightness, coughing.",
+    "causes": "Airway inflammation from allergens, exercise, or cold air.",
+    "treatment": "Inhalers, avoiding triggers, steroids.",
+    "layman_explanation": "Asthma makes breathing hard. Inhalers help open the lungs."
+  }
+]

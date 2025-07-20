@@ -1,0 +1,850 @@
+[
+  {
+    "topic": "Balanced Diet",
+    "question": "What are the key components of a balanced diet? (version 1)",
+    "components": "Carbohydrates (whole grains), proteins (lean meats, legumes), healthy fats (avocados, nuts), vitamins & minerals (fruits, vegetables), fiber, and adequate hydration.",
+    "benefits": "Supports energy levels, immune function, muscle repair, digestion, and overall well-being.",
+    "recommendations": "Follow dietary guidelines like MyPlate (USDA) or WHO recommendations, limit processed foods and added sugars.",
+    "layman_explanation": "A balanced diet means eating a mix of different foods—like grains, proteins, fruits, and veggies—in the right amounts to keep your body healthy and energized."
+  },
+  {
+    "topic": "Weight Loss Diet",
+    "question": "What are effective diet strategies for weight loss? (version 2)",
+    "strategies": "Calorie deficit (burn more than consumed), high-protein intake, portion control, reducing refined carbs, increasing fiber, regular exercise.",
+    "common_approaches": "Mediterranean diet, intermittent fasting, low-carb diets (keto), plant-based diets.",
+    "pitfalls": "Crash dieting (losing weight too fast), skipping meals, over-relying on supplements.",
+    "layman_explanation": "To lose weight, eat fewer calories than you burn, focus on whole foods like veggies and lean meats, and avoid sugary snacks. Slow, steady changes work best."
+  },
+  {
+    "topic": "Muscle Gain Diet",
+    "question": "What should a diet for muscle building include? (version 3)",
+    "key_elements": "High protein (chicken, eggs, tofu), complex carbs (brown rice, oats), healthy fats (nuts, olive oil), calorie surplus, strength training.",
+    "timing": "Protein intake post-workout (20-40g), balanced meals every 3-4 hours, hydration.",
+    "supplements": "Whey protein, creatine, BCAAs (optional, not essential).",
+    "layman_explanation": "To build muscle, eat more protein (like eggs or chicken) and enough calories, lift weights, and give your body time to recover."
+  },
+  {
+    "topic": "Heart-Healthy Diet",
+    "question": "What foods support heart health? (version 4)",
+    "recommended_foods": "Fatty fish (salmon), nuts, olive oil, whole grains, leafy greens, berries, legumes.",
+    "foods_to_avoid": "Trans fats (fried foods), excess salt, processed meats, sugary drinks.",
+    "lifestyle_tips": "Regular exercise, stress management, no smoking, limited alcohol.",
+    "layman_explanation": "Eating foods like fish, nuts, and veggies while avoiding junk food helps keep your heart strong and lowers disease risk."
+  },
+  {
+    "topic": "Diabetes Management Diet",
+    "question": "How can diet help manage diabetes? (version 5)",
+    "dietary_guidelines": "Low glycemic index foods (beans, lentils), controlled carb intake, high fiber, lean proteins, healthy fats.",
+    "blood_sugar_control": "Regular meal timing, portion control, avoiding sugary snacks and drinks.",
+    "monitoring": "Track glucose levels, consult a dietitian, balance with medication.",
+    "layman_explanation": "People with diabetes should eat balanced meals with slow-digesting carbs (like whole grains) and avoid sugar spikes to keep blood sugar stable."
+  },
+  {
+    "topic": "Vegetarian/Vegan Nutrition",
+    "question": "How to get complete nutrition on a plant-based diet? (version 6)",
+    "protein_sources": "Beans, lentils, tofu, tempeh, quinoa, nuts, seeds.",
+    "key_nutrients": "Iron (spinach), calcium (fortified plant milk), B12 (supplements), omega-3s (flaxseeds).",
+    "meal_planning": "Combine grains + legumes for complete protein, eat varied colorful plants.",
+    "layman_explanation": "Vegans can stay healthy by eating diverse plant foods like beans and veggies, but may need B12 supplements since it’s mostly in animal products."
+  },
+  {
+    "topic": "Nutrition & Diet Planning",
+    "question": "What are the key components of a balanced diet? (version 1)",
+    "symptoms": "Poor diet may lead to fatigue, weakened immunity, slow wound healing, and weight fluctuations.",
+    "causes": "Lack of awareness, poor access to healthy food, busy lifestyle, excessive processed food intake.",
+    "treatment": "Incorporate carbohydrates, proteins, fats, vitamins, and minerals in appropriate portions daily.",
+    "layman_explanation": "A balanced diet means eating a mix of foods\u2014like fruits, vegetables, grains, and proteins\u2014to help your body work well and stay healthy."
+  },
+  {
+    "topic": "Nutrition & Diet Planning",
+    "question": "What is the role of macronutrients in diet planning? (version 2)",
+    "symptoms": "Deficiency in macronutrients can lead to low energy, muscle loss, or excess body fat.",
+    "causes": "Unbalanced meal portions, diet fads, poor nutritional education.",
+    "treatment": "Ensure adequate intake of carbohydrates (for energy), proteins (for repair), and fats (for hormone regulation).",
+    "layman_explanation": "Macronutrients are the big parts of food your body needs\u2014carbs for energy, protein to build muscles, and fats to support your brain and hormones."
+  },
+  {
+    "topic": "Nutrition & Diet Planning",
+    "question": "How does hydration impact overall health? (version 3)",
+    "symptoms": "Dehydration can cause headaches, fatigue, dry skin, and dizziness.",
+    "causes": "Inadequate water intake, excessive sweating, certain illnesses or medications.",
+    "treatment": "Drink sufficient water daily\u2014typically 6 to 8 cups or more depending on activity and climate.",
+    "layman_explanation": "Your body needs enough water to work properly. Not drinking enough can make you feel tired or dizzy."
+  },
+  {
+    "topic": "Nutrition & Diet Planning",
+    "question": "What is the importance of micronutrients in a healthy diet? (version 4)",
+    "symptoms": "Deficiency can lead to anemia, weak bones, poor vision, and other health issues.",
+    "causes": "Lack of fruits, vegetables, and varied food sources in the diet.",
+    "treatment": "Eat a variety of foods rich in vitamins (like A, C, D) and minerals (like iron, calcium, zinc).",
+    "layman_explanation": "Micronutrients are tiny helpers like vitamins and minerals that keep your body strong, your bones healthy, and your immune system working well."
+  },
+  {
+    "topic": "Nutrition & Diet Planning",
+    "question": "How can diet be tailored for weight management? (version 5)",
+    "symptoms": "Uncontrolled weight gain or loss, fatigue, poor concentration.",
+    "causes": "Imbalanced calorie intake, lack of portion control, skipping meals, emotional eating.",
+    "treatment": "Follow a structured meal plan with appropriate calorie intake, physical activity, and mindful eating habits.",
+    "layman_explanation": "To manage your weight, you need to eat the right amount of food for your body's needs and stay active\u2014too much or too little can cause problems."
+  },
+  {
+    "topic": "Nutrition & Diet Planning",
+    "question": "What are the key components of a balanced diet? (version 6)",
+    "symptoms": "Poor diet may lead to fatigue, weakened immunity, slow wound healing, and weight fluctuations.",
+    "causes": "Lack of awareness, poor access to healthy food, busy lifestyle, excessive processed food intake.",
+    "treatment": "Incorporate carbohydrates, proteins, fats, vitamins, and minerals in appropriate portions daily.",
+    "layman_explanation": "A balanced diet means eating a mix of foods\u2014like fruits, vegetables, grains, and proteins\u2014to help your body work well and stay healthy."
+  },
+  {
+    "topic": "Nutrition & Diet Planning",
+    "question": "What is the role of macronutrients in diet planning? (version 7)",
+    "symptoms": "Deficiency in macronutrients can lead to low energy, muscle loss, or excess body fat.",
+    "causes": "Unbalanced meal portions, diet fads, poor nutritional education.",
+    "treatment": "Ensure adequate intake of carbohydrates (for energy), proteins (for repair), and fats (for hormone regulation).",
+    "layman_explanation": "Macronutrients are the big parts of food your body needs\u2014carbs for energy, protein to build muscles, and fats to support your brain and hormones."
+  },
+  {
+    "topic": "Nutrition & Diet Planning",
+    "question": "How does hydration impact overall health? (version 8)",
+    "symptoms": "Dehydration can cause headaches, fatigue, dry skin, and dizziness.",
+    "causes": "Inadequate water intake, excessive sweating, certain illnesses or medications.",
+    "treatment": "Drink sufficient water daily\u2014typically 6 to 8 cups or more depending on activity and climate.",
+    "layman_explanation": "Your body needs enough water to work properly. Not drinking enough can make you feel tired or dizzy."
+  },
+  {
+    "topic": "Nutrition & Diet Planning",
+    "question": "What is the importance of micronutrients in a healthy diet? (version 9)",
+    "symptoms": "Deficiency can lead to anemia, weak bones, poor vision, and other health issues.",
+    "causes": "Lack of fruits, vegetables, and varied food sources in the diet.",
+    "treatment": "Eat a variety of foods rich in vitamins (like A, C, D) and minerals (like iron, calcium, zinc).",
+    "layman_explanation": "Micronutrients are tiny helpers like vitamins and minerals that keep your body strong, your bones healthy, and your immune system working well."
+  },
+  {
+    "topic": "Nutrition & Diet Planning",
+    "question": "How can diet be tailored for weight management? (version 10)",
+    "symptoms": "Uncontrolled weight gain or loss, fatigue, poor concentration.",
+    "causes": "Imbalanced calorie intake, lack of portion control, skipping meals, emotional eating.",
+    "treatment": "Follow a structured meal plan with appropriate calorie intake, physical activity, and mindful eating habits.",
+    "layman_explanation": "To manage your weight, you need to eat the right amount of food for your body's needs and stay active\u2014too much or too little can cause problems."
+  },
+  {
+    "topic": "Nutrition & Diet Planning",
+    "question": "What are the key components of a balanced diet? (version 11)",
+    "symptoms": "Poor diet may lead to fatigue, weakened immunity, slow wound healing, and weight fluctuations.",
+    "causes": "Lack of awareness, poor access to healthy food, busy lifestyle, excessive processed food intake.",
+    "treatment": "Incorporate carbohydrates, proteins, fats, vitamins, and minerals in appropriate portions daily.",
+    "layman_explanation": "A balanced diet means eating a mix of foods\u2014like fruits, vegetables, grains, and proteins\u2014to help your body work well and stay healthy."
+  },
+  {
+    "topic": "Nutrition & Diet Planning",
+    "question": "What is the role of macronutrients in diet planning? (version 12)",
+    "symptoms": "Deficiency in macronutrients can lead to low energy, muscle loss, or excess body fat.",
+    "causes": "Unbalanced meal portions, diet fads, poor nutritional education.",
+    "treatment": "Ensure adequate intake of carbohydrates (for energy), proteins (for repair), and fats (for hormone regulation).",
+    "layman_explanation": "Macronutrients are the big parts of food your body needs\u2014carbs for energy, protein to build muscles, and fats to support your brain and hormones."
+  },
+  {
+    "topic": "Nutrition & Diet Planning",
+    "question": "How does hydration impact overall health? (version 13)",
+    "symptoms": "Dehydration can cause headaches, fatigue, dry skin, and dizziness.",
+    "causes": "Inadequate water intake, excessive sweating, certain illnesses or medications.",
+    "treatment": "Drink sufficient water daily\u2014typically 6 to 8 cups or more depending on activity and climate.",
+    "layman_explanation": "Your body needs enough water to work properly. Not drinking enough can make you feel tired or dizzy."
+  },
+  {
+    "topic": "Nutrition & Diet Planning",
+    "question": "What is the importance of micronutrients in a healthy diet? (version 14)",
+    "symptoms": "Deficiency can lead to anemia, weak bones, poor vision, and other health issues.",
+    "causes": "Lack of fruits, vegetables, and varied food sources in the diet.",
+    "treatment": "Eat a variety of foods rich in vitamins (like A, C, D) and minerals (like iron, calcium, zinc).",
+    "layman_explanation": "Micronutrients are tiny helpers like vitamins and minerals that keep your body strong, your bones healthy, and your immune system working well."
+  },
+  {
+    "topic": "Nutrition & Diet Planning",
+    "question": "How can diet be tailored for weight management? (version 15)",
+    "symptoms": "Uncontrolled weight gain or loss, fatigue, poor concentration.",
+    "causes": "Imbalanced calorie intake, lack of portion control, skipping meals, emotional eating.",
+    "treatment": "Follow a structured meal plan with appropriate calorie intake, physical activity, and mindful eating habits.",
+    "layman_explanation": "To manage your weight, you need to eat the right amount of food for your body's needs and stay active\u2014too much or too little can cause problems."
+  },
+  {
+    "topic": "Nutrition & Diet Planning",
+    "question": "What are the key components of a balanced diet? (version 16)",
+    "symptoms": "Poor diet may lead to fatigue, weakened immunity, slow wound healing, and weight fluctuations.",
+    "causes": "Lack of awareness, poor access to healthy food, busy lifestyle, excessive processed food intake.",
+    "treatment": "Incorporate carbohydrates, proteins, fats, vitamins, and minerals in appropriate portions daily.",
+    "layman_explanation": "A balanced diet means eating a mix of foods\u2014like fruits, vegetables, grains, and proteins\u2014to help your body work well and stay healthy."
+  },
+  {
+    "topic": "Nutrition & Diet Planning",
+    "question": "What is the role of macronutrients in diet planning? (version 17)",
+    "symptoms": "Deficiency in macronutrients can lead to low energy, muscle loss, or excess body fat.",
+    "causes": "Unbalanced meal portions, diet fads, poor nutritional education.",
+    "treatment": "Ensure adequate intake of carbohydrates (for energy), proteins (for repair), and fats (for hormone regulation).",
+    "layman_explanation": "Macronutrients are the big parts of food your body needs\u2014carbs for energy, protein to build muscles, and fats to support your brain and hormones."
+  },
+  {
+    "topic": "Nutrition & Diet Planning",
+    "question": "How does hydration impact overall health? (version 18)",
+    "symptoms": "Dehydration can cause headaches, fatigue, dry skin, and dizziness.",
+    "causes": "Inadequate water intake, excessive sweating, certain illnesses or medications.",
+    "treatment": "Drink sufficient water daily\u2014typically 6 to 8 cups or more depending on activity and climate.",
+    "layman_explanation": "Your body needs enough water to work properly. Not drinking enough can make you feel tired or dizzy."
+  },
+  {
+    "topic": "Nutrition & Diet Planning",
+    "question": "What is the importance of micronutrients in a healthy diet? (version 19)",
+    "symptoms": "Deficiency can lead to anemia, weak bones, poor vision, and other health issues.",
+    "causes": "Lack of fruits, vegetables, and varied food sources in the diet.",
+    "treatment": "Eat a variety of foods rich in vitamins (like A, C, D) and minerals (like iron, calcium, zinc).",
+    "layman_explanation": "Micronutrients are tiny helpers like vitamins and minerals that keep your body strong, your bones healthy, and your immune system working well."
+  },
+  {
+    "topic": "Nutrition & Diet Planning",
+    "question": "How can diet be tailored for weight management? (version 20)",
+    "symptoms": "Uncontrolled weight gain or loss, fatigue, poor concentration.",
+    "causes": "Imbalanced calorie intake, lack of portion control, skipping meals, emotional eating.",
+    "treatment": "Follow a structured meal plan with appropriate calorie intake, physical activity, and mindful eating habits.",
+    "layman_explanation": "To manage your weight, you need to eat the right amount of food for your body's needs and stay active\u2014too much or too little can cause problems."
+  },
+  {
+    "topic": "Nutrition & Diet Planning",
+    "question": "What are the key components of a balanced diet? (version 21)",
+    "symptoms": "Poor diet may lead to fatigue, weakened immunity, slow wound healing, and weight fluctuations.",
+    "causes": "Lack of awareness, poor access to healthy food, busy lifestyle, excessive processed food intake.",
+    "treatment": "Incorporate carbohydrates, proteins, fats, vitamins, and minerals in appropriate portions daily.",
+    "layman_explanation": "A balanced diet means eating a mix of foods\u2014like fruits, vegetables, grains, and proteins\u2014to help your body work well and stay healthy."
+  },
+  {
+    "topic": "Nutrition & Diet Planning",
+    "question": "What is the role of macronutrients in diet planning? (version 22)",
+    "symptoms": "Deficiency in macronutrients can lead to low energy, muscle loss, or excess body fat.",
+    "causes": "Unbalanced meal portions, diet fads, poor nutritional education.",
+    "treatment": "Ensure adequate intake of carbohydrates (for energy), proteins (for repair), and fats (for hormone regulation).",
+    "layman_explanation": "Macronutrients are the big parts of food your body needs\u2014carbs for energy, protein to build muscles, and fats to support your brain and hormones."
+  },
+  {
+    "topic": "Nutrition & Diet Planning",
+    "question": "How does hydration impact overall health? (version 23)",
+    "symptoms": "Dehydration can cause headaches, fatigue, dry skin, and dizziness.",
+    "causes": "Inadequate water intake, excessive sweating, certain illnesses or medications.",
+    "treatment": "Drink sufficient water daily\u2014typically 6 to 8 cups or more depending on activity and climate.",
+    "layman_explanation": "Your body needs enough water to work properly. Not drinking enough can make you feel tired or dizzy."
+  },
+  {
+    "topic": "Nutrition & Diet Planning",
+    "question": "What is the importance of micronutrients in a healthy diet? (version 24)",
+    "symptoms": "Deficiency can lead to anemia, weak bones, poor vision, and other health issues.",
+    "causes": "Lack of fruits, vegetables, and varied food sources in the diet.",
+    "treatment": "Eat a variety of foods rich in vitamins (like A, C, D) and minerals (like iron, calcium, zinc).",
+    "layman_explanation": "Micronutrients are tiny helpers like vitamins and minerals that keep your body strong, your bones healthy, and your immune system working well."
+  },
+  {
+    "topic": "Nutrition & Diet Planning",
+    "question": "How can diet be tailored for weight management? (version 25)",
+    "symptoms": "Uncontrolled weight gain or loss, fatigue, poor concentration.",
+    "causes": "Imbalanced calorie intake, lack of portion control, skipping meals, emotional eating.",
+    "treatment": "Follow a structured meal plan with appropriate calorie intake, physical activity, and mindful eating habits.",
+    "layman_explanation": "To manage your weight, you need to eat the right amount of food for your body's needs and stay active\u2014too much or too little can cause problems."
+  },
+  {
+    "topic": "Nutrition & Diet Planning",
+    "question": "What are the key components of a balanced diet? (version 26)",
+    "symptoms": "Poor diet may lead to fatigue, weakened immunity, slow wound healing, and weight fluctuations.",
+    "causes": "Lack of awareness, poor access to healthy food, busy lifestyle, excessive processed food intake.",
+    "treatment": "Incorporate carbohydrates, proteins, fats, vitamins, and minerals in appropriate portions daily.",
+    "layman_explanation": "A balanced diet means eating a mix of foods\u2014like fruits, vegetables, grains, and proteins\u2014to help your body work well and stay healthy."
+  },
+  {
+    "topic": "Nutrition & Diet Planning",
+    "question": "What is the role of macronutrients in diet planning? (version 27)",
+    "symptoms": "Deficiency in macronutrients can lead to low energy, muscle loss, or excess body fat.",
+    "causes": "Unbalanced meal portions, diet fads, poor nutritional education.",
+    "treatment": "Ensure adequate intake of carbohydrates (for energy), proteins (for repair), and fats (for hormone regulation).",
+    "layman_explanation": "Macronutrients are the big parts of food your body needs\u2014carbs for energy, protein to build muscles, and fats to support your brain and hormones."
+  },
+  {
+    "topic": "Nutrition & Diet Planning",
+    "question": "How does hydration impact overall health? (version 28)",
+    "symptoms": "Dehydration can cause headaches, fatigue, dry skin, and dizziness.",
+    "causes": "Inadequate water intake, excessive sweating, certain illnesses or medications.",
+    "treatment": "Drink sufficient water daily\u2014typically 6 to 8 cups or more depending on activity and climate.",
+    "layman_explanation": "Your body needs enough water to work properly. Not drinking enough can make you feel tired or dizzy."
+  },
+  {
+    "topic": "Nutrition & Diet Planning",
+    "question": "What is the importance of micronutrients in a healthy diet? (version 29)",
+    "symptoms": "Deficiency can lead to anemia, weak bones, poor vision, and other health issues.",
+    "causes": "Lack of fruits, vegetables, and varied food sources in the diet.",
+    "treatment": "Eat a variety of foods rich in vitamins (like A, C, D) and minerals (like iron, calcium, zinc).",
+    "layman_explanation": "Micronutrients are tiny helpers like vitamins and minerals that keep your body strong, your bones healthy, and your immune system working well."
+  },
+  {
+    "topic": "Nutrition & Diet Planning",
+    "question": "How can diet be tailored for weight management? (version 30)",
+    "symptoms": "Uncontrolled weight gain or loss, fatigue, poor concentration.",
+    "causes": "Imbalanced calorie intake, lack of portion control, skipping meals, emotional eating.",
+    "treatment": "Follow a structured meal plan with appropriate calorie intake, physical activity, and mindful eating habits.",
+    "layman_explanation": "To manage your weight, you need to eat the right amount of food for your body's needs and stay active\u2014too much or too little can cause problems."
+  },
+  {
+    "topic": "Nutrition & Diet Planning",
+    "question": "What are the key components of a balanced diet? (version 31)",
+    "symptoms": "Poor diet may lead to fatigue, weakened immunity, slow wound healing, and weight fluctuations.",
+    "causes": "Lack of awareness, poor access to healthy food, busy lifestyle, excessive processed food intake.",
+    "treatment": "Incorporate carbohydrates, proteins, fats, vitamins, and minerals in appropriate portions daily.",
+    "layman_explanation": "A balanced diet means eating a mix of foods\u2014like fruits, vegetables, grains, and proteins\u2014to help your body work well and stay healthy."
+  },
+  {
+    "topic": "Nutrition & Diet Planning",
+    "question": "What is the role of macronutrients in diet planning? (version 32)",
+    "symptoms": "Deficiency in macronutrients can lead to low energy, muscle loss, or excess body fat.",
+    "causes": "Unbalanced meal portions, diet fads, poor nutritional education.",
+    "treatment": "Ensure adequate intake of carbohydrates (for energy), proteins (for repair), and fats (for hormone regulation).",
+    "layman_explanation": "Macronutrients are the big parts of food your body needs\u2014carbs for energy, protein to build muscles, and fats to support your brain and hormones."
+  },
+  {
+    "topic": "Nutrition & Diet Planning",
+    "question": "How does hydration impact overall health? (version 33)",
+    "symptoms": "Dehydration can cause headaches, fatigue, dry skin, and dizziness.",
+    "causes": "Inadequate water intake, excessive sweating, certain illnesses or medications.",
+    "treatment": "Drink sufficient water daily\u2014typically 6 to 8 cups or more depending on activity and climate.",
+    "layman_explanation": "Your body needs enough water to work properly. Not drinking enough can make you feel tired or dizzy."
+  },
+  {
+    "topic": "Nutrition & Diet Planning",
+    "question": "What is the importance of micronutrients in a healthy diet? (version 34)",
+    "symptoms": "Deficiency can lead to anemia, weak bones, poor vision, and other health issues.",
+    "causes": "Lack of fruits, vegetables, and varied food sources in the diet.",
+    "treatment": "Eat a variety of foods rich in vitamins (like A, C, D) and minerals (like iron, calcium, zinc).",
+    "layman_explanation": "Micronutrients are tiny helpers like vitamins and minerals that keep your body strong, your bones healthy, and your immune system working well."
+  },
+  {
+    "topic": "Nutrition & Diet Planning",
+    "question": "How can diet be tailored for weight management? (version 35)",
+    "symptoms": "Uncontrolled weight gain or loss, fatigue, poor concentration.",
+    "causes": "Imbalanced calorie intake, lack of portion control, skipping meals, emotional eating.",
+    "treatment": "Follow a structured meal plan with appropriate calorie intake, physical activity, and mindful eating habits.",
+    "layman_explanation": "To manage your weight, you need to eat the right amount of food for your body's needs and stay active\u2014too much or too little can cause problems."
+  },
+  {
+    "topic": "Nutrition & Diet Planning",
+    "question": "What are the key components of a balanced diet? (version 36)",
+    "symptoms": "Poor diet may lead to fatigue, weakened immunity, slow wound healing, and weight fluctuations.",
+    "causes": "Lack of awareness, poor access to healthy food, busy lifestyle, excessive processed food intake.",
+    "treatment": "Incorporate carbohydrates, proteins, fats, vitamins, and minerals in appropriate portions daily.",
+    "layman_explanation": "A balanced diet means eating a mix of foods\u2014like fruits, vegetables, grains, and proteins\u2014to help your body work well and stay healthy."
+  },
+  {
+    "topic": "Nutrition & Diet Planning",
+    "question": "What is the role of macronutrients in diet planning? (version 37)",
+    "symptoms": "Deficiency in macronutrients can lead to low energy, muscle loss, or excess body fat.",
+    "causes": "Unbalanced meal portions, diet fads, poor nutritional education.",
+    "treatment": "Ensure adequate intake of carbohydrates (for energy), proteins (for repair), and fats (for hormone regulation).",
+    "layman_explanation": "Macronutrients are the big parts of food your body needs\u2014carbs for energy, protein to build muscles, and fats to support your brain and hormones."
+  },
+  {
+    "topic": "Nutrition & Diet Planning",
+    "question": "How does hydration impact overall health? (version 38)",
+    "symptoms": "Dehydration can cause headaches, fatigue, dry skin, and dizziness.",
+    "causes": "Inadequate water intake, excessive sweating, certain illnesses or medications.",
+    "treatment": "Drink sufficient water daily\u2014typically 6 to 8 cups or more depending on activity and climate.",
+    "layman_explanation": "Your body needs enough water to work properly. Not drinking enough can make you feel tired or dizzy."
+  },
+  {
+    "topic": "Nutrition & Diet Planning",
+    "question": "What is the importance of micronutrients in a healthy diet? (version 39)",
+    "symptoms": "Deficiency can lead to anemia, weak bones, poor vision, and other health issues.",
+    "causes": "Lack of fruits, vegetables, and varied food sources in the diet.",
+    "treatment": "Eat a variety of foods rich in vitamins (like A, C, D) and minerals (like iron, calcium, zinc).",
+    "layman_explanation": "Micronutrients are tiny helpers like vitamins and minerals that keep your body strong, your bones healthy, and your immune system working well."
+  },
+  {
+    "topic": "Nutrition & Diet Planning",
+    "question": "How can diet be tailored for weight management? (version 40)",
+    "symptoms": "Uncontrolled weight gain or loss, fatigue, poor concentration.",
+    "causes": "Imbalanced calorie intake, lack of portion control, skipping meals, emotional eating.",
+    "treatment": "Follow a structured meal plan with appropriate calorie intake, physical activity, and mindful eating habits.",
+    "layman_explanation": "To manage your weight, you need to eat the right amount of food for your body's needs and stay active\u2014too much or too little can cause problems."
+  },
+  {
+    "topic": "Nutrition & Diet Planning",
+    "question": "What are the key components of a balanced diet? (version 41)",
+    "symptoms": "Poor diet may lead to fatigue, weakened immunity, slow wound healing, and weight fluctuations.",
+    "causes": "Lack of awareness, poor access to healthy food, busy lifestyle, excessive processed food intake.",
+    "treatment": "Incorporate carbohydrates, proteins, fats, vitamins, and minerals in appropriate portions daily.",
+    "layman_explanation": "A balanced diet means eating a mix of foods\u2014like fruits, vegetables, grains, and proteins\u2014to help your body work well and stay healthy."
+  },
+  {
+    "topic": "Nutrition & Diet Planning",
+    "question": "What is the role of macronutrients in diet planning? (version 42)",
+    "symptoms": "Deficiency in macronutrients can lead to low energy, muscle loss, or excess body fat.",
+    "causes": "Unbalanced meal portions, diet fads, poor nutritional education.",
+    "treatment": "Ensure adequate intake of carbohydrates (for energy), proteins (for repair), and fats (for hormone regulation).",
+    "layman_explanation": "Macronutrients are the big parts of food your body needs\u2014carbs for energy, protein to build muscles, and fats to support your brain and hormones."
+  },
+  {
+    "topic": "Nutrition & Diet Planning",
+    "question": "How does hydration impact overall health? (version 43)",
+    "symptoms": "Dehydration can cause headaches, fatigue, dry skin, and dizziness.",
+    "causes": "Inadequate water intake, excessive sweating, certain illnesses or medications.",
+    "treatment": "Drink sufficient water daily\u2014typically 6 to 8 cups or more depending on activity and climate.",
+    "layman_explanation": "Your body needs enough water to work properly. Not drinking enough can make you feel tired or dizzy."
+  },
+  {
+    "topic": "Nutrition & Diet Planning",
+    "question": "What is the importance of micronutrients in a healthy diet? (version 44)",
+    "symptoms": "Deficiency can lead to anemia, weak bones, poor vision, and other health issues.",
+    "causes": "Lack of fruits, vegetables, and varied food sources in the diet.",
+    "treatment": "Eat a variety of foods rich in vitamins (like A, C, D) and minerals (like iron, calcium, zinc).",
+    "layman_explanation": "Micronutrients are tiny helpers like vitamins and minerals that keep your body strong, your bones healthy, and your immune system working well."
+  },
+  {
+    "topic": "Nutrition & Diet Planning",
+    "question": "How can diet be tailored for weight management? (version 45)",
+    "symptoms": "Uncontrolled weight gain or loss, fatigue, poor concentration.",
+    "causes": "Imbalanced calorie intake, lack of portion control, skipping meals, emotional eating.",
+    "treatment": "Follow a structured meal plan with appropriate calorie intake, physical activity, and mindful eating habits.",
+    "layman_explanation": "To manage your weight, you need to eat the right amount of food for your body's needs and stay active\u2014too much or too little can cause problems."
+  },
+  {
+    "topic": "Nutrition & Diet Planning",
+    "question": "What are the key components of a balanced diet? (version 46)",
+    "symptoms": "Poor diet may lead to fatigue, weakened immunity, slow wound healing, and weight fluctuations.",
+    "causes": "Lack of awareness, poor access to healthy food, busy lifestyle, excessive processed food intake.",
+    "treatment": "Incorporate carbohydrates, proteins, fats, vitamins, and minerals in appropriate portions daily.",
+    "layman_explanation": "A balanced diet means eating a mix of foods\u2014like fruits, vegetables, grains, and proteins\u2014to help your body work well and stay healthy."
+  },
+  {
+    "topic": "Nutrition & Diet Planning",
+    "question": "What is the role of macronutrients in diet planning? (version 47)",
+    "symptoms": "Deficiency in macronutrients can lead to low energy, muscle loss, or excess body fat.",
+    "causes": "Unbalanced meal portions, diet fads, poor nutritional education.",
+    "treatment": "Ensure adequate intake of carbohydrates (for energy), proteins (for repair), and fats (for hormone regulation).",
+    "layman_explanation": "Macronutrients are the big parts of food your body needs\u2014carbs for energy, protein to build muscles, and fats to support your brain and hormones."
+  },
+  {
+    "topic": "Nutrition & Diet Planning",
+    "question": "How does hydration impact overall health? (version 48)",
+    "symptoms": "Dehydration can cause headaches, fatigue, dry skin, and dizziness.",
+    "causes": "Inadequate water intake, excessive sweating, certain illnesses or medications.",
+    "treatment": "Drink sufficient water daily\u2014typically 6 to 8 cups or more depending on activity and climate.",
+    "layman_explanation": "Your body needs enough water to work properly. Not drinking enough can make you feel tired or dizzy."
+  },
+  {
+    "topic": "Nutrition & Diet Planning",
+    "question": "What is the importance of micronutrients in a healthy diet? (version 49)",
+    "symptoms": "Deficiency can lead to anemia, weak bones, poor vision, and other health issues.",
+    "causes": "Lack of fruits, vegetables, and varied food sources in the diet.",
+    "treatment": "Eat a variety of foods rich in vitamins (like A, C, D) and minerals (like iron, calcium, zinc).",
+    "layman_explanation": "Micronutrients are tiny helpers like vitamins and minerals that keep your body strong, your bones healthy, and your immune system working well."
+  },
+  {
+    "topic": "Nutrition & Diet Planning",
+    "question": "How can diet be tailored for weight management? (version 50)",
+    "symptoms": "Uncontrolled weight gain or loss, fatigue, poor concentration.",
+    "causes": "Imbalanced calorie intake, lack of portion control, skipping meals, emotional eating.",
+    "treatment": "Follow a structured meal plan with appropriate calorie intake, physical activity, and mindful eating habits.",
+    "layman_explanation": "To manage your weight, you need to eat the right amount of food for your body's needs and stay active\u2014too much or too little can cause problems."
+  },
+  {
+    "topic": "Nutrition & Diet Planning",
+    "question": "What are the key components of a balanced diet? (version 51)",
+    "symptoms": "Poor diet may lead to fatigue, weakened immunity, slow wound healing, and weight fluctuations.",
+    "causes": "Lack of awareness, poor access to healthy food, busy lifestyle, excessive processed food intake.",
+    "treatment": "Incorporate carbohydrates, proteins, fats, vitamins, and minerals in appropriate portions daily.",
+    "layman_explanation": "A balanced diet means eating a mix of foods\u2014like fruits, vegetables, grains, and proteins\u2014to help your body work well and stay healthy."
+  },
+  {
+    "topic": "Nutrition & Diet Planning",
+    "question": "What is the role of macronutrients in diet planning? (version 52)",
+    "symptoms": "Deficiency in macronutrients can lead to low energy, muscle loss, or excess body fat.",
+    "causes": "Unbalanced meal portions, diet fads, poor nutritional education.",
+    "treatment": "Ensure adequate intake of carbohydrates (for energy), proteins (for repair), and fats (for hormone regulation).",
+    "layman_explanation": "Macronutrients are the big parts of food your body needs\u2014carbs for energy, protein to build muscles, and fats to support your brain and hormones."
+  },
+  {
+    "topic": "Nutrition & Diet Planning",
+    "question": "How does hydration impact overall health? (version 53)",
+    "symptoms": "Dehydration can cause headaches, fatigue, dry skin, and dizziness.",
+    "causes": "Inadequate water intake, excessive sweating, certain illnesses or medications.",
+    "treatment": "Drink sufficient water daily\u2014typically 6 to 8 cups or more depending on activity and climate.",
+    "layman_explanation": "Your body needs enough water to work properly. Not drinking enough can make you feel tired or dizzy."
+  },
+  {
+    "topic": "Nutrition & Diet Planning",
+    "question": "What is the importance of micronutrients in a healthy diet? (version 54)",
+    "symptoms": "Deficiency can lead to anemia, weak bones, poor vision, and other health issues.",
+    "causes": "Lack of fruits, vegetables, and varied food sources in the diet.",
+    "treatment": "Eat a variety of foods rich in vitamins (like A, C, D) and minerals (like iron, calcium, zinc).",
+    "layman_explanation": "Micronutrients are tiny helpers like vitamins and minerals that keep your body strong, your bones healthy, and your immune system working well."
+  },
+  {
+    "topic": "Nutrition & Diet Planning",
+    "question": "How can diet be tailored for weight management? (version 55)",
+    "symptoms": "Uncontrolled weight gain or loss, fatigue, poor concentration.",
+    "causes": "Imbalanced calorie intake, lack of portion control, skipping meals, emotional eating.",
+    "treatment": "Follow a structured meal plan with appropriate calorie intake, physical activity, and mindful eating habits.",
+    "layman_explanation": "To manage your weight, you need to eat the right amount of food for your body's needs and stay active\u2014too much or too little can cause problems."
+  },
+  {
+    "topic": "Nutrition & Diet Planning",
+    "question": "What are the key components of a balanced diet? (version 56)",
+    "symptoms": "Poor diet may lead to fatigue, weakened immunity, slow wound healing, and weight fluctuations.",
+    "causes": "Lack of awareness, poor access to healthy food, busy lifestyle, excessive processed food intake.",
+    "treatment": "Incorporate carbohydrates, proteins, fats, vitamins, and minerals in appropriate portions daily.",
+    "layman_explanation": "A balanced diet means eating a mix of foods\u2014like fruits, vegetables, grains, and proteins\u2014to help your body work well and stay healthy."
+  },
+  {
+    "topic": "Nutrition & Diet Planning",
+    "question": "What is the role of macronutrients in diet planning? (version 57)",
+    "symptoms": "Deficiency in macronutrients can lead to low energy, muscle loss, or excess body fat.",
+    "causes": "Unbalanced meal portions, diet fads, poor nutritional education.",
+    "treatment": "Ensure adequate intake of carbohydrates (for energy), proteins (for repair), and fats (for hormone regulation).",
+    "layman_explanation": "Macronutrients are the big parts of food your body needs\u2014carbs for energy, protein to build muscles, and fats to support your brain and hormones."
+  },
+  {
+    "topic": "Nutrition & Diet Planning",
+    "question": "How does hydration impact overall health? (version 58)",
+    "symptoms": "Dehydration can cause headaches, fatigue, dry skin, and dizziness.",
+    "causes": "Inadequate water intake, excessive sweating, certain illnesses or medications.",
+    "treatment": "Drink sufficient water daily\u2014typically 6 to 8 cups or more depending on activity and climate.",
+    "layman_explanation": "Your body needs enough water to work properly. Not drinking enough can make you feel tired or dizzy."
+  },
+  {
+    "topic": "Nutrition & Diet Planning",
+    "question": "What is the importance of micronutrients in a healthy diet? (version 59)",
+    "symptoms": "Deficiency can lead to anemia, weak bones, poor vision, and other health issues.",
+    "causes": "Lack of fruits, vegetables, and varied food sources in the diet.",
+    "treatment": "Eat a variety of foods rich in vitamins (like A, C, D) and minerals (like iron, calcium, zinc).",
+    "layman_explanation": "Micronutrients are tiny helpers like vitamins and minerals that keep your body strong, your bones healthy, and your immune system working well."
+  },
+  {
+    "topic": "Nutrition & Diet Planning",
+    "question": "How can diet be tailored for weight management? (version 60)",
+    "symptoms": "Uncontrolled weight gain or loss, fatigue, poor concentration.",
+    "causes": "Imbalanced calorie intake, lack of portion control, skipping meals, emotional eating.",
+    "treatment": "Follow a structured meal plan with appropriate calorie intake, physical activity, and mindful eating habits.",
+    "layman_explanation": "To manage your weight, you need to eat the right amount of food for your body's needs and stay active\u2014too much or too little can cause problems."
+  },
+  {
+    "topic": "Nutrition & Diet Planning",
+    "question": "What are the key components of a balanced diet? (version 61)",
+    "symptoms": "Poor diet may lead to fatigue, weakened immunity, slow wound healing, and weight fluctuations.",
+    "causes": "Lack of awareness, poor access to healthy food, busy lifestyle, excessive processed food intake.",
+    "treatment": "Incorporate carbohydrates, proteins, fats, vitamins, and minerals in appropriate portions daily.",
+    "layman_explanation": "A balanced diet means eating a mix of foods\u2014like fruits, vegetables, grains, and proteins\u2014to help your body work well and stay healthy."
+  },
+  {
+    "topic": "Nutrition & Diet Planning",
+    "question": "What is the role of macronutrients in diet planning? (version 62)",
+    "symptoms": "Deficiency in macronutrients can lead to low energy, muscle loss, or excess body fat.",
+    "causes": "Unbalanced meal portions, diet fads, poor nutritional education.",
+    "treatment": "Ensure adequate intake of carbohydrates (for energy), proteins (for repair), and fats (for hormone regulation).",
+    "layman_explanation": "Macronutrients are the big parts of food your body needs\u2014carbs for energy, protein to build muscles, and fats to support your brain and hormones."
+  },
+  {
+    "topic": "Nutrition & Diet Planning",
+    "question": "How does hydration impact overall health? (version 63)",
+    "symptoms": "Dehydration can cause headaches, fatigue, dry skin, and dizziness.",
+    "causes": "Inadequate water intake, excessive sweating, certain illnesses or medications.",
+    "treatment": "Drink sufficient water daily\u2014typically 6 to 8 cups or more depending on activity and climate.",
+    "layman_explanation": "Your body needs enough water to work properly. Not drinking enough can make you feel tired or dizzy."
+  },
+  {
+    "topic": "Nutrition & Diet Planning",
+    "question": "What is the importance of micronutrients in a healthy diet? (version 64)",
+    "symptoms": "Deficiency can lead to anemia, weak bones, poor vision, and other health issues.",
+    "causes": "Lack of fruits, vegetables, and varied food sources in the diet.",
+    "treatment": "Eat a variety of foods rich in vitamins (like A, C, D) and minerals (like iron, calcium, zinc).",
+    "layman_explanation": "Micronutrients are tiny helpers like vitamins and minerals that keep your body strong, your bones healthy, and your immune system working well."
+  },
+  {
+    "topic": "Nutrition & Diet Planning",
+    "question": "How can diet be tailored for weight management? (version 65)",
+    "symptoms": "Uncontrolled weight gain or loss, fatigue, poor concentration.",
+    "causes": "Imbalanced calorie intake, lack of portion control, skipping meals, emotional eating.",
+    "treatment": "Follow a structured meal plan with appropriate calorie intake, physical activity, and mindful eating habits.",
+    "layman_explanation": "To manage your weight, you need to eat the right amount of food for your body's needs and stay active\u2014too much or too little can cause problems."
+  },
+  {
+    "topic": "Nutrition & Diet Planning",
+    "question": "What are the key components of a balanced diet? (version 66)",
+    "symptoms": "Poor diet may lead to fatigue, weakened immunity, slow wound healing, and weight fluctuations.",
+    "causes": "Lack of awareness, poor access to healthy food, busy lifestyle, excessive processed food intake.",
+    "treatment": "Incorporate carbohydrates, proteins, fats, vitamins, and minerals in appropriate portions daily.",
+    "layman_explanation": "A balanced diet means eating a mix of foods\u2014like fruits, vegetables, grains, and proteins\u2014to help your body work well and stay healthy."
+  },
+  {
+    "topic": "Nutrition & Diet Planning",
+    "question": "What is the role of macronutrients in diet planning? (version 67)",
+    "symptoms": "Deficiency in macronutrients can lead to low energy, muscle loss, or excess body fat.",
+    "causes": "Unbalanced meal portions, diet fads, poor nutritional education.",
+    "treatment": "Ensure adequate intake of carbohydrates (for energy), proteins (for repair), and fats (for hormone regulation).",
+    "layman_explanation": "Macronutrients are the big parts of food your body needs\u2014carbs for energy, protein to build muscles, and fats to support your brain and hormones."
+  },
+  {
+    "topic": "Nutrition & Diet Planning",
+    "question": "How does hydration impact overall health? (version 68)",
+    "symptoms": "Dehydration can cause headaches, fatigue, dry skin, and dizziness.",
+    "causes": "Inadequate water intake, excessive sweating, certain illnesses or medications.",
+    "treatment": "Drink sufficient water daily\u2014typically 6 to 8 cups or more depending on activity and climate.",
+    "layman_explanation": "Your body needs enough water to work properly. Not drinking enough can make you feel tired or dizzy."
+  },
+  {
+    "topic": "Nutrition & Diet Planning",
+    "question": "What is the importance of micronutrients in a healthy diet? (version 69)",
+    "symptoms": "Deficiency can lead to anemia, weak bones, poor vision, and other health issues.",
+    "causes": "Lack of fruits, vegetables, and varied food sources in the diet.",
+    "treatment": "Eat a variety of foods rich in vitamins (like A, C, D) and minerals (like iron, calcium, zinc).",
+    "layman_explanation": "Micronutrients are tiny helpers like vitamins and minerals that keep your body strong, your bones healthy, and your immune system working well."
+  },
+  {
+    "topic": "Nutrition & Diet Planning",
+    "question": "How can diet be tailored for weight management? (version 70)",
+    "symptoms": "Uncontrolled weight gain or loss, fatigue, poor concentration.",
+    "causes": "Imbalanced calorie intake, lack of portion control, skipping meals, emotional eating.",
+    "treatment": "Follow a structured meal plan with appropriate calorie intake, physical activity, and mindful eating habits.",
+    "layman_explanation": "To manage your weight, you need to eat the right amount of food for your body's needs and stay active\u2014too much or too little can cause problems."
+  },
+  {
+    "topic": "Nutrition & Diet Planning",
+    "question": "What are the key components of a balanced diet? (version 71)",
+    "symptoms": "Poor diet may lead to fatigue, weakened immunity, slow wound healing, and weight fluctuations.",
+    "causes": "Lack of awareness, poor access to healthy food, busy lifestyle, excessive processed food intake.",
+    "treatment": "Incorporate carbohydrates, proteins, fats, vitamins, and minerals in appropriate portions daily.",
+    "layman_explanation": "A balanced diet means eating a mix of foods\u2014like fruits, vegetables, grains, and proteins\u2014to help your body work well and stay healthy."
+  },
+  {
+    "topic": "Nutrition & Diet Planning",
+    "question": "What is the role of macronutrients in diet planning? (version 72)",
+    "symptoms": "Deficiency in macronutrients can lead to low energy, muscle loss, or excess body fat.",
+    "causes": "Unbalanced meal portions, diet fads, poor nutritional education.",
+    "treatment": "Ensure adequate intake of carbohydrates (for energy), proteins (for repair), and fats (for hormone regulation).",
+    "layman_explanation": "Macronutrients are the big parts of food your body needs\u2014carbs for energy, protein to build muscles, and fats to support your brain and hormones."
+  },
+  {
+    "topic": "Nutrition & Diet Planning",
+    "question": "How does hydration impact overall health? (version 73)",
+    "symptoms": "Dehydration can cause headaches, fatigue, dry skin, and dizziness.",
+    "causes": "Inadequate water intake, excessive sweating, certain illnesses or medications.",
+    "treatment": "Drink sufficient water daily\u2014typically 6 to 8 cups or more depending on activity and climate.",
+    "layman_explanation": "Your body needs enough water to work properly. Not drinking enough can make you feel tired or dizzy."
+  },
+  {
+    "topic": "Nutrition & Diet Planning",
+    "question": "What is the importance of micronutrients in a healthy diet? (version 74)",
+    "symptoms": "Deficiency can lead to anemia, weak bones, poor vision, and other health issues.",
+    "causes": "Lack of fruits, vegetables, and varied food sources in the diet.",
+    "treatment": "Eat a variety of foods rich in vitamins (like A, C, D) and minerals (like iron, calcium, zinc).",
+    "layman_explanation": "Micronutrients are tiny helpers like vitamins and minerals that keep your body strong, your bones healthy, and your immune system working well."
+  },
+  {
+    "topic": "Nutrition & Diet Planning",
+    "question": "How can diet be tailored for weight management? (version 75)",
+    "symptoms": "Uncontrolled weight gain or loss, fatigue, poor concentration.",
+    "causes": "Imbalanced calorie intake, lack of portion control, skipping meals, emotional eating.",
+    "treatment": "Follow a structured meal plan with appropriate calorie intake, physical activity, and mindful eating habits.",
+    "layman_explanation": "To manage your weight, you need to eat the right amount of food for your body's needs and stay active\u2014too much or too little can cause problems."
+  },
+  {
+    "topic": "Nutrition & Diet Planning",
+    "question": "What are the key components of a balanced diet? (version 76)",
+    "symptoms": "Poor diet may lead to fatigue, weakened immunity, slow wound healing, and weight fluctuations.",
+    "causes": "Lack of awareness, poor access to healthy food, busy lifestyle, excessive processed food intake.",
+    "treatment": "Incorporate carbohydrates, proteins, fats, vitamins, and minerals in appropriate portions daily.",
+    "layman_explanation": "A balanced diet means eating a mix of foods\u2014like fruits, vegetables, grains, and proteins\u2014to help your body work well and stay healthy."
+  },
+  {
+    "topic": "Nutrition & Diet Planning",
+    "question": "What is the role of macronutrients in diet planning? (version 77)",
+    "symptoms": "Deficiency in macronutrients can lead to low energy, muscle loss, or excess body fat.",
+    "causes": "Unbalanced meal portions, diet fads, poor nutritional education.",
+    "treatment": "Ensure adequate intake of carbohydrates (for energy), proteins (for repair), and fats (for hormone regulation).",
+    "layman_explanation": "Macronutrients are the big parts of food your body needs\u2014carbs for energy, protein to build muscles, and fats to support your brain and hormones."
+  },
+  {
+    "topic": "Nutrition & Diet Planning",
+    "question": "How does hydration impact overall health? (version 78)",
+    "symptoms": "Dehydration can cause headaches, fatigue, dry skin, and dizziness.",
+    "causes": "Inadequate water intake, excessive sweating, certain illnesses or medications.",
+    "treatment": "Drink sufficient water daily\u2014typically 6 to 8 cups or more depending on activity and climate.",
+    "layman_explanation": "Your body needs enough water to work properly. Not drinking enough can make you feel tired or dizzy."
+  },
+  {
+    "topic": "Nutrition & Diet Planning",
+    "question": "What is the importance of micronutrients in a healthy diet? (version 79)",
+    "symptoms": "Deficiency can lead to anemia, weak bones, poor vision, and other health issues.",
+    "causes": "Lack of fruits, vegetables, and varied food sources in the diet.",
+    "treatment": "Eat a variety of foods rich in vitamins (like A, C, D) and minerals (like iron, calcium, zinc).",
+    "layman_explanation": "Micronutrients are tiny helpers like vitamins and minerals that keep your body strong, your bones healthy, and your immune system working well."
+  },
+  {
+    "topic": "Nutrition & Diet Planning",
+    "question": "How can diet be tailored for weight management? (version 80)",
+    "symptoms": "Uncontrolled weight gain or loss, fatigue, poor concentration.",
+    "causes": "Imbalanced calorie intake, lack of portion control, skipping meals, emotional eating.",
+    "treatment": "Follow a structured meal plan with appropriate calorie intake, physical activity, and mindful eating habits.",
+    "layman_explanation": "To manage your weight, you need to eat the right amount of food for your body's needs and stay active\u2014too much or too little can cause problems."
+  },
+  {
+    "topic": "Nutrition & Diet Planning",
+    "question": "What are the key components of a balanced diet? (version 81)",
+    "symptoms": "Poor diet may lead to fatigue, weakened immunity, slow wound healing, and weight fluctuations.",
+    "causes": "Lack of awareness, poor access to healthy food, busy lifestyle, excessive processed food intake.",
+    "treatment": "Incorporate carbohydrates, proteins, fats, vitamins, and minerals in appropriate portions daily.",
+    "layman_explanation": "A balanced diet means eating a mix of foods\u2014like fruits, vegetables, grains, and proteins\u2014to help your body work well and stay healthy."
+  },
+  {
+    "topic": "Nutrition & Diet Planning",
+    "question": "What is the role of macronutrients in diet planning? (version 82)",
+    "symptoms": "Deficiency in macronutrients can lead to low energy, muscle loss, or excess body fat.",
+    "causes": "Unbalanced meal portions, diet fads, poor nutritional education.",
+    "treatment": "Ensure adequate intake of carbohydrates (for energy), proteins (for repair), and fats (for hormone regulation).",
+    "layman_explanation": "Macronutrients are the big parts of food your body needs\u2014carbs for energy, protein to build muscles, and fats to support your brain and hormones."
+  },
+  {
+    "topic": "Nutrition & Diet Planning",
+    "question": "How does hydration impact overall health? (version 83)",
+    "symptoms": "Dehydration can cause headaches, fatigue, dry skin, and dizziness.",
+    "causes": "Inadequate water intake, excessive sweating, certain illnesses or medications.",
+    "treatment": "Drink sufficient water daily\u2014typically 6 to 8 cups or more depending on activity and climate.",
+    "layman_explanation": "Your body needs enough water to work properly. Not drinking enough can make you feel tired or dizzy."
+  },
+  {
+    "topic": "Nutrition & Diet Planning",
+    "question": "What is the importance of micronutrients in a healthy diet? (version 84)",
+    "symptoms": "Deficiency can lead to anemia, weak bones, poor vision, and other health issues.",
+    "causes": "Lack of fruits, vegetables, and varied food sources in the diet.",
+    "treatment": "Eat a variety of foods rich in vitamins (like A, C, D) and minerals (like iron, calcium, zinc).",
+    "layman_explanation": "Micronutrients are tiny helpers like vitamins and minerals that keep your body strong, your bones healthy, and your immune system working well."
+  },
+  {
+    "topic": "Nutrition & Diet Planning",
+    "question": "How can diet be tailored for weight management? (version 85)",
+    "symptoms": "Uncontrolled weight gain or loss, fatigue, poor concentration.",
+    "causes": "Imbalanced calorie intake, lack of portion control, skipping meals, emotional eating.",
+    "treatment": "Follow a structured meal plan with appropriate calorie intake, physical activity, and mindful eating habits.",
+    "layman_explanation": "To manage your weight, you need to eat the right amount of food for your body's needs and stay active\u2014too much or too little can cause problems."
+  },
+  {
+    "topic": "Nutrition & Diet Planning",
+    "question": "What are the key components of a balanced diet? (version 86)",
+    "symptoms": "Poor diet may lead to fatigue, weakened immunity, slow wound healing, and weight fluctuations.",
+    "causes": "Lack of awareness, poor access to healthy food, busy lifestyle, excessive processed food intake.",
+    "treatment": "Incorporate carbohydrates, proteins, fats, vitamins, and minerals in appropriate portions daily.",
+    "layman_explanation": "A balanced diet means eating a mix of foods\u2014like fruits, vegetables, grains, and proteins\u2014to help your body work well and stay healthy."
+  },
+  {
+    "topic": "Nutrition & Diet Planning",
+    "question": "What is the role of macronutrients in diet planning? (version 87)",
+    "symptoms": "Deficiency in macronutrients can lead to low energy, muscle loss, or excess body fat.",
+    "causes": "Unbalanced meal portions, diet fads, poor nutritional education.",
+    "treatment": "Ensure adequate intake of carbohydrates (for energy), proteins (for repair), and fats (for hormone regulation).",
+    "layman_explanation": "Macronutrients are the big parts of food your body needs\u2014carbs for energy, protein to build muscles, and fats to support your brain and hormones."
+  },
+  {
+    "topic": "Nutrition & Diet Planning",
+    "question": "How does hydration impact overall health? (version 88)",
+    "symptoms": "Dehydration can cause headaches, fatigue, dry skin, and dizziness.",
+    "causes": "Inadequate water intake, excessive sweating, certain illnesses or medications.",
+    "treatment": "Drink sufficient water daily\u2014typically 6 to 8 cups or more depending on activity and climate.",
+    "layman_explanation": "Your body needs enough water to work properly. Not drinking enough can make you feel tired or dizzy."
+  },
+  {
+    "topic": "Nutrition & Diet Planning",
+    "question": "What is the importance of micronutrients in a healthy diet? (version 89)",
+    "symptoms": "Deficiency can lead to anemia, weak bones, poor vision, and other health issues.",
+    "causes": "Lack of fruits, vegetables, and varied food sources in the diet.",
+    "treatment": "Eat a variety of foods rich in vitamins (like A, C, D) and minerals (like iron, calcium, zinc).",
+    "layman_explanation": "Micronutrients are tiny helpers like vitamins and minerals that keep your body strong, your bones healthy, and your immune system working well."
+  },
+  {
+    "topic": "Nutrition & Diet Planning",
+    "question": "How can diet be tailored for weight management? (version 90)",
+    "symptoms": "Uncontrolled weight gain or loss, fatigue, poor concentration.",
+    "causes": "Imbalanced calorie intake, lack of portion control, skipping meals, emotional eating.",
+    "treatment": "Follow a structured meal plan with appropriate calorie intake, physical activity, and mindful eating habits.",
+    "layman_explanation": "To manage your weight, you need to eat the right amount of food for your body's needs and stay active\u2014too much or too little can cause problems."
+  },
+  {
+    "topic": "Nutrition & Diet Planning",
+    "question": "What are the key components of a balanced diet? (version 91)",
+    "symptoms": "Poor diet may lead to fatigue, weakened immunity, slow wound healing, and weight fluctuations.",
+    "causes": "Lack of awareness, poor access to healthy food, busy lifestyle, excessive processed food intake.",
+    "treatment": "Incorporate carbohydrates, proteins, fats, vitamins, and minerals in appropriate portions daily.",
+    "layman_explanation": "A balanced diet means eating a mix of foods\u2014like fruits, vegetables, grains, and proteins\u2014to help your body work well and stay healthy."
+  },
+  {
+    "topic": "Nutrition & Diet Planning",
+    "question": "What is the role of macronutrients in diet planning? (version 92)",
+    "symptoms": "Deficiency in macronutrients can lead to low energy, muscle loss, or excess body fat.",
+    "causes": "Unbalanced meal portions, diet fads, poor nutritional education.",
+    "treatment": "Ensure adequate intake of carbohydrates (for energy), proteins (for repair), and fats (for hormone regulation).",
+    "layman_explanation": "Macronutrients are the big parts of food your body needs\u2014carbs for energy, protein to build muscles, and fats to support your brain and hormones."
+  },
+  {
+    "topic": "Nutrition & Diet Planning",
+    "question": "How does hydration impact overall health? (version 93)",
+    "symptoms": "Dehydration can cause headaches, fatigue, dry skin, and dizziness.",
+    "causes": "Inadequate water intake, excessive sweating, certain illnesses or medications.",
+    "treatment": "Drink sufficient water daily\u2014typically 6 to 8 cups or more depending on activity and climate.",
+    "layman_explanation": "Your body needs enough water to work properly. Not drinking enough can make you feel tired or dizzy."
+  },
+  {
+    "topic": "Nutrition & Diet Planning",
+    "question": "What is the importance of micronutrients in a healthy diet? (version 94)",
+    "symptoms": "Deficiency can lead to anemia, weak bones, poor vision, and other health issues.",
+    "causes": "Lack of fruits, vegetables, and varied food sources in the diet.",
+    "treatment": "Eat a variety of foods rich in vitamins (like A, C, D) and minerals (like iron, calcium, zinc).",
+    "layman_explanation": "Micronutrients are tiny helpers like vitamins and minerals that keep your body strong, your bones healthy, and your immune system working well."
+  },
+  {
+    "topic": "Nutrition & Diet Planning",
+    "question": "How can diet be tailored for weight management? (version 95)",
+    "symptoms": "Uncontrolled weight gain or loss, fatigue, poor concentration.",
+    "causes": "Imbalanced calorie intake, lack of portion control, skipping meals, emotional eating.",
+    "treatment": "Follow a structured meal plan with appropriate calorie intake, physical activity, and mindful eating habits.",
+    "layman_explanation": "To manage your weight, you need to eat the right amount of food for your body's needs and stay active\u2014too much or too little can cause problems."
+  },
+  {
+    "topic": "Nutrition & Diet Planning",
+    "question": "What are the key components of a balanced diet? (version 96)",
+    "symptoms": "Poor diet may lead to fatigue, weakened immunity, slow wound healing, and weight fluctuations.",
+    "causes": "Lack of awareness, poor access to healthy food, busy lifestyle, excessive processed food intake.",
+    "treatment": "Incorporate carbohydrates, proteins, fats, vitamins, and minerals in appropriate portions daily.",
+    "layman_explanation": "A balanced diet means eating a mix of foods\u2014like fruits, vegetables, grains, and proteins\u2014to help your body work well and stay healthy."
+  },
+  {
+    "topic": "Nutrition & Diet Planning",
+    "question": "What is the role of macronutrients in diet planning? (version 97)",
+    "symptoms": "Deficiency in macronutrients can lead to low energy, muscle loss, or excess body fat.",
+    "causes": "Unbalanced meal portions, diet fads, poor nutritional education.",
+    "treatment": "Ensure adequate intake of carbohydrates (for energy), proteins (for repair), and fats (for hormone regulation).",
+    "layman_explanation": "Macronutrients are the big parts of food your body needs\u2014carbs for energy, protein to build muscles, and fats to support your brain and hormones."
+  },
+  {
+    "topic": "Nutrition & Diet Planning",
+    "question": "How does hydration impact overall health? (version 98)",
+    "symptoms": "Dehydration can cause headaches, fatigue, dry skin, and dizziness.",
+    "causes": "Inadequate water intake, excessive sweating, certain illnesses or medications.",
+    "treatment": "Drink sufficient water daily\u2014typically 6 to 8 cups or more depending on activity and climate.",
+    "layman_explanation": "Your body needs enough water to work properly. Not drinking enough can make you feel tired or dizzy."
+  },
+  {
+    "topic": "Nutrition & Diet Planning",
+    "question": "What is the importance of micronutrients in a healthy diet? (version 99)",
+    "symptoms": "Deficiency can lead to anemia, weak bones, poor vision, and other health issues.",
+    "causes": "Lack of fruits, vegetables, and varied food sources in the diet.",
+    "treatment": "Eat a variety of foods rich in vitamins (like A, C, D) and minerals (like iron, calcium, zinc).",
+    "layman_explanation": "Micronutrients are tiny helpers like vitamins and minerals that keep your body strong, your bones healthy, and your immune system working well."
+  },
+  {
+    "topic": "Nutrition & Diet Planning",
+    "question": "How can diet be tailored for weight management? (version 100)",
+    "symptoms": "Uncontrolled weight gain or loss, fatigue, poor concentration.",
+    "causes": "Imbalanced calorie intake, lack of portion control, skipping meals, emotional eating.",
+    "treatment": "Follow a structured meal plan with appropriate calorie intake, physical activity, and mindful eating habits.",
+    "layman_explanation": "To manage your weight, you need to eat the right amount of food for your body's needs and stay active\u2014too much or too little can cause problems."
+  }
+]

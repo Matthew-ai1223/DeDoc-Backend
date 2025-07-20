@@ -1,0 +1,802 @@
+[
+  {
+    "topic": "Acne",
+    "question": "What are the symptoms, causes, and treatment of Acne? (version 1)",
+    "symptoms": "Pimples, blackheads, whiteheads, cysts, oily skin.",
+    "causes": "Excess oil production, clogged pores, bacteria, hormonal changes.",
+    "treatment": "Topical creams, oral antibiotics, hormonal treatments, skincare routine.",
+    "layman_explanation": "Acne is when your skin gets clogged and inflamed. It causes pimples and is treated with creams and sometimes pills."
+  },
+  {
+    "topic": "Eczema (Atopic Dermatitis)",
+    "question": "What are the symptoms, causes, and treatment of Eczema? (version 1)",
+    "symptoms": "Itchy, red, dry, and inflamed skin.",
+    "causes": "Genetics, allergens, irritants, immune system dysfunction.",
+    "treatment": "Moisturizers, corticosteroid creams, antihistamines, avoiding triggers.",
+    "layman_explanation": "Eczema causes itchy and dry skin. It flares up due to allergies or irritation and is managed with creams and avoiding triggers."
+  },
+  {
+    "topic": "Psoriasis",
+    "question": "What are the symptoms, causes, and treatment of Psoriasis? (version 1)",
+    "symptoms": "Thick, red patches of skin with silvery scales.",
+    "causes": "Immune system overreaction, genetics, stress, infections.",
+    "treatment": "Topical treatments, phototherapy, systemic medications.",
+    "layman_explanation": "Psoriasis causes scaly, red patches on the skin. It\u2019s an immune condition and treated with creams or light therapy."
+  },
+  {
+    "topic": "Rosacea (Case 2)",
+    "question": "What are the symptoms, causes, and treatment of Rosacea? (version 2)",
+    "symptoms": "Facial redness, swollen bumps, eye irritation.",
+    "causes": "Unknown, possibly genetic and environmental factors.",
+    "treatment": "Topical antibiotics, oral medications, laser therapy.",
+    "layman_explanation": "Rosacea causes red, sometimes bumpy skin, usually on the face. Treatment can reduce flare-ups."
+  },
+  {
+    "topic": "Fungal Skin Infection (Case 3)",
+    "question": "What are the symptoms, causes, and treatment of Fungal Skin Infection? (version 3)",
+    "symptoms": "Red, itchy, scaly skin, sometimes with a ring-shaped rash.",
+    "causes": "Fungi such as dermatophytes, yeast.",
+    "treatment": "Antifungal creams or oral antifungals.",
+    "layman_explanation": "Fungal infections make skin itchy and flaky. They\u2019re treated with antifungal medicine."
+  },
+  {
+    "topic": "Contact Dermatitis (Case 4)",
+    "question": "What are the symptoms, causes, and treatment of Contact Dermatitis? (version 4)",
+    "symptoms": "Red, itchy rash at the site of contact with an allergen or irritant.",
+    "causes": "Allergic reaction or irritation from substances like soaps, chemicals, or plants.",
+    "treatment": "Avoiding triggers, topical steroids, soothing lotions.",
+    "layman_explanation": "Contact dermatitis is a skin rash caused by touching something irritating or allergic."
+  },
+  {
+    "topic": "Rosacea (Case 5)",
+    "question": "What are the symptoms, causes, and treatment of Rosacea? (version 5)",
+    "symptoms": "Facial redness, swollen bumps, eye irritation.",
+    "causes": "Unknown, possibly genetic and environmental factors.",
+    "treatment": "Topical antibiotics, oral medications, laser therapy.",
+    "layman_explanation": "Rosacea causes red, sometimes bumpy skin, usually on the face. Treatment can reduce flare-ups."
+  },
+  {
+    "topic": "Fungal Skin Infection (Case 6)",
+    "question": "What are the symptoms, causes, and treatment of Fungal Skin Infection? (version 6)",
+    "symptoms": "Red, itchy, scaly skin, sometimes with a ring-shaped rash.",
+    "causes": "Fungi such as dermatophytes, yeast.",
+    "treatment": "Antifungal creams or oral antifungals.",
+    "layman_explanation": "Fungal infections make skin itchy and flaky. They\u2019re treated with antifungal medicine."
+  },
+  {
+    "topic": "Contact Dermatitis (Case 7)",
+    "question": "What are the symptoms, causes, and treatment of Contact Dermatitis? (version 7)",
+    "symptoms": "Red, itchy rash at the site of contact with an allergen or irritant.",
+    "causes": "Allergic reaction or irritation from substances like soaps, chemicals, or plants.",
+    "treatment": "Avoiding triggers, topical steroids, soothing lotions.",
+    "layman_explanation": "Contact dermatitis is a skin rash caused by touching something irritating or allergic."
+  },
+  {
+    "topic": "Rosacea (Case 8)",
+    "question": "What are the symptoms, causes, and treatment of Rosacea? (version 8)",
+    "symptoms": "Facial redness, swollen bumps, eye irritation.",
+    "causes": "Unknown, possibly genetic and environmental factors.",
+    "treatment": "Topical antibiotics, oral medications, laser therapy.",
+    "layman_explanation": "Rosacea causes red, sometimes bumpy skin, usually on the face. Treatment can reduce flare-ups."
+  },
+  {
+    "topic": "Fungal Skin Infection (Case 9)",
+    "question": "What are the symptoms, causes, and treatment of Fungal Skin Infection? (version 9)",
+    "symptoms": "Red, itchy, scaly skin, sometimes with a ring-shaped rash.",
+    "causes": "Fungi such as dermatophytes, yeast.",
+    "treatment": "Antifungal creams or oral antifungals.",
+    "layman_explanation": "Fungal infections make skin itchy and flaky. They\u2019re treated with antifungal medicine."
+  },
+  {
+    "topic": "Contact Dermatitis (Case 10)",
+    "question": "What are the symptoms, causes, and treatment of Contact Dermatitis? (version 10)",
+    "symptoms": "Red, itchy rash at the site of contact with an allergen or irritant.",
+    "causes": "Allergic reaction or irritation from substances like soaps, chemicals, or plants.",
+    "treatment": "Avoiding triggers, topical steroids, soothing lotions.",
+    "layman_explanation": "Contact dermatitis is a skin rash caused by touching something irritating or allergic."
+  },
+  {
+    "topic": "Rosacea (Case 11)",
+    "question": "What are the symptoms, causes, and treatment of Rosacea? (version 11)",
+    "symptoms": "Facial redness, swollen bumps, eye irritation.",
+    "causes": "Unknown, possibly genetic and environmental factors.",
+    "treatment": "Topical antibiotics, oral medications, laser therapy.",
+    "layman_explanation": "Rosacea causes red, sometimes bumpy skin, usually on the face. Treatment can reduce flare-ups."
+  },
+  {
+    "topic": "Fungal Skin Infection (Case 12)",
+    "question": "What are the symptoms, causes, and treatment of Fungal Skin Infection? (version 12)",
+    "symptoms": "Red, itchy, scaly skin, sometimes with a ring-shaped rash.",
+    "causes": "Fungi such as dermatophytes, yeast.",
+    "treatment": "Antifungal creams or oral antifungals.",
+    "layman_explanation": "Fungal infections make skin itchy and flaky. They\u2019re treated with antifungal medicine."
+  },
+  {
+    "topic": "Contact Dermatitis (Case 13)",
+    "question": "What are the symptoms, causes, and treatment of Contact Dermatitis? (version 13)",
+    "symptoms": "Red, itchy rash at the site of contact with an allergen or irritant.",
+    "causes": "Allergic reaction or irritation from substances like soaps, chemicals, or plants.",
+    "treatment": "Avoiding triggers, topical steroids, soothing lotions.",
+    "layman_explanation": "Contact dermatitis is a skin rash caused by touching something irritating or allergic."
+  },
+  {
+    "topic": "Rosacea (Case 14)",
+    "question": "What are the symptoms, causes, and treatment of Rosacea? (version 14)",
+    "symptoms": "Facial redness, swollen bumps, eye irritation.",
+    "causes": "Unknown, possibly genetic and environmental factors.",
+    "treatment": "Topical antibiotics, oral medications, laser therapy.",
+    "layman_explanation": "Rosacea causes red, sometimes bumpy skin, usually on the face. Treatment can reduce flare-ups."
+  },
+  {
+    "topic": "Fungal Skin Infection (Case 15)",
+    "question": "What are the symptoms, causes, and treatment of Fungal Skin Infection? (version 15)",
+    "symptoms": "Red, itchy, scaly skin, sometimes with a ring-shaped rash.",
+    "causes": "Fungi such as dermatophytes, yeast.",
+    "treatment": "Antifungal creams or oral antifungals.",
+    "layman_explanation": "Fungal infections make skin itchy and flaky. They\u2019re treated with antifungal medicine."
+  },
+  {
+    "topic": "Contact Dermatitis (Case 16)",
+    "question": "What are the symptoms, causes, and treatment of Contact Dermatitis? (version 16)",
+    "symptoms": "Red, itchy rash at the site of contact with an allergen or irritant.",
+    "causes": "Allergic reaction or irritation from substances like soaps, chemicals, or plants.",
+    "treatment": "Avoiding triggers, topical steroids, soothing lotions.",
+    "layman_explanation": "Contact dermatitis is a skin rash caused by touching something irritating or allergic."
+  },
+  {
+    "topic": "Rosacea (Case 17)",
+    "question": "What are the symptoms, causes, and treatment of Rosacea? (version 17)",
+    "symptoms": "Facial redness, swollen bumps, eye irritation.",
+    "causes": "Unknown, possibly genetic and environmental factors.",
+    "treatment": "Topical antibiotics, oral medications, laser therapy.",
+    "layman_explanation": "Rosacea causes red, sometimes bumpy skin, usually on the face. Treatment can reduce flare-ups."
+  },
+  {
+    "topic": "Fungal Skin Infection (Case 18)",
+    "question": "What are the symptoms, causes, and treatment of Fungal Skin Infection? (version 18)",
+    "symptoms": "Red, itchy, scaly skin, sometimes with a ring-shaped rash.",
+    "causes": "Fungi such as dermatophytes, yeast.",
+    "treatment": "Antifungal creams or oral antifungals.",
+    "layman_explanation": "Fungal infections make skin itchy and flaky. They\u2019re treated with antifungal medicine."
+  },
+  {
+    "topic": "Contact Dermatitis (Case 19)",
+    "question": "What are the symptoms, causes, and treatment of Contact Dermatitis? (version 19)",
+    "symptoms": "Red, itchy rash at the site of contact with an allergen or irritant.",
+    "causes": "Allergic reaction or irritation from substances like soaps, chemicals, or plants.",
+    "treatment": "Avoiding triggers, topical steroids, soothing lotions.",
+    "layman_explanation": "Contact dermatitis is a skin rash caused by touching something irritating or allergic."
+  },
+  {
+    "topic": "Rosacea (Case 20)",
+    "question": "What are the symptoms, causes, and treatment of Rosacea? (version 20)",
+    "symptoms": "Facial redness, swollen bumps, eye irritation.",
+    "causes": "Unknown, possibly genetic and environmental factors.",
+    "treatment": "Topical antibiotics, oral medications, laser therapy.",
+    "layman_explanation": "Rosacea causes red, sometimes bumpy skin, usually on the face. Treatment can reduce flare-ups."
+  },
+  {
+    "topic": "Fungal Skin Infection (Case 21)",
+    "question": "What are the symptoms, causes, and treatment of Fungal Skin Infection? (version 21)",
+    "symptoms": "Red, itchy, scaly skin, sometimes with a ring-shaped rash.",
+    "causes": "Fungi such as dermatophytes, yeast.",
+    "treatment": "Antifungal creams or oral antifungals.",
+    "layman_explanation": "Fungal infections make skin itchy and flaky. They\u2019re treated with antifungal medicine."
+  },
+  {
+    "topic": "Contact Dermatitis (Case 22)",
+    "question": "What are the symptoms, causes, and treatment of Contact Dermatitis? (version 22)",
+    "symptoms": "Red, itchy rash at the site of contact with an allergen or irritant.",
+    "causes": "Allergic reaction or irritation from substances like soaps, chemicals, or plants.",
+    "treatment": "Avoiding triggers, topical steroids, soothing lotions.",
+    "layman_explanation": "Contact dermatitis is a skin rash caused by touching something irritating or allergic."
+  },
+  {
+    "topic": "Rosacea (Case 23)",
+    "question": "What are the symptoms, causes, and treatment of Rosacea? (version 23)",
+    "symptoms": "Facial redness, swollen bumps, eye irritation.",
+    "causes": "Unknown, possibly genetic and environmental factors.",
+    "treatment": "Topical antibiotics, oral medications, laser therapy.",
+    "layman_explanation": "Rosacea causes red, sometimes bumpy skin, usually on the face. Treatment can reduce flare-ups."
+  },
+  {
+    "topic": "Fungal Skin Infection (Case 24)",
+    "question": "What are the symptoms, causes, and treatment of Fungal Skin Infection? (version 24)",
+    "symptoms": "Red, itchy, scaly skin, sometimes with a ring-shaped rash.",
+    "causes": "Fungi such as dermatophytes, yeast.",
+    "treatment": "Antifungal creams or oral antifungals.",
+    "layman_explanation": "Fungal infections make skin itchy and flaky. They\u2019re treated with antifungal medicine."
+  },
+  {
+    "topic": "Contact Dermatitis (Case 25)",
+    "question": "What are the symptoms, causes, and treatment of Contact Dermatitis? (version 25)",
+    "symptoms": "Red, itchy rash at the site of contact with an allergen or irritant.",
+    "causes": "Allergic reaction or irritation from substances like soaps, chemicals, or plants.",
+    "treatment": "Avoiding triggers, topical steroids, soothing lotions.",
+    "layman_explanation": "Contact dermatitis is a skin rash caused by touching something irritating or allergic."
+  },
+  {
+    "topic": "Rosacea (Case 26)",
+    "question": "What are the symptoms, causes, and treatment of Rosacea? (version 26)",
+    "symptoms": "Facial redness, swollen bumps, eye irritation.",
+    "causes": "Unknown, possibly genetic and environmental factors.",
+    "treatment": "Topical antibiotics, oral medications, laser therapy.",
+    "layman_explanation": "Rosacea causes red, sometimes bumpy skin, usually on the face. Treatment can reduce flare-ups."
+  },
+  {
+    "topic": "Fungal Skin Infection (Case 27)",
+    "question": "What are the symptoms, causes, and treatment of Fungal Skin Infection? (version 27)",
+    "symptoms": "Red, itchy, scaly skin, sometimes with a ring-shaped rash.",
+    "causes": "Fungi such as dermatophytes, yeast.",
+    "treatment": "Antifungal creams or oral antifungals.",
+    "layman_explanation": "Fungal infections make skin itchy and flaky. They\u2019re treated with antifungal medicine."
+  },
+  {
+    "topic": "Contact Dermatitis (Case 28)",
+    "question": "What are the symptoms, causes, and treatment of Contact Dermatitis? (version 28)",
+    "symptoms": "Red, itchy rash at the site of contact with an allergen or irritant.",
+    "causes": "Allergic reaction or irritation from substances like soaps, chemicals, or plants.",
+    "treatment": "Avoiding triggers, topical steroids, soothing lotions.",
+    "layman_explanation": "Contact dermatitis is a skin rash caused by touching something irritating or allergic."
+  },
+  {
+    "topic": "Rosacea (Case 29)",
+    "question": "What are the symptoms, causes, and treatment of Rosacea? (version 29)",
+    "symptoms": "Facial redness, swollen bumps, eye irritation.",
+    "causes": "Unknown, possibly genetic and environmental factors.",
+    "treatment": "Topical antibiotics, oral medications, laser therapy.",
+    "layman_explanation": "Rosacea causes red, sometimes bumpy skin, usually on the face. Treatment can reduce flare-ups."
+  },
+  {
+    "topic": "Fungal Skin Infection (Case 30)",
+    "question": "What are the symptoms, causes, and treatment of Fungal Skin Infection? (version 30)",
+    "symptoms": "Red, itchy, scaly skin, sometimes with a ring-shaped rash.",
+    "causes": "Fungi such as dermatophytes, yeast.",
+    "treatment": "Antifungal creams or oral antifungals.",
+    "layman_explanation": "Fungal infections make skin itchy and flaky. They\u2019re treated with antifungal medicine."
+  },
+  {
+    "topic": "Contact Dermatitis (Case 31)",
+    "question": "What are the symptoms, causes, and treatment of Contact Dermatitis? (version 31)",
+    "symptoms": "Red, itchy rash at the site of contact with an allergen or irritant.",
+    "causes": "Allergic reaction or irritation from substances like soaps, chemicals, or plants.",
+    "treatment": "Avoiding triggers, topical steroids, soothing lotions.",
+    "layman_explanation": "Contact dermatitis is a skin rash caused by touching something irritating or allergic."
+  },
+  {
+    "topic": "Rosacea (Case 32)",
+    "question": "What are the symptoms, causes, and treatment of Rosacea? (version 32)",
+    "symptoms": "Facial redness, swollen bumps, eye irritation.",
+    "causes": "Unknown, possibly genetic and environmental factors.",
+    "treatment": "Topical antibiotics, oral medications, laser therapy.",
+    "layman_explanation": "Rosacea causes red, sometimes bumpy skin, usually on the face. Treatment can reduce flare-ups."
+  },
+  {
+    "topic": "Fungal Skin Infection (Case 33)",
+    "question": "What are the symptoms, causes, and treatment of Fungal Skin Infection? (version 33)",
+    "symptoms": "Red, itchy, scaly skin, sometimes with a ring-shaped rash.",
+    "causes": "Fungi such as dermatophytes, yeast.",
+    "treatment": "Antifungal creams or oral antifungals.",
+    "layman_explanation": "Fungal infections make skin itchy and flaky. They\u2019re treated with antifungal medicine."
+  },
+  {
+    "topic": "Contact Dermatitis (Case 34)",
+    "question": "What are the symptoms, causes, and treatment of Contact Dermatitis? (version 34)",
+    "symptoms": "Red, itchy rash at the site of contact with an allergen or irritant.",
+    "causes": "Allergic reaction or irritation from substances like soaps, chemicals, or plants.",
+    "treatment": "Avoiding triggers, topical steroids, soothing lotions.",
+    "layman_explanation": "Contact dermatitis is a skin rash caused by touching something irritating or allergic."
+  },
+  {
+    "topic": "Rosacea (Case 35)",
+    "question": "What are the symptoms, causes, and treatment of Rosacea? (version 35)",
+    "symptoms": "Facial redness, swollen bumps, eye irritation.",
+    "causes": "Unknown, possibly genetic and environmental factors.",
+    "treatment": "Topical antibiotics, oral medications, laser therapy.",
+    "layman_explanation": "Rosacea causes red, sometimes bumpy skin, usually on the face. Treatment can reduce flare-ups."
+  },
+  {
+    "topic": "Fungal Skin Infection (Case 36)",
+    "question": "What are the symptoms, causes, and treatment of Fungal Skin Infection? (version 36)",
+    "symptoms": "Red, itchy, scaly skin, sometimes with a ring-shaped rash.",
+    "causes": "Fungi such as dermatophytes, yeast.",
+    "treatment": "Antifungal creams or oral antifungals.",
+    "layman_explanation": "Fungal infections make skin itchy and flaky. They\u2019re treated with antifungal medicine."
+  },
+  {
+    "topic": "Contact Dermatitis (Case 37)",
+    "question": "What are the symptoms, causes, and treatment of Contact Dermatitis? (version 37)",
+    "symptoms": "Red, itchy rash at the site of contact with an allergen or irritant.",
+    "causes": "Allergic reaction or irritation from substances like soaps, chemicals, or plants.",
+    "treatment": "Avoiding triggers, topical steroids, soothing lotions.",
+    "layman_explanation": "Contact dermatitis is a skin rash caused by touching something irritating or allergic."
+  },
+  {
+    "topic": "Rosacea (Case 38)",
+    "question": "What are the symptoms, causes, and treatment of Rosacea? (version 38)",
+    "symptoms": "Facial redness, swollen bumps, eye irritation.",
+    "causes": "Unknown, possibly genetic and environmental factors.",
+    "treatment": "Topical antibiotics, oral medications, laser therapy.",
+    "layman_explanation": "Rosacea causes red, sometimes bumpy skin, usually on the face. Treatment can reduce flare-ups."
+  },
+  {
+    "topic": "Fungal Skin Infection (Case 39)",
+    "question": "What are the symptoms, causes, and treatment of Fungal Skin Infection? (version 39)",
+    "symptoms": "Red, itchy, scaly skin, sometimes with a ring-shaped rash.",
+    "causes": "Fungi such as dermatophytes, yeast.",
+    "treatment": "Antifungal creams or oral antifungals.",
+    "layman_explanation": "Fungal infections make skin itchy and flaky. They\u2019re treated with antifungal medicine."
+  },
+  {
+    "topic": "Contact Dermatitis (Case 40)",
+    "question": "What are the symptoms, causes, and treatment of Contact Dermatitis? (version 40)",
+    "symptoms": "Red, itchy rash at the site of contact with an allergen or irritant.",
+    "causes": "Allergic reaction or irritation from substances like soaps, chemicals, or plants.",
+    "treatment": "Avoiding triggers, topical steroids, soothing lotions.",
+    "layman_explanation": "Contact dermatitis is a skin rash caused by touching something irritating or allergic."
+  },
+  {
+    "topic": "Rosacea (Case 41)",
+    "question": "What are the symptoms, causes, and treatment of Rosacea? (version 41)",
+    "symptoms": "Facial redness, swollen bumps, eye irritation.",
+    "causes": "Unknown, possibly genetic and environmental factors.",
+    "treatment": "Topical antibiotics, oral medications, laser therapy.",
+    "layman_explanation": "Rosacea causes red, sometimes bumpy skin, usually on the face. Treatment can reduce flare-ups."
+  },
+  {
+    "topic": "Fungal Skin Infection (Case 42)",
+    "question": "What are the symptoms, causes, and treatment of Fungal Skin Infection? (version 42)",
+    "symptoms": "Red, itchy, scaly skin, sometimes with a ring-shaped rash.",
+    "causes": "Fungi such as dermatophytes, yeast.",
+    "treatment": "Antifungal creams or oral antifungals.",
+    "layman_explanation": "Fungal infections make skin itchy and flaky. They\u2019re treated with antifungal medicine."
+  },
+  {
+    "topic": "Contact Dermatitis (Case 43)",
+    "question": "What are the symptoms, causes, and treatment of Contact Dermatitis? (version 43)",
+    "symptoms": "Red, itchy rash at the site of contact with an allergen or irritant.",
+    "causes": "Allergic reaction or irritation from substances like soaps, chemicals, or plants.",
+    "treatment": "Avoiding triggers, topical steroids, soothing lotions.",
+    "layman_explanation": "Contact dermatitis is a skin rash caused by touching something irritating or allergic."
+  },
+  {
+    "topic": "Rosacea (Case 44)",
+    "question": "What are the symptoms, causes, and treatment of Rosacea? (version 44)",
+    "symptoms": "Facial redness, swollen bumps, eye irritation.",
+    "causes": "Unknown, possibly genetic and environmental factors.",
+    "treatment": "Topical antibiotics, oral medications, laser therapy.",
+    "layman_explanation": "Rosacea causes red, sometimes bumpy skin, usually on the face. Treatment can reduce flare-ups."
+  },
+  {
+    "topic": "Fungal Skin Infection (Case 45)",
+    "question": "What are the symptoms, causes, and treatment of Fungal Skin Infection? (version 45)",
+    "symptoms": "Red, itchy, scaly skin, sometimes with a ring-shaped rash.",
+    "causes": "Fungi such as dermatophytes, yeast.",
+    "treatment": "Antifungal creams or oral antifungals.",
+    "layman_explanation": "Fungal infections make skin itchy and flaky. They\u2019re treated with antifungal medicine."
+  },
+  {
+    "topic": "Contact Dermatitis (Case 46)",
+    "question": "What are the symptoms, causes, and treatment of Contact Dermatitis? (version 46)",
+    "symptoms": "Red, itchy rash at the site of contact with an allergen or irritant.",
+    "causes": "Allergic reaction or irritation from substances like soaps, chemicals, or plants.",
+    "treatment": "Avoiding triggers, topical steroids, soothing lotions.",
+    "layman_explanation": "Contact dermatitis is a skin rash caused by touching something irritating or allergic."
+  },
+  {
+    "topic": "Rosacea (Case 47)",
+    "question": "What are the symptoms, causes, and treatment of Rosacea? (version 47)",
+    "symptoms": "Facial redness, swollen bumps, eye irritation.",
+    "causes": "Unknown, possibly genetic and environmental factors.",
+    "treatment": "Topical antibiotics, oral medications, laser therapy.",
+    "layman_explanation": "Rosacea causes red, sometimes bumpy skin, usually on the face. Treatment can reduce flare-ups."
+  },
+  {
+    "topic": "Fungal Skin Infection (Case 48)",
+    "question": "What are the symptoms, causes, and treatment of Fungal Skin Infection? (version 48)",
+    "symptoms": "Red, itchy, scaly skin, sometimes with a ring-shaped rash.",
+    "causes": "Fungi such as dermatophytes, yeast.",
+    "treatment": "Antifungal creams or oral antifungals.",
+    "layman_explanation": "Fungal infections make skin itchy and flaky. They\u2019re treated with antifungal medicine."
+  },
+  {
+    "topic": "Contact Dermatitis (Case 49)",
+    "question": "What are the symptoms, causes, and treatment of Contact Dermatitis? (version 49)",
+    "symptoms": "Red, itchy rash at the site of contact with an allergen or irritant.",
+    "causes": "Allergic reaction or irritation from substances like soaps, chemicals, or plants.",
+    "treatment": "Avoiding triggers, topical steroids, soothing lotions.",
+    "layman_explanation": "Contact dermatitis is a skin rash caused by touching something irritating or allergic."
+  },
+  {
+    "topic": "Rosacea (Case 50)",
+    "question": "What are the symptoms, causes, and treatment of Rosacea? (version 50)",
+    "symptoms": "Facial redness, swollen bumps, eye irritation.",
+    "causes": "Unknown, possibly genetic and environmental factors.",
+    "treatment": "Topical antibiotics, oral medications, laser therapy.",
+    "layman_explanation": "Rosacea causes red, sometimes bumpy skin, usually on the face. Treatment can reduce flare-ups."
+  },
+  {
+    "topic": "Fungal Skin Infection (Case 51)",
+    "question": "What are the symptoms, causes, and treatment of Fungal Skin Infection? (version 51)",
+    "symptoms": "Red, itchy, scaly skin, sometimes with a ring-shaped rash.",
+    "causes": "Fungi such as dermatophytes, yeast.",
+    "treatment": "Antifungal creams or oral antifungals.",
+    "layman_explanation": "Fungal infections make skin itchy and flaky. They\u2019re treated with antifungal medicine."
+  },
+  {
+    "topic": "Contact Dermatitis (Case 52)",
+    "question": "What are the symptoms, causes, and treatment of Contact Dermatitis? (version 52)",
+    "symptoms": "Red, itchy rash at the site of contact with an allergen or irritant.",
+    "causes": "Allergic reaction or irritation from substances like soaps, chemicals, or plants.",
+    "treatment": "Avoiding triggers, topical steroids, soothing lotions.",
+    "layman_explanation": "Contact dermatitis is a skin rash caused by touching something irritating or allergic."
+  },
+  {
+    "topic": "Rosacea (Case 53)",
+    "question": "What are the symptoms, causes, and treatment of Rosacea? (version 53)",
+    "symptoms": "Facial redness, swollen bumps, eye irritation.",
+    "causes": "Unknown, possibly genetic and environmental factors.",
+    "treatment": "Topical antibiotics, oral medications, laser therapy.",
+    "layman_explanation": "Rosacea causes red, sometimes bumpy skin, usually on the face. Treatment can reduce flare-ups."
+  },
+  {
+    "topic": "Fungal Skin Infection (Case 54)",
+    "question": "What are the symptoms, causes, and treatment of Fungal Skin Infection? (version 54)",
+    "symptoms": "Red, itchy, scaly skin, sometimes with a ring-shaped rash.",
+    "causes": "Fungi such as dermatophytes, yeast.",
+    "treatment": "Antifungal creams or oral antifungals.",
+    "layman_explanation": "Fungal infections make skin itchy and flaky. They\u2019re treated with antifungal medicine."
+  },
+  {
+    "topic": "Contact Dermatitis (Case 55)",
+    "question": "What are the symptoms, causes, and treatment of Contact Dermatitis? (version 55)",
+    "symptoms": "Red, itchy rash at the site of contact with an allergen or irritant.",
+    "causes": "Allergic reaction or irritation from substances like soaps, chemicals, or plants.",
+    "treatment": "Avoiding triggers, topical steroids, soothing lotions.",
+    "layman_explanation": "Contact dermatitis is a skin rash caused by touching something irritating or allergic."
+  },
+  {
+    "topic": "Rosacea (Case 56)",
+    "question": "What are the symptoms, causes, and treatment of Rosacea? (version 56)",
+    "symptoms": "Facial redness, swollen bumps, eye irritation.",
+    "causes": "Unknown, possibly genetic and environmental factors.",
+    "treatment": "Topical antibiotics, oral medications, laser therapy.",
+    "layman_explanation": "Rosacea causes red, sometimes bumpy skin, usually on the face. Treatment can reduce flare-ups."
+  },
+  {
+    "topic": "Fungal Skin Infection (Case 57)",
+    "question": "What are the symptoms, causes, and treatment of Fungal Skin Infection? (version 57)",
+    "symptoms": "Red, itchy, scaly skin, sometimes with a ring-shaped rash.",
+    "causes": "Fungi such as dermatophytes, yeast.",
+    "treatment": "Antifungal creams or oral antifungals.",
+    "layman_explanation": "Fungal infections make skin itchy and flaky. They\u2019re treated with antifungal medicine."
+  },
+  {
+    "topic": "Contact Dermatitis (Case 58)",
+    "question": "What are the symptoms, causes, and treatment of Contact Dermatitis? (version 58)",
+    "symptoms": "Red, itchy rash at the site of contact with an allergen or irritant.",
+    "causes": "Allergic reaction or irritation from substances like soaps, chemicals, or plants.",
+    "treatment": "Avoiding triggers, topical steroids, soothing lotions.",
+    "layman_explanation": "Contact dermatitis is a skin rash caused by touching something irritating or allergic."
+  },
+  {
+    "topic": "Rosacea (Case 59)",
+    "question": "What are the symptoms, causes, and treatment of Rosacea? (version 59)",
+    "symptoms": "Facial redness, swollen bumps, eye irritation.",
+    "causes": "Unknown, possibly genetic and environmental factors.",
+    "treatment": "Topical antibiotics, oral medications, laser therapy.",
+    "layman_explanation": "Rosacea causes red, sometimes bumpy skin, usually on the face. Treatment can reduce flare-ups."
+  },
+  {
+    "topic": "Fungal Skin Infection (Case 60)",
+    "question": "What are the symptoms, causes, and treatment of Fungal Skin Infection? (version 60)",
+    "symptoms": "Red, itchy, scaly skin, sometimes with a ring-shaped rash.",
+    "causes": "Fungi such as dermatophytes, yeast.",
+    "treatment": "Antifungal creams or oral antifungals.",
+    "layman_explanation": "Fungal infections make skin itchy and flaky. They\u2019re treated with antifungal medicine."
+  },
+  {
+    "topic": "Contact Dermatitis (Case 61)",
+    "question": "What are the symptoms, causes, and treatment of Contact Dermatitis? (version 61)",
+    "symptoms": "Red, itchy rash at the site of contact with an allergen or irritant.",
+    "causes": "Allergic reaction or irritation from substances like soaps, chemicals, or plants.",
+    "treatment": "Avoiding triggers, topical steroids, soothing lotions.",
+    "layman_explanation": "Contact dermatitis is a skin rash caused by touching something irritating or allergic."
+  },
+  {
+    "topic": "Rosacea (Case 62)",
+    "question": "What are the symptoms, causes, and treatment of Rosacea? (version 62)",
+    "symptoms": "Facial redness, swollen bumps, eye irritation.",
+    "causes": "Unknown, possibly genetic and environmental factors.",
+    "treatment": "Topical antibiotics, oral medications, laser therapy.",
+    "layman_explanation": "Rosacea causes red, sometimes bumpy skin, usually on the face. Treatment can reduce flare-ups."
+  },
+  {
+    "topic": "Fungal Skin Infection (Case 63)",
+    "question": "What are the symptoms, causes, and treatment of Fungal Skin Infection? (version 63)",
+    "symptoms": "Red, itchy, scaly skin, sometimes with a ring-shaped rash.",
+    "causes": "Fungi such as dermatophytes, yeast.",
+    "treatment": "Antifungal creams or oral antifungals.",
+    "layman_explanation": "Fungal infections make skin itchy and flaky. They\u2019re treated with antifungal medicine."
+  },
+  {
+    "topic": "Contact Dermatitis (Case 64)",
+    "question": "What are the symptoms, causes, and treatment of Contact Dermatitis? (version 64)",
+    "symptoms": "Red, itchy rash at the site of contact with an allergen or irritant.",
+    "causes": "Allergic reaction or irritation from substances like soaps, chemicals, or plants.",
+    "treatment": "Avoiding triggers, topical steroids, soothing lotions.",
+    "layman_explanation": "Contact dermatitis is a skin rash caused by touching something irritating or allergic."
+  },
+  {
+    "topic": "Rosacea (Case 65)",
+    "question": "What are the symptoms, causes, and treatment of Rosacea? (version 65)",
+    "symptoms": "Facial redness, swollen bumps, eye irritation.",
+    "causes": "Unknown, possibly genetic and environmental factors.",
+    "treatment": "Topical antibiotics, oral medications, laser therapy.",
+    "layman_explanation": "Rosacea causes red, sometimes bumpy skin, usually on the face. Treatment can reduce flare-ups."
+  },
+  {
+    "topic": "Fungal Skin Infection (Case 66)",
+    "question": "What are the symptoms, causes, and treatment of Fungal Skin Infection? (version 66)",
+    "symptoms": "Red, itchy, scaly skin, sometimes with a ring-shaped rash.",
+    "causes": "Fungi such as dermatophytes, yeast.",
+    "treatment": "Antifungal creams or oral antifungals.",
+    "layman_explanation": "Fungal infections make skin itchy and flaky. They\u2019re treated with antifungal medicine."
+  },
+  {
+    "topic": "Contact Dermatitis (Case 67)",
+    "question": "What are the symptoms, causes, and treatment of Contact Dermatitis? (version 67)",
+    "symptoms": "Red, itchy rash at the site of contact with an allergen or irritant.",
+    "causes": "Allergic reaction or irritation from substances like soaps, chemicals, or plants.",
+    "treatment": "Avoiding triggers, topical steroids, soothing lotions.",
+    "layman_explanation": "Contact dermatitis is a skin rash caused by touching something irritating or allergic."
+  },
+  {
+    "topic": "Rosacea (Case 68)",
+    "question": "What are the symptoms, causes, and treatment of Rosacea? (version 68)",
+    "symptoms": "Facial redness, swollen bumps, eye irritation.",
+    "causes": "Unknown, possibly genetic and environmental factors.",
+    "treatment": "Topical antibiotics, oral medications, laser therapy.",
+    "layman_explanation": "Rosacea causes red, sometimes bumpy skin, usually on the face. Treatment can reduce flare-ups."
+  },
+  {
+    "topic": "Fungal Skin Infection (Case 69)",
+    "question": "What are the symptoms, causes, and treatment of Fungal Skin Infection? (version 69)",
+    "symptoms": "Red, itchy, scaly skin, sometimes with a ring-shaped rash.",
+    "causes": "Fungi such as dermatophytes, yeast.",
+    "treatment": "Antifungal creams or oral antifungals.",
+    "layman_explanation": "Fungal infections make skin itchy and flaky. They\u2019re treated with antifungal medicine."
+  },
+  {
+    "topic": "Contact Dermatitis (Case 70)",
+    "question": "What are the symptoms, causes, and treatment of Contact Dermatitis? (version 70)",
+    "symptoms": "Red, itchy rash at the site of contact with an allergen or irritant.",
+    "causes": "Allergic reaction or irritation from substances like soaps, chemicals, or plants.",
+    "treatment": "Avoiding triggers, topical steroids, soothing lotions.",
+    "layman_explanation": "Contact dermatitis is a skin rash caused by touching something irritating or allergic."
+  },
+  {
+    "topic": "Rosacea (Case 71)",
+    "question": "What are the symptoms, causes, and treatment of Rosacea? (version 71)",
+    "symptoms": "Facial redness, swollen bumps, eye irritation.",
+    "causes": "Unknown, possibly genetic and environmental factors.",
+    "treatment": "Topical antibiotics, oral medications, laser therapy.",
+    "layman_explanation": "Rosacea causes red, sometimes bumpy skin, usually on the face. Treatment can reduce flare-ups."
+  },
+  {
+    "topic": "Fungal Skin Infection (Case 72)",
+    "question": "What are the symptoms, causes, and treatment of Fungal Skin Infection? (version 72)",
+    "symptoms": "Red, itchy, scaly skin, sometimes with a ring-shaped rash.",
+    "causes": "Fungi such as dermatophytes, yeast.",
+    "treatment": "Antifungal creams or oral antifungals.",
+    "layman_explanation": "Fungal infections make skin itchy and flaky. They\u2019re treated with antifungal medicine."
+  },
+  {
+    "topic": "Contact Dermatitis (Case 73)",
+    "question": "What are the symptoms, causes, and treatment of Contact Dermatitis? (version 73)",
+    "symptoms": "Red, itchy rash at the site of contact with an allergen or irritant.",
+    "causes": "Allergic reaction or irritation from substances like soaps, chemicals, or plants.",
+    "treatment": "Avoiding triggers, topical steroids, soothing lotions.",
+    "layman_explanation": "Contact dermatitis is a skin rash caused by touching something irritating or allergic."
+  },
+  {
+    "topic": "Rosacea (Case 74)",
+    "question": "What are the symptoms, causes, and treatment of Rosacea? (version 74)",
+    "symptoms": "Facial redness, swollen bumps, eye irritation.",
+    "causes": "Unknown, possibly genetic and environmental factors.",
+    "treatment": "Topical antibiotics, oral medications, laser therapy.",
+    "layman_explanation": "Rosacea causes red, sometimes bumpy skin, usually on the face. Treatment can reduce flare-ups."
+  },
+  {
+    "topic": "Fungal Skin Infection (Case 75)",
+    "question": "What are the symptoms, causes, and treatment of Fungal Skin Infection? (version 75)",
+    "symptoms": "Red, itchy, scaly skin, sometimes with a ring-shaped rash.",
+    "causes": "Fungi such as dermatophytes, yeast.",
+    "treatment": "Antifungal creams or oral antifungals.",
+    "layman_explanation": "Fungal infections make skin itchy and flaky. They\u2019re treated with antifungal medicine."
+  },
+  {
+    "topic": "Contact Dermatitis (Case 76)",
+    "question": "What are the symptoms, causes, and treatment of Contact Dermatitis? (version 76)",
+    "symptoms": "Red, itchy rash at the site of contact with an allergen or irritant.",
+    "causes": "Allergic reaction or irritation from substances like soaps, chemicals, or plants.",
+    "treatment": "Avoiding triggers, topical steroids, soothing lotions.",
+    "layman_explanation": "Contact dermatitis is a skin rash caused by touching something irritating or allergic."
+  },
+  {
+    "topic": "Rosacea (Case 77)",
+    "question": "What are the symptoms, causes, and treatment of Rosacea? (version 77)",
+    "symptoms": "Facial redness, swollen bumps, eye irritation.",
+    "causes": "Unknown, possibly genetic and environmental factors.",
+    "treatment": "Topical antibiotics, oral medications, laser therapy.",
+    "layman_explanation": "Rosacea causes red, sometimes bumpy skin, usually on the face. Treatment can reduce flare-ups."
+  },
+  {
+    "topic": "Fungal Skin Infection (Case 78)",
+    "question": "What are the symptoms, causes, and treatment of Fungal Skin Infection? (version 78)",
+    "symptoms": "Red, itchy, scaly skin, sometimes with a ring-shaped rash.",
+    "causes": "Fungi such as dermatophytes, yeast.",
+    "treatment": "Antifungal creams or oral antifungals.",
+    "layman_explanation": "Fungal infections make skin itchy and flaky. They\u2019re treated with antifungal medicine."
+  },
+  {
+    "topic": "Contact Dermatitis (Case 79)",
+    "question": "What are the symptoms, causes, and treatment of Contact Dermatitis? (version 79)",
+    "symptoms": "Red, itchy rash at the site of contact with an allergen or irritant.",
+    "causes": "Allergic reaction or irritation from substances like soaps, chemicals, or plants.",
+    "treatment": "Avoiding triggers, topical steroids, soothing lotions.",
+    "layman_explanation": "Contact dermatitis is a skin rash caused by touching something irritating or allergic."
+  },
+  {
+    "topic": "Rosacea (Case 80)",
+    "question": "What are the symptoms, causes, and treatment of Rosacea? (version 80)",
+    "symptoms": "Facial redness, swollen bumps, eye irritation.",
+    "causes": "Unknown, possibly genetic and environmental factors.",
+    "treatment": "Topical antibiotics, oral medications, laser therapy.",
+    "layman_explanation": "Rosacea causes red, sometimes bumpy skin, usually on the face. Treatment can reduce flare-ups."
+  },
+  {
+    "topic": "Fungal Skin Infection (Case 81)",
+    "question": "What are the symptoms, causes, and treatment of Fungal Skin Infection? (version 81)",
+    "symptoms": "Red, itchy, scaly skin, sometimes with a ring-shaped rash.",
+    "causes": "Fungi such as dermatophytes, yeast.",
+    "treatment": "Antifungal creams or oral antifungals.",
+    "layman_explanation": "Fungal infections make skin itchy and flaky. They\u2019re treated with antifungal medicine."
+  },
+  {
+    "topic": "Contact Dermatitis (Case 82)",
+    "question": "What are the symptoms, causes, and treatment of Contact Dermatitis? (version 82)",
+    "symptoms": "Red, itchy rash at the site of contact with an allergen or irritant.",
+    "causes": "Allergic reaction or irritation from substances like soaps, chemicals, or plants.",
+    "treatment": "Avoiding triggers, topical steroids, soothing lotions.",
+    "layman_explanation": "Contact dermatitis is a skin rash caused by touching something irritating or allergic."
+  },
+  {
+    "topic": "Rosacea (Case 83)",
+    "question": "What are the symptoms, causes, and treatment of Rosacea? (version 83)",
+    "symptoms": "Facial redness, swollen bumps, eye irritation.",
+    "causes": "Unknown, possibly genetic and environmental factors.",
+    "treatment": "Topical antibiotics, oral medications, laser therapy.",
+    "layman_explanation": "Rosacea causes red, sometimes bumpy skin, usually on the face. Treatment can reduce flare-ups."
+  },
+  {
+    "topic": "Fungal Skin Infection (Case 84)",
+    "question": "What are the symptoms, causes, and treatment of Fungal Skin Infection? (version 84)",
+    "symptoms": "Red, itchy, scaly skin, sometimes with a ring-shaped rash.",
+    "causes": "Fungi such as dermatophytes, yeast.",
+    "treatment": "Antifungal creams or oral antifungals.",
+    "layman_explanation": "Fungal infections make skin itchy and flaky. They\u2019re treated with antifungal medicine."
+  },
+  {
+    "topic": "Contact Dermatitis (Case 85)",
+    "question": "What are the symptoms, causes, and treatment of Contact Dermatitis? (version 85)",
+    "symptoms": "Red, itchy rash at the site of contact with an allergen or irritant.",
+    "causes": "Allergic reaction or irritation from substances like soaps, chemicals, or plants.",
+    "treatment": "Avoiding triggers, topical steroids, soothing lotions.",
+    "layman_explanation": "Contact dermatitis is a skin rash caused by touching something irritating or allergic."
+  },
+  {
+    "topic": "Rosacea (Case 86)",
+    "question": "What are the symptoms, causes, and treatment of Rosacea? (version 86)",
+    "symptoms": "Facial redness, swollen bumps, eye irritation.",
+    "causes": "Unknown, possibly genetic and environmental factors.",
+    "treatment": "Topical antibiotics, oral medications, laser therapy.",
+    "layman_explanation": "Rosacea causes red, sometimes bumpy skin, usually on the face. Treatment can reduce flare-ups."
+  },
+  {
+    "topic": "Fungal Skin Infection (Case 87)",
+    "question": "What are the symptoms, causes, and treatment of Fungal Skin Infection? (version 87)",
+    "symptoms": "Red, itchy, scaly skin, sometimes with a ring-shaped rash.",
+    "causes": "Fungi such as dermatophytes, yeast.",
+    "treatment": "Antifungal creams or oral antifungals.",
+    "layman_explanation": "Fungal infections make skin itchy and flaky. They\u2019re treated with antifungal medicine."
+  },
+  {
+    "topic": "Contact Dermatitis (Case 88)",
+    "question": "What are the symptoms, causes, and treatment of Contact Dermatitis? (version 88)",
+    "symptoms": "Red, itchy rash at the site of contact with an allergen or irritant.",
+    "causes": "Allergic reaction or irritation from substances like soaps, chemicals, or plants.",
+    "treatment": "Avoiding triggers, topical steroids, soothing lotions.",
+    "layman_explanation": "Contact dermatitis is a skin rash caused by touching something irritating or allergic."
+  },
+  {
+    "topic": "Rosacea (Case 89)",
+    "question": "What are the symptoms, causes, and treatment of Rosacea? (version 89)",
+    "symptoms": "Facial redness, swollen bumps, eye irritation.",
+    "causes": "Unknown, possibly genetic and environmental factors.",
+    "treatment": "Topical antibiotics, oral medications, laser therapy.",
+    "layman_explanation": "Rosacea causes red, sometimes bumpy skin, usually on the face. Treatment can reduce flare-ups."
+  },
+  {
+    "topic": "Fungal Skin Infection (Case 90)",
+    "question": "What are the symptoms, causes, and treatment of Fungal Skin Infection? (version 90)",
+    "symptoms": "Red, itchy, scaly skin, sometimes with a ring-shaped rash.",
+    "causes": "Fungi such as dermatophytes, yeast.",
+    "treatment": "Antifungal creams or oral antifungals.",
+    "layman_explanation": "Fungal infections make skin itchy and flaky. They\u2019re treated with antifungal medicine."
+  },
+  {
+    "topic": "Contact Dermatitis (Case 91)",
+    "question": "What are the symptoms, causes, and treatment of Contact Dermatitis? (version 91)",
+    "symptoms": "Red, itchy rash at the site of contact with an allergen or irritant.",
+    "causes": "Allergic reaction or irritation from substances like soaps, chemicals, or plants.",
+    "treatment": "Avoiding triggers, topical steroids, soothing lotions.",
+    "layman_explanation": "Contact dermatitis is a skin rash caused by touching something irritating or allergic."
+  },
+  {
+    "topic": "Rosacea (Case 92)",
+    "question": "What are the symptoms, causes, and treatment of Rosacea? (version 92)",
+    "symptoms": "Facial redness, swollen bumps, eye irritation.",
+    "causes": "Unknown, possibly genetic and environmental factors.",
+    "treatment": "Topical antibiotics, oral medications, laser therapy.",
+    "layman_explanation": "Rosacea causes red, sometimes bumpy skin, usually on the face. Treatment can reduce flare-ups."
+  },
+  {
+    "topic": "Fungal Skin Infection (Case 93)",
+    "question": "What are the symptoms, causes, and treatment of Fungal Skin Infection? (version 93)",
+    "symptoms": "Red, itchy, scaly skin, sometimes with a ring-shaped rash.",
+    "causes": "Fungi such as dermatophytes, yeast.",
+    "treatment": "Antifungal creams or oral antifungals.",
+    "layman_explanation": "Fungal infections make skin itchy and flaky. They\u2019re treated with antifungal medicine."
+  },
+  {
+    "topic": "Contact Dermatitis (Case 94)",
+    "question": "What are the symptoms, causes, and treatment of Contact Dermatitis? (version 94)",
+    "symptoms": "Red, itchy rash at the site of contact with an allergen or irritant.",
+    "causes": "Allergic reaction or irritation from substances like soaps, chemicals, or plants.",
+    "treatment": "Avoiding triggers, topical steroids, soothing lotions.",
+    "layman_explanation": "Contact dermatitis is a skin rash caused by touching something irritating or allergic."
+  },
+  {
+    "topic": "Rosacea (Case 95)",
+    "question": "What are the symptoms, causes, and treatment of Rosacea? (version 95)",
+    "symptoms": "Facial redness, swollen bumps, eye irritation.",
+    "causes": "Unknown, possibly genetic and environmental factors.",
+    "treatment": "Topical antibiotics, oral medications, laser therapy.",
+    "layman_explanation": "Rosacea causes red, sometimes bumpy skin, usually on the face. Treatment can reduce flare-ups."
+  },
+  {
+    "topic": "Fungal Skin Infection (Case 96)",
+    "question": "What are the symptoms, causes, and treatment of Fungal Skin Infection? (version 96)",
+    "symptoms": "Red, itchy, scaly skin, sometimes with a ring-shaped rash.",
+    "causes": "Fungi such as dermatophytes, yeast.",
+    "treatment": "Antifungal creams or oral antifungals.",
+    "layman_explanation": "Fungal infections make skin itchy and flaky. They\u2019re treated with antifungal medicine."
+  },
+  {
+    "topic": "Contact Dermatitis (Case 97)",
+    "question": "What are the symptoms, causes, and treatment of Contact Dermatitis? (version 97)",
+    "symptoms": "Red, itchy rash at the site of contact with an allergen or irritant.",
+    "causes": "Allergic reaction or irritation from substances like soaps, chemicals, or plants.",
+    "treatment": "Avoiding triggers, topical steroids, soothing lotions.",
+    "layman_explanation": "Contact dermatitis is a skin rash caused by touching something irritating or allergic."
+  },
+  {
+    "topic": "Rosacea (Case 98)",
+    "question": "What are the symptoms, causes, and treatment of Rosacea? (version 98)",
+    "symptoms": "Facial redness, swollen bumps, eye irritation.",
+    "causes": "Unknown, possibly genetic and environmental factors.",
+    "treatment": "Topical antibiotics, oral medications, laser therapy.",
+    "layman_explanation": "Rosacea causes red, sometimes bumpy skin, usually on the face. Treatment can reduce flare-ups."
+  }
+]

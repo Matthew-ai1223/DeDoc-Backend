@@ -1,0 +1,802 @@
+[
+  {
+    "topic": "Tooth Decay",
+    "question": "What are the symptoms, causes, and treatment of Tooth Decay? (version 1)",
+    "symptoms": "Common signs of tooth decay may include pain, inflammation, sensitivity, and visible changes in the mouth.",
+    "causes": "Tooth Decay can result from poor oral hygiene, bacterial infection, genetic predisposition, or underlying health issues.",
+    "treatment": "Treatment for tooth decay may involve professional dental cleaning, medication, or corrective procedures depending on severity.",
+    "layman_explanation": "Tooth Decay is a dental issue that can cause discomfort or damage. Dentists can treat it with cleaning, medication, or other care."
+  },
+  {
+    "topic": "Gingivitis",
+    "question": "What are the symptoms, causes, and treatment of Gingivitis? (version 1)",
+    "symptoms": "Common signs of gingivitis may include pain, inflammation, sensitivity, and visible changes in the mouth.",
+    "causes": "Gingivitis can result from poor oral hygiene, bacterial infection, genetic predisposition, or underlying health issues.",
+    "treatment": "Treatment for gingivitis may involve professional dental cleaning, medication, or corrective procedures depending on severity.",
+    "layman_explanation": "Gingivitis is a dental issue that can cause discomfort or damage. Dentists can treat it with cleaning, medication, or other care."
+  },
+  {
+    "topic": "Periodontitis",
+    "question": "What are the symptoms, causes, and treatment of Periodontitis? (version 1)",
+    "symptoms": "Common signs of periodontitis may include pain, inflammation, sensitivity, and visible changes in the mouth.",
+    "causes": "Periodontitis can result from poor oral hygiene, bacterial infection, genetic predisposition, or underlying health issues.",
+    "treatment": "Treatment for periodontitis may involve professional dental cleaning, medication, or corrective procedures depending on severity.",
+    "layman_explanation": "Periodontitis is a dental issue that can cause discomfort or damage. Dentists can treat it with cleaning, medication, or other care."
+  },
+  {
+    "topic": "Tooth Sensitivity",
+    "question": "What are the symptoms, causes, and treatment of Tooth Sensitivity? (version 1)",
+    "symptoms": "Common signs of tooth sensitivity may include pain, inflammation, sensitivity, and visible changes in the mouth.",
+    "causes": "Tooth Sensitivity can result from poor oral hygiene, bacterial infection, genetic predisposition, or underlying health issues.",
+    "treatment": "Treatment for tooth sensitivity may involve professional dental cleaning, medication, or corrective procedures depending on severity.",
+    "layman_explanation": "Tooth Sensitivity is a dental issue that can cause discomfort or damage. Dentists can treat it with cleaning, medication, or other care."
+  },
+  {
+    "topic": "Dental Plaque",
+    "question": "What are the symptoms, causes, and treatment of Dental Plaque? (version 1)",
+    "symptoms": "Common signs of dental plaque may include pain, inflammation, sensitivity, and visible changes in the mouth.",
+    "causes": "Dental Plaque can result from poor oral hygiene, bacterial infection, genetic predisposition, or underlying health issues.",
+    "treatment": "Treatment for dental plaque may involve professional dental cleaning, medication, or corrective procedures depending on severity.",
+    "layman_explanation": "Dental Plaque is a dental issue that can cause discomfort or damage. Dentists can treat it with cleaning, medication, or other care."
+  },
+  {
+    "topic": "Tartar Buildup",
+    "question": "What are the symptoms, causes, and treatment of Tartar Buildup? (version 1)",
+    "symptoms": "Common signs of tartar buildup may include pain, inflammation, sensitivity, and visible changes in the mouth.",
+    "causes": "Tartar Buildup can result from poor oral hygiene, bacterial infection, genetic predisposition, or underlying health issues.",
+    "treatment": "Treatment for tartar buildup may involve professional dental cleaning, medication, or corrective procedures depending on severity.",
+    "layman_explanation": "Tartar Buildup is a dental issue that can cause discomfort or damage. Dentists can treat it with cleaning, medication, or other care."
+  },
+  {
+    "topic": "Tooth Erosion",
+    "question": "What are the symptoms, causes, and treatment of Tooth Erosion? (version 1)",
+    "symptoms": "Common signs of tooth erosion may include pain, inflammation, sensitivity, and visible changes in the mouth.",
+    "causes": "Tooth Erosion can result from poor oral hygiene, bacterial infection, genetic predisposition, or underlying health issues.",
+    "treatment": "Treatment for tooth erosion may involve professional dental cleaning, medication, or corrective procedures depending on severity.",
+    "layman_explanation": "Tooth Erosion is a dental issue that can cause discomfort or damage. Dentists can treat it with cleaning, medication, or other care."
+  },
+  {
+    "topic": "Oral Cancer",
+    "question": "What are the symptoms, causes, and treatment of Oral Cancer? (version 1)",
+    "symptoms": "Common signs of oral cancer may include pain, inflammation, sensitivity, and visible changes in the mouth.",
+    "causes": "Oral Cancer can result from poor oral hygiene, bacterial infection, genetic predisposition, or underlying health issues.",
+    "treatment": "Treatment for oral cancer may involve professional dental cleaning, medication, or corrective procedures depending on severity.",
+    "layman_explanation": "Oral Cancer is a dental issue that can cause discomfort or damage. Dentists can treat it with cleaning, medication, or other care."
+  },
+  {
+    "topic": "Halitosis",
+    "question": "What are the symptoms, causes, and treatment of Halitosis? (version 1)",
+    "symptoms": "Common signs of halitosis may include pain, inflammation, sensitivity, and visible changes in the mouth.",
+    "causes": "Halitosis can result from poor oral hygiene, bacterial infection, genetic predisposition, or underlying health issues.",
+    "treatment": "Treatment for halitosis may involve professional dental cleaning, medication, or corrective procedures depending on severity.",
+    "layman_explanation": "Halitosis is a dental issue that can cause discomfort or damage. Dentists can treat it with cleaning, medication, or other care."
+  },
+  {
+    "topic": "Dry Mouth",
+    "question": "What are the symptoms, causes, and treatment of Dry Mouth? (version 1)",
+    "symptoms": "Common signs of dry mouth may include pain, inflammation, sensitivity, and visible changes in the mouth.",
+    "causes": "Dry Mouth can result from poor oral hygiene, bacterial infection, genetic predisposition, or underlying health issues.",
+    "treatment": "Treatment for dry mouth may involve professional dental cleaning, medication, or corrective procedures depending on severity.",
+    "layman_explanation": "Dry Mouth is a dental issue that can cause discomfort or damage. Dentists can treat it with cleaning, medication, or other care."
+  },
+  {
+    "topic": "Tooth Abscess",
+    "question": "What are the symptoms, causes, and treatment of Tooth Abscess? (version 1)",
+    "symptoms": "Common signs of tooth abscess may include pain, inflammation, sensitivity, and visible changes in the mouth.",
+    "causes": "Tooth Abscess can result from poor oral hygiene, bacterial infection, genetic predisposition, or underlying health issues.",
+    "treatment": "Treatment for tooth abscess may involve professional dental cleaning, medication, or corrective procedures depending on severity.",
+    "layman_explanation": "Tooth Abscess is a dental issue that can cause discomfort or damage. Dentists can treat it with cleaning, medication, or other care."
+  },
+  {
+    "topic": "Impacted Wisdom Teeth",
+    "question": "What are the symptoms, causes, and treatment of Impacted Wisdom Teeth? (version 1)",
+    "symptoms": "Common signs of impacted wisdom teeth may include pain, inflammation, sensitivity, and visible changes in the mouth.",
+    "causes": "Impacted Wisdom Teeth can result from poor oral hygiene, bacterial infection, genetic predisposition, or underlying health issues.",
+    "treatment": "Treatment for impacted wisdom teeth may involve professional dental cleaning, medication, or corrective procedures depending on severity.",
+    "layman_explanation": "Impacted Wisdom Teeth is a dental issue that can cause discomfort or damage. Dentists can treat it with cleaning, medication, or other care."
+  },
+  {
+    "topic": "Bruxism",
+    "question": "What are the symptoms, causes, and treatment of Bruxism? (version 1)",
+    "symptoms": "Common signs of bruxism may include pain, inflammation, sensitivity, and visible changes in the mouth.",
+    "causes": "Bruxism can result from poor oral hygiene, bacterial infection, genetic predisposition, or underlying health issues.",
+    "treatment": "Treatment for bruxism may involve professional dental cleaning, medication, or corrective procedures depending on severity.",
+    "layman_explanation": "Bruxism is a dental issue that can cause discomfort or damage. Dentists can treat it with cleaning, medication, or other care."
+  },
+  {
+    "topic": "Cavities",
+    "question": "What are the symptoms, causes, and treatment of Cavities? (version 1)",
+    "symptoms": "Common signs of cavities may include pain, inflammation, sensitivity, and visible changes in the mouth.",
+    "causes": "Cavities can result from poor oral hygiene, bacterial infection, genetic predisposition, or underlying health issues.",
+    "treatment": "Treatment for cavities may involve professional dental cleaning, medication, or corrective procedures depending on severity.",
+    "layman_explanation": "Cavities is a dental issue that can cause discomfort or damage. Dentists can treat it with cleaning, medication, or other care."
+  },
+  {
+    "topic": "Enamel Hypoplasia",
+    "question": "What are the symptoms, causes, and treatment of Enamel Hypoplasia? (version 1)",
+    "symptoms": "Common signs of enamel hypoplasia may include pain, inflammation, sensitivity, and visible changes in the mouth.",
+    "causes": "Enamel Hypoplasia can result from poor oral hygiene, bacterial infection, genetic predisposition, or underlying health issues.",
+    "treatment": "Treatment for enamel hypoplasia may involve professional dental cleaning, medication, or corrective procedures depending on severity.",
+    "layman_explanation": "Enamel Hypoplasia is a dental issue that can cause discomfort or damage. Dentists can treat it with cleaning, medication, or other care."
+  },
+  {
+    "topic": "Temporomandibular Joint Disorder (TMJ)",
+    "question": "What are the symptoms, causes, and treatment of Temporomandibular Joint Disorder (TMJ)? (version 1)",
+    "symptoms": "Common signs of temporomandibular joint disorder (tmj) may include pain, inflammation, sensitivity, and visible changes in the mouth.",
+    "causes": "Temporomandibular Joint Disorder (TMJ) can result from poor oral hygiene, bacterial infection, genetic predisposition, or underlying health issues.",
+    "treatment": "Treatment for temporomandibular joint disorder (tmj) may involve professional dental cleaning, medication, or corrective procedures depending on severity.",
+    "layman_explanation": "Temporomandibular Joint Disorder (TMJ) is a dental issue that can cause discomfort or damage. Dentists can treat it with cleaning, medication, or other care."
+  },
+  {
+    "topic": "Tooth Discoloration",
+    "question": "What are the symptoms, causes, and treatment of Tooth Discoloration? (version 1)",
+    "symptoms": "Common signs of tooth discoloration may include pain, inflammation, sensitivity, and visible changes in the mouth.",
+    "causes": "Tooth Discoloration can result from poor oral hygiene, bacterial infection, genetic predisposition, or underlying health issues.",
+    "treatment": "Treatment for tooth discoloration may involve professional dental cleaning, medication, or corrective procedures depending on severity.",
+    "layman_explanation": "Tooth Discoloration is a dental issue that can cause discomfort or damage. Dentists can treat it with cleaning, medication, or other care."
+  },
+  {
+    "topic": "Dental Fluorosis",
+    "question": "What are the symptoms, causes, and treatment of Dental Fluorosis? (version 1)",
+    "symptoms": "Common signs of dental fluorosis may include pain, inflammation, sensitivity, and visible changes in the mouth.",
+    "causes": "Dental Fluorosis can result from poor oral hygiene, bacterial infection, genetic predisposition, or underlying health issues.",
+    "treatment": "Treatment for dental fluorosis may involve professional dental cleaning, medication, or corrective procedures depending on severity.",
+    "layman_explanation": "Dental Fluorosis is a dental issue that can cause discomfort or damage. Dentists can treat it with cleaning, medication, or other care."
+  },
+  {
+    "topic": "Malocclusion",
+    "question": "What are the symptoms, causes, and treatment of Malocclusion? (version 1)",
+    "symptoms": "Common signs of malocclusion may include pain, inflammation, sensitivity, and visible changes in the mouth.",
+    "causes": "Malocclusion can result from poor oral hygiene, bacterial infection, genetic predisposition, or underlying health issues.",
+    "treatment": "Treatment for malocclusion may involve professional dental cleaning, medication, or corrective procedures depending on severity.",
+    "layman_explanation": "Malocclusion is a dental issue that can cause discomfort or damage. Dentists can treat it with cleaning, medication, or other care."
+  },
+  {
+    "topic": "Dental Trauma",
+    "question": "What are the symptoms, causes, and treatment of Dental Trauma? (version 1)",
+    "symptoms": "Common signs of dental trauma may include pain, inflammation, sensitivity, and visible changes in the mouth.",
+    "causes": "Dental Trauma can result from poor oral hygiene, bacterial infection, genetic predisposition, or underlying health issues.",
+    "treatment": "Treatment for dental trauma may involve professional dental cleaning, medication, or corrective procedures depending on severity.",
+    "layman_explanation": "Dental Trauma is a dental issue that can cause discomfort or damage. Dentists can treat it with cleaning, medication, or other care."
+  },
+  {
+    "topic": "Crowded Teeth",
+    "question": "What are the symptoms, causes, and treatment of Crowded Teeth? (version 1)",
+    "symptoms": "Common signs of crowded teeth may include pain, inflammation, sensitivity, and visible changes in the mouth.",
+    "causes": "Crowded Teeth can result from poor oral hygiene, bacterial infection, genetic predisposition, or underlying health issues.",
+    "treatment": "Treatment for crowded teeth may involve professional dental cleaning, medication, or corrective procedures depending on severity.",
+    "layman_explanation": "Crowded Teeth is a dental issue that can cause discomfort or damage. Dentists can treat it with cleaning, medication, or other care."
+  },
+  {
+    "topic": "Cracked Tooth Syndrome",
+    "question": "What are the symptoms, causes, and treatment of Cracked Tooth Syndrome? (version 1)",
+    "symptoms": "Common signs of cracked tooth syndrome may include pain, inflammation, sensitivity, and visible changes in the mouth.",
+    "causes": "Cracked Tooth Syndrome can result from poor oral hygiene, bacterial infection, genetic predisposition, or underlying health issues.",
+    "treatment": "Treatment for cracked tooth syndrome may involve professional dental cleaning, medication, or corrective procedures depending on severity.",
+    "layman_explanation": "Cracked Tooth Syndrome is a dental issue that can cause discomfort or damage. Dentists can treat it with cleaning, medication, or other care."
+  },
+  {
+    "topic": "Root Canal Infection",
+    "question": "What are the symptoms, causes, and treatment of Root Canal Infection? (version 1)",
+    "symptoms": "Common signs of root canal infection may include pain, inflammation, sensitivity, and visible changes in the mouth.",
+    "causes": "Root Canal Infection can result from poor oral hygiene, bacterial infection, genetic predisposition, or underlying health issues.",
+    "treatment": "Treatment for root canal infection may involve professional dental cleaning, medication, or corrective procedures depending on severity.",
+    "layman_explanation": "Root Canal Infection is a dental issue that can cause discomfort or damage. Dentists can treat it with cleaning, medication, or other care."
+  },
+  {
+    "topic": "Pericoronitis",
+    "question": "What are the symptoms, causes, and treatment of Pericoronitis? (version 1)",
+    "symptoms": "Common signs of pericoronitis may include pain, inflammation, sensitivity, and visible changes in the mouth.",
+    "causes": "Pericoronitis can result from poor oral hygiene, bacterial infection, genetic predisposition, or underlying health issues.",
+    "treatment": "Treatment for pericoronitis may involve professional dental cleaning, medication, or corrective procedures depending on severity.",
+    "layman_explanation": "Pericoronitis is a dental issue that can cause discomfort or damage. Dentists can treat it with cleaning, medication, or other care."
+  },
+  {
+    "topic": "Pulpitis",
+    "question": "What are the symptoms, causes, and treatment of Pulpitis? (version 1)",
+    "symptoms": "Common signs of pulpitis may include pain, inflammation, sensitivity, and visible changes in the mouth.",
+    "causes": "Pulpitis can result from poor oral hygiene, bacterial infection, genetic predisposition, or underlying health issues.",
+    "treatment": "Treatment for pulpitis may involve professional dental cleaning, medication, or corrective procedures depending on severity.",
+    "layman_explanation": "Pulpitis is a dental issue that can cause discomfort or damage. Dentists can treat it with cleaning, medication, or other care."
+  },
+  {
+    "topic": "Tooth Avulsion",
+    "question": "What are the symptoms, causes, and treatment of Tooth Avulsion? (version 1)",
+    "symptoms": "Common signs of tooth avulsion may include pain, inflammation, sensitivity, and visible changes in the mouth.",
+    "causes": "Tooth Avulsion can result from poor oral hygiene, bacterial infection, genetic predisposition, or underlying health issues.",
+    "treatment": "Treatment for tooth avulsion may involve professional dental cleaning, medication, or corrective procedures depending on severity.",
+    "layman_explanation": "Tooth Avulsion is a dental issue that can cause discomfort or damage. Dentists can treat it with cleaning, medication, or other care."
+  },
+  {
+    "topic": "Dental Cysts",
+    "question": "What are the symptoms, causes, and treatment of Dental Cysts? (version 1)",
+    "symptoms": "Common signs of dental cysts may include pain, inflammation, sensitivity, and visible changes in the mouth.",
+    "causes": "Dental Cysts can result from poor oral hygiene, bacterial infection, genetic predisposition, or underlying health issues.",
+    "treatment": "Treatment for dental cysts may involve professional dental cleaning, medication, or corrective procedures depending on severity.",
+    "layman_explanation": "Dental Cysts is a dental issue that can cause discomfort or damage. Dentists can treat it with cleaning, medication, or other care."
+  },
+  {
+    "topic": "Hyperdontia",
+    "question": "What are the symptoms, causes, and treatment of Hyperdontia? (version 1)",
+    "symptoms": "Common signs of hyperdontia may include pain, inflammation, sensitivity, and visible changes in the mouth.",
+    "causes": "Hyperdontia can result from poor oral hygiene, bacterial infection, genetic predisposition, or underlying health issues.",
+    "treatment": "Treatment for hyperdontia may involve professional dental cleaning, medication, or corrective procedures depending on severity.",
+    "layman_explanation": "Hyperdontia is a dental issue that can cause discomfort or damage. Dentists can treat it with cleaning, medication, or other care."
+  },
+  {
+    "topic": "Tooth Resorption",
+    "question": "What are the symptoms, causes, and treatment of Tooth Resorption? (version 1)",
+    "symptoms": "Common signs of tooth resorption may include pain, inflammation, sensitivity, and visible changes in the mouth.",
+    "causes": "Tooth Resorption can result from poor oral hygiene, bacterial infection, genetic predisposition, or underlying health issues.",
+    "treatment": "Treatment for tooth resorption may involve professional dental cleaning, medication, or corrective procedures depending on severity.",
+    "layman_explanation": "Tooth Resorption is a dental issue that can cause discomfort or damage. Dentists can treat it with cleaning, medication, or other care."
+  },
+  {
+    "topic": "Gum Recession",
+    "question": "What are the symptoms, causes, and treatment of Gum Recession? (version 1)",
+    "symptoms": "Common signs of gum recession may include pain, inflammation, sensitivity, and visible changes in the mouth.",
+    "causes": "Gum Recession can result from poor oral hygiene, bacterial infection, genetic predisposition, or underlying health issues.",
+    "treatment": "Treatment for gum recession may involve professional dental cleaning, medication, or corrective procedures depending on severity.",
+    "layman_explanation": "Gum Recession is a dental issue that can cause discomfort or damage. Dentists can treat it with cleaning, medication, or other care."
+  },
+  {
+    "topic": "Teething in Children",
+    "question": "What are the symptoms, causes, and treatment of Teething in Children? (version 1)",
+    "symptoms": "Common signs of teething in children may include pain, inflammation, sensitivity, and visible changes in the mouth.",
+    "causes": "Teething in Children can result from poor oral hygiene, bacterial infection, genetic predisposition, or underlying health issues.",
+    "treatment": "Treatment for teething in children may involve professional dental cleaning, medication, or corrective procedures depending on severity.",
+    "layman_explanation": "Teething in Children is a dental issue that can cause discomfort or damage. Dentists can treat it with cleaning, medication, or other care."
+  },
+  {
+    "topic": "Bottle Tooth Decay",
+    "question": "What are the symptoms, causes, and treatment of Bottle Tooth Decay? (version 1)",
+    "symptoms": "Common signs of bottle tooth decay may include pain, inflammation, sensitivity, and visible changes in the mouth.",
+    "causes": "Bottle Tooth Decay can result from poor oral hygiene, bacterial infection, genetic predisposition, or underlying health issues.",
+    "treatment": "Treatment for bottle tooth decay may involve professional dental cleaning, medication, or corrective procedures depending on severity.",
+    "layman_explanation": "Bottle Tooth Decay is a dental issue that can cause discomfort or damage. Dentists can treat it with cleaning, medication, or other care."
+  },
+  {
+    "topic": "Tongue Tie",
+    "question": "What are the symptoms, causes, and treatment of Tongue Tie? (version 1)",
+    "symptoms": "Common signs of tongue tie may include pain, inflammation, sensitivity, and visible changes in the mouth.",
+    "causes": "Tongue Tie can result from poor oral hygiene, bacterial infection, genetic predisposition, or underlying health issues.",
+    "treatment": "Treatment for tongue tie may involve professional dental cleaning, medication, or corrective procedures depending on severity.",
+    "layman_explanation": "Tongue Tie is a dental issue that can cause discomfort or damage. Dentists can treat it with cleaning, medication, or other care."
+  },
+  {
+    "topic": "Orthodontic Problems",
+    "question": "What are the symptoms, causes, and treatment of Orthodontic Problems? (version 1)",
+    "symptoms": "Common signs of orthodontic problems may include pain, inflammation, sensitivity, and visible changes in the mouth.",
+    "causes": "Orthodontic Problems can result from poor oral hygiene, bacterial infection, genetic predisposition, or underlying health issues.",
+    "treatment": "Treatment for orthodontic problems may involve professional dental cleaning, medication, or corrective procedures depending on severity.",
+    "layman_explanation": "Orthodontic Problems is a dental issue that can cause discomfort or damage. Dentists can treat it with cleaning, medication, or other care."
+  },
+  {
+    "topic": "Mouth Ulcers",
+    "question": "What are the symptoms, causes, and treatment of Mouth Ulcers? (version 1)",
+    "symptoms": "Common signs of mouth ulcers may include pain, inflammation, sensitivity, and visible changes in the mouth.",
+    "causes": "Mouth Ulcers can result from poor oral hygiene, bacterial infection, genetic predisposition, or underlying health issues.",
+    "treatment": "Treatment for mouth ulcers may involve professional dental cleaning, medication, or corrective procedures depending on severity.",
+    "layman_explanation": "Mouth Ulcers is a dental issue that can cause discomfort or damage. Dentists can treat it with cleaning, medication, or other care."
+  },
+  {
+    "topic": "Lichen Planus",
+    "question": "What are the symptoms, causes, and treatment of Lichen Planus? (version 1)",
+    "symptoms": "Common signs of lichen planus may include pain, inflammation, sensitivity, and visible changes in the mouth.",
+    "causes": "Lichen Planus can result from poor oral hygiene, bacterial infection, genetic predisposition, or underlying health issues.",
+    "treatment": "Treatment for lichen planus may involve professional dental cleaning, medication, or corrective procedures depending on severity.",
+    "layman_explanation": "Lichen Planus is a dental issue that can cause discomfort or damage. Dentists can treat it with cleaning, medication, or other care."
+  },
+  {
+    "topic": "Canker Sores",
+    "question": "What are the symptoms, causes, and treatment of Canker Sores? (version 1)",
+    "symptoms": "Common signs of canker sores may include pain, inflammation, sensitivity, and visible changes in the mouth.",
+    "causes": "Canker Sores can result from poor oral hygiene, bacterial infection, genetic predisposition, or underlying health issues.",
+    "treatment": "Treatment for canker sores may involve professional dental cleaning, medication, or corrective procedures depending on severity.",
+    "layman_explanation": "Canker Sores is a dental issue that can cause discomfort or damage. Dentists can treat it with cleaning, medication, or other care."
+  },
+  {
+    "topic": "Cold Sores",
+    "question": "What are the symptoms, causes, and treatment of Cold Sores? (version 1)",
+    "symptoms": "Common signs of cold sores may include pain, inflammation, sensitivity, and visible changes in the mouth.",
+    "causes": "Cold Sores can result from poor oral hygiene, bacterial infection, genetic predisposition, or underlying health issues.",
+    "treatment": "Treatment for cold sores may involve professional dental cleaning, medication, or corrective procedures depending on severity.",
+    "layman_explanation": "Cold Sores is a dental issue that can cause discomfort or damage. Dentists can treat it with cleaning, medication, or other care."
+  },
+  {
+    "topic": "Herpetic Gingivostomatitis",
+    "question": "What are the symptoms, causes, and treatment of Herpetic Gingivostomatitis? (version 1)",
+    "symptoms": "Common signs of herpetic gingivostomatitis may include pain, inflammation, sensitivity, and visible changes in the mouth.",
+    "causes": "Herpetic Gingivostomatitis can result from poor oral hygiene, bacterial infection, genetic predisposition, or underlying health issues.",
+    "treatment": "Treatment for herpetic gingivostomatitis may involve professional dental cleaning, medication, or corrective procedures depending on severity.",
+    "layman_explanation": "Herpetic Gingivostomatitis is a dental issue that can cause discomfort or damage. Dentists can treat it with cleaning, medication, or other care."
+  },
+  {
+    "topic": "Oral Thrush",
+    "question": "What are the symptoms, causes, and treatment of Oral Thrush? (version 1)",
+    "symptoms": "Common signs of oral thrush may include pain, inflammation, sensitivity, and visible changes in the mouth.",
+    "causes": "Oral Thrush can result from poor oral hygiene, bacterial infection, genetic predisposition, or underlying health issues.",
+    "treatment": "Treatment for oral thrush may involve professional dental cleaning, medication, or corrective procedures depending on severity.",
+    "layman_explanation": "Oral Thrush is a dental issue that can cause discomfort or damage. Dentists can treat it with cleaning, medication, or other care."
+  },
+  {
+    "topic": "Burning Mouth Syndrome",
+    "question": "What are the symptoms, causes, and treatment of Burning Mouth Syndrome? (version 1)",
+    "symptoms": "Common signs of burning mouth syndrome may include pain, inflammation, sensitivity, and visible changes in the mouth.",
+    "causes": "Burning Mouth Syndrome can result from poor oral hygiene, bacterial infection, genetic predisposition, or underlying health issues.",
+    "treatment": "Treatment for burning mouth syndrome may involve professional dental cleaning, medication, or corrective procedures depending on severity.",
+    "layman_explanation": "Burning Mouth Syndrome is a dental issue that can cause discomfort or damage. Dentists can treat it with cleaning, medication, or other care."
+  },
+  {
+    "topic": "Salivary Gland Infection",
+    "question": "What are the symptoms, causes, and treatment of Salivary Gland Infection? (version 1)",
+    "symptoms": "Common signs of salivary gland infection may include pain, inflammation, sensitivity, and visible changes in the mouth.",
+    "causes": "Salivary Gland Infection can result from poor oral hygiene, bacterial infection, genetic predisposition, or underlying health issues.",
+    "treatment": "Treatment for salivary gland infection may involve professional dental cleaning, medication, or corrective procedures depending on severity.",
+    "layman_explanation": "Salivary Gland Infection is a dental issue that can cause discomfort or damage. Dentists can treat it with cleaning, medication, or other care."
+  },
+  {
+    "topic": "Dental Anxiety",
+    "question": "What are the symptoms, causes, and treatment of Dental Anxiety? (version 1)",
+    "symptoms": "Common signs of dental anxiety may include pain, inflammation, sensitivity, and visible changes in the mouth.",
+    "causes": "Dental Anxiety can result from poor oral hygiene, bacterial infection, genetic predisposition, or underlying health issues.",
+    "treatment": "Treatment for dental anxiety may involve professional dental cleaning, medication, or corrective procedures depending on severity.",
+    "layman_explanation": "Dental Anxiety is a dental issue that can cause discomfort or damage. Dentists can treat it with cleaning, medication, or other care."
+  },
+  {
+    "topic": "Mouth Breathing",
+    "question": "What are the symptoms, causes, and treatment of Mouth Breathing? (version 1)",
+    "symptoms": "Common signs of mouth breathing may include pain, inflammation, sensitivity, and visible changes in the mouth.",
+    "causes": "Mouth Breathing can result from poor oral hygiene, bacterial infection, genetic predisposition, or underlying health issues.",
+    "treatment": "Treatment for mouth breathing may involve professional dental cleaning, medication, or corrective procedures depending on severity.",
+    "layman_explanation": "Mouth Breathing is a dental issue that can cause discomfort or damage. Dentists can treat it with cleaning, medication, or other care."
+  },
+  {
+    "topic": "Tonsil Stones",
+    "question": "What are the symptoms, causes, and treatment of Tonsil Stones? (version 1)",
+    "symptoms": "Common signs of tonsil stones may include pain, inflammation, sensitivity, and visible changes in the mouth.",
+    "causes": "Tonsil Stones can result from poor oral hygiene, bacterial infection, genetic predisposition, or underlying health issues.",
+    "treatment": "Treatment for tonsil stones may involve professional dental cleaning, medication, or corrective procedures depending on severity.",
+    "layman_explanation": "Tonsil Stones is a dental issue that can cause discomfort or damage. Dentists can treat it with cleaning, medication, or other care."
+  },
+  {
+    "topic": "Wisdom Teeth Pain",
+    "question": "What are the symptoms, causes, and treatment of Wisdom Teeth Pain? (version 1)",
+    "symptoms": "Common signs of wisdom teeth pain may include pain, inflammation, sensitivity, and visible changes in the mouth.",
+    "causes": "Wisdom Teeth Pain can result from poor oral hygiene, bacterial infection, genetic predisposition, or underlying health issues.",
+    "treatment": "Treatment for wisdom teeth pain may involve professional dental cleaning, medication, or corrective procedures depending on severity.",
+    "layman_explanation": "Wisdom Teeth Pain is a dental issue that can cause discomfort or damage. Dentists can treat it with cleaning, medication, or other care."
+  },
+  {
+    "topic": "Gum Hyperplasia",
+    "question": "What are the symptoms, causes, and treatment of Gum Hyperplasia? (version 1)",
+    "symptoms": "Common signs of gum hyperplasia may include pain, inflammation, sensitivity, and visible changes in the mouth.",
+    "causes": "Gum Hyperplasia can result from poor oral hygiene, bacterial infection, genetic predisposition, or underlying health issues.",
+    "treatment": "Treatment for gum hyperplasia may involve professional dental cleaning, medication, or corrective procedures depending on severity.",
+    "layman_explanation": "Gum Hyperplasia is a dental issue that can cause discomfort or damage. Dentists can treat it with cleaning, medication, or other care."
+  },
+  {
+    "topic": "Dental Calculus",
+    "question": "What are the symptoms, causes, and treatment of Dental Calculus? (version 1)",
+    "symptoms": "Common signs of dental calculus may include pain, inflammation, sensitivity, and visible changes in the mouth.",
+    "causes": "Dental Calculus can result from poor oral hygiene, bacterial infection, genetic predisposition, or underlying health issues.",
+    "treatment": "Treatment for dental calculus may involve professional dental cleaning, medication, or corrective procedures depending on severity.",
+    "layman_explanation": "Dental Calculus is a dental issue that can cause discomfort or damage. Dentists can treat it with cleaning, medication, or other care."
+  },
+  {
+    "topic": "Tooth Grinding",
+    "question": "What are the symptoms, causes, and treatment of Tooth Grinding? (version 1)",
+    "symptoms": "Common signs of tooth grinding may include pain, inflammation, sensitivity, and visible changes in the mouth.",
+    "causes": "Tooth Grinding can result from poor oral hygiene, bacterial infection, genetic predisposition, or underlying health issues.",
+    "treatment": "Treatment for tooth grinding may involve professional dental cleaning, medication, or corrective procedures depending on severity.",
+    "layman_explanation": "Tooth Grinding is a dental issue that can cause discomfort or damage. Dentists can treat it with cleaning, medication, or other care."
+  },
+  {
+    "topic": "Dental Caries",
+    "question": "What are the symptoms, causes, and treatment of Dental Caries? (version 1)",
+    "symptoms": "Common signs of dental caries may include pain, inflammation, sensitivity, and visible changes in the mouth.",
+    "causes": "Dental Caries can result from poor oral hygiene, bacterial infection, genetic predisposition, or underlying health issues.",
+    "treatment": "Treatment for dental caries may involve professional dental cleaning, medication, or corrective procedures depending on severity.",
+    "layman_explanation": "Dental Caries is a dental issue that can cause discomfort or damage. Dentists can treat it with cleaning, medication, or other care."
+  },
+  {
+    "topic": "Jaw Pain",
+    "question": "What are the symptoms, causes, and treatment of Jaw Pain? (version 1)",
+    "symptoms": "Common signs of jaw pain may include pain, inflammation, sensitivity, and visible changes in the mouth.",
+    "causes": "Jaw Pain can result from poor oral hygiene, bacterial infection, genetic predisposition, or underlying health issues.",
+    "treatment": "Treatment for jaw pain may involve professional dental cleaning, medication, or corrective procedures depending on severity.",
+    "layman_explanation": "Jaw Pain is a dental issue that can cause discomfort or damage. Dentists can treat it with cleaning, medication, or other care."
+  },
+  {
+    "topic": "Broken Tooth",
+    "question": "What are the symptoms, causes, and treatment of Broken Tooth? (version 1)",
+    "symptoms": "Common signs of broken tooth may include pain, inflammation, sensitivity, and visible changes in the mouth.",
+    "causes": "Broken Tooth can result from poor oral hygiene, bacterial infection, genetic predisposition, or underlying health issues.",
+    "treatment": "Treatment for broken tooth may involve professional dental cleaning, medication, or corrective procedures depending on severity.",
+    "layman_explanation": "Broken Tooth is a dental issue that can cause discomfort or damage. Dentists can treat it with cleaning, medication, or other care."
+  },
+  {
+    "topic": "Retained Baby Teeth",
+    "question": "What are the symptoms, causes, and treatment of Retained Baby Teeth? (version 1)",
+    "symptoms": "Common signs of retained baby teeth may include pain, inflammation, sensitivity, and visible changes in the mouth.",
+    "causes": "Retained Baby Teeth can result from poor oral hygiene, bacterial infection, genetic predisposition, or underlying health issues.",
+    "treatment": "Treatment for retained baby teeth may involve professional dental cleaning, medication, or corrective procedures depending on severity.",
+    "layman_explanation": "Retained Baby Teeth is a dental issue that can cause discomfort or damage. Dentists can treat it with cleaning, medication, or other care."
+  },
+  {
+    "topic": "Overbite",
+    "question": "What are the symptoms, causes, and treatment of Overbite? (version 1)",
+    "symptoms": "Common signs of overbite may include pain, inflammation, sensitivity, and visible changes in the mouth.",
+    "causes": "Overbite can result from poor oral hygiene, bacterial infection, genetic predisposition, or underlying health issues.",
+    "treatment": "Treatment for overbite may involve professional dental cleaning, medication, or corrective procedures depending on severity.",
+    "layman_explanation": "Overbite is a dental issue that can cause discomfort or damage. Dentists can treat it with cleaning, medication, or other care."
+  },
+  {
+    "topic": "Underbite",
+    "question": "What are the symptoms, causes, and treatment of Underbite? (version 1)",
+    "symptoms": "Common signs of underbite may include pain, inflammation, sensitivity, and visible changes in the mouth.",
+    "causes": "Underbite can result from poor oral hygiene, bacterial infection, genetic predisposition, or underlying health issues.",
+    "treatment": "Treatment for underbite may involve professional dental cleaning, medication, or corrective procedures depending on severity.",
+    "layman_explanation": "Underbite is a dental issue that can cause discomfort or damage. Dentists can treat it with cleaning, medication, or other care."
+  },
+  {
+    "topic": "Crossbite",
+    "question": "What are the symptoms, causes, and treatment of Crossbite? (version 1)",
+    "symptoms": "Common signs of crossbite may include pain, inflammation, sensitivity, and visible changes in the mouth.",
+    "causes": "Crossbite can result from poor oral hygiene, bacterial infection, genetic predisposition, or underlying health issues.",
+    "treatment": "Treatment for crossbite may involve professional dental cleaning, medication, or corrective procedures depending on severity.",
+    "layman_explanation": "Crossbite is a dental issue that can cause discomfort or damage. Dentists can treat it with cleaning, medication, or other care."
+  },
+  {
+    "topic": "Open Bite",
+    "question": "What are the symptoms, causes, and treatment of Open Bite? (version 1)",
+    "symptoms": "Common signs of open bite may include pain, inflammation, sensitivity, and visible changes in the mouth.",
+    "causes": "Open Bite can result from poor oral hygiene, bacterial infection, genetic predisposition, or underlying health issues.",
+    "treatment": "Treatment for open bite may involve professional dental cleaning, medication, or corrective procedures depending on severity.",
+    "layman_explanation": "Open Bite is a dental issue that can cause discomfort or damage. Dentists can treat it with cleaning, medication, or other care."
+  },
+  {
+    "topic": "Oral Piercing Complications",
+    "question": "What are the symptoms, causes, and treatment of Oral Piercing Complications? (version 1)",
+    "symptoms": "Common signs of oral piercing complications may include pain, inflammation, sensitivity, and visible changes in the mouth.",
+    "causes": "Oral Piercing Complications can result from poor oral hygiene, bacterial infection, genetic predisposition, or underlying health issues.",
+    "treatment": "Treatment for oral piercing complications may involve professional dental cleaning, medication, or corrective procedures depending on severity.",
+    "layman_explanation": "Oral Piercing Complications is a dental issue that can cause discomfort or damage. Dentists can treat it with cleaning, medication, or other care."
+  },
+  {
+    "topic": "Tongue Thrusting",
+    "question": "What are the symptoms, causes, and treatment of Tongue Thrusting? (version 1)",
+    "symptoms": "Common signs of tongue thrusting may include pain, inflammation, sensitivity, and visible changes in the mouth.",
+    "causes": "Tongue Thrusting can result from poor oral hygiene, bacterial infection, genetic predisposition, or underlying health issues.",
+    "treatment": "Treatment for tongue thrusting may involve professional dental cleaning, medication, or corrective procedures depending on severity.",
+    "layman_explanation": "Tongue Thrusting is a dental issue that can cause discomfort or damage. Dentists can treat it with cleaning, medication, or other care."
+  },
+  {
+    "topic": "Plaque-Induced Gingivitis",
+    "question": "What are the symptoms, causes, and treatment of Plaque-Induced Gingivitis? (version 1)",
+    "symptoms": "Common signs of plaque-induced gingivitis may include pain, inflammation, sensitivity, and visible changes in the mouth.",
+    "causes": "Plaque-Induced Gingivitis can result from poor oral hygiene, bacterial infection, genetic predisposition, or underlying health issues.",
+    "treatment": "Treatment for plaque-induced gingivitis may involve professional dental cleaning, medication, or corrective procedures depending on severity.",
+    "layman_explanation": "Plaque-Induced Gingivitis is a dental issue that can cause discomfort or damage. Dentists can treat it with cleaning, medication, or other care."
+  },
+  {
+    "topic": "Medication-Induced Dry Mouth",
+    "question": "What are the symptoms, causes, and treatment of Medication-Induced Dry Mouth? (version 1)",
+    "symptoms": "Common signs of medication-induced dry mouth may include pain, inflammation, sensitivity, and visible changes in the mouth.",
+    "causes": "Medication-Induced Dry Mouth can result from poor oral hygiene, bacterial infection, genetic predisposition, or underlying health issues.",
+    "treatment": "Treatment for medication-induced dry mouth may involve professional dental cleaning, medication, or corrective procedures depending on severity.",
+    "layman_explanation": "Medication-Induced Dry Mouth is a dental issue that can cause discomfort or damage. Dentists can treat it with cleaning, medication, or other care."
+  },
+  {
+    "topic": "Tooth Sensitivity to Cold",
+    "question": "What are the symptoms, causes, and treatment of Tooth Sensitivity to Cold? (version 1)",
+    "symptoms": "Common signs of tooth sensitivity to cold may include pain, inflammation, sensitivity, and visible changes in the mouth.",
+    "causes": "Tooth Sensitivity to Cold can result from poor oral hygiene, bacterial infection, genetic predisposition, or underlying health issues.",
+    "treatment": "Treatment for tooth sensitivity to cold may involve professional dental cleaning, medication, or corrective procedures depending on severity.",
+    "layman_explanation": "Tooth Sensitivity to Cold is a dental issue that can cause discomfort or damage. Dentists can treat it with cleaning, medication, or other care."
+  },
+  {
+    "topic": "Tooth Sensitivity to Sweets",
+    "question": "What are the symptoms, causes, and treatment of Tooth Sensitivity to Sweets? (version 1)",
+    "symptoms": "Common signs of tooth sensitivity to sweets may include pain, inflammation, sensitivity, and visible changes in the mouth.",
+    "causes": "Tooth Sensitivity to Sweets can result from poor oral hygiene, bacterial infection, genetic predisposition, or underlying health issues.",
+    "treatment": "Treatment for tooth sensitivity to sweets may involve professional dental cleaning, medication, or corrective procedures depending on severity.",
+    "layman_explanation": "Tooth Sensitivity to Sweets is a dental issue that can cause discomfort or damage. Dentists can treat it with cleaning, medication, or other care."
+  },
+  {
+    "topic": "Orthodontic Appliance Discomfort",
+    "question": "What are the symptoms, causes, and treatment of Orthodontic Appliance Discomfort? (version 1)",
+    "symptoms": "Common signs of orthodontic appliance discomfort may include pain, inflammation, sensitivity, and visible changes in the mouth.",
+    "causes": "Orthodontic Appliance Discomfort can result from poor oral hygiene, bacterial infection, genetic predisposition, or underlying health issues.",
+    "treatment": "Treatment for orthodontic appliance discomfort may involve professional dental cleaning, medication, or corrective procedures depending on severity.",
+    "layman_explanation": "Orthodontic Appliance Discomfort is a dental issue that can cause discomfort or damage. Dentists can treat it with cleaning, medication, or other care."
+  },
+  {
+    "topic": "Bad Breath from Tonsils",
+    "question": "What are the symptoms, causes, and treatment of Bad Breath from Tonsils? (version 1)",
+    "symptoms": "Common signs of bad breath from tonsils may include pain, inflammation, sensitivity, and visible changes in the mouth.",
+    "causes": "Bad Breath from Tonsils can result from poor oral hygiene, bacterial infection, genetic predisposition, or underlying health issues.",
+    "treatment": "Treatment for bad breath from tonsils may involve professional dental cleaning, medication, or corrective procedures depending on severity.",
+    "layman_explanation": "Bad Breath from Tonsils is a dental issue that can cause discomfort or damage. Dentists can treat it with cleaning, medication, or other care."
+  },
+  {
+    "topic": "Smoking-Related Gum Disease",
+    "question": "What are the symptoms, causes, and treatment of Smoking-Related Gum Disease? (version 1)",
+    "symptoms": "Common signs of smoking-related gum disease may include pain, inflammation, sensitivity, and visible changes in the mouth.",
+    "causes": "Smoking-Related Gum Disease can result from poor oral hygiene, bacterial infection, genetic predisposition, or underlying health issues.",
+    "treatment": "Treatment for smoking-related gum disease may involve professional dental cleaning, medication, or corrective procedures depending on severity.",
+    "layman_explanation": "Smoking-Related Gum Disease is a dental issue that can cause discomfort or damage. Dentists can treat it with cleaning, medication, or other care."
+  },
+  {
+    "topic": "Diabetes and Gum Disease",
+    "question": "What are the symptoms, causes, and treatment of Diabetes and Gum Disease? (version 1)",
+    "symptoms": "Common signs of diabetes and gum disease may include pain, inflammation, sensitivity, and visible changes in the mouth.",
+    "causes": "Diabetes and Gum Disease can result from poor oral hygiene, bacterial infection, genetic predisposition, or underlying health issues.",
+    "treatment": "Treatment for diabetes and gum disease may involve professional dental cleaning, medication, or corrective procedures depending on severity.",
+    "layman_explanation": "Diabetes and Gum Disease is a dental issue that can cause discomfort or damage. Dentists can treat it with cleaning, medication, or other care."
+  },
+  {
+    "topic": "Pregnancy Gingivitis",
+    "question": "What are the symptoms, causes, and treatment of Pregnancy Gingivitis? (version 1)",
+    "symptoms": "Common signs of pregnancy gingivitis may include pain, inflammation, sensitivity, and visible changes in the mouth.",
+    "causes": "Pregnancy Gingivitis can result from poor oral hygiene, bacterial infection, genetic predisposition, or underlying health issues.",
+    "treatment": "Treatment for pregnancy gingivitis may involve professional dental cleaning, medication, or corrective procedures depending on severity.",
+    "layman_explanation": "Pregnancy Gingivitis is a dental issue that can cause discomfort or damage. Dentists can treat it with cleaning, medication, or other care."
+  },
+  {
+    "topic": "Menopause and Oral Health",
+    "question": "What are the symptoms, causes, and treatment of Menopause and Oral Health? (version 1)",
+    "symptoms": "Common signs of menopause and oral health may include pain, inflammation, sensitivity, and visible changes in the mouth.",
+    "causes": "Menopause and Oral Health can result from poor oral hygiene, bacterial infection, genetic predisposition, or underlying health issues.",
+    "treatment": "Treatment for menopause and oral health may involve professional dental cleaning, medication, or corrective procedures depending on severity.",
+    "layman_explanation": "Menopause and Oral Health is a dental issue that can cause discomfort or damage. Dentists can treat it with cleaning, medication, or other care."
+  },
+  {
+    "topic": "HIV-Related Oral Conditions",
+    "question": "What are the symptoms, causes, and treatment of HIV-Related Oral Conditions? (version 1)",
+    "symptoms": "Common signs of hiv-related oral conditions may include pain, inflammation, sensitivity, and visible changes in the mouth.",
+    "causes": "HIV-Related Oral Conditions can result from poor oral hygiene, bacterial infection, genetic predisposition, or underlying health issues.",
+    "treatment": "Treatment for hiv-related oral conditions may involve professional dental cleaning, medication, or corrective procedures depending on severity.",
+    "layman_explanation": "HIV-Related Oral Conditions is a dental issue that can cause discomfort or damage. Dentists can treat it with cleaning, medication, or other care."
+  },
+  {
+    "topic": "Radiation-Induced Tooth Decay",
+    "question": "What are the symptoms, causes, and treatment of Radiation-Induced Tooth Decay? (version 1)",
+    "symptoms": "Common signs of radiation-induced tooth decay may include pain, inflammation, sensitivity, and visible changes in the mouth.",
+    "causes": "Radiation-Induced Tooth Decay can result from poor oral hygiene, bacterial infection, genetic predisposition, or underlying health issues.",
+    "treatment": "Treatment for radiation-induced tooth decay may involve professional dental cleaning, medication, or corrective procedures depending on severity.",
+    "layman_explanation": "Radiation-Induced Tooth Decay is a dental issue that can cause discomfort or damage. Dentists can treat it with cleaning, medication, or other care."
+  },
+  {
+    "topic": "Chemotherapy and Mouth Sores",
+    "question": "What are the symptoms, causes, and treatment of Chemotherapy and Mouth Sores? (version 1)",
+    "symptoms": "Common signs of chemotherapy and mouth sores may include pain, inflammation, sensitivity, and visible changes in the mouth.",
+    "causes": "Chemotherapy and Mouth Sores can result from poor oral hygiene, bacterial infection, genetic predisposition, or underlying health issues.",
+    "treatment": "Treatment for chemotherapy and mouth sores may involve professional dental cleaning, medication, or corrective procedures depending on severity.",
+    "layman_explanation": "Chemotherapy and Mouth Sores is a dental issue that can cause discomfort or damage. Dentists can treat it with cleaning, medication, or other care."
+  },
+  {
+    "topic": "Dental Erosion from Bulimia",
+    "question": "What are the symptoms, causes, and treatment of Dental Erosion from Bulimia? (version 1)",
+    "symptoms": "Common signs of dental erosion from bulimia may include pain, inflammation, sensitivity, and visible changes in the mouth.",
+    "causes": "Dental Erosion from Bulimia can result from poor oral hygiene, bacterial infection, genetic predisposition, or underlying health issues.",
+    "treatment": "Treatment for dental erosion from bulimia may involve professional dental cleaning, medication, or corrective procedures depending on severity.",
+    "layman_explanation": "Dental Erosion from Bulimia is a dental issue that can cause discomfort or damage. Dentists can treat it with cleaning, medication, or other care."
+  },
+  {
+    "topic": "Tooth Wear from Acidic Foods",
+    "question": "What are the symptoms, causes, and treatment of Tooth Wear from Acidic Foods? (version 1)",
+    "symptoms": "Common signs of tooth wear from acidic foods may include pain, inflammation, sensitivity, and visible changes in the mouth.",
+    "causes": "Tooth Wear from Acidic Foods can result from poor oral hygiene, bacterial infection, genetic predisposition, or underlying health issues.",
+    "treatment": "Treatment for tooth wear from acidic foods may involve professional dental cleaning, medication, or corrective procedures depending on severity.",
+    "layman_explanation": "Tooth Wear from Acidic Foods is a dental issue that can cause discomfort or damage. Dentists can treat it with cleaning, medication, or other care."
+  },
+  {
+    "topic": "Stained Teeth from Coffee",
+    "question": "What are the symptoms, causes, and treatment of Stained Teeth from Coffee? (version 1)",
+    "symptoms": "Common signs of stained teeth from coffee may include pain, inflammation, sensitivity, and visible changes in the mouth.",
+    "causes": "Stained Teeth from Coffee can result from poor oral hygiene, bacterial infection, genetic predisposition, or underlying health issues.",
+    "treatment": "Treatment for stained teeth from coffee may involve professional dental cleaning, medication, or corrective procedures depending on severity.",
+    "layman_explanation": "Stained Teeth from Coffee is a dental issue that can cause discomfort or damage. Dentists can treat it with cleaning, medication, or other care."
+  },
+  {
+    "topic": "Tooth Fracture",
+    "question": "What are the symptoms, causes, and treatment of Tooth Fracture? (version 1)",
+    "symptoms": "Common signs of tooth fracture may include pain, inflammation, sensitivity, and visible changes in the mouth.",
+    "causes": "Tooth Fracture can result from poor oral hygiene, bacterial infection, genetic predisposition, or underlying health issues.",
+    "treatment": "Treatment for tooth fracture may involve professional dental cleaning, medication, or corrective procedures depending on severity.",
+    "layman_explanation": "Tooth Fracture is a dental issue that can cause discomfort or damage. Dentists can treat it with cleaning, medication, or other care."
+  },
+  {
+    "topic": "Wisdom Teeth Infection",
+    "question": "What are the symptoms, causes, and treatment of Wisdom Teeth Infection? (version 1)",
+    "symptoms": "Common signs of wisdom teeth infection may include pain, inflammation, sensitivity, and visible changes in the mouth.",
+    "causes": "Wisdom Teeth Infection can result from poor oral hygiene, bacterial infection, genetic predisposition, or underlying health issues.",
+    "treatment": "Treatment for wisdom teeth infection may involve professional dental cleaning, medication, or corrective procedures depending on severity.",
+    "layman_explanation": "Wisdom Teeth Infection is a dental issue that can cause discomfort or damage. Dentists can treat it with cleaning, medication, or other care."
+  },
+  {
+    "topic": "Oral Fibroma",
+    "question": "What are the symptoms, causes, and treatment of Oral Fibroma? (version 1)",
+    "symptoms": "Common signs of oral fibroma may include pain, inflammation, sensitivity, and visible changes in the mouth.",
+    "causes": "Oral Fibroma can result from poor oral hygiene, bacterial infection, genetic predisposition, or underlying health issues.",
+    "treatment": "Treatment for oral fibroma may involve professional dental cleaning, medication, or corrective procedures depending on severity.",
+    "layman_explanation": "Oral Fibroma is a dental issue that can cause discomfort or damage. Dentists can treat it with cleaning, medication, or other care."
+  },
+  {
+    "topic": "Dental Implant Complications",
+    "question": "What are the symptoms, causes, and treatment of Dental Implant Complications? (version 1)",
+    "symptoms": "Common signs of dental implant complications may include pain, inflammation, sensitivity, and visible changes in the mouth.",
+    "causes": "Dental Implant Complications can result from poor oral hygiene, bacterial infection, genetic predisposition, or underlying health issues.",
+    "treatment": "Treatment for dental implant complications may involve professional dental cleaning, medication, or corrective procedures depending on severity.",
+    "layman_explanation": "Dental Implant Complications is a dental issue that can cause discomfort or damage. Dentists can treat it with cleaning, medication, or other care."
+  },
+  {
+    "topic": "Jaw Cyst",
+    "question": "What are the symptoms, causes, and treatment of Jaw Cyst? (version 1)",
+    "symptoms": "Common signs of jaw cyst may include pain, inflammation, sensitivity, and visible changes in the mouth.",
+    "causes": "Jaw Cyst can result from poor oral hygiene, bacterial infection, genetic predisposition, or underlying health issues.",
+    "treatment": "Treatment for jaw cyst may involve professional dental cleaning, medication, or corrective procedures depending on severity.",
+    "layman_explanation": "Jaw Cyst is a dental issue that can cause discomfort or damage. Dentists can treat it with cleaning, medication, or other care."
+  },
+  {
+    "topic": "Gingival Recession",
+    "question": "What are the symptoms, causes, and treatment of Gingival Recession? (version 1)",
+    "symptoms": "Common signs of gingival recession may include pain, inflammation, sensitivity, and visible changes in the mouth.",
+    "causes": "Gingival Recession can result from poor oral hygiene, bacterial infection, genetic predisposition, or underlying health issues.",
+    "treatment": "Treatment for gingival recession may involve professional dental cleaning, medication, or corrective procedures depending on severity.",
+    "layman_explanation": "Gingival Recession is a dental issue that can cause discomfort or damage. Dentists can treat it with cleaning, medication, or other care."
+  },
+  {
+    "topic": "Palatal Tori",
+    "question": "What are the symptoms, causes, and treatment of Palatal Tori? (version 1)",
+    "symptoms": "Common signs of palatal tori may include pain, inflammation, sensitivity, and visible changes in the mouth.",
+    "causes": "Palatal Tori can result from poor oral hygiene, bacterial infection, genetic predisposition, or underlying health issues.",
+    "treatment": "Treatment for palatal tori may involve professional dental cleaning, medication, or corrective procedures depending on severity.",
+    "layman_explanation": "Palatal Tori is a dental issue that can cause discomfort or damage. Dentists can treat it with cleaning, medication, or other care."
+  },
+  {
+    "topic": "Dental Pain",
+    "question": "What are the symptoms, causes, and treatment of Dental Pain? (version 1)",
+    "symptoms": "Common signs of dental pain may include pain, inflammation, sensitivity, and visible changes in the mouth.",
+    "causes": "Dental Pain can result from poor oral hygiene, bacterial infection, genetic predisposition, or underlying health issues.",
+    "treatment": "Treatment for dental pain may involve professional dental cleaning, medication, or corrective procedures depending on severity.",
+    "layman_explanation": "Dental Pain is a dental issue that can cause discomfort or damage. Dentists can treat it with cleaning, medication, or other care."
+  },
+  {
+    "topic": "Tongue Cancer",
+    "question": "What are the symptoms, causes, and treatment of Tongue Cancer? (version 1)",
+    "symptoms": "Common signs of tongue cancer may include pain, inflammation, sensitivity, and visible changes in the mouth.",
+    "causes": "Tongue Cancer can result from poor oral hygiene, bacterial infection, genetic predisposition, or underlying health issues.",
+    "treatment": "Treatment for tongue cancer may involve professional dental cleaning, medication, or corrective procedures depending on severity.",
+    "layman_explanation": "Tongue Cancer is a dental issue that can cause discomfort or damage. Dentists can treat it with cleaning, medication, or other care."
+  },
+  {
+    "topic": "Oral Melanoma",
+    "question": "What are the symptoms, causes, and treatment of Oral Melanoma? (version 1)",
+    "symptoms": "Common signs of oral melanoma may include pain, inflammation, sensitivity, and visible changes in the mouth.",
+    "causes": "Oral Melanoma can result from poor oral hygiene, bacterial infection, genetic predisposition, or underlying health issues.",
+    "treatment": "Treatment for oral melanoma may involve professional dental cleaning, medication, or corrective procedures depending on severity.",
+    "layman_explanation": "Oral Melanoma is a dental issue that can cause discomfort or damage. Dentists can treat it with cleaning, medication, or other care."
+  },
+  {
+    "topic": "Ameloblastoma",
+    "question": "What are the symptoms, causes, and treatment of Ameloblastoma? (version 1)",
+    "symptoms": "Common signs of ameloblastoma may include pain, inflammation, sensitivity, and visible changes in the mouth.",
+    "causes": "Ameloblastoma can result from poor oral hygiene, bacterial infection, genetic predisposition, or underlying health issues.",
+    "treatment": "Treatment for ameloblastoma may involve professional dental cleaning, medication, or corrective procedures depending on severity.",
+    "layman_explanation": "Ameloblastoma is a dental issue that can cause discomfort or damage. Dentists can treat it with cleaning, medication, or other care."
+  },
+  {
+    "topic": "Periodontal Abscess",
+    "question": "What are the symptoms, causes, and treatment of Periodontal Abscess? (version 1)",
+    "symptoms": "Common signs of periodontal abscess may include pain, inflammation, sensitivity, and visible changes in the mouth.",
+    "causes": "Periodontal Abscess can result from poor oral hygiene, bacterial infection, genetic predisposition, or underlying health issues.",
+    "treatment": "Treatment for periodontal abscess may involve professional dental cleaning, medication, or corrective procedures depending on severity.",
+    "layman_explanation": "Periodontal Abscess is a dental issue that can cause discomfort or damage. Dentists can treat it with cleaning, medication, or other care."
+  },
+  {
+    "topic": "Tooth Mobility",
+    "question": "What are the symptoms, causes, and treatment of Tooth Mobility? (version 1)",
+    "symptoms": "Common signs of tooth mobility may include pain, inflammation, sensitivity, and visible changes in the mouth.",
+    "causes": "Tooth Mobility can result from poor oral hygiene, bacterial infection, genetic predisposition, or underlying health issues.",
+    "treatment": "Treatment for tooth mobility may involve professional dental cleaning, medication, or corrective procedures depending on severity.",
+    "layman_explanation": "Tooth Mobility is a dental issue that can cause discomfort or damage. Dentists can treat it with cleaning, medication, or other care."
+  },
+  {
+    "topic": "Bite Misalignment",
+    "question": "What are the symptoms, causes, and treatment of Bite Misalignment? (version 1)",
+    "symptoms": "Common signs of bite misalignment may include pain, inflammation, sensitivity, and visible changes in the mouth.",
+    "causes": "Bite Misalignment can result from poor oral hygiene, bacterial infection, genetic predisposition, or underlying health issues.",
+    "treatment": "Treatment for bite misalignment may involve professional dental cleaning, medication, or corrective procedures depending on severity.",
+    "layman_explanation": "Bite Misalignment is a dental issue that can cause discomfort or damage. Dentists can treat it with cleaning, medication, or other care."
+  },
+  {
+    "topic": "Oral Leukoplakia",
+    "question": "What are the symptoms, causes, and treatment of Oral Leukoplakia? (version 1)",
+    "symptoms": "Common signs of oral leukoplakia may include pain, inflammation, sensitivity, and visible changes in the mouth.",
+    "causes": "Oral Leukoplakia can result from poor oral hygiene, bacterial infection, genetic predisposition, or underlying health issues.",
+    "treatment": "Treatment for oral leukoplakia may involve professional dental cleaning, medication, or corrective procedures depending on severity.",
+    "layman_explanation": "Oral Leukoplakia is a dental issue that can cause discomfort or damage. Dentists can treat it with cleaning, medication, or other care."
+  },
+  {
+    "topic": "Tobacco-Related Oral Lesions",
+    "question": "What are the symptoms, causes, and treatment of Tobacco-Related Oral Lesions? (version 1)",
+    "symptoms": "Common signs of tobacco-related oral lesions may include pain, inflammation, sensitivity, and visible changes in the mouth.",
+    "causes": "Tobacco-Related Oral Lesions can result from poor oral hygiene, bacterial infection, genetic predisposition, or underlying health issues.",
+    "treatment": "Treatment for tobacco-related oral lesions may involve professional dental cleaning, medication, or corrective procedures depending on severity.",
+    "layman_explanation": "Tobacco-Related Oral Lesions is a dental issue that can cause discomfort or damage. Dentists can treat it with cleaning, medication, or other care."
+  },
+  {
+    "topic": "Oral Lichen Planus",
+    "question": "What are the symptoms, causes, and treatment of Oral Lichen Planus? (version 1)",
+    "symptoms": "Common signs of oral lichen planus may include pain, inflammation, sensitivity, and visible changes in the mouth.",
+    "causes": "Oral Lichen Planus can result from poor oral hygiene, bacterial infection, genetic predisposition, or underlying health issues.",
+    "treatment": "Treatment for oral lichen planus may involve professional dental cleaning, medication, or corrective procedures depending on severity.",
+    "layman_explanation": "Oral Lichen Planus is a dental issue that can cause discomfort or damage. Dentists can treat it with cleaning, medication, or other care."
+  },
+  {
+    "topic": "Gum Boil",
+    "question": "What are the symptoms, causes, and treatment of Gum Boil? (version 1)",
+    "symptoms": "Common signs of gum boil may include pain, inflammation, sensitivity, and visible changes in the mouth.",
+    "causes": "Gum Boil can result from poor oral hygiene, bacterial infection, genetic predisposition, or underlying health issues.",
+    "treatment": "Treatment for gum boil may involve professional dental cleaning, medication, or corrective procedures depending on severity.",
+    "layman_explanation": "Gum Boil is a dental issue that can cause discomfort or damage. Dentists can treat it with cleaning, medication, or other care."
+  },
+  {
+    "topic": "Chipped Tooth",
+    "question": "What are the symptoms, causes, and treatment of Chipped Tooth? (version 1)",
+    "symptoms": "Common signs of chipped tooth may include pain, inflammation, sensitivity, and visible changes in the mouth.",
+    "causes": "Chipped Tooth can result from poor oral hygiene, bacterial infection, genetic predisposition, or underlying health issues.",
+    "treatment": "Treatment for chipped tooth may involve professional dental cleaning, medication, or corrective procedures depending on severity.",
+    "layman_explanation": "Chipped Tooth is a dental issue that can cause discomfort or damage. Dentists can treat it with cleaning, medication, or other care."
+  },
+  {
+    "topic": "Dental Hypersensitivity",
+    "question": "What are the symptoms, causes, and treatment of Dental Hypersensitivity? (version 1)",
+    "symptoms": "Common signs of dental hypersensitivity may include pain, inflammation, sensitivity, and visible changes in the mouth.",
+    "causes": "Dental Hypersensitivity can result from poor oral hygiene, bacterial infection, genetic predisposition, or underlying health issues.",
+    "treatment": "Treatment for dental hypersensitivity may involve professional dental cleaning, medication, or corrective procedures depending on severity.",
+    "layman_explanation": "Dental Hypersensitivity is a dental issue that can cause discomfort or damage. Dentists can treat it with cleaning, medication, or other care."
+  },
+  {
+    "topic": "Jaw Clicking",
+    "question": "What are the symptoms, causes, and treatment of Jaw Clicking? (version 1)",
+    "symptoms": "Common signs of jaw clicking may include pain, inflammation, sensitivity, and visible changes in the mouth.",
+    "causes": "Jaw Clicking can result from poor oral hygiene, bacterial infection, genetic predisposition, or underlying health issues.",
+    "treatment": "Treatment for jaw clicking may involve professional dental cleaning, medication, or corrective procedures depending on severity.",
+    "layman_explanation": "Jaw Clicking is a dental issue that can cause discomfort or damage. Dentists can treat it with cleaning, medication, or other care."
+  },
+  {
+    "topic": "Trismus",
+    "question": "What are the symptoms, causes, and treatment of Trismus? (version 1)",
+    "symptoms": "Common signs of trismus may include pain, inflammation, sensitivity, and visible changes in the mouth.",
+    "causes": "Trismus can result from poor oral hygiene, bacterial infection, genetic predisposition, or underlying health issues.",
+    "treatment": "Treatment for trismus may involve professional dental cleaning, medication, or corrective procedures depending on severity.",
+    "layman_explanation": "Trismus is a dental issue that can cause discomfort or damage. Dentists can treat it with cleaning, medication, or other care."
+  },
+  {
+    "topic": "Oral HPV Infection",
+    "question": "What are the symptoms, causes, and treatment of Oral HPV Infection? (version 1)",
+    "symptoms": "Common signs of oral hpv infection may include pain, inflammation, sensitivity, and visible changes in the mouth.",
+    "causes": "Oral HPV Infection can result from poor oral hygiene, bacterial infection, genetic predisposition, or underlying health issues.",
+    "treatment": "Treatment for oral hpv infection may involve professional dental cleaning, medication, or corrective procedures depending on severity.",
+    "layman_explanation": "Oral HPV Infection is a dental issue that can cause discomfort or damage. Dentists can treat it with cleaning, medication, or other care."
+  },
+  {
+    "topic": "Salivary Gland Stones",
+    "question": "What are the symptoms, causes, and treatment of Salivary Gland Stones? (version 1)",
+    "symptoms": "Common signs of salivary gland stones may include pain, inflammation, sensitivity, and visible changes in the mouth.",
+    "causes": "Salivary Gland Stones can result from poor oral hygiene, bacterial infection, genetic predisposition, or underlying health issues.",
+    "treatment": "Treatment for salivary gland stones may involve professional dental cleaning, medication, or corrective procedures depending on severity.",
+    "layman_explanation": "Salivary Gland Stones is a dental issue that can cause discomfort or damage. Dentists can treat it with cleaning, medication, or other care."
+  },
+  {
+    "topic": "Nerve Pain in Teeth",
+    "question": "What are the symptoms, causes, and treatment of Nerve Pain in Teeth? (version 1)",
+    "symptoms": "Common signs of nerve pain in teeth may include pain, inflammation, sensitivity, and visible changes in the mouth.",
+    "causes": "Nerve Pain in Teeth can result from poor oral hygiene, bacterial infection, genetic predisposition, or underlying health issues.",
+    "treatment": "Treatment for nerve pain in teeth may involve professional dental cleaning, medication, or corrective procedures depending on severity.",
+    "layman_explanation": "Nerve Pain in Teeth is a dental issue that can cause discomfort or damage. Dentists can treat it with cleaning, medication, or other care."
+  }
+]

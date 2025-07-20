@@ -1,0 +1,802 @@
+[
+  {
+    "topic": "Polycystic Ovary Syndrome (PCOS)",
+    "question": "What are the symptoms, causes, and treatment of PCOS? (version 1)",
+    "symptoms": "Irregular periods, excess hair growth, acne, weight gain, infertility.",
+    "causes": "Hormonal imbalance, insulin resistance, genetic factors.",
+    "treatment": "Lifestyle changes, hormonal birth control, metformin, fertility treatment.",
+    "layman_explanation": "PCOS is a hormonal issue that can cause irregular periods and other symptoms. It\u2019s managed with medication and healthy habits."
+  },
+  {
+    "topic": "Endometriosis",
+    "question": "What are the symptoms, causes, and treatment of Endometriosis? (version 1)",
+    "symptoms": "Pelvic pain, painful periods, pain during sex, infertility.",
+    "causes": "Tissue similar to uterine lining grows outside the uterus.",
+    "treatment": "Pain relievers, hormone therapy, surgery.",
+    "layman_explanation": "Endometriosis is when tissue grows where it shouldn't, causing pain. Treatment can ease symptoms and improve fertility."
+  },
+  {
+    "topic": "Menopause",
+    "question": "What are the symptoms, causes, and treatment of Menopause? (version 1)",
+    "symptoms": "Hot flashes, night sweats, mood changes, vaginal dryness, sleep issues.",
+    "causes": "Natural aging process leading to decreased estrogen.",
+    "treatment": "Hormone therapy, lifestyle changes, medications for specific symptoms.",
+    "layman_explanation": "Menopause is when a woman stops having periods. It comes with changes like hot flashes and mood swings, which can be treated."
+  },
+  {
+    "topic": "Uterine Fibroids (Case 2)",
+    "question": "What are the symptoms, causes, and treatment of Uterine Fibroids? (version 2)",
+    "symptoms": "Heavy periods, pelvic pain, frequent urination, constipation.",
+    "causes": "Unknown, but linked to hormones and genetics.",
+    "treatment": "Watchful waiting, medications, surgery.",
+    "layman_explanation": "Fibroids are non-cancerous growths in the uterus. They can cause heavy bleeding and discomfort."
+  },
+  {
+    "topic": "Cervical Cancer (Case 3)",
+    "question": "What are the symptoms, causes, and treatment of Cervical Cancer? (version 3)",
+    "symptoms": "Abnormal bleeding, pelvic pain, pain during sex, discharge.",
+    "causes": "HPV infection, smoking, weakened immunity.",
+    "treatment": "Surgery, radiation, chemotherapy, HPV vaccine for prevention.",
+    "layman_explanation": "Cervical cancer is mostly caused by HPV. Early detection and vaccines can help prevent it."
+  },
+  {
+    "topic": "Pelvic Inflammatory Disease (PID) (Case 4)",
+    "question": "What are the symptoms, causes, and treatment of Pelvic Inflammatory Disease (PID)? (version 4)",
+    "symptoms": "Pelvic pain, fever, unusual discharge, painful urination.",
+    "causes": "Sexually transmitted infections like chlamydia and gonorrhea.",
+    "treatment": "Antibiotics, partner treatment, rest.",
+    "layman_explanation": "PID is an infection of reproductive organs. It\u2019s treated with antibiotics."
+  },
+  {
+    "topic": "Ovarian Cysts (Case 5)",
+    "question": "What are the symptoms, causes, and treatment of Ovarian Cysts? (version 5)",
+    "symptoms": "Bloating, pelvic pain, pain during periods or sex, frequent urination.",
+    "causes": "Hormonal problems, endometriosis, pregnancy.",
+    "treatment": "Observation, birth control, surgery if needed.",
+    "layman_explanation": "Ovarian cysts are fluid-filled sacs. Many go away on their own but some need treatment."
+  },
+  {
+    "topic": "Uterine Fibroids (Case 6)",
+    "question": "What are the symptoms, causes, and treatment of Uterine Fibroids? (version 6)",
+    "symptoms": "Heavy periods, pelvic pain, frequent urination, constipation.",
+    "causes": "Unknown, but linked to hormones and genetics.",
+    "treatment": "Watchful waiting, medications, surgery.",
+    "layman_explanation": "Fibroids are non-cancerous growths in the uterus. They can cause heavy bleeding and discomfort."
+  },
+  {
+    "topic": "Cervical Cancer (Case 7)",
+    "question": "What are the symptoms, causes, and treatment of Cervical Cancer? (version 7)",
+    "symptoms": "Abnormal bleeding, pelvic pain, pain during sex, discharge.",
+    "causes": "HPV infection, smoking, weakened immunity.",
+    "treatment": "Surgery, radiation, chemotherapy, HPV vaccine for prevention.",
+    "layman_explanation": "Cervical cancer is mostly caused by HPV. Early detection and vaccines can help prevent it."
+  },
+  {
+    "topic": "Pelvic Inflammatory Disease (PID) (Case 8)",
+    "question": "What are the symptoms, causes, and treatment of Pelvic Inflammatory Disease (PID)? (version 8)",
+    "symptoms": "Pelvic pain, fever, unusual discharge, painful urination.",
+    "causes": "Sexually transmitted infections like chlamydia and gonorrhea.",
+    "treatment": "Antibiotics, partner treatment, rest.",
+    "layman_explanation": "PID is an infection of reproductive organs. It\u2019s treated with antibiotics."
+  },
+  {
+    "topic": "Ovarian Cysts (Case 9)",
+    "question": "What are the symptoms, causes, and treatment of Ovarian Cysts? (version 9)",
+    "symptoms": "Bloating, pelvic pain, pain during periods or sex, frequent urination.",
+    "causes": "Hormonal problems, endometriosis, pregnancy.",
+    "treatment": "Observation, birth control, surgery if needed.",
+    "layman_explanation": "Ovarian cysts are fluid-filled sacs. Many go away on their own but some need treatment."
+  },
+  {
+    "topic": "Uterine Fibroids (Case 10)",
+    "question": "What are the symptoms, causes, and treatment of Uterine Fibroids? (version 10)",
+    "symptoms": "Heavy periods, pelvic pain, frequent urination, constipation.",
+    "causes": "Unknown, but linked to hormones and genetics.",
+    "treatment": "Watchful waiting, medications, surgery.",
+    "layman_explanation": "Fibroids are non-cancerous growths in the uterus. They can cause heavy bleeding and discomfort."
+  },
+  {
+    "topic": "Cervical Cancer (Case 11)",
+    "question": "What are the symptoms, causes, and treatment of Cervical Cancer? (version 11)",
+    "symptoms": "Abnormal bleeding, pelvic pain, pain during sex, discharge.",
+    "causes": "HPV infection, smoking, weakened immunity.",
+    "treatment": "Surgery, radiation, chemotherapy, HPV vaccine for prevention.",
+    "layman_explanation": "Cervical cancer is mostly caused by HPV. Early detection and vaccines can help prevent it."
+  },
+  {
+    "topic": "Pelvic Inflammatory Disease (PID) (Case 12)",
+    "question": "What are the symptoms, causes, and treatment of Pelvic Inflammatory Disease (PID)? (version 12)",
+    "symptoms": "Pelvic pain, fever, unusual discharge, painful urination.",
+    "causes": "Sexually transmitted infections like chlamydia and gonorrhea.",
+    "treatment": "Antibiotics, partner treatment, rest.",
+    "layman_explanation": "PID is an infection of reproductive organs. It\u2019s treated with antibiotics."
+  },
+  {
+    "topic": "Ovarian Cysts (Case 13)",
+    "question": "What are the symptoms, causes, and treatment of Ovarian Cysts? (version 13)",
+    "symptoms": "Bloating, pelvic pain, pain during periods or sex, frequent urination.",
+    "causes": "Hormonal problems, endometriosis, pregnancy.",
+    "treatment": "Observation, birth control, surgery if needed.",
+    "layman_explanation": "Ovarian cysts are fluid-filled sacs. Many go away on their own but some need treatment."
+  },
+  {
+    "topic": "Uterine Fibroids (Case 14)",
+    "question": "What are the symptoms, causes, and treatment of Uterine Fibroids? (version 14)",
+    "symptoms": "Heavy periods, pelvic pain, frequent urination, constipation.",
+    "causes": "Unknown, but linked to hormones and genetics.",
+    "treatment": "Watchful waiting, medications, surgery.",
+    "layman_explanation": "Fibroids are non-cancerous growths in the uterus. They can cause heavy bleeding and discomfort."
+  },
+  {
+    "topic": "Cervical Cancer (Case 15)",
+    "question": "What are the symptoms, causes, and treatment of Cervical Cancer? (version 15)",
+    "symptoms": "Abnormal bleeding, pelvic pain, pain during sex, discharge.",
+    "causes": "HPV infection, smoking, weakened immunity.",
+    "treatment": "Surgery, radiation, chemotherapy, HPV vaccine for prevention.",
+    "layman_explanation": "Cervical cancer is mostly caused by HPV. Early detection and vaccines can help prevent it."
+  },
+  {
+    "topic": "Pelvic Inflammatory Disease (PID) (Case 16)",
+    "question": "What are the symptoms, causes, and treatment of Pelvic Inflammatory Disease (PID)? (version 16)",
+    "symptoms": "Pelvic pain, fever, unusual discharge, painful urination.",
+    "causes": "Sexually transmitted infections like chlamydia and gonorrhea.",
+    "treatment": "Antibiotics, partner treatment, rest.",
+    "layman_explanation": "PID is an infection of reproductive organs. It\u2019s treated with antibiotics."
+  },
+  {
+    "topic": "Ovarian Cysts (Case 17)",
+    "question": "What are the symptoms, causes, and treatment of Ovarian Cysts? (version 17)",
+    "symptoms": "Bloating, pelvic pain, pain during periods or sex, frequent urination.",
+    "causes": "Hormonal problems, endometriosis, pregnancy.",
+    "treatment": "Observation, birth control, surgery if needed.",
+    "layman_explanation": "Ovarian cysts are fluid-filled sacs. Many go away on their own but some need treatment."
+  },
+  {
+    "topic": "Uterine Fibroids (Case 18)",
+    "question": "What are the symptoms, causes, and treatment of Uterine Fibroids? (version 18)",
+    "symptoms": "Heavy periods, pelvic pain, frequent urination, constipation.",
+    "causes": "Unknown, but linked to hormones and genetics.",
+    "treatment": "Watchful waiting, medications, surgery.",
+    "layman_explanation": "Fibroids are non-cancerous growths in the uterus. They can cause heavy bleeding and discomfort."
+  },
+  {
+    "topic": "Cervical Cancer (Case 19)",
+    "question": "What are the symptoms, causes, and treatment of Cervical Cancer? (version 19)",
+    "symptoms": "Abnormal bleeding, pelvic pain, pain during sex, discharge.",
+    "causes": "HPV infection, smoking, weakened immunity.",
+    "treatment": "Surgery, radiation, chemotherapy, HPV vaccine for prevention.",
+    "layman_explanation": "Cervical cancer is mostly caused by HPV. Early detection and vaccines can help prevent it."
+  },
+  {
+    "topic": "Pelvic Inflammatory Disease (PID) (Case 20)",
+    "question": "What are the symptoms, causes, and treatment of Pelvic Inflammatory Disease (PID)? (version 20)",
+    "symptoms": "Pelvic pain, fever, unusual discharge, painful urination.",
+    "causes": "Sexually transmitted infections like chlamydia and gonorrhea.",
+    "treatment": "Antibiotics, partner treatment, rest.",
+    "layman_explanation": "PID is an infection of reproductive organs. It\u2019s treated with antibiotics."
+  },
+  {
+    "topic": "Ovarian Cysts (Case 21)",
+    "question": "What are the symptoms, causes, and treatment of Ovarian Cysts? (version 21)",
+    "symptoms": "Bloating, pelvic pain, pain during periods or sex, frequent urination.",
+    "causes": "Hormonal problems, endometriosis, pregnancy.",
+    "treatment": "Observation, birth control, surgery if needed.",
+    "layman_explanation": "Ovarian cysts are fluid-filled sacs. Many go away on their own but some need treatment."
+  },
+  {
+    "topic": "Uterine Fibroids (Case 22)",
+    "question": "What are the symptoms, causes, and treatment of Uterine Fibroids? (version 22)",
+    "symptoms": "Heavy periods, pelvic pain, frequent urination, constipation.",
+    "causes": "Unknown, but linked to hormones and genetics.",
+    "treatment": "Watchful waiting, medications, surgery.",
+    "layman_explanation": "Fibroids are non-cancerous growths in the uterus. They can cause heavy bleeding and discomfort."
+  },
+  {
+    "topic": "Cervical Cancer (Case 23)",
+    "question": "What are the symptoms, causes, and treatment of Cervical Cancer? (version 23)",
+    "symptoms": "Abnormal bleeding, pelvic pain, pain during sex, discharge.",
+    "causes": "HPV infection, smoking, weakened immunity.",
+    "treatment": "Surgery, radiation, chemotherapy, HPV vaccine for prevention.",
+    "layman_explanation": "Cervical cancer is mostly caused by HPV. Early detection and vaccines can help prevent it."
+  },
+  {
+    "topic": "Pelvic Inflammatory Disease (PID) (Case 24)",
+    "question": "What are the symptoms, causes, and treatment of Pelvic Inflammatory Disease (PID)? (version 24)",
+    "symptoms": "Pelvic pain, fever, unusual discharge, painful urination.",
+    "causes": "Sexually transmitted infections like chlamydia and gonorrhea.",
+    "treatment": "Antibiotics, partner treatment, rest.",
+    "layman_explanation": "PID is an infection of reproductive organs. It\u2019s treated with antibiotics."
+  },
+  {
+    "topic": "Ovarian Cysts (Case 25)",
+    "question": "What are the symptoms, causes, and treatment of Ovarian Cysts? (version 25)",
+    "symptoms": "Bloating, pelvic pain, pain during periods or sex, frequent urination.",
+    "causes": "Hormonal problems, endometriosis, pregnancy.",
+    "treatment": "Observation, birth control, surgery if needed.",
+    "layman_explanation": "Ovarian cysts are fluid-filled sacs. Many go away on their own but some need treatment."
+  },
+  {
+    "topic": "Uterine Fibroids (Case 26)",
+    "question": "What are the symptoms, causes, and treatment of Uterine Fibroids? (version 26)",
+    "symptoms": "Heavy periods, pelvic pain, frequent urination, constipation.",
+    "causes": "Unknown, but linked to hormones and genetics.",
+    "treatment": "Watchful waiting, medications, surgery.",
+    "layman_explanation": "Fibroids are non-cancerous growths in the uterus. They can cause heavy bleeding and discomfort."
+  },
+  {
+    "topic": "Cervical Cancer (Case 27)",
+    "question": "What are the symptoms, causes, and treatment of Cervical Cancer? (version 27)",
+    "symptoms": "Abnormal bleeding, pelvic pain, pain during sex, discharge.",
+    "causes": "HPV infection, smoking, weakened immunity.",
+    "treatment": "Surgery, radiation, chemotherapy, HPV vaccine for prevention.",
+    "layman_explanation": "Cervical cancer is mostly caused by HPV. Early detection and vaccines can help prevent it."
+  },
+  {
+    "topic": "Pelvic Inflammatory Disease (PID) (Case 28)",
+    "question": "What are the symptoms, causes, and treatment of Pelvic Inflammatory Disease (PID)? (version 28)",
+    "symptoms": "Pelvic pain, fever, unusual discharge, painful urination.",
+    "causes": "Sexually transmitted infections like chlamydia and gonorrhea.",
+    "treatment": "Antibiotics, partner treatment, rest.",
+    "layman_explanation": "PID is an infection of reproductive organs. It\u2019s treated with antibiotics."
+  },
+  {
+    "topic": "Ovarian Cysts (Case 29)",
+    "question": "What are the symptoms, causes, and treatment of Ovarian Cysts? (version 29)",
+    "symptoms": "Bloating, pelvic pain, pain during periods or sex, frequent urination.",
+    "causes": "Hormonal problems, endometriosis, pregnancy.",
+    "treatment": "Observation, birth control, surgery if needed.",
+    "layman_explanation": "Ovarian cysts are fluid-filled sacs. Many go away on their own but some need treatment."
+  },
+  {
+    "topic": "Uterine Fibroids (Case 30)",
+    "question": "What are the symptoms, causes, and treatment of Uterine Fibroids? (version 30)",
+    "symptoms": "Heavy periods, pelvic pain, frequent urination, constipation.",
+    "causes": "Unknown, but linked to hormones and genetics.",
+    "treatment": "Watchful waiting, medications, surgery.",
+    "layman_explanation": "Fibroids are non-cancerous growths in the uterus. They can cause heavy bleeding and discomfort."
+  },
+  {
+    "topic": "Cervical Cancer (Case 31)",
+    "question": "What are the symptoms, causes, and treatment of Cervical Cancer? (version 31)",
+    "symptoms": "Abnormal bleeding, pelvic pain, pain during sex, discharge.",
+    "causes": "HPV infection, smoking, weakened immunity.",
+    "treatment": "Surgery, radiation, chemotherapy, HPV vaccine for prevention.",
+    "layman_explanation": "Cervical cancer is mostly caused by HPV. Early detection and vaccines can help prevent it."
+  },
+  {
+    "topic": "Pelvic Inflammatory Disease (PID) (Case 32)",
+    "question": "What are the symptoms, causes, and treatment of Pelvic Inflammatory Disease (PID)? (version 32)",
+    "symptoms": "Pelvic pain, fever, unusual discharge, painful urination.",
+    "causes": "Sexually transmitted infections like chlamydia and gonorrhea.",
+    "treatment": "Antibiotics, partner treatment, rest.",
+    "layman_explanation": "PID is an infection of reproductive organs. It\u2019s treated with antibiotics."
+  },
+  {
+    "topic": "Ovarian Cysts (Case 33)",
+    "question": "What are the symptoms, causes, and treatment of Ovarian Cysts? (version 33)",
+    "symptoms": "Bloating, pelvic pain, pain during periods or sex, frequent urination.",
+    "causes": "Hormonal problems, endometriosis, pregnancy.",
+    "treatment": "Observation, birth control, surgery if needed.",
+    "layman_explanation": "Ovarian cysts are fluid-filled sacs. Many go away on their own but some need treatment."
+  },
+  {
+    "topic": "Uterine Fibroids (Case 34)",
+    "question": "What are the symptoms, causes, and treatment of Uterine Fibroids? (version 34)",
+    "symptoms": "Heavy periods, pelvic pain, frequent urination, constipation.",
+    "causes": "Unknown, but linked to hormones and genetics.",
+    "treatment": "Watchful waiting, medications, surgery.",
+    "layman_explanation": "Fibroids are non-cancerous growths in the uterus. They can cause heavy bleeding and discomfort."
+  },
+  {
+    "topic": "Cervical Cancer (Case 35)",
+    "question": "What are the symptoms, causes, and treatment of Cervical Cancer? (version 35)",
+    "symptoms": "Abnormal bleeding, pelvic pain, pain during sex, discharge.",
+    "causes": "HPV infection, smoking, weakened immunity.",
+    "treatment": "Surgery, radiation, chemotherapy, HPV vaccine for prevention.",
+    "layman_explanation": "Cervical cancer is mostly caused by HPV. Early detection and vaccines can help prevent it."
+  },
+  {
+    "topic": "Pelvic Inflammatory Disease (PID) (Case 36)",
+    "question": "What are the symptoms, causes, and treatment of Pelvic Inflammatory Disease (PID)? (version 36)",
+    "symptoms": "Pelvic pain, fever, unusual discharge, painful urination.",
+    "causes": "Sexually transmitted infections like chlamydia and gonorrhea.",
+    "treatment": "Antibiotics, partner treatment, rest.",
+    "layman_explanation": "PID is an infection of reproductive organs. It\u2019s treated with antibiotics."
+  },
+  {
+    "topic": "Ovarian Cysts (Case 37)",
+    "question": "What are the symptoms, causes, and treatment of Ovarian Cysts? (version 37)",
+    "symptoms": "Bloating, pelvic pain, pain during periods or sex, frequent urination.",
+    "causes": "Hormonal problems, endometriosis, pregnancy.",
+    "treatment": "Observation, birth control, surgery if needed.",
+    "layman_explanation": "Ovarian cysts are fluid-filled sacs. Many go away on their own but some need treatment."
+  },
+  {
+    "topic": "Uterine Fibroids (Case 38)",
+    "question": "What are the symptoms, causes, and treatment of Uterine Fibroids? (version 38)",
+    "symptoms": "Heavy periods, pelvic pain, frequent urination, constipation.",
+    "causes": "Unknown, but linked to hormones and genetics.",
+    "treatment": "Watchful waiting, medications, surgery.",
+    "layman_explanation": "Fibroids are non-cancerous growths in the uterus. They can cause heavy bleeding and discomfort."
+  },
+  {
+    "topic": "Cervical Cancer (Case 39)",
+    "question": "What are the symptoms, causes, and treatment of Cervical Cancer? (version 39)",
+    "symptoms": "Abnormal bleeding, pelvic pain, pain during sex, discharge.",
+    "causes": "HPV infection, smoking, weakened immunity.",
+    "treatment": "Surgery, radiation, chemotherapy, HPV vaccine for prevention.",
+    "layman_explanation": "Cervical cancer is mostly caused by HPV. Early detection and vaccines can help prevent it."
+  },
+  {
+    "topic": "Pelvic Inflammatory Disease (PID) (Case 40)",
+    "question": "What are the symptoms, causes, and treatment of Pelvic Inflammatory Disease (PID)? (version 40)",
+    "symptoms": "Pelvic pain, fever, unusual discharge, painful urination.",
+    "causes": "Sexually transmitted infections like chlamydia and gonorrhea.",
+    "treatment": "Antibiotics, partner treatment, rest.",
+    "layman_explanation": "PID is an infection of reproductive organs. It\u2019s treated with antibiotics."
+  },
+  {
+    "topic": "Ovarian Cysts (Case 41)",
+    "question": "What are the symptoms, causes, and treatment of Ovarian Cysts? (version 41)",
+    "symptoms": "Bloating, pelvic pain, pain during periods or sex, frequent urination.",
+    "causes": "Hormonal problems, endometriosis, pregnancy.",
+    "treatment": "Observation, birth control, surgery if needed.",
+    "layman_explanation": "Ovarian cysts are fluid-filled sacs. Many go away on their own but some need treatment."
+  },
+  {
+    "topic": "Uterine Fibroids (Case 42)",
+    "question": "What are the symptoms, causes, and treatment of Uterine Fibroids? (version 42)",
+    "symptoms": "Heavy periods, pelvic pain, frequent urination, constipation.",
+    "causes": "Unknown, but linked to hormones and genetics.",
+    "treatment": "Watchful waiting, medications, surgery.",
+    "layman_explanation": "Fibroids are non-cancerous growths in the uterus. They can cause heavy bleeding and discomfort."
+  },
+  {
+    "topic": "Cervical Cancer (Case 43)",
+    "question": "What are the symptoms, causes, and treatment of Cervical Cancer? (version 43)",
+    "symptoms": "Abnormal bleeding, pelvic pain, pain during sex, discharge.",
+    "causes": "HPV infection, smoking, weakened immunity.",
+    "treatment": "Surgery, radiation, chemotherapy, HPV vaccine for prevention.",
+    "layman_explanation": "Cervical cancer is mostly caused by HPV. Early detection and vaccines can help prevent it."
+  },
+  {
+    "topic": "Pelvic Inflammatory Disease (PID) (Case 44)",
+    "question": "What are the symptoms, causes, and treatment of Pelvic Inflammatory Disease (PID)? (version 44)",
+    "symptoms": "Pelvic pain, fever, unusual discharge, painful urination.",
+    "causes": "Sexually transmitted infections like chlamydia and gonorrhea.",
+    "treatment": "Antibiotics, partner treatment, rest.",
+    "layman_explanation": "PID is an infection of reproductive organs. It\u2019s treated with antibiotics."
+  },
+  {
+    "topic": "Ovarian Cysts (Case 45)",
+    "question": "What are the symptoms, causes, and treatment of Ovarian Cysts? (version 45)",
+    "symptoms": "Bloating, pelvic pain, pain during periods or sex, frequent urination.",
+    "causes": "Hormonal problems, endometriosis, pregnancy.",
+    "treatment": "Observation, birth control, surgery if needed.",
+    "layman_explanation": "Ovarian cysts are fluid-filled sacs. Many go away on their own but some need treatment."
+  },
+  {
+    "topic": "Uterine Fibroids (Case 46)",
+    "question": "What are the symptoms, causes, and treatment of Uterine Fibroids? (version 46)",
+    "symptoms": "Heavy periods, pelvic pain, frequent urination, constipation.",
+    "causes": "Unknown, but linked to hormones and genetics.",
+    "treatment": "Watchful waiting, medications, surgery.",
+    "layman_explanation": "Fibroids are non-cancerous growths in the uterus. They can cause heavy bleeding and discomfort."
+  },
+  {
+    "topic": "Cervical Cancer (Case 47)",
+    "question": "What are the symptoms, causes, and treatment of Cervical Cancer? (version 47)",
+    "symptoms": "Abnormal bleeding, pelvic pain, pain during sex, discharge.",
+    "causes": "HPV infection, smoking, weakened immunity.",
+    "treatment": "Surgery, radiation, chemotherapy, HPV vaccine for prevention.",
+    "layman_explanation": "Cervical cancer is mostly caused by HPV. Early detection and vaccines can help prevent it."
+  },
+  {
+    "topic": "Pelvic Inflammatory Disease (PID) (Case 48)",
+    "question": "What are the symptoms, causes, and treatment of Pelvic Inflammatory Disease (PID)? (version 48)",
+    "symptoms": "Pelvic pain, fever, unusual discharge, painful urination.",
+    "causes": "Sexually transmitted infections like chlamydia and gonorrhea.",
+    "treatment": "Antibiotics, partner treatment, rest.",
+    "layman_explanation": "PID is an infection of reproductive organs. It\u2019s treated with antibiotics."
+  },
+  {
+    "topic": "Ovarian Cysts (Case 49)",
+    "question": "What are the symptoms, causes, and treatment of Ovarian Cysts? (version 49)",
+    "symptoms": "Bloating, pelvic pain, pain during periods or sex, frequent urination.",
+    "causes": "Hormonal problems, endometriosis, pregnancy.",
+    "treatment": "Observation, birth control, surgery if needed.",
+    "layman_explanation": "Ovarian cysts are fluid-filled sacs. Many go away on their own but some need treatment."
+  },
+  {
+    "topic": "Uterine Fibroids (Case 50)",
+    "question": "What are the symptoms, causes, and treatment of Uterine Fibroids? (version 50)",
+    "symptoms": "Heavy periods, pelvic pain, frequent urination, constipation.",
+    "causes": "Unknown, but linked to hormones and genetics.",
+    "treatment": "Watchful waiting, medications, surgery.",
+    "layman_explanation": "Fibroids are non-cancerous growths in the uterus. They can cause heavy bleeding and discomfort."
+  },
+  {
+    "topic": "Cervical Cancer (Case 51)",
+    "question": "What are the symptoms, causes, and treatment of Cervical Cancer? (version 51)",
+    "symptoms": "Abnormal bleeding, pelvic pain, pain during sex, discharge.",
+    "causes": "HPV infection, smoking, weakened immunity.",
+    "treatment": "Surgery, radiation, chemotherapy, HPV vaccine for prevention.",
+    "layman_explanation": "Cervical cancer is mostly caused by HPV. Early detection and vaccines can help prevent it."
+  },
+  {
+    "topic": "Pelvic Inflammatory Disease (PID) (Case 52)",
+    "question": "What are the symptoms, causes, and treatment of Pelvic Inflammatory Disease (PID)? (version 52)",
+    "symptoms": "Pelvic pain, fever, unusual discharge, painful urination.",
+    "causes": "Sexually transmitted infections like chlamydia and gonorrhea.",
+    "treatment": "Antibiotics, partner treatment, rest.",
+    "layman_explanation": "PID is an infection of reproductive organs. It\u2019s treated with antibiotics."
+  },
+  {
+    "topic": "Ovarian Cysts (Case 53)",
+    "question": "What are the symptoms, causes, and treatment of Ovarian Cysts? (version 53)",
+    "symptoms": "Bloating, pelvic pain, pain during periods or sex, frequent urination.",
+    "causes": "Hormonal problems, endometriosis, pregnancy.",
+    "treatment": "Observation, birth control, surgery if needed.",
+    "layman_explanation": "Ovarian cysts are fluid-filled sacs. Many go away on their own but some need treatment."
+  },
+  {
+    "topic": "Uterine Fibroids (Case 54)",
+    "question": "What are the symptoms, causes, and treatment of Uterine Fibroids? (version 54)",
+    "symptoms": "Heavy periods, pelvic pain, frequent urination, constipation.",
+    "causes": "Unknown, but linked to hormones and genetics.",
+    "treatment": "Watchful waiting, medications, surgery.",
+    "layman_explanation": "Fibroids are non-cancerous growths in the uterus. They can cause heavy bleeding and discomfort."
+  },
+  {
+    "topic": "Cervical Cancer (Case 55)",
+    "question": "What are the symptoms, causes, and treatment of Cervical Cancer? (version 55)",
+    "symptoms": "Abnormal bleeding, pelvic pain, pain during sex, discharge.",
+    "causes": "HPV infection, smoking, weakened immunity.",
+    "treatment": "Surgery, radiation, chemotherapy, HPV vaccine for prevention.",
+    "layman_explanation": "Cervical cancer is mostly caused by HPV. Early detection and vaccines can help prevent it."
+  },
+  {
+    "topic": "Pelvic Inflammatory Disease (PID) (Case 56)",
+    "question": "What are the symptoms, causes, and treatment of Pelvic Inflammatory Disease (PID)? (version 56)",
+    "symptoms": "Pelvic pain, fever, unusual discharge, painful urination.",
+    "causes": "Sexually transmitted infections like chlamydia and gonorrhea.",
+    "treatment": "Antibiotics, partner treatment, rest.",
+    "layman_explanation": "PID is an infection of reproductive organs. It\u2019s treated with antibiotics."
+  },
+  {
+    "topic": "Ovarian Cysts (Case 57)",
+    "question": "What are the symptoms, causes, and treatment of Ovarian Cysts? (version 57)",
+    "symptoms": "Bloating, pelvic pain, pain during periods or sex, frequent urination.",
+    "causes": "Hormonal problems, endometriosis, pregnancy.",
+    "treatment": "Observation, birth control, surgery if needed.",
+    "layman_explanation": "Ovarian cysts are fluid-filled sacs. Many go away on their own but some need treatment."
+  },
+  {
+    "topic": "Uterine Fibroids (Case 58)",
+    "question": "What are the symptoms, causes, and treatment of Uterine Fibroids? (version 58)",
+    "symptoms": "Heavy periods, pelvic pain, frequent urination, constipation.",
+    "causes": "Unknown, but linked to hormones and genetics.",
+    "treatment": "Watchful waiting, medications, surgery.",
+    "layman_explanation": "Fibroids are non-cancerous growths in the uterus. They can cause heavy bleeding and discomfort."
+  },
+  {
+    "topic": "Cervical Cancer (Case 59)",
+    "question": "What are the symptoms, causes, and treatment of Cervical Cancer? (version 59)",
+    "symptoms": "Abnormal bleeding, pelvic pain, pain during sex, discharge.",
+    "causes": "HPV infection, smoking, weakened immunity.",
+    "treatment": "Surgery, radiation, chemotherapy, HPV vaccine for prevention.",
+    "layman_explanation": "Cervical cancer is mostly caused by HPV. Early detection and vaccines can help prevent it."
+  },
+  {
+    "topic": "Pelvic Inflammatory Disease (PID) (Case 60)",
+    "question": "What are the symptoms, causes, and treatment of Pelvic Inflammatory Disease (PID)? (version 60)",
+    "symptoms": "Pelvic pain, fever, unusual discharge, painful urination.",
+    "causes": "Sexually transmitted infections like chlamydia and gonorrhea.",
+    "treatment": "Antibiotics, partner treatment, rest.",
+    "layman_explanation": "PID is an infection of reproductive organs. It\u2019s treated with antibiotics."
+  },
+  {
+    "topic": "Ovarian Cysts (Case 61)",
+    "question": "What are the symptoms, causes, and treatment of Ovarian Cysts? (version 61)",
+    "symptoms": "Bloating, pelvic pain, pain during periods or sex, frequent urination.",
+    "causes": "Hormonal problems, endometriosis, pregnancy.",
+    "treatment": "Observation, birth control, surgery if needed.",
+    "layman_explanation": "Ovarian cysts are fluid-filled sacs. Many go away on their own but some need treatment."
+  },
+  {
+    "topic": "Uterine Fibroids (Case 62)",
+    "question": "What are the symptoms, causes, and treatment of Uterine Fibroids? (version 62)",
+    "symptoms": "Heavy periods, pelvic pain, frequent urination, constipation.",
+    "causes": "Unknown, but linked to hormones and genetics.",
+    "treatment": "Watchful waiting, medications, surgery.",
+    "layman_explanation": "Fibroids are non-cancerous growths in the uterus. They can cause heavy bleeding and discomfort."
+  },
+  {
+    "topic": "Cervical Cancer (Case 63)",
+    "question": "What are the symptoms, causes, and treatment of Cervical Cancer? (version 63)",
+    "symptoms": "Abnormal bleeding, pelvic pain, pain during sex, discharge.",
+    "causes": "HPV infection, smoking, weakened immunity.",
+    "treatment": "Surgery, radiation, chemotherapy, HPV vaccine for prevention.",
+    "layman_explanation": "Cervical cancer is mostly caused by HPV. Early detection and vaccines can help prevent it."
+  },
+  {
+    "topic": "Pelvic Inflammatory Disease (PID) (Case 64)",
+    "question": "What are the symptoms, causes, and treatment of Pelvic Inflammatory Disease (PID)? (version 64)",
+    "symptoms": "Pelvic pain, fever, unusual discharge, painful urination.",
+    "causes": "Sexually transmitted infections like chlamydia and gonorrhea.",
+    "treatment": "Antibiotics, partner treatment, rest.",
+    "layman_explanation": "PID is an infection of reproductive organs. It\u2019s treated with antibiotics."
+  },
+  {
+    "topic": "Ovarian Cysts (Case 65)",
+    "question": "What are the symptoms, causes, and treatment of Ovarian Cysts? (version 65)",
+    "symptoms": "Bloating, pelvic pain, pain during periods or sex, frequent urination.",
+    "causes": "Hormonal problems, endometriosis, pregnancy.",
+    "treatment": "Observation, birth control, surgery if needed.",
+    "layman_explanation": "Ovarian cysts are fluid-filled sacs. Many go away on their own but some need treatment."
+  },
+  {
+    "topic": "Uterine Fibroids (Case 66)",
+    "question": "What are the symptoms, causes, and treatment of Uterine Fibroids? (version 66)",
+    "symptoms": "Heavy periods, pelvic pain, frequent urination, constipation.",
+    "causes": "Unknown, but linked to hormones and genetics.",
+    "treatment": "Watchful waiting, medications, surgery.",
+    "layman_explanation": "Fibroids are non-cancerous growths in the uterus. They can cause heavy bleeding and discomfort."
+  },
+  {
+    "topic": "Cervical Cancer (Case 67)",
+    "question": "What are the symptoms, causes, and treatment of Cervical Cancer? (version 67)",
+    "symptoms": "Abnormal bleeding, pelvic pain, pain during sex, discharge.",
+    "causes": "HPV infection, smoking, weakened immunity.",
+    "treatment": "Surgery, radiation, chemotherapy, HPV vaccine for prevention.",
+    "layman_explanation": "Cervical cancer is mostly caused by HPV. Early detection and vaccines can help prevent it."
+  },
+  {
+    "topic": "Pelvic Inflammatory Disease (PID) (Case 68)",
+    "question": "What are the symptoms, causes, and treatment of Pelvic Inflammatory Disease (PID)? (version 68)",
+    "symptoms": "Pelvic pain, fever, unusual discharge, painful urination.",
+    "causes": "Sexually transmitted infections like chlamydia and gonorrhea.",
+    "treatment": "Antibiotics, partner treatment, rest.",
+    "layman_explanation": "PID is an infection of reproductive organs. It\u2019s treated with antibiotics."
+  },
+  {
+    "topic": "Ovarian Cysts (Case 69)",
+    "question": "What are the symptoms, causes, and treatment of Ovarian Cysts? (version 69)",
+    "symptoms": "Bloating, pelvic pain, pain during periods or sex, frequent urination.",
+    "causes": "Hormonal problems, endometriosis, pregnancy.",
+    "treatment": "Observation, birth control, surgery if needed.",
+    "layman_explanation": "Ovarian cysts are fluid-filled sacs. Many go away on their own but some need treatment."
+  },
+  {
+    "topic": "Uterine Fibroids (Case 70)",
+    "question": "What are the symptoms, causes, and treatment of Uterine Fibroids? (version 70)",
+    "symptoms": "Heavy periods, pelvic pain, frequent urination, constipation.",
+    "causes": "Unknown, but linked to hormones and genetics.",
+    "treatment": "Watchful waiting, medications, surgery.",
+    "layman_explanation": "Fibroids are non-cancerous growths in the uterus. They can cause heavy bleeding and discomfort."
+  },
+  {
+    "topic": "Cervical Cancer (Case 71)",
+    "question": "What are the symptoms, causes, and treatment of Cervical Cancer? (version 71)",
+    "symptoms": "Abnormal bleeding, pelvic pain, pain during sex, discharge.",
+    "causes": "HPV infection, smoking, weakened immunity.",
+    "treatment": "Surgery, radiation, chemotherapy, HPV vaccine for prevention.",
+    "layman_explanation": "Cervical cancer is mostly caused by HPV. Early detection and vaccines can help prevent it."
+  },
+  {
+    "topic": "Pelvic Inflammatory Disease (PID) (Case 72)",
+    "question": "What are the symptoms, causes, and treatment of Pelvic Inflammatory Disease (PID)? (version 72)",
+    "symptoms": "Pelvic pain, fever, unusual discharge, painful urination.",
+    "causes": "Sexually transmitted infections like chlamydia and gonorrhea.",
+    "treatment": "Antibiotics, partner treatment, rest.",
+    "layman_explanation": "PID is an infection of reproductive organs. It\u2019s treated with antibiotics."
+  },
+  {
+    "topic": "Ovarian Cysts (Case 73)",
+    "question": "What are the symptoms, causes, and treatment of Ovarian Cysts? (version 73)",
+    "symptoms": "Bloating, pelvic pain, pain during periods or sex, frequent urination.",
+    "causes": "Hormonal problems, endometriosis, pregnancy.",
+    "treatment": "Observation, birth control, surgery if needed.",
+    "layman_explanation": "Ovarian cysts are fluid-filled sacs. Many go away on their own but some need treatment."
+  },
+  {
+    "topic": "Uterine Fibroids (Case 74)",
+    "question": "What are the symptoms, causes, and treatment of Uterine Fibroids? (version 74)",
+    "symptoms": "Heavy periods, pelvic pain, frequent urination, constipation.",
+    "causes": "Unknown, but linked to hormones and genetics.",
+    "treatment": "Watchful waiting, medications, surgery.",
+    "layman_explanation": "Fibroids are non-cancerous growths in the uterus. They can cause heavy bleeding and discomfort."
+  },
+  {
+    "topic": "Cervical Cancer (Case 75)",
+    "question": "What are the symptoms, causes, and treatment of Cervical Cancer? (version 75)",
+    "symptoms": "Abnormal bleeding, pelvic pain, pain during sex, discharge.",
+    "causes": "HPV infection, smoking, weakened immunity.",
+    "treatment": "Surgery, radiation, chemotherapy, HPV vaccine for prevention.",
+    "layman_explanation": "Cervical cancer is mostly caused by HPV. Early detection and vaccines can help prevent it."
+  },
+  {
+    "topic": "Pelvic Inflammatory Disease (PID) (Case 76)",
+    "question": "What are the symptoms, causes, and treatment of Pelvic Inflammatory Disease (PID)? (version 76)",
+    "symptoms": "Pelvic pain, fever, unusual discharge, painful urination.",
+    "causes": "Sexually transmitted infections like chlamydia and gonorrhea.",
+    "treatment": "Antibiotics, partner treatment, rest.",
+    "layman_explanation": "PID is an infection of reproductive organs. It\u2019s treated with antibiotics."
+  },
+  {
+    "topic": "Ovarian Cysts (Case 77)",
+    "question": "What are the symptoms, causes, and treatment of Ovarian Cysts? (version 77)",
+    "symptoms": "Bloating, pelvic pain, pain during periods or sex, frequent urination.",
+    "causes": "Hormonal problems, endometriosis, pregnancy.",
+    "treatment": "Observation, birth control, surgery if needed.",
+    "layman_explanation": "Ovarian cysts are fluid-filled sacs. Many go away on their own but some need treatment."
+  },
+  {
+    "topic": "Uterine Fibroids (Case 78)",
+    "question": "What are the symptoms, causes, and treatment of Uterine Fibroids? (version 78)",
+    "symptoms": "Heavy periods, pelvic pain, frequent urination, constipation.",
+    "causes": "Unknown, but linked to hormones and genetics.",
+    "treatment": "Watchful waiting, medications, surgery.",
+    "layman_explanation": "Fibroids are non-cancerous growths in the uterus. They can cause heavy bleeding and discomfort."
+  },
+  {
+    "topic": "Cervical Cancer (Case 79)",
+    "question": "What are the symptoms, causes, and treatment of Cervical Cancer? (version 79)",
+    "symptoms": "Abnormal bleeding, pelvic pain, pain during sex, discharge.",
+    "causes": "HPV infection, smoking, weakened immunity.",
+    "treatment": "Surgery, radiation, chemotherapy, HPV vaccine for prevention.",
+    "layman_explanation": "Cervical cancer is mostly caused by HPV. Early detection and vaccines can help prevent it."
+  },
+  {
+    "topic": "Pelvic Inflammatory Disease (PID) (Case 80)",
+    "question": "What are the symptoms, causes, and treatment of Pelvic Inflammatory Disease (PID)? (version 80)",
+    "symptoms": "Pelvic pain, fever, unusual discharge, painful urination.",
+    "causes": "Sexually transmitted infections like chlamydia and gonorrhea.",
+    "treatment": "Antibiotics, partner treatment, rest.",
+    "layman_explanation": "PID is an infection of reproductive organs. It\u2019s treated with antibiotics."
+  },
+  {
+    "topic": "Ovarian Cysts (Case 81)",
+    "question": "What are the symptoms, causes, and treatment of Ovarian Cysts? (version 81)",
+    "symptoms": "Bloating, pelvic pain, pain during periods or sex, frequent urination.",
+    "causes": "Hormonal problems, endometriosis, pregnancy.",
+    "treatment": "Observation, birth control, surgery if needed.",
+    "layman_explanation": "Ovarian cysts are fluid-filled sacs. Many go away on their own but some need treatment."
+  },
+  {
+    "topic": "Uterine Fibroids (Case 82)",
+    "question": "What are the symptoms, causes, and treatment of Uterine Fibroids? (version 82)",
+    "symptoms": "Heavy periods, pelvic pain, frequent urination, constipation.",
+    "causes": "Unknown, but linked to hormones and genetics.",
+    "treatment": "Watchful waiting, medications, surgery.",
+    "layman_explanation": "Fibroids are non-cancerous growths in the uterus. They can cause heavy bleeding and discomfort."
+  },
+  {
+    "topic": "Cervical Cancer (Case 83)",
+    "question": "What are the symptoms, causes, and treatment of Cervical Cancer? (version 83)",
+    "symptoms": "Abnormal bleeding, pelvic pain, pain during sex, discharge.",
+    "causes": "HPV infection, smoking, weakened immunity.",
+    "treatment": "Surgery, radiation, chemotherapy, HPV vaccine for prevention.",
+    "layman_explanation": "Cervical cancer is mostly caused by HPV. Early detection and vaccines can help prevent it."
+  },
+  {
+    "topic": "Pelvic Inflammatory Disease (PID) (Case 84)",
+    "question": "What are the symptoms, causes, and treatment of Pelvic Inflammatory Disease (PID)? (version 84)",
+    "symptoms": "Pelvic pain, fever, unusual discharge, painful urination.",
+    "causes": "Sexually transmitted infections like chlamydia and gonorrhea.",
+    "treatment": "Antibiotics, partner treatment, rest.",
+    "layman_explanation": "PID is an infection of reproductive organs. It\u2019s treated with antibiotics."
+  },
+  {
+    "topic": "Ovarian Cysts (Case 85)",
+    "question": "What are the symptoms, causes, and treatment of Ovarian Cysts? (version 85)",
+    "symptoms": "Bloating, pelvic pain, pain during periods or sex, frequent urination.",
+    "causes": "Hormonal problems, endometriosis, pregnancy.",
+    "treatment": "Observation, birth control, surgery if needed.",
+    "layman_explanation": "Ovarian cysts are fluid-filled sacs. Many go away on their own but some need treatment."
+  },
+  {
+    "topic": "Uterine Fibroids (Case 86)",
+    "question": "What are the symptoms, causes, and treatment of Uterine Fibroids? (version 86)",
+    "symptoms": "Heavy periods, pelvic pain, frequent urination, constipation.",
+    "causes": "Unknown, but linked to hormones and genetics.",
+    "treatment": "Watchful waiting, medications, surgery.",
+    "layman_explanation": "Fibroids are non-cancerous growths in the uterus. They can cause heavy bleeding and discomfort."
+  },
+  {
+    "topic": "Cervical Cancer (Case 87)",
+    "question": "What are the symptoms, causes, and treatment of Cervical Cancer? (version 87)",
+    "symptoms": "Abnormal bleeding, pelvic pain, pain during sex, discharge.",
+    "causes": "HPV infection, smoking, weakened immunity.",
+    "treatment": "Surgery, radiation, chemotherapy, HPV vaccine for prevention.",
+    "layman_explanation": "Cervical cancer is mostly caused by HPV. Early detection and vaccines can help prevent it."
+  },
+  {
+    "topic": "Pelvic Inflammatory Disease (PID) (Case 88)",
+    "question": "What are the symptoms, causes, and treatment of Pelvic Inflammatory Disease (PID)? (version 88)",
+    "symptoms": "Pelvic pain, fever, unusual discharge, painful urination.",
+    "causes": "Sexually transmitted infections like chlamydia and gonorrhea.",
+    "treatment": "Antibiotics, partner treatment, rest.",
+    "layman_explanation": "PID is an infection of reproductive organs. It\u2019s treated with antibiotics."
+  },
+  {
+    "topic": "Ovarian Cysts (Case 89)",
+    "question": "What are the symptoms, causes, and treatment of Ovarian Cysts? (version 89)",
+    "symptoms": "Bloating, pelvic pain, pain during periods or sex, frequent urination.",
+    "causes": "Hormonal problems, endometriosis, pregnancy.",
+    "treatment": "Observation, birth control, surgery if needed.",
+    "layman_explanation": "Ovarian cysts are fluid-filled sacs. Many go away on their own but some need treatment."
+  },
+  {
+    "topic": "Uterine Fibroids (Case 90)",
+    "question": "What are the symptoms, causes, and treatment of Uterine Fibroids? (version 90)",
+    "symptoms": "Heavy periods, pelvic pain, frequent urination, constipation.",
+    "causes": "Unknown, but linked to hormones and genetics.",
+    "treatment": "Watchful waiting, medications, surgery.",
+    "layman_explanation": "Fibroids are non-cancerous growths in the uterus. They can cause heavy bleeding and discomfort."
+  },
+  {
+    "topic": "Cervical Cancer (Case 91)",
+    "question": "What are the symptoms, causes, and treatment of Cervical Cancer? (version 91)",
+    "symptoms": "Abnormal bleeding, pelvic pain, pain during sex, discharge.",
+    "causes": "HPV infection, smoking, weakened immunity.",
+    "treatment": "Surgery, radiation, chemotherapy, HPV vaccine for prevention.",
+    "layman_explanation": "Cervical cancer is mostly caused by HPV. Early detection and vaccines can help prevent it."
+  },
+  {
+    "topic": "Pelvic Inflammatory Disease (PID) (Case 92)",
+    "question": "What are the symptoms, causes, and treatment of Pelvic Inflammatory Disease (PID)? (version 92)",
+    "symptoms": "Pelvic pain, fever, unusual discharge, painful urination.",
+    "causes": "Sexually transmitted infections like chlamydia and gonorrhea.",
+    "treatment": "Antibiotics, partner treatment, rest.",
+    "layman_explanation": "PID is an infection of reproductive organs. It\u2019s treated with antibiotics."
+  },
+  {
+    "topic": "Ovarian Cysts (Case 93)",
+    "question": "What are the symptoms, causes, and treatment of Ovarian Cysts? (version 93)",
+    "symptoms": "Bloating, pelvic pain, pain during periods or sex, frequent urination.",
+    "causes": "Hormonal problems, endometriosis, pregnancy.",
+    "treatment": "Observation, birth control, surgery if needed.",
+    "layman_explanation": "Ovarian cysts are fluid-filled sacs. Many go away on their own but some need treatment."
+  },
+  {
+    "topic": "Uterine Fibroids (Case 94)",
+    "question": "What are the symptoms, causes, and treatment of Uterine Fibroids? (version 94)",
+    "symptoms": "Heavy periods, pelvic pain, frequent urination, constipation.",
+    "causes": "Unknown, but linked to hormones and genetics.",
+    "treatment": "Watchful waiting, medications, surgery.",
+    "layman_explanation": "Fibroids are non-cancerous growths in the uterus. They can cause heavy bleeding and discomfort."
+  },
+  {
+    "topic": "Cervical Cancer (Case 95)",
+    "question": "What are the symptoms, causes, and treatment of Cervical Cancer? (version 95)",
+    "symptoms": "Abnormal bleeding, pelvic pain, pain during sex, discharge.",
+    "causes": "HPV infection, smoking, weakened immunity.",
+    "treatment": "Surgery, radiation, chemotherapy, HPV vaccine for prevention.",
+    "layman_explanation": "Cervical cancer is mostly caused by HPV. Early detection and vaccines can help prevent it."
+  },
+  {
+    "topic": "Pelvic Inflammatory Disease (PID) (Case 96)",
+    "question": "What are the symptoms, causes, and treatment of Pelvic Inflammatory Disease (PID)? (version 96)",
+    "symptoms": "Pelvic pain, fever, unusual discharge, painful urination.",
+    "causes": "Sexually transmitted infections like chlamydia and gonorrhea.",
+    "treatment": "Antibiotics, partner treatment, rest.",
+    "layman_explanation": "PID is an infection of reproductive organs. It\u2019s treated with antibiotics."
+  },
+  {
+    "topic": "Ovarian Cysts (Case 97)",
+    "question": "What are the symptoms, causes, and treatment of Ovarian Cysts? (version 97)",
+    "symptoms": "Bloating, pelvic pain, pain during periods or sex, frequent urination.",
+    "causes": "Hormonal problems, endometriosis, pregnancy.",
+    "treatment": "Observation, birth control, surgery if needed.",
+    "layman_explanation": "Ovarian cysts are fluid-filled sacs. Many go away on their own but some need treatment."
+  },
+  {
+    "topic": "Uterine Fibroids (Case 98)",
+    "question": "What are the symptoms, causes, and treatment of Uterine Fibroids? (version 98)",
+    "symptoms": "Heavy periods, pelvic pain, frequent urination, constipation.",
+    "causes": "Unknown, but linked to hormones and genetics.",
+    "treatment": "Watchful waiting, medications, surgery.",
+    "layman_explanation": "Fibroids are non-cancerous growths in the uterus. They can cause heavy bleeding and discomfort."
+  }
+]
