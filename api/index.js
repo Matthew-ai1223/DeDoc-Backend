@@ -1,7 +1,8 @@
 /**
- * DeDoc Backend API - Vercel Serverless Function
- * This is the entry point for Vercel deployment
- * Root directory in Vercel should be set to: api
+ * DeDoc Backend API - Main Entry Point
+ * Works for both local development and Vercel serverless deployment
+ * For Vercel: Set root directory to "api"
+ * For local dev: Run "npm run dev" from backends folder
  */
 
 const express = require('express');
@@ -106,3 +107,14 @@ app.use((req, res) => {
 
 // Export the Express app for Vercel serverless function
 module.exports = app;
+
+// Start server only when run directly (local development)
+// In Vercel serverless, this won't execute
+if (require.main === module) {
+  const PORT = process.env.PORT || 5000;
+  app.listen(PORT, () => {
+    console.log(`🚀 Server running on port ${PORT}`);
+    console.log(`📍 Environment: ${process.env.NODE_ENV || 'development'}`);
+    console.log(`🌐 API available at: http://localhost:${PORT}`);
+  });
+}
