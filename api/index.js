@@ -44,14 +44,48 @@ app.use('/api/subscription', subscriptionRoutes);
 app.use('/api/payments', paymentRoutes);
 app.use('/api/subscription/verification', subscriptionVerificationRoutes);
 
-// Connect to MongoDB
-mongoose.connect(process.env.MONGODB_URI)
-  .then(() => console.log('✅ Connected to MongoDB'))
-  .catch((err) => {
-    console.error('❌ MongoDB connection error:', err);
-    // Don't throw - allow serverless function to start even if DB connection fails
+// MongoDB connection with serverless-optimized options
+const connectDB = async () => {
+  // Check if already connected (for serverless function reuse)
+  if (mongoose.connection.readyState === 1) {
+    console.log('✅ MongoDB already connected');
+    return;
+  }
+
+  try {
+    await mongoose.connect(process.env.MONGODB_URI, {
+      serverSelectionTimeoutMS: 5000, // Timeout after 5s instead of 30s
+      socketTimeoutMS: 45000, // Close sockets after 45s of inactivity
+      connectTimeoutMS: 10000, // Give up initial connection after 10s
+      maxPoolSize: 10, // Maintain up to 10 socket connections
+      minPoolSize: 1, // Maintain at least 1 socket connection
+      maxIdleTimeMS: 30000, // Close connections after 30s of inactivity
+      retryWrites: true,
+      w: 'majority'
+    });
+    console.log('✅ Connected to MongoDB');
+  } catch (err) {
+    console.error('❌ MongoDB connection error:', err.message);
+    // Don't throw - allow serverless function to start
     // Connection will be retried on next request
-  });
+  }
+};
+
+// Connect to MongoDB
+connectDB();
+
+// Handle connection events
+mongoose.connection.on('error', (err) => {
+  console.error('❌ MongoDB connection error:', err.message);
+});
+
+mongoose.connection.on('disconnected', () => {
+  console.log('⚠️ MongoDB disconnected');
+});
+
+mongoose.connection.on('reconnected', () => {
+  console.log('✅ MongoDB reconnected');
+});
 
 // Global error handling middleware
 app.use((err, req, res, next) => {
