@@ -13,6 +13,20 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
+// Root route
+app.get('/', (req, res) => {
+  res.json({
+    message: 'DeDoc Backend API',
+    status: 'running',
+    version: '1.0.0',
+    endpoints: {
+      auth: '/api/auth',
+      subscription: '/api/subscription',
+      payments: '/api/payments'
+    }
+  });
+});
+
 // Import routes
 const authRoutes = require('./sec/routes/auth.routes');
 const subscriptionRoutes = require('./sec/routes/subscription.routes');
