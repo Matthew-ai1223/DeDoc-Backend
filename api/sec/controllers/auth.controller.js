@@ -299,6 +299,14 @@ exports.register = async (req, res) => {
       termsAccepted
     } = req.body;
 
+    // Validate required fields
+    if (!fullName || !username || !email || !dateOfBirth || !phoneNumber || !state || !city || !password) {
+      return res.status(400).json({ 
+        message: 'All fields are required',
+        error: 'Missing required fields'
+      });
+    }
+
     // Validate password match
     if (password !== confirmPassword) {
       return res.status(400).json({ message: 'Passwords do not match' });
@@ -311,12 +319,13 @@ exports.register = async (req, res) => {
 
     // Check if user already exists
     const existingUser = await User.findOne({
-      $or: [{ email }, { username }]
+      $or: [{ email: email.toLowerCase() }, { username }]
     });
 
     if (existingUser) {
+      const field = existingUser.email === email.toLowerCase() ? 'email' : 'username';
       return res.status(400).json({
-        message: 'User with this email or username already exists'
+        message: `User with this ${field} already exists`
       });
     }
 
@@ -324,7 +333,7 @@ exports.register = async (req, res) => {
     const user = new User({
       fullName,
       username,
-      email,
+      email: email.toLowerCase(),
       dateOfBirth,
       phoneNumber,
       state,
@@ -335,8 +344,15 @@ exports.register = async (req, res) => {
 
     await user.save();
 
-    // Send welcome email
-    await sendWelcomeEmail(email, fullName, username, password);
+    // Send welcome email (non-blocking - don't fail registration if email fails)
+    sendWelcomeEmail(email, fullName, username, password)
+      .then(() => {
+        console.log('Welcome email sent successfully');
+      })
+      .catch((emailError) => {
+        console.error('Failed to send welcome email (non-critical):', emailError.message);
+        // Don't throw - registration should succeed even if email fails
+      });
 
     // Generate token
     const token = generateToken(user._id);
@@ -354,7 +370,29 @@ exports.register = async (req, res) => {
     });
   } catch (error) {
     console.error('Registration error:', error);
-    res.status(500).json({ message: 'Registration failed' });
+    
+    // Handle Mongoose validation errors
+    if (error.name === 'ValidationError') {
+      const errors = Object.values(error.errors).map(err => err.message);
+      return res.status(400).json({ 
+        message: 'Validation error',
+        errors: errors
+      });
+    }
+
+    // Handle duplicate key errors
+    if (error.code === 11000) {
+      const field = Object.keys(error.keyPattern)[0];
+      return res.status(400).json({ 
+        message: `${field} already exists`
+      });
+    }
+
+    // Handle other errors
+    res.status(500).json({ 
+      message: error.message || 'Registration failed',
+      error: process.env.NODE_ENV === 'development' ? error.stack : undefined
+    });
   }
 };
 
