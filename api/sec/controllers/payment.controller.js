@@ -226,18 +226,29 @@ exports.verifyPayment = async (req, res) => {
 
         // Check if payment is already verified
         if (payment.status === 'success' && payment.verified) {
-            return res.json({
-                status: 'success',
-                message: 'Payment already verified',
-                data: {
-                    payment: {
-                        reference: payment.reference,
-                        amount: payment.amount,
-                        plan: payment.plan,
-                        status: payment.status
+            // Get user to return subscription data
+            const user = await User.findById(req.user.id);
+            if (user && user.subscription) {
+                return res.json({
+                    status: 'success',
+                    message: 'Payment already verified',
+                    data: {
+                        payment: {
+                            reference: payment.reference,
+                            amount: payment.amount,
+                            plan: payment.plan,
+                            status: payment.status
+                        },
+                        subscription: {
+                            plan: user.subscription.plan,
+                            startDate: user.subscription.startDate,
+                            endDate: user.subscription.endDate,
+                            status: user.subscription.status
+                        }
                     }
-                }
-            });
+                });
+            }
+            // If no user subscription found, continue with verification
         }
 
         console.log('Verifying with Paystack...');
@@ -252,21 +263,43 @@ exports.verifyPayment = async (req, res) => {
         );
 
         console.log('Paystack response:', response.data);
+        
+        // Check if Paystack API call was successful
+        if (!response.data.status || !response.data.data) {
+            return res.status(400).json({
+                status: 'error',
+                message: 'Invalid response from Paystack',
+                details: response.data
+            });
+        }
+        
         const paystackData = response.data.data;
 
+        // Check if the transaction was successful
         if (paystackData.status !== 'success') {
             return res.status(400).json({
                 status: 'error',
-                message: 'Payment verification failed with Paystack'
+                message: `Payment verification failed with Paystack. Status: ${paystackData.status}`,
+                details: paystackData
             });
         }
 
-        // Update payment status
+        // Update payment status (this will trigger pre-save hook to calculate subscriptionEnd)
         payment.status = 'success';
         payment.verified = true;
         payment.verificationDate = new Date();
+        // The pre-save hook will calculate subscriptionStart and subscriptionEnd when status changes to 'success'
         await payment.save();
         console.log('Payment status updated');
+        
+        // Ensure subscription dates are calculated (pre-save hook should handle this, but check anyway)
+        if (!payment.subscriptionStart || !payment.subscriptionEnd) {
+            payment.calculateSubscriptionEnd();
+            await payment.save();
+        }
+        
+        const startDate = payment.subscriptionStart || new Date();
+        const endDate = payment.subscriptionEnd;
 
         // Update user subscription
         const user = await User.findById(req.user.id);
@@ -276,10 +309,6 @@ exports.verifyPayment = async (req, res) => {
                 message: 'User not found'
             });
         }
-
-        // Calculate subscription dates
-        const startDate = new Date();
-        const endDate = payment.calculateSubscriptionEnd();
 
         // Update user subscription
         user.subscription = {

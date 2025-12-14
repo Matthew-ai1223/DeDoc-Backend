@@ -20,7 +20,8 @@ function getDurationInMs(plan) {
         'basic': 2 * 60 * 60 * 1000, // 2 hours
         'standard': 7 * 24 * 60 * 60 * 1000, // 1 week
         'premium': 14 * 24 * 60 * 60 * 1000, // 2 weeks
-        'pro': 30 * 24 * 60 * 60 * 1000 // 1 month
+        'pro': 30 * 24 * 60 * 60 * 1000, // 1 month
+        'paygo': 24 * 60 * 60 * 1000 // 1 day
     };
     return durations[plan] || 0;
 }
