@@ -26,6 +26,12 @@ const SUBSCRIPTION_PLANS = {
     duration: 30 * 24 * 60 * 60 * 1000, // 1 month in milliseconds
     name: 'Pro Plan',
     allowedPages: ['std.html', 'p_c.html', 'therapist_alice.html', 'doc_John.html', 'ai_doc_dashboard.html', 'health_reports.html', 'emergency_support.html']
+  },
+  paygo: {
+    amount: 35000, // 350 naira in kobo
+    duration: 24 * 60 * 60 * 1000, // 1 day in milliseconds
+    name: 'Pay As You Go Plan',
+    allowedPages: ['std.html', 'p_c.html', 'therapist_alice.html', 'doc_John.html', 'ai_doc_dashboard.html', 'health_reports.html']
   }
 };
 

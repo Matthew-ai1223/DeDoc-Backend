@@ -18,7 +18,7 @@ const paymentSchema = new mongoose.Schema({
     plan: {
         type: String,
         required: true,
-        enum: ['basic', 'standard', 'premium', 'pro']
+        enum: ['basic', 'standard', 'premium', 'pro', 'paygo']
     },
     status: {
         type: String,
@@ -58,12 +58,14 @@ paymentSchema.methods.calculateSubscriptionEnd = function() {
         'basic': 2 * 60 * 60 * 1000, // 2 hours
         'standard': 7 * 24 * 60 * 60 * 1000, // 1 week
         'premium': 14 * 24 * 60 * 60 * 1000, // 2 weeks
-        'pro': 30 * 24 * 60 * 60 * 1000 // 1 month
+        'pro': 30 * 24 * 60 * 60 * 1000, // 1 month
+        'paygo': 24 * 60 * 60 * 1000 // 1 day
     };
 
     const now = new Date();
     this.subscriptionStart = now;
     this.subscriptionEnd = new Date(now.getTime() + durations[this.plan]);
+    return this.subscriptionEnd;
 };
 
 // Update the updatedAt timestamp and calculate subscription dates before saving

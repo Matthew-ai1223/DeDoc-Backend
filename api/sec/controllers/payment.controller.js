@@ -135,7 +135,8 @@ function getPlanAmount(plan) {
         basic: 50,
         standard: 450,
         premium: 850,
-        pro: 1600
+        pro: 1600,
+        paygo: 350
     };
     return planAmounts[plan] || 0;
 }
