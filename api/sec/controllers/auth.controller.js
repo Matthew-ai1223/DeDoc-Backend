@@ -1,4 +1,5 @@
 const User = require('../models/User');
+const UserActivity = require('../models/UserActivity');
 const jwt = require('jsonwebtoken');
 const nodemailer = require('nodemailer');
 
@@ -497,6 +498,20 @@ exports.forgotPassword = async (req, res) => {
     // Update password (pre-save hook will hash it)
     user.password = newPassword;
     await user.save();
+
+    // Log password change activity
+    try {
+      await UserActivity.create({
+        action: 'password_change',
+        username: user.username,
+        userId: user._id,
+        details: 'Password reset via forgot password',
+        ip: req.headers['x-forwarded-for'] || req.socket?.remoteAddress,
+        userAgent: req.headers['user-agent']
+      });
+    } catch (logErr) {
+      console.warn('Failed to log password change activity:', logErr.message);
+    }
 
     res.json({ message: 'Password has been reset successfully. You can now log in with your new password.' });
   } catch (error) {

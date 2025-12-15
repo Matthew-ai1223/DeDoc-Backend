@@ -4,7 +4,7 @@ const userActivitySchema = new mongoose.Schema(
   {
     action: {
       type: String,
-      enum: ['login', 'logout', 'register'],
+      enum: ['login', 'logout', 'register', 'password_change'],
       required: true
     },
     username: {
