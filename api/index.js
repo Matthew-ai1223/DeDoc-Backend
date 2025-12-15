@@ -33,47 +33,121 @@ app.get('/', (req, res) => {
   });
 });
 
+// MongoDB connection with serverless-optimized options
+let isConnecting = false;
+let connectionPromise = null;
+
+// Disable buffering globally to prevent timeout errors in serverless
+mongoose.set('bufferCommands', false);
+mongoose.set('bufferMaxEntries', 0);
+
+const connectDB = async () => {
+  // Check if already connected (for serverless function reuse)
+  if (mongoose.connection.readyState === 1) {
+    console.log('✅ MongoDB already connected');
+    return mongoose.connection;
+  }
+
+  // If already connecting, wait for that connection
+  if (isConnecting && connectionPromise) {
+    console.log('⏳ Waiting for existing connection...');
+    return connectionPromise;
+  }
+
+  // Start new connection
+  isConnecting = true;
+  connectionPromise = (async () => {
+    try {
+      console.log('🔄 Connecting to MongoDB...');
+      await mongoose.connect(process.env.MONGODB_URI, {
+        serverSelectionTimeoutMS: 10000, // Increased to 10s
+        socketTimeoutMS: 45000, // Close sockets after 45s of inactivity
+        connectTimeoutMS: 10000, // Give up initial connection after 10s
+        maxPoolSize: 10, // Maintain up to 10 socket connections
+        minPoolSize: 1, // Maintain at least 1 socket connection
+        maxIdleTimeMS: 30000, // Close connections after 30s of inactivity
+        retryWrites: true,
+        w: 'majority',
+        // Serverless-specific options
+        bufferCommands: false,
+        bufferMaxEntries: 0
+      });
+      console.log('✅ Connected to MongoDB');
+      isConnecting = false;
+      return mongoose.connection;
+    } catch (err) {
+      console.error('❌ MongoDB connection error:', err.message);
+      isConnecting = false;
+      connectionPromise = null;
+      throw err; // Re-throw to allow middleware to handle
+    }
+  })();
+
+  return connectionPromise;
+};
+
+// Middleware to ensure DB connection before handling requests
+const ensureDBConnection = async (req, res, next) => {
+  try {
+    // Check connection state
+    const state = mongoose.connection.readyState;
+    
+    // 0 = disconnected, 1 = connected, 2 = connecting, 3 = disconnecting
+    if (state === 1) {
+      // Already connected
+      return next();
+    }
+
+    if (state === 2) {
+      // Currently connecting, wait for it
+      console.log('⏳ Connection in progress, waiting...');
+      await new Promise((resolve, reject) => {
+        const timeout = setTimeout(() => {
+          reject(new Error('Connection timeout'));
+        }, 10000);
+
+        mongoose.connection.once('connected', () => {
+          clearTimeout(timeout);
+          resolve();
+        });
+
+        mongoose.connection.once('error', (err) => {
+          clearTimeout(timeout);
+          reject(err);
+        });
+      });
+      return next();
+    }
+
+    // Not connected, establish connection
+    await connectDB();
+    next();
+  } catch (error) {
+    console.error('Database connection failed in middleware:', error);
+    res.status(503).json({
+      message: 'Database connection failed. Please try again later.',
+      error: process.env.NODE_ENV === 'development' ? error.message : undefined
+    });
+  }
+};
+
 // Import route modules
 const authRoutes = require('./sec/routes/auth.routes');
 const subscriptionRoutes = require('./sec/routes/subscription.routes');
 const paymentRoutes = require('./sec/routes/payment.routes');
 const subscriptionVerificationRoutes = require('./sec/routes/subscription.verification.routes');
 
-// Register API routes
-app.use('/api/auth', authRoutes);
-app.use('/api/subscription', subscriptionRoutes);
-app.use('/api/payments', paymentRoutes);
-app.use('/api/subscription/verification', subscriptionVerificationRoutes);
+// Register API routes with DB connection middleware
+app.use('/api/auth', ensureDBConnection, authRoutes);
+app.use('/api/subscription', ensureDBConnection, subscriptionRoutes);
+app.use('/api/payments', ensureDBConnection, paymentRoutes);
+app.use('/api/subscription/verification', ensureDBConnection, subscriptionVerificationRoutes);
 
-// MongoDB connection with serverless-optimized options
-const connectDB = async () => {
-  // Check if already connected (for serverless function reuse)
-  if (mongoose.connection.readyState === 1) {
-    console.log('✅ MongoDB already connected');
-    return;
-  }
-
-  try {
-    await mongoose.connect(process.env.MONGODB_URI, {
-      serverSelectionTimeoutMS: 5000, // Timeout after 5s instead of 30s
-      socketTimeoutMS: 45000, // Close sockets after 45s of inactivity
-      connectTimeoutMS: 10000, // Give up initial connection after 10s
-      maxPoolSize: 10, // Maintain up to 10 socket connections
-      minPoolSize: 1, // Maintain at least 1 socket connection
-      maxIdleTimeMS: 30000, // Close connections after 30s of inactivity
-      retryWrites: true,
-      w: 'majority'
-    });
-    console.log('✅ Connected to MongoDB');
-  } catch (err) {
-    console.error('❌ MongoDB connection error:', err.message);
-    // Don't throw - allow serverless function to start
-    // Connection will be retried on next request
-  }
-};
-
-// Connect to MongoDB
-connectDB();
+// Connect to MongoDB on startup (non-blocking for serverless)
+connectDB().catch(err => {
+  console.error('Initial MongoDB connection attempt failed:', err.message);
+  // Don't throw - connection will be retried on first request
+});
 
 // Handle connection events
 mongoose.connection.on('error', (err) => {
