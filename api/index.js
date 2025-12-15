@@ -39,7 +39,6 @@ let connectionPromise = null;
 
 // Disable buffering globally to prevent timeout errors in serverless
 mongoose.set('bufferCommands', false);
-mongoose.set('bufferMaxEntries', 0);
 
 const connectDB = async () => {
   // Check if already connected (for serverless function reuse)
@@ -69,8 +68,7 @@ const connectDB = async () => {
         retryWrites: true,
         w: 'majority',
         // Serverless-specific options
-        bufferCommands: false,
-        bufferMaxEntries: 0
+        bufferCommands: false
       });
       console.log('✅ Connected to MongoDB');
       isConnecting = false;
@@ -185,7 +183,7 @@ module.exports = app;
 // Start server only when run directly (local development)
 // In Vercel serverless, this won't execute
 if (require.main === module) {
-  const PORT = process.env.PORT || 5000;
+  const PORT = process.env.PORT || 5001;
   app.listen(PORT, () => {
     console.log(`🚀 Server running on port ${PORT}`);
     console.log(`📍 Environment: ${process.env.NODE_ENV || 'development'}`);
