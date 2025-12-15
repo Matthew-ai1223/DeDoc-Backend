@@ -134,12 +134,14 @@ const authRoutes = require('./sec/routes/auth.routes');
 const subscriptionRoutes = require('./sec/routes/subscription.routes');
 const paymentRoutes = require('./sec/routes/payment.routes');
 const subscriptionVerificationRoutes = require('./sec/routes/subscription.verification.routes');
+const activityRoutes = require('./sec/routes/activity.routes');
 
 // Register API routes with DB connection middleware
 app.use('/api/auth', ensureDBConnection, authRoutes);
 app.use('/api/subscription', ensureDBConnection, subscriptionRoutes);
 app.use('/api/payments', ensureDBConnection, paymentRoutes);
 app.use('/api/subscription/verification', ensureDBConnection, subscriptionVerificationRoutes);
+app.use('/api/activity', ensureDBConnection, activityRoutes);
 
 // Connect to MongoDB on startup (non-blocking for serverless)
 connectDB().catch(err => {
