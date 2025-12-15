@@ -31,3 +31,20 @@ exports.logActivity = async (req, res) => {
     res.status(500).json({ message: 'Failed to log activity' });
   }
 };
+
+// Get recent activity log entries (for admin)
+exports.getActivities = async (req, res) => {
+  try {
+    const limit = Math.min(parseInt(req.query.limit, 10) || 100, 500);
+
+    const activities = await UserActivity.find()
+      .sort({ timestamp: -1 })
+      .limit(limit)
+      .lean();
+
+    res.json(activities);
+  } catch (error) {
+    console.error('Get activities error:', error);
+    res.status(500).json({ message: 'Failed to fetch activity log' });
+  }
+};
