@@ -455,3 +455,52 @@ exports.getCurrentUser = async (req, res) => {
     res.status(500).json({ message: 'Failed to load user' });
   }
 };
+
+// Reset password using registration info (no email)
+exports.forgotPassword = async (req, res) => {
+  try {
+    const {
+      username,
+      email,
+      dateOfBirth,
+      phoneNumber,
+      newPassword,
+      confirmPassword
+    } = req.body || {};
+
+    if (!username || !email || !dateOfBirth || !phoneNumber || !newPassword || !confirmPassword) {
+      return res.status(400).json({ message: 'All fields are required' });
+    }
+
+    if (newPassword !== confirmPassword) {
+      return res.status(400).json({ message: 'Passwords do not match' });
+    }
+
+    if (newPassword.length < 6) {
+      return res.status(400).json({ message: 'Password must be at least 6 characters' });
+    }
+
+    // Find user with matching registration info
+    const user = await User.findOne({
+      username,
+      email: email.toLowerCase(),
+      phoneNumber,
+      dateOfBirth: new Date(dateOfBirth)
+    });
+
+    if (!user) {
+      return res.status(404).json({
+        message: 'No user found with the provided information'
+      });
+    }
+
+    // Update password (pre-save hook will hash it)
+    user.password = newPassword;
+    await user.save();
+
+    res.json({ message: 'Password has been reset successfully. You can now log in with your new password.' });
+  } catch (error) {
+    console.error('Forgot password error:', error);
+    res.status(500).json({ message: 'Failed to reset password' });
+  }
+};
