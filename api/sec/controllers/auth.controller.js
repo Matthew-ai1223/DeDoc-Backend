@@ -432,4 +432,26 @@ exports.login = async (req, res) => {
     console.error('Login error:', error);
     res.status(500).json({ message: 'Login failed' });
   }
-}; 
+};
+
+// Get current authenticated user
+exports.getCurrentUser = async (req, res) => {
+  try {
+    if (!req.user) {
+      return res.status(401).json({ message: 'Not authorized' });
+    }
+
+    res.json({
+      id: req.user._id,
+      fullName: req.user.fullName,
+      username: req.user.username,
+      email: req.user.email,
+      phoneNumber: req.user.phoneNumber,
+      subscription: req.user.subscription,
+      createdAt: req.user.createdAt
+    });
+  } catch (error) {
+    console.error('Get current user error:', error);
+    res.status(500).json({ message: 'Failed to load user' });
+  }
+};
