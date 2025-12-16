@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const { register, login, getCurrentUser } = require('../controllers/auth.controller');
+const { register, login, getCurrentUser, forgotPassword } = require('../controllers/auth.controller');
 const { protect } = require('../middleware/auth.middleware');
 const User = require('../models/User');
 
@@ -8,6 +8,7 @@ const User = require('../models/User');
 router.post('/register', register);
 router.post('/login', login);
 router.get('/user', protect, getCurrentUser);
+router.post('/forgot-password', forgotPassword);
 
 // Get all users (admin only)
 router.get('/users', async (req, res) => {

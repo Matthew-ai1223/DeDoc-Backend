@@ -28,3 +28,7 @@ dist/
 build/
 .next/
 out/
+
+
+# dataset
+dataset/
