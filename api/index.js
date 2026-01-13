@@ -43,13 +43,13 @@ mongoose.set('bufferCommands', false);
 const connectDB = async () => {
   // Check if already connected (for serverless function reuse)
   if (mongoose.connection.readyState === 1) {
-    console.log('✅ MongoDB already connected');
+    console.log('MongoDB already connected');
     return mongoose.connection;
   }
 
   // If already connecting, wait for that connection
   if (isConnecting && connectionPromise) {
-    console.log('⏳ Waiting for existing connection...');
+    console.log('Waiting for existing connection...');
     return connectionPromise;
   }
 
@@ -57,7 +57,7 @@ const connectDB = async () => {
   isConnecting = true;
   connectionPromise = (async () => {
     try {
-      console.log('🔄 Connecting to MongoDB...');
+      console.log('Connecting to MongoDB...');
       await mongoose.connect(process.env.MONGODB_URI, {
         serverSelectionTimeoutMS: 10000, // Increased to 10s
         socketTimeoutMS: 45000, // Close sockets after 45s of inactivity
@@ -70,11 +70,11 @@ const connectDB = async () => {
         // Serverless-specific options
         bufferCommands: false
       });
-      console.log('✅ Connected to MongoDB');
+      console.log('Connected to MongoDB');
       isConnecting = false;
       return mongoose.connection;
     } catch (err) {
-      console.error('❌ MongoDB connection error:', err.message);
+      console.error('MongoDB connection error:', err.message);
       isConnecting = false;
       connectionPromise = null;
       throw err; // Re-throw to allow middleware to handle
@@ -89,7 +89,7 @@ const ensureDBConnection = async (req, res, next) => {
   try {
     // Check connection state
     const state = mongoose.connection.readyState;
-    
+
     // 0 = disconnected, 1 = connected, 2 = connecting, 3 = disconnecting
     if (state === 1) {
       // Already connected
@@ -98,7 +98,7 @@ const ensureDBConnection = async (req, res, next) => {
 
     if (state === 2) {
       // Currently connecting, wait for it
-      console.log('⏳ Connection in progress, waiting...');
+      console.log('Connection in progress, waiting...');
       await new Promise((resolve, reject) => {
         const timeout = setTimeout(() => {
           reject(new Error('Connection timeout'));
@@ -151,15 +151,15 @@ connectDB().catch(err => {
 
 // Handle connection events
 mongoose.connection.on('error', (err) => {
-  console.error('❌ MongoDB connection error:', err.message);
+  console.error('MongoDB connection error:', err.message);
 });
 
 mongoose.connection.on('disconnected', () => {
-  console.log('⚠️ MongoDB disconnected');
+  console.log('MongoDB disconnected');
 });
 
 mongoose.connection.on('reconnected', () => {
-  console.log('✅ MongoDB reconnected');
+  console.log('MongoDB reconnected');
 });
 
 // Global error handling middleware
@@ -187,8 +187,8 @@ module.exports = app;
 if (require.main === module) {
   const PORT = process.env.PORT || 5001;
   app.listen(PORT, () => {
-    console.log(`🚀 Server running on port ${PORT}`);
-    console.log(`📍 Environment: ${process.env.NODE_ENV || 'development'}`);
-    console.log(`🌐 API available at: http://localhost:${PORT}`);
+    console.log(`Server running on port ${PORT}`);
+    console.log(`Environment: ${process.env.NODE_ENV || 'development'}`);
+    console.log(`API available at: http://localhost:${PORT}`);
   });
 }
