@@ -76,12 +76,23 @@ router.get('/status', protect, getSubscriptionStatus);
 router.get('/check-access', protect, checkPageAccess);
 
 // Admin: manually renew a user's subscription
+// NOTE: getSubscriptionStatus and checkPageAccess both query the Payment
+// collection (not user.subscription), so we must create a Payment record
+// with status:'success' — otherwise the app still sees the user as inactive.
 const PLAN_DURATIONS = {
   basic: 60 * 60 * 1000,                  // 1 hour
   standard: 7 * 24 * 60 * 60 * 1000,        // 1 week
   premium: 14 * 24 * 60 * 60 * 1000,        // 2 weeks
   pro: 30 * 24 * 60 * 60 * 1000,        // 1 month
   paygo: 24 * 60 * 60 * 1000              // 1 day
+};
+
+const PLAN_AMOUNTS = {
+  basic: 5000,
+  standard: 45000,
+  premium: 85000,
+  pro: 160000,
+  paygo: 35000
 };
 
 router.post('/admin/renew/:userId', async (req, res) => {
@@ -98,28 +109,63 @@ router.post('/admin/renew/:userId', async (req, res) => {
       return res.status(404).json({ message: 'User not found' });
     }
 
+    const Payment = require('../models/Payment');
     const now = new Date();
-    // If durationDays is provided, use it; otherwise fall back to plan default
+    const reference = `admin-renew-${userId}-${Date.now()}`;
+
+    // Duration: use custom days if provided, otherwise fall back to plan default
     const durationMs = durationDays
       ? Number(durationDays) * 24 * 60 * 60 * 1000
       : PLAN_DURATIONS[plan];
 
-    const endDate = new Date(now.getTime() + durationMs);
+    // ─── 1. Create a Payment record (this is what the app checks) ──────────
+    // We do NOT pass subscriptionStart here so the pre-save hook calculates
+    // the standard plan dates. If a custom durationDays was requested we will
+    // patch subscriptionEnd afterwards via findByIdAndUpdate (bypasses hook).
+    const payment = new Payment({
+      userId: user._id,
+      reference,
+      amount: PLAN_AMOUNTS[plan],
+      plan,
+      status: 'success',
+      paymentProvider: 'admin',
+      metadata: {
+        adminRenewal: true,
+        renewedAt: now.toISOString(),
+        durationDays: durationDays || null
+      }
+    });
+    await payment.save(); // hook sets subscriptionStart = now, subscriptionEnd = plan default
 
+    // If admin specified a custom duration, override subscriptionEnd directly
+    if (durationDays && Number(durationDays) > 0) {
+      const customEnd = new Date(payment.subscriptionStart.getTime() + durationMs);
+      await Payment.findByIdAndUpdate(payment._id, { subscriptionEnd: customEnd });
+      payment.subscriptionEnd = customEnd; // keep local reference in sync
+    }
+
+    const finalEnd = payment.subscriptionEnd;
+
+    // ─── 2. Also keep user.subscription in sync ────────────────────────────
     user.subscription = {
       plan,
       startDate: now,
-      endDate,
+      endDate: finalEnd,
       lastPaymentDate: now,
       status: 'active',
-      reference: `admin-renew-${Date.now()}`
+      reference
     };
-
     await user.save();
 
     return res.json({
-      message: `Subscription renewed successfully for user ${user.fullName || user.email}`,
-      subscription: user.subscription
+      message: `Subscription renewed successfully for ${user.fullName || user.email}`,
+      subscription: user.subscription,
+      payment: {
+        reference,
+        plan,
+        subscriptionStart: payment.subscriptionStart,
+        subscriptionEnd: finalEnd
+      }
     });
   } catch (error) {
     console.error('Admin renew error:', error);
