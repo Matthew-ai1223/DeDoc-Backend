@@ -7,44 +7,45 @@ const {
   getSubscriptionStatus,
   checkPageAccess
 } = require('../controllers/subscription.controller');
+const User = require('../models/User');
 
 // Admin route to get all subscription data
 router.get('/admin-data', async (req, res) => {
   try {
     const User = require('../models/User');
     const Payment = require('../models/Payment');
-    
+
     const users = await User.find({}, 'fullName email subscription createdAt');
-    
+
     // Get all successful payments
     const payments = await Payment.find({ status: 'success' }).populate('userId', 'fullName email');
-    
+
     // Calculate subscription statistics
     const totalUsers = users.length;
-    const activeSubscriptions = users.filter(user => 
-      user.subscription && 
-      user.subscription.plan !== 'none' && 
+    const activeSubscriptions = users.filter(user =>
+      user.subscription &&
+      user.subscription.plan !== 'none' &&
       new Date(user.subscription.endDate) > new Date()
     ).length;
-    
+
     // Calculate total revenue from actual payments
     const totalRevenue = payments.reduce((sum, payment) => sum + payment.amount, 0);
     const averageRevenuePerUser = totalUsers > 0 ? totalRevenue / totalUsers : 0;
-    
+
     const subscriptionStats = {
       totalUsers,
       activeSubscriptions,
       totalRevenue,
       averageRevenuePerUser
     };
-    
+
     // Get plan distribution from payments
     const planDistribution = {};
     payments.forEach(payment => {
       const plan = payment.plan;
       planDistribution[plan] = (planDistribution[plan] || 0) + 1;
     });
-    
+
     // Get recent transactions from payments
     const recentTransactions = payments
       .map(payment => ({
@@ -57,7 +58,7 @@ router.get('/admin-data', async (req, res) => {
       }))
       .sort((a, b) => new Date(b.date) - new Date(a.date))
       .slice(0, 10); // Get last 10 transactions
-    
+
     res.json({
       stats: subscriptionStats,
       planDistribution,
@@ -74,4 +75,56 @@ router.post('/initialize', protect, initializePayment);
 router.get('/status', protect, getSubscriptionStatus);
 router.get('/check-access', protect, checkPageAccess);
 
-module.exports = router; 
+// Admin: manually renew a user's subscription
+const PLAN_DURATIONS = {
+  basic: 60 * 60 * 1000,                  // 1 hour
+  standard: 7 * 24 * 60 * 60 * 1000,        // 1 week
+  premium: 14 * 24 * 60 * 60 * 1000,        // 2 weeks
+  pro: 30 * 24 * 60 * 60 * 1000,        // 1 month
+  paygo: 24 * 60 * 60 * 1000              // 1 day
+};
+
+router.post('/admin/renew/:userId', async (req, res) => {
+  try {
+    const { userId } = req.params;
+    const { plan, durationDays } = req.body;
+
+    if (!plan || !PLAN_DURATIONS[plan]) {
+      return res.status(400).json({ message: 'Invalid or missing subscription plan' });
+    }
+
+    const user = await User.findById(userId);
+    if (!user) {
+      return res.status(404).json({ message: 'User not found' });
+    }
+
+    const now = new Date();
+    // If durationDays is provided, use it; otherwise fall back to plan default
+    const durationMs = durationDays
+      ? Number(durationDays) * 24 * 60 * 60 * 1000
+      : PLAN_DURATIONS[plan];
+
+    const endDate = new Date(now.getTime() + durationMs);
+
+    user.subscription = {
+      plan,
+      startDate: now,
+      endDate,
+      lastPaymentDate: now,
+      status: 'active',
+      reference: `admin-renew-${Date.now()}`
+    };
+
+    await user.save();
+
+    return res.json({
+      message: `Subscription renewed successfully for user ${user.fullName || user.email}`,
+      subscription: user.subscription
+    });
+  } catch (error) {
+    console.error('Admin renew error:', error);
+    res.status(500).json({ message: 'Failed to renew subscription' });
+  }
+});
+
+module.exports = router;
