@@ -40,13 +40,13 @@ function validateSubscriptionData(subscription) {
   if (!subscription) return false;
   if (!subscription.plan || !SUBSCRIPTION_PLANS[subscription.plan]) return false;
   if (!subscription.startDate || !subscription.endDate) return false;
-  
+
   const startDate = new Date(subscription.startDate);
   const endDate = new Date(subscription.endDate);
-  
+
   if (isNaN(startDate.getTime()) || isNaN(endDate.getTime())) return false;
   if (endDate <= startDate) return false;
-  
+
   return true;
 }
 
@@ -68,9 +68,9 @@ exports.initializePayment = async (req, res) => {
     if (user.subscription && user.subscription.plan !== 'none') {
       const now = new Date();
       const endDate = new Date(user.subscription.endDate);
-      
+
       if (endDate > now) {
-        return res.status(400).json({ 
+        return res.status(400).json({
           message: 'You already have an active subscription',
           currentPlan: user.subscription.plan,
           endDate: user.subscription.endDate
@@ -107,12 +107,17 @@ exports.initializePayment = async (req, res) => {
         data += chunk;
       });
 
-      paymentRes.on('end', () => {
+      paymentRes.on('end', async () => {
         try {
           const response = JSON.parse(data);
           if (!response.status) {
             throw new Error('Invalid response from payment provider');
           }
+
+          // Store the reference as active
+          user.activePaymentReference = response.data.reference;
+          await user.save();
+
           res.json(response);
         } catch (error) {
           console.error('Payment response parsing error:', error);
@@ -178,6 +183,15 @@ exports.verifyPayment = async (req, res) => {
         });
       }
 
+      // Requirement: Cancel previous links and only leave the most recent one
+      if (user.activePaymentReference && user.activePaymentReference !== reference) {
+        return res.status(400).json({
+          status: 'error',
+          message: 'This payment link has been cancelled because a more recent link was generated. Please use the most recent link.',
+          reference: reference
+        });
+      }
+
       // Check if payment was already processed
       if (user.subscription?.reference === reference) {
         return res.json({
@@ -192,7 +206,7 @@ exports.verifyPayment = async (req, res) => {
 
       const now = new Date();
       const planDetails = SUBSCRIPTION_PLANS[plan];
-      
+
       if (!planDetails) {
         return res.status(400).json({
           status: 'error',
@@ -379,7 +393,7 @@ exports.checkPageAccess = async (req, res) => {
 };
 
 // Get subscription
-exports.getSubscription = async function(userId) {
+exports.getSubscription = async function (userId) {
   try {
     const user = await User.findById(userId);
     if (!user) {
@@ -398,7 +412,7 @@ exports.getSubscription = async function(userId) {
 }
 
 // Update subscription
-exports.updateSubscription = async function(userId, subscriptionData) {
+exports.updateSubscription = async function (userId, subscriptionData) {
   try {
     const user = await User.findById(userId);
     if (!user) {
@@ -436,7 +450,7 @@ async function fixAllUserSubscriptionEndDates() {
         const startDate = user.subscription.startDate ? new Date(user.subscription.startDate) : null;
         let endDate = user.subscription.endDate ? new Date(user.subscription.endDate) : null;
         const duration = SUBSCRIPTION_PLANS[plan] ? SUBSCRIPTION_PLANS[plan].duration : null;
-        
+
         if (!startDate || !duration) {
           console.log(`Skipping user ${user._id} - Invalid start date or duration`);
           continue;

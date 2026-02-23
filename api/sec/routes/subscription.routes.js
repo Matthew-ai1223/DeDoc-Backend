@@ -332,10 +332,14 @@ router.post('/whatsapp/pay', async (req, res) => {
         data += chunk;
       });
 
-      paymentRes.on('end', () => {
+      paymentRes.on('end', async () => {
         try {
           const response = JSON.parse(data);
           if (response.status && response.data && response.data.authorization_url) {
+            // Store the reference as the active one for this user
+            user.activePaymentReference = response.data.reference;
+            await user.save();
+
             return res.json({
               success: true,
               paymentUrl: response.data.authorization_url,
