@@ -191,6 +191,7 @@ router.get('/whatsapp/:phone', async (req, res) => {
     if (!user) {
       return res.json({
         success: true,
+        isRegistered: false,
         isSubscribed: false,
         message: 'User account not found'
       });
@@ -206,6 +207,7 @@ router.get('/whatsapp/:phone', async (req, res) => {
 
     return res.json({
       success: true,
+      isRegistered: true,
       isSubscribed: hasActiveSubscription,
       plan: user.subscription?.plan || 'none',
       endDate: user.subscription?.endDate || null,
