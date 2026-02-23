@@ -267,4 +267,100 @@ router.post('/whatsapp/link', async (req, res) => {
   }
 });
 
+// ─── WhatsApp Bot Generate Payment Link ────────────────────────────────────
+router.post('/whatsapp/pay', async (req, res) => {
+  try {
+    const { phone, plan } = req.body;
+
+    if (!phone || !plan) {
+      return res.status(400).json({ success: false, message: 'Phone and plan are required' });
+    }
+
+    const User = require('../models/User');
+    const https = require('https');
+
+    // Find user
+    const cleanPhone = phone.replace('+', '');
+    const searchRegex = new RegExp(`${cleanPhone.slice(-10)}$`);
+    const user = await User.findOne({ phoneNumber: searchRegex });
+
+    if (!user) {
+      return res.json({ success: false, message: 'Account not found. Please register first.' });
+    }
+
+    // Define plans and prices (matching your backend/frontend)
+    const SUBSCRIPTION_PLANS = {
+      basic: { amount: 5000 },
+      standard: { amount: 45000 },
+      premium: { amount: 85000 },
+      pro: { amount: 160000 },
+      paygo: { amount: 35000 }
+    };
+
+    const selectedPlan = SUBSCRIPTION_PLANS[plan.toLowerCase()];
+    if (!selectedPlan) {
+      return res.json({ success: false, message: 'Invalid plan selected. Valid options: paygo, premium, pro' });
+    }
+
+    // Initialize PayStack Transaction
+    const params = JSON.stringify({
+      email: user.email,
+      amount: selectedPlan.amount,
+      metadata: {
+        userId: user._id,
+        plan: plan.toLowerCase(),
+        source: 'whatsapp'
+      },
+      callback_url: "https://dedoc.vercel.app/payment-success"
+    });
+
+    const options = {
+      hostname: 'api.paystack.co',
+      port: 443,
+      path: '/transaction/initialize',
+      method: 'POST',
+      headers: {
+        Authorization: `Bearer ${process.env.PAYSTACK_SECRET_KEY}`,
+        'Content-Type': 'application/json'
+      }
+    };
+
+    const paymentReq = https.request(options, paymentRes => {
+      let data = '';
+
+      paymentRes.on('data', (chunk) => {
+        data += chunk;
+      });
+
+      paymentRes.on('end', () => {
+        try {
+          const response = JSON.parse(data);
+          if (response.status && response.data && response.data.authorization_url) {
+            return res.json({
+              success: true,
+              paymentUrl: response.data.authorization_url,
+              message: `Here is your secured Paystack link to upgrade to ${plan}:`
+            });
+          } else {
+            return res.json({ success: false, message: 'Failed to generate payment link: ' + response.message });
+          }
+        } catch (error) {
+          console.error('Paystack parsing error:', error);
+          return res.status(500).json({ success: false, message: 'Error processing payment response' });
+        }
+      });
+    }).on('error', (error) => {
+      console.error('PayStack initialize error:', error);
+      return res.status(500).json({ success: false, message: 'Payment gateway error' });
+    });
+
+    paymentReq.write(params);
+    paymentReq.end();
+
+  } catch (error) {
+    console.error('WhatsApp payment generation error:', error);
+    res.status(500).json({ success: false, message: 'Server error' });
+  }
+});
+
 module.exports = router;
