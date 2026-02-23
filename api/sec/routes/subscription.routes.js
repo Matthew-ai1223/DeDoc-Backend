@@ -420,7 +420,7 @@ router.post('/whatsapp/pay', async (req, res) => {
     }
 
     // Initialize PayStack Transaction
-    const frontendUrl = process.env.FRONTEND_URL || 'https://dedoc.vercel.app';
+    const frontendUrl = 'https://dedoc.vercel.app';
     const params = JSON.stringify({
       email: user.email,
       amount: selectedPlan.amount,
@@ -429,7 +429,7 @@ router.post('/whatsapp/pay', async (req, res) => {
         plan: plan.toLowerCase(),
         source: 'whatsapp'
       },
-      callback_url: `${frontendUrl}/payment-verification.html`
+      callback_url: `${frontendUrl}/payment-verification.html?source=whatsapp`
     });
 
     const options = {
