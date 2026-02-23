@@ -173,4 +173,49 @@ router.post('/admin/renew/:userId', async (req, res) => {
   }
 });
 
+// ─── WhatsApp Bot Subscription Check ───────────────────────────────────────
+router.get('/whatsapp/:phone', async (req, res) => {
+  try {
+    const { phone } = req.params;
+
+    // Attempt to find user with variations of the phone number (e.g. 080... vs 23480...)
+    const User = require('../models/User');
+    // Remove '+' if any
+    const cleanPhone = phone.replace('+', '');
+
+    // Find a user where the phone number ends with the same ending digits (last 10)
+    // to handle international and local formats matching
+    const searchRegex = new RegExp(`${cleanPhone.slice(-10)}$`);
+    const user = await User.findOne({ phoneNumber: searchRegex });
+
+    if (!user) {
+      return res.json({
+        success: true,
+        isSubscribed: false,
+        message: 'User account not found'
+      });
+    }
+
+    // Check subscription status
+    const hasActiveSubscription =
+      user.subscription &&
+      user.subscription.plan &&
+      user.subscription.plan !== 'none' &&
+      user.subscription.plan !== 'free' &&
+      new Date(user.subscription.endDate) > new Date();
+
+    return res.json({
+      success: true,
+      isSubscribed: hasActiveSubscription,
+      plan: user.subscription?.plan || 'none',
+      endDate: user.subscription?.endDate || null,
+      userName: user.fullName || user.username
+    });
+
+  } catch (error) {
+    console.error('WhatsApp subscription check error:', error);
+    res.status(500).json({ success: false, message: 'Server error' });
+  }
+});
+
 module.exports = router;
