@@ -220,4 +220,51 @@ router.get('/whatsapp/:phone', async (req, res) => {
   }
 });
 
+// ─── WhatsApp Bot Account Link ───────────────────────────────────────
+router.post('/whatsapp/link', async (req, res) => {
+  try {
+    const { email, phone } = req.body;
+
+    if (!email || !phone) {
+      return res.status(400).json({ success: false, message: 'Email and phone are required' });
+    }
+
+    const User = require('../models/User');
+
+    // Find user by email (case-insensitive)
+    const user = await User.findOne({ email: new RegExp('^' + email.trim() + '$', 'i') });
+
+    if (!user) {
+      return res.json({
+        success: false,
+        message: 'No account found with that email address.'
+      });
+    }
+
+    // Update their registered phone number to this WhatsApp number
+    const cleanPhone = phone.replace('+', '');
+    user.phoneNumber = cleanPhone;
+    await user.save();
+
+    // Check if they have an active subscription right now
+    const hasActiveSubscription =
+      user.subscription &&
+      user.subscription.plan &&
+      user.subscription.plan !== 'none' &&
+      user.subscription.plan !== 'free' &&
+      new Date(user.subscription.endDate) > new Date();
+
+    return res.json({
+      success: true,
+      message: 'Account linked successfully!',
+      isSubscribed: hasActiveSubscription,
+      userName: user.fullName || user.username
+    });
+
+  } catch (error) {
+    console.error('WhatsApp account link error:', error);
+    res.status(500).json({ success: false, message: 'Server error' });
+  }
+});
+
 module.exports = router;
