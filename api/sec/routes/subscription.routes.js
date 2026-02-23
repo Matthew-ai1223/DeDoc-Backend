@@ -173,6 +173,122 @@ router.post('/admin/renew/:userId', async (req, res) => {
   }
 });
 
+// ─── WhatsApp Bot No-Auth Payment Verification ──────────────────────────────
+router.get('/whatsapp/verify', async (req, res) => {
+  try {
+    const { reference } = req.query;
+
+    if (!reference) {
+      return res.status(400).json({ status: 'error', message: 'Reference is required' });
+    }
+
+    const User = require('../models/User');
+    const Payment = require('../models/Payment');
+    const https = require('https');
+
+    // Find the payment record created during WhatsApp pay link generation
+    const payment = await Payment.findOne({ reference, 'metadata.source': 'whatsapp' });
+
+    if (!payment) {
+      return res.status(404).json({ status: 'error', message: 'WhatsApp payment record not found for this reference.' });
+    }
+
+    // Don't re-verify if already successful
+    if (payment.status === 'success') {
+      const user = await User.findById(payment.userId);
+      return res.json({
+        status: 'success',
+        message: 'Payment already verified',
+        data: { subscription: user?.subscription }
+      });
+    }
+
+    // Verify with Paystack
+    const verifyOptions = {
+      hostname: 'api.paystack.co',
+      port: 443,
+      path: `/transaction/verify/${encodeURIComponent(reference)}`,
+      method: 'GET',
+      headers: { Authorization: `Bearer ${process.env.PAYSTACK_SECRET_KEY}` }
+    };
+
+    const verifyReq = https.request(verifyOptions, verifyRes => {
+      let data = '';
+      verifyRes.on('data', (chunk) => { data += chunk; });
+      verifyRes.on('end', async () => {
+        try {
+          const pstackData = JSON.parse(data);
+
+          if (!pstackData.status || pstackData.data?.status !== 'success') {
+            return res.status(400).json({ status: 'error', message: 'Payment not successful on Paystack.' });
+          }
+
+          const { userId, plan } = pstackData.data.metadata || {};
+          const planDurations = {
+            basic: 2 * 60 * 60 * 1000,
+            standard: 7 * 24 * 60 * 60 * 1000,
+            premium: 14 * 24 * 60 * 60 * 1000,
+            pro: 30 * 24 * 60 * 60 * 1000,
+            paygo: 24 * 60 * 60 * 1000
+          };
+
+          const now = new Date();
+          const duration = planDurations[plan] || planDurations.paygo;
+          const endDate = new Date(now.getTime() + duration);
+
+          // Update payment record
+          payment.status = 'success';
+          payment.verified = true;
+          payment.verificationDate = now;
+          payment.subscriptionStart = now;
+          payment.subscriptionEnd = endDate;
+          await payment.save();
+
+          // Update user subscription
+          const user = await User.findById(userId || payment.userId);
+          if (user) {
+            user.subscription = {
+              plan: plan,
+              startDate: now,
+              endDate: endDate,
+              reference: reference,
+              status: 'active'
+            };
+            // Clear the activePaymentReference once payment is confirmed
+            user.activePaymentReference = undefined;
+            await user.save();
+          }
+
+          return res.json({
+            status: 'success',
+            message: 'Payment verified and subscription activated!',
+            data: {
+              subscription: {
+                plan: plan,
+                startDate: now,
+                endDate: endDate,
+                status: 'active'
+              }
+            }
+          });
+        } catch (err) {
+          console.error('WhatsApp verify parse error:', err);
+          return res.status(500).json({ status: 'error', message: 'Error verifying with Paystack' });
+        }
+      });
+    }).on('error', (err) => {
+      console.error('WhatsApp verify request error:', err);
+      return res.status(500).json({ status: 'error', message: 'Payment gateway error' });
+    });
+
+    verifyReq.end();
+
+  } catch (error) {
+    console.error('WhatsApp verify error:', error);
+    res.status(500).json({ status: 'error', message: 'Server error' });
+  }
+});
+
 // ─── WhatsApp Bot Subscription Check ───────────────────────────────────────
 router.get('/whatsapp/:phone', async (req, res) => {
   try {
@@ -381,121 +497,5 @@ router.post('/whatsapp/pay', async (req, res) => {
   }
 });
 
-// ─── WhatsApp Bot No-Auth Payment Verification ──────────────────────────────
-// This allows payment-verification.html to verify WhatsApp payments without a login token.
-router.get('/whatsapp/verify', async (req, res) => {
-  try {
-    const { reference } = req.query;
-
-    if (!reference) {
-      return res.status(400).json({ status: 'error', message: 'Reference is required' });
-    }
-
-    const User = require('../models/User');
-    const Payment = require('../models/Payment');
-    const https = require('https');
-
-    // Find the payment record created during WhatsApp pay link generation
-    const payment = await Payment.findOne({ reference, 'metadata.source': 'whatsapp' });
-
-    if (!payment) {
-      return res.status(404).json({ status: 'error', message: 'WhatsApp payment record not found for this reference.' });
-    }
-
-    // Don't re-verify if already successful
-    if (payment.status === 'success') {
-      const user = await User.findById(payment.userId);
-      return res.json({
-        status: 'success',
-        message: 'Payment already verified',
-        data: { subscription: user?.subscription }
-      });
-    }
-
-    // Verify with Paystack
-    const verifyOptions = {
-      hostname: 'api.paystack.co',
-      port: 443,
-      path: `/transaction/verify/${encodeURIComponent(reference)}`,
-      method: 'GET',
-      headers: { Authorization: `Bearer ${process.env.PAYSTACK_SECRET_KEY}` }
-    };
-
-    const verifyReq = https.request(verifyOptions, verifyRes => {
-      let data = '';
-      verifyRes.on('data', (chunk) => { data += chunk; });
-      verifyRes.on('end', async () => {
-        try {
-          const pstackData = JSON.parse(data);
-
-          if (!pstackData.status || pstackData.data?.status !== 'success') {
-            return res.status(400).json({ status: 'error', message: 'Payment not successful on Paystack.' });
-          }
-
-          const { userId, plan } = pstackData.data.metadata || {};
-          const planDurations = {
-            basic: 2 * 60 * 60 * 1000,
-            standard: 7 * 24 * 60 * 60 * 1000,
-            premium: 14 * 24 * 60 * 60 * 1000,
-            pro: 30 * 24 * 60 * 60 * 1000,
-            paygo: 24 * 60 * 60 * 1000
-          };
-
-          const now = new Date();
-          const duration = planDurations[plan] || planDurations.paygo;
-          const endDate = new Date(now.getTime() + duration);
-
-          // Update payment record
-          payment.status = 'success';
-          payment.verified = true;
-          payment.verificationDate = now;
-          payment.subscriptionStart = now;
-          payment.subscriptionEnd = endDate;
-          await payment.save();
-
-          // Update user subscription
-          const user = await User.findById(userId || payment.userId);
-          if (user) {
-            user.subscription = {
-              plan: plan,
-              startDate: now,
-              endDate: endDate,
-              reference: reference,
-              status: 'active'
-            };
-            // Clear the activePaymentReference once payment is confirmed
-            user.activePaymentReference = undefined;
-            await user.save();
-          }
-
-          return res.json({
-            status: 'success',
-            message: 'Payment verified and subscription activated!',
-            data: {
-              subscription: {
-                plan: plan,
-                startDate: now,
-                endDate: endDate,
-                status: 'active'
-              }
-            }
-          });
-        } catch (err) {
-          console.error('WhatsApp verify parse error:', err);
-          return res.status(500).json({ status: 'error', message: 'Error verifying with Paystack' });
-        }
-      });
-    }).on('error', (err) => {
-      console.error('WhatsApp verify request error:', err);
-      return res.status(500).json({ status: 'error', message: 'Payment gateway error' });
-    });
-
-    verifyReq.end();
-
-  } catch (error) {
-    console.error('WhatsApp verify error:', error);
-    res.status(500).json({ status: 'error', message: 'Server error' });
-  }
-});
 
 module.exports = router;
